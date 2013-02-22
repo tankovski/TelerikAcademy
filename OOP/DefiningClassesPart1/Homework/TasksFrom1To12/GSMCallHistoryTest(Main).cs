@@ -11,8 +11,6 @@ namespace TasksFrom1To12
         static void Main(string[] args)
         {
 
-            
-
 
             try
             {
@@ -24,9 +22,9 @@ namespace TasksFrom1To12
                 //Console.WriteLine(gsm.ToString()); //Print GSM data
 
                 //Mace some calls and print the history
-                gsm.AddCall(new Call(new DateTime(2013, 02, 22, 19, 01, 22), 0888888888, 200));
-                gsm.AddCall(new Call(new DateTime(2013,02,22,20,02,33),0887888888,302));
-                gsm.AddCall(new Call(new DateTime(2013, 02, 22, 20, 30, 19), 0889888888, 178));
+                gsm.AddCall(new Call(new DateTime(2013, 02, 22, 19, 01, 22), "00359888888888", 200));
+                gsm.AddCall(new Call(new DateTime(2013,02,22,20,02,33),"0887888888",302));
+                gsm.AddCall(new Call(new DateTime(2013, 02, 22, 20, 30, 19), "0889-88-88-88", 178));
                 gsm.PrintCallHistiry();
                 //Calculate the price of all calls
                 decimal price = 0.37m;

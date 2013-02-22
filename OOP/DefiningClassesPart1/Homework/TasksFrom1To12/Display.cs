@@ -7,15 +7,8 @@ class Display
     private int? numberOfColors;
 
 
-    //Constructors
-    public Display()
-        : this(null)
-    { 
-    }
-    public Display(int? size) : this(size, null) 
-    {
-    }
-    public Display(int? size, int? numberOfColors)
+    //Constructor
+    public Display(int? size = null, int? numberOfColors = null)
     {
         this.Size = size;
         this.NumberOfColors = numberOfColors;

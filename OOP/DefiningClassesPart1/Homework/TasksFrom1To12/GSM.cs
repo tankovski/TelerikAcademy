@@ -12,24 +12,8 @@ class GSM
     internal static GSM iPhone4S=new GSM("IPhone4S","Apple",1500,"Joro Iliev");
     private static List<Call> callHistory = new List<Call>();
     
-   //Constructors
-    public GSM(string model, string manifacturer)
-        : this(model, manifacturer, null)
-    { 
-    }
-    public GSM(string model, string manufacturer, decimal? price)
-        : this(model, manufacturer, price, null)
-    { 
-    }
-    public GSM(string model, string manufacturer, decimal? price, string owner,Battery battery)
-        : this(model, manufacturer, price, owner,battery, null)
-    { 
-    }
-    public GSM(string model, string manufacturer, decimal? price, string owner)
-        : this(model, manufacturer, price, owner, null)
-    {
-    }
-    public GSM(string model, string manufacturer, decimal? price, string owner, Battery battery, Display display)
+   //Constructor
+    public GSM(string model, string manufacturer, decimal? price = null, string owner = null, Battery battery = null, Display display = null)
     {
         this.Model = model;
         this.Manufacturer = manufacturer;

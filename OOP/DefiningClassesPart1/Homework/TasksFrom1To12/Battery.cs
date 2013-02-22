@@ -15,25 +15,8 @@ class Battery
     private BatteryType? batteryType;
 
 
-    //Constructors
-    public Battery()
-        : this(null)
-    {
-
-    }
-    public Battery(string model)
-        : this(model, null)
-    {
-    }
-    public Battery(string model, int? hoursIdle)
-        : this(model, hoursIdle, null)
-    {
-    }
-    public Battery(string model, int? hoursIdle, int? hoursTalk)
-        : this(model, hoursIdle, hoursTalk, null)
-    {
-    }
-    public Battery(string model, int? hoursIdle, int? hoursTalk, BatteryType? batteryType)
+    //Constructor
+    public Battery(string model = null, int? hoursIdle = null, int? hoursTalk = null, BatteryType? batteryType = null)
     {
         this.Model = model;
         this.HoursIdle = hoursIdle;
