@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksFrom5To7", "TasksFrom5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TasksFrom8To10", "TasksFrom8To10\TasksFrom8To10.csproj", "{F7AF3728-ECC3-4AA6-AB29-89E1211D375B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task12", "Task12\Task12.csproj", "{CFD590A4-84FE-4C18-B9DF-52F19ED4FEEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task11", "Task11\Task11.csproj", "{CFD590A4-84FE-4C18-B9DF-52F19ED4FEEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
