@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\PrintAllNumbersDivisibleBy3And7\bin\Debug\PrintAllNumbersDivisibleBy3And7.exe.config
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\PrintAllNumbersDivisibleBy3And7\bin\Debug\PrintAllNumbersDivisibleBy3And7.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\PrintAllNumbersDivisibleBy3And7\bin\Debug\PrintAllNumbersDivisibleBy3And7.pdb
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\PrintAllNumbersDivisibleBy3And7\obj\Debug\6.PrintAllNumbersDivisibleBy3And7.csprojResolveAssemblyReference.cache
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\PrintAllNumbersDivisibleBy3And7\obj\Debug\PrintAllNumbersDivisibleBy3And7.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\PrintAllNumbersDivisibleBy3And7\obj\Debug\PrintAllNumbersDivisibleBy3And7.pdb

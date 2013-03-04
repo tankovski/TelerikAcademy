@@ -1,0 +1,5 @@
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\IEnumerableSumProductMinMaxAverage\bin\Debug\IEnumerableSumProductMinMaxAverage.exe.config
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\IEnumerableSumProductMinMaxAverage\bin\Debug\IEnumerableSumProductMinMaxAverage.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\IEnumerableSumProductMinMaxAverage\bin\Debug\IEnumerableSumProductMinMaxAverage.pdb
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\IEnumerableSumProductMinMaxAverage\obj\Debug\IEnumerableSumProductMinMaxAverage.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\IEnumerableSumProductMinMaxAverage\obj\Debug\IEnumerableSumProductMinMaxAverage.pdb

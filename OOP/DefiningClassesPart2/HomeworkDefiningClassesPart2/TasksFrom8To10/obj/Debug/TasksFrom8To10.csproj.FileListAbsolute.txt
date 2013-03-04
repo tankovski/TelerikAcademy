@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom8To10\bin\Debug\TasksFrom8To10.exe.config
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom8To10\bin\Debug\TasksFrom8To10.exe
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom8To10\bin\Debug\TasksFrom8To10.pdb
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom8To10\obj\Debug\TasksFrom8To10.exe
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom8To10\obj\Debug\TasksFrom8To10.pdb
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom8To10\obj\Debug\TasksFrom8To10.csprojResolveAssemblyReference.cache

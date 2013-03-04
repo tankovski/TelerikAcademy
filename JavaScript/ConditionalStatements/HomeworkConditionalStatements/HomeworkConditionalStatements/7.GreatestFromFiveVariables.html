@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Write a script that finds the greatest of given 5 variables.-->
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var numberOne = 14;
+        var numberTwo = 5;
+        var numberThree = 6;
+        var numberFour = 9;
+        var numberFive = -3;
+
+        var numbers = new Array();
+        numbers[0] = numberOne;
+        numbers[1] = numberTwo;
+        numbers[2] = numberThree;
+        numbers[3] = numberFour;
+        numbers[4] = numberFive;
+        var max = numberOne;
+
+        for (var i = 0; i < numbers.length; i++) {
+            if (max<numbers[i]) {
+                max = numbers[i];
+            }
+        }
+        jsConsole.writeLine(max);
+
+    </script>
+</body>
+</html>

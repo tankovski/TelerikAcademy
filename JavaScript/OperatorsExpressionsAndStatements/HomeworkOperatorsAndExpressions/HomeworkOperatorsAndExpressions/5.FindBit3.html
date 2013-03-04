@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Write a boolean expression for finding if the bit 3 (counting from 0) of a given integer is 1 or 0.-->
+
+    <div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+    <script>
+        var number = 8;
+        var mask = 1;
+        mask = mask << 3;
+        var numberAndMask = number & mask;
+        var isOne = numberAndMask >> 3 == 1;
+        jsConsole.writeLine("The third bit of number "+number+" is 1 => "+isOne);
+    </script>
+</body>
+</html>

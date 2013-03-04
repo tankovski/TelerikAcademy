@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SortStudentsByFirstAndLastName\bin\Debug\SortStudentsByFirstAndLastName.exe.config
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SortStudentsByFirstAndLastName\bin\Debug\SortStudentsByFirstAndLastName.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SortStudentsByFirstAndLastName\bin\Debug\SortStudentsByFirstAndLastName.pdb
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SortStudentsByFirstAndLastName\obj\Debug\SortStudentsByFirstAndLastName.csprojResolveAssemblyReference.cache
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SortStudentsByFirstAndLastName\obj\Debug\SortStudentsByFirstAndLastName.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SortStudentsByFirstAndLastName\obj\Debug\SortStudentsByFirstAndLastName.pdb

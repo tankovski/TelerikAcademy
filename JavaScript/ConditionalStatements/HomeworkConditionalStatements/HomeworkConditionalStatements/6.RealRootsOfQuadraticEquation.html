@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Write a script that enters the coefficients a, b and c of a quadratic equation
+		a*x2 + b*x + c = 0
+		and calculates and prints its real roots. Note that quadratic equations may have 0, 1 or 2 real roots.-->
+
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        
+        var a = 1;
+        var b = 4;
+        var c = 3;
+        var discriminant = b * b - 4 * a * c;
+
+        if (a === 0)
+        {
+            jsConsole.writeLine("There is one real root - x1: "+ (-c / b));
+        }
+        else if (discriminant > 0)
+        {
+            var xOne = (-b + Math.sqrt(discriminant)) / 2 * a;
+            var xTwo = (-b - Math.sqrt(discriminant)) / 2 * a;
+            jsConsole.writeLine("There are two real roots - x1: "+xOne+" and x2: "+xTwo);
+        }
+        else if (discriminant == 0)
+        {
+            var xOne = -(b / 2 * a);
+            jsConsole.writeLine("There is one real root - x1: "+ xOne);
+        }
+        else
+        {
+            jsConsole.writeLine("There are no real roots");
+        }
+    </script>
+</body>
+</html>

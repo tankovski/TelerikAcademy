@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a script that shows the sign (+ or -) of the product of three
+     real numbers without calculating it. Use a sequence of if statements.-->
+
+    <div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+    <script>
+        var firstNum = 5;
+        var secondNum = -6;
+        var thirdNum = 2;
+        var negativeNumbersCount = 0;
+        if (firstNum<0) {
+            negativeNumbersCount++;
+        }
+        if (secondNum<0) {
+            negativeNumbersCount++;
+        }
+        if (thirdNum<0) {
+            negativeNumbersCount++;
+        }
+        if (negativeNumbersCount%2==0) {
+            jsConsole.writeLine("The sign is \"+\"");
+        }
+        else {
+            jsConsole.writeLine("The sign is \"-\"");
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var pointX = 4;
+        var pointY = 6;
+        var radius = 3;
+        var centerX = 1;
+        var centerY = 1;
+        jsConsole.writeLine("The point is in the circle -> " + (((pointX - centerX) * (pointX - centerX)) + ((pointY - centerY) * (pointY - centerY)) <= radius * radius));
+        var topRec = 1;
+        var leftRec = -1;
+        var widthRec = 6;
+        var heghtRec = 2;
+        jsConsole.writeLine("The point is out of the rectangle ->" + ((pointX < leftRec) || (pointX > (leftRec + widthRec)) || (pointY > topRec) || (pointY < (topRec - heghtRec))));
+
+    </script>
+
+</body>
+</html>

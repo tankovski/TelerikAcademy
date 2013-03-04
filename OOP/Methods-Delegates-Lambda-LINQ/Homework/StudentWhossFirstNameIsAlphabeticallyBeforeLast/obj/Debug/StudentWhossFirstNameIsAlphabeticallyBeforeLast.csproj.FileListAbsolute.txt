@@ -1,0 +1,5 @@
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\StudentWhossFirstNameIsAlphabeticallyBeforeLast\bin\Debug\StudentWhossFirstNameIsAlphabeticallyBeforeLast.exe.config
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\StudentWhossFirstNameIsAlphabeticallyBeforeLast\bin\Debug\StudentWhossFirstNameIsAlphabeticallyBeforeLast.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\StudentWhossFirstNameIsAlphabeticallyBeforeLast\bin\Debug\StudentWhossFirstNameIsAlphabeticallyBeforeLast.pdb
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\StudentWhossFirstNameIsAlphabeticallyBeforeLast\obj\Debug\StudentWhossFirstNameIsAlphabeticallyBeforeLast.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\StudentWhossFirstNameIsAlphabeticallyBeforeLast\obj\Debug\StudentWhossFirstNameIsAlphabeticallyBeforeLast.pdb

@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write an if statement that examines two integer variables and
+     exchanges their values if the first one is greater than the second one.-->
+
+    <div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+    <script>
+        var firstNum = 9;
+        var secondNum = 8;
+        var temp = 0;
+        jsConsole.writeLine("Fiest number is "+firstNum+" second number is "+secondNum);
+        if (firstNum > secondNum) {
+            temp = firstNum;
+            firstNum = secondNum;
+            secondNum = temp;
+        }
+        jsConsole.writeLine("Fiest number is " + firstNum + " second number is " + secondNum);
+    </script>
+
+
+</body>
+</html>

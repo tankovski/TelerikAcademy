@@ -1,0 +1,12 @@
+D:\Uroci\OOP\Lesson2-classes part1\Homework\Homework\TasksFrom1To12\bin\Debug\TasksFrom1To12.exe.config
+D:\Uroci\OOP\Lesson2-classes part1\Homework\Homework\TasksFrom1To12\bin\Debug\TasksFrom1To12.exe
+D:\Uroci\OOP\Lesson2-classes part1\Homework\Homework\TasksFrom1To12\bin\Debug\TasksFrom1To12.pdb
+D:\Uroci\OOP\Lesson2-classes part1\Homework\Homework\TasksFrom1To12\obj\Debug\TasksFrom1To12.csprojResolveAssemblyReference.cache
+D:\Uroci\OOP\Lesson2-classes part1\Homework\Homework\TasksFrom1To12\obj\Debug\TasksFrom1To12.exe
+D:\Uroci\OOP\Lesson2-classes part1\Homework\Homework\TasksFrom1To12\obj\Debug\TasksFrom1To12.pdb
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart1\Homework\TasksFrom1To12\bin\Debug\TasksFrom1To12.exe.config
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart1\Homework\TasksFrom1To12\obj\Debug\TasksFrom1To12.exe
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart1\Homework\TasksFrom1To12\obj\Debug\TasksFrom1To12.pdb
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart1\Homework\TasksFrom1To12\bin\Debug\TasksFrom1To12.exe
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart1\Homework\TasksFrom1To12\bin\Debug\TasksFrom1To12.pdb
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart1\Homework\TasksFrom1To12\obj\Debug\TasksFrom1To12.csprojResolveAssemblyReference.cache

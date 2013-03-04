@@ -1,0 +1,5 @@
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\ClassTimerWithDelegates\bin\Debug\ClassTimerWithDelegates.exe.config
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\ClassTimerWithDelegates\bin\Debug\ClassTimerWithDelegates.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\ClassTimerWithDelegates\bin\Debug\ClassTimerWithDelegates.pdb
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\ClassTimerWithDelegates\obj\Debug\ClassTimerWithDelegates.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\ClassTimerWithDelegates\obj\Debug\ClassTimerWithDelegates.pdb

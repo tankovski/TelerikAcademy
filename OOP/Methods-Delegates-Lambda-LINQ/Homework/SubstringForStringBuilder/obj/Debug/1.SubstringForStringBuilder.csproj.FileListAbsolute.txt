@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SubstringForStringBuilder\bin\Debug\SubstringForStringBuilder.exe.config
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SubstringForStringBuilder\bin\Debug\SubstringForStringBuilder.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SubstringForStringBuilder\bin\Debug\SubstringForStringBuilder.pdb
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SubstringForStringBuilder\obj\Debug\1.SubstringForStringBuilder.csprojResolveAssemblyReference.cache
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SubstringForStringBuilder\obj\Debug\SubstringForStringBuilder.exe
+D:\Uroci\OOP\Lesson4-Extension-Methods-Delegates-Lambda-LINQ\Homework\Homework\SubstringForStringBuilder\obj\Debug\SubstringForStringBuilder.pdb

@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <label for="tb-first">First number: </label>
+    <input type="text" id="tb-first" />
+    <br />
+    <button onclick="showName()">ShowName</button>
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+
+        function showName() {
+            var number = jsConsole.readFloat("#tb-first");
+            var str = number.toString();
+            if (str.length == 3) {
+                switch (parseInt(str[0])) {
+                    case 1: jsConsole.write("one hundred "); break;
+                    case 2: jsConsole.write("two hundred "); break;
+                    case 3: jsConsole.write("three hundred "); break;
+                    case 4: jsConsole.write("four hundred "); break;
+                    case 5: jsConsole.write("five hundred "); break;
+                    case 6: jsConsole.write("six hundred "); break;
+                    case 7: jsConsole.write("seven hundred "); break;
+                    case 8: jsConsole.write("eight hundred "); break;
+                    case 9: jsConsole.write("nine hundred "); break;
+                    default: break;
+                }
+                if (str[1] == "1") {
+                    switch (parseInt(str[2])) {
+                        case 1: jsConsole.writeLine("eleven"); break;
+                        case 2: jsConsole.writeLine("twelve"); break;
+                        case 3: jsConsole.writeLine("thirteen"); break;
+                        case 4: jsConsole.writeLine("fourteen"); break;
+                        case 5: jsConsole.writeLine("fifteen"); break;
+                        case 6: jsConsole.writeLine("sixteen"); break;
+                        case 7: jsConsole.writeLine("seventeen"); break;
+                        case 8: jsConsole.writeLine("eighteen"); break;
+                        case 9: jsConsole.writeLine("nineteen"); break;
+                        case 0: jsConsole.writeLine("ten"); break;
+                        default: break;
+
+                    }
+                }
+                else {
+                    switch (parseInt(str[1])) {
+                        case 2: jsConsole.write("twenty "); break
+                        case 3: jsConsole.write("thirdty "); break
+                        case 4: jsConsole.write("fourty "); break
+                        case 5: jsConsole.write("fivety "); break
+                        case 6: jsConsole.write("sixty "); break
+                        case 7: jsConsole.write("seventy "); break
+                        case 8: jsConsole.write("eighty "); break
+                        case 9: jsConsole.write("ninety "); break
+                        case 0: jsConsole.write(""); break
+                        default:
+
+                    }
+                    switch (parseInt(str[2])) {
+                        case 1: jsConsole.writeLine("one"); break;
+                        case 2: jsConsole.writeLine("two"); break;
+                        case 3: jsConsole.writeLine("three"); break;
+                        case 4: jsConsole.writeLine("four"); break;
+                        case 5: jsConsole.writeLine("five"); break;
+                        case 6: jsConsole.writeLine("six"); break;
+                        case 7: jsConsole.writeLine("seven"); break;
+                        case 8: jsConsole.writeLine("eight"); break;
+                        case 9: jsConsole.writeLine("nine"); break;
+                        case 0: jsConsole.writeLine(""); break;
+                        default: break;
+
+                    }
+                }
+
+            }
+            if (str.length == 2) {
+                if (str[0] == "1") {
+                    switch (parseInt(str[1])) {
+                        case 1: jsConsole.writeLine("eleven"); break;
+                        case 2: jsConsole.writeLine("twelve"); break;
+                        case 3: jsConsole.writeLine("thirteen"); break;
+                        case 4: jsConsole.writeLine("fourteen"); break;
+                        case 5: jsConsole.writeLine("fifteen"); break;
+                        case 6: jsConsole.writeLine("sixteen"); break;
+                        case 7: jsConsole.writeLine("seventeen"); break;
+                        case 8: jsConsole.writeLine("eighteen"); break;
+                        case 9: jsConsole.writeLine("nineteen"); break;
+                        case 0: jsConsole.writeLine("ten"); break;
+                        default: break;
+
+                    }
+                }
+                else {
+                    switch (parseInt(str[0])) {
+                        case 2: jsConsole.write("twenty "); break
+                        case 3: jsConsole.write("thirdty "); break
+                        case 4: jsConsole.write("fourty "); break
+                        case 5: jsConsole.write("fivety "); break
+                        case 6: jsConsole.write("sixty "); break
+                        case 7: jsConsole.write("seventy "); break
+                        case 8: jsConsole.write("eighty "); break
+                        case 9: jsConsole.write("ninety "); break
+                        case 0: jsConsole.write(""); break
+                        default:
+
+                    }
+                    switch (parseInt(str[1])) {
+                        case 1: jsConsole.writeLine("one"); break;
+                        case 2: jsConsole.writeLine("two"); break;
+                        case 3: jsConsole.writeLine("three"); break;
+                        case 4: jsConsole.writeLine("four"); break;
+                        case 5: jsConsole.writeLine("five"); break;
+                        case 6: jsConsole.writeLine("six"); break;
+                        case 7: jsConsole.writeLine("seven"); break;
+                        case 8: jsConsole.writeLine("eight"); break;
+                        case 9: jsConsole.writeLine("nine"); break;
+                        case 0: jsConsole.writeLine(" "); break;
+                        default: break;
+
+                    }
+                }
+            }
+            if (str.length == 1) {
+                switch (parseInt(str[0])) {
+                    case 1: jsConsole.writeLine("one"); break;
+                    case 2: jsConsole.writeLine("two"); break;
+                    case 3: jsConsole.writeLine("three"); break;
+                    case 4: jsConsole.writeLine("four"); break;
+                    case 5: jsConsole.writeLine("five"); break;
+                    case 6: jsConsole.writeLine("six"); break;
+                    case 7: jsConsole.writeLine("seven"); break;
+                    case 8: jsConsole.writeLine("eight"); break;
+                    case 9: jsConsole.writeLine("nine"); break;
+                    case 0: jsConsole.writeLine(" "); break;
+                    default: break;
+
+                }
+
+            }
+            if (str.length>3) {
+                jsConsole.writeLine("The number must be from max three digits!");
+            }
+        }
+    </script>
+</body>
+</html>

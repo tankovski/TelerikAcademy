@@ -1,0 +1,12 @@
+D:\Uroci\JavaScript\Lesson2-Vuvedenie\HomeworkDefiningClassesPart2\TasksFrom1To4\bin\Debug\TasksFrom1To4.exe.config
+D:\Uroci\JavaScript\Lesson2-Vuvedenie\HomeworkDefiningClassesPart2\TasksFrom1To4\obj\Debug\TasksFrom1To4.csprojResolveAssemblyReference.cache
+D:\Uroci\JavaScript\Lesson2-Vuvedenie\HomeworkDefiningClassesPart2\TasksFrom1To4\bin\Debug\TasksFrom1To4.exe
+D:\Uroci\JavaScript\Lesson2-Vuvedenie\HomeworkDefiningClassesPart2\TasksFrom1To4\bin\Debug\TasksFrom1To4.pdb
+D:\Uroci\JavaScript\Lesson2-Vuvedenie\HomeworkDefiningClassesPart2\TasksFrom1To4\obj\Debug\TasksFrom1To4.exe
+D:\Uroci\JavaScript\Lesson2-Vuvedenie\HomeworkDefiningClassesPart2\TasksFrom1To4\obj\Debug\TasksFrom1To4.pdb
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom1To4\bin\Debug\TasksFrom1To4.exe.config
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom1To4\obj\Debug\TasksFrom1To4.exe
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom1To4\obj\Debug\TasksFrom1To4.pdb
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom1To4\bin\Debug\TasksFrom1To4.exe
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom1To4\bin\Debug\TasksFrom1To4.pdb
+D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom1To4\obj\Debug\TasksFrom1To4.csprojResolveAssemblyReference.cache
