@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\Animals\bin\Debug\Animals.exe.config
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\Animals\obj\Debug\3.Animals.csprojResolveAssemblyReference.cache
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\Animals\bin\Debug\Animals.exe
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\Animals\bin\Debug\Animals.pdb
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\Animals\obj\Debug\Animals.exe
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\Animals\obj\Debug\Animals.pdb

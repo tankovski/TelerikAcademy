@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\School\bin\Debug\School.exe.config
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\School\bin\Debug\School.exe
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\School\bin\Debug\School.pdb
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\School\obj\Debug\School.exe
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\School\obj\Debug\School.pdb

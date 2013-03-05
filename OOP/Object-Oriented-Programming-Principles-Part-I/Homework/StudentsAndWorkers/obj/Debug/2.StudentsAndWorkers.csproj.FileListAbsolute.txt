@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\StudentsAndWorkers\bin\Debug\WorkerHuman.exe.config
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\StudentsAndWorkers\bin\Debug\WorkerHuman.exe
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\StudentsAndWorkers\bin\Debug\WorkerHuman.pdb
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\StudentsAndWorkers\obj\Debug\2.StudentsAndWorkers.csprojResolveAssemblyReference.cache
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\StudentsAndWorkers\obj\Debug\WorkerHuman.exe
+D:\Uroci\OOP\Lesson5-Object-Oriented-Programming-Principles-Part-I\Homework\Homework\StudentsAndWorkers\obj\Debug\WorkerHuman.pdb
