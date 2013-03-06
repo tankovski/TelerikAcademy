@@ -10,3 +10,6 @@ D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFr
 D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom1To4\bin\Debug\TasksFrom1To4.exe
 D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom1To4\bin\Debug\TasksFrom1To4.pdb
 D:\Uroci\OOP\Lesson3-classes part2\Homework\HomeworkDefiningClassesPart2\TasksFrom1To4\obj\Debug\TasksFrom1To4.csprojResolveAssemblyReference.cache
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart2\HomeworkDefiningClassesPart2\TasksFrom1To4\bin\Debug\TasksFrom1To4.exe.config
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart2\HomeworkDefiningClassesPart2\TasksFrom1To4\obj\Debug\TasksFrom1To4.exe
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart2\HomeworkDefiningClassesPart2\TasksFrom1To4\obj\Debug\TasksFrom1To4.pdb

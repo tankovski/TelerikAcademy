@@ -1,0 +1,6 @@
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart2\HomeworkDefiningClassesPart2\Task11\bin\Debug\Task12.exe.config
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart2\HomeworkDefiningClassesPart2\Task11\bin\Debug\Task12.exe
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart2\HomeworkDefiningClassesPart2\Task11\bin\Debug\Task12.pdb
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart2\HomeworkDefiningClassesPart2\Task11\obj\Debug\Task11.csprojResolveAssemblyReference.cache
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart2\HomeworkDefiningClassesPart2\Task11\obj\Debug\Task12.exe
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\DefiningClassesPart2\HomeworkDefiningClassesPart2\Task11\obj\Debug\Task12.pdb
