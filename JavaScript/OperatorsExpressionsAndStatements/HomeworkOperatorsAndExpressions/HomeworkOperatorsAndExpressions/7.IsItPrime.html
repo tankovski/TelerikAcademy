@@ -11,16 +11,15 @@
     <div id="js-console"></div>
     <script src="scripts/js-console.js"></script>
     <script>
-        var number = 6;
+        var number = 31;
         var prime = true;
-        for (var i = 2; i < number / 2; i++)
-        {
-            if (number%i==0) {
+        for (var i = 2; i < Math.sqrt(number) ; i++) {
+            if (number % i == 0) {
                 prime = false;
                 break;
             }
         }
-        jsConsole.writeLine("The number "+number+" is prime => " + prime);
+        jsConsole.writeLine("The number " + number + " is prime => " + prime);
     </script>
 </body>
 </html>
