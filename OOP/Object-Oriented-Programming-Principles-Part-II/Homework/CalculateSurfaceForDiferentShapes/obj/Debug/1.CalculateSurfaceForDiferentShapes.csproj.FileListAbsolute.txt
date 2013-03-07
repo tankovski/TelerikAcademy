@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\CalculateSurfaceForDiferentShapes\bin\Debug\CalculateSurfaceForDiferentShapes.exe.config
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\CalculateSurfaceForDiferentShapes\bin\Debug\CalculateSurfaceForDiferentShapes.exe
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\CalculateSurfaceForDiferentShapes\bin\Debug\CalculateSurfaceForDiferentShapes.pdb
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\CalculateSurfaceForDiferentShapes\obj\Debug\1.CalculateSurfaceForDiferentShapes.csprojResolveAssemblyReference.cache
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\CalculateSurfaceForDiferentShapes\obj\Debug\CalculateSurfaceForDiferentShapes.exe
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\CalculateSurfaceForDiferentShapes\obj\Debug\CalculateSurfaceForDiferentShapes.pdb

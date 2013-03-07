@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\Bank\bin\Debug\Bank.exe.config
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\Bank\bin\Debug\Bank.exe
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\Bank\bin\Debug\Bank.pdb
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\Bank\obj\Debug\Bank.exe
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\Bank\obj\Debug\Bank.pdb
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\Bank\obj\Debug\2.Bank.csprojResolveAssemblyReference.cache

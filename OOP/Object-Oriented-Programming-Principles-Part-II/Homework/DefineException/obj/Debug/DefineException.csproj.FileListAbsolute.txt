@@ -1,0 +1,5 @@
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\DefineException\bin\Debug\DefineException.exe.config
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\DefineException\bin\Debug\DefineException.exe
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\DefineException\bin\Debug\DefineException.pdb
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\DefineException\obj\Debug\DefineException.exe
+D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\DefineException\obj\Debug\DefineException.pdb
