@@ -9,6 +9,12 @@ public class Teacher:Human,IOptionalComment
     private List<Discipline> setOfDisciplines = new List<Discipline>();
     private string optionalComment;
 
+    //Properties
+    public List<Discipline> SetOfDisciplines
+    {
+        get { return this.setOfDisciplines; }
+    }
+
     //Constructor
     public Teacher(string name)
         : base(name)
@@ -18,10 +24,6 @@ public class Teacher:Human,IOptionalComment
 
 
     //Methods
-    public void AddDiscipline(Discipline discipline)
-    {
-        setOfDisciplines.Add(discipline);
-    }
 
     public string Disciplines()
     {

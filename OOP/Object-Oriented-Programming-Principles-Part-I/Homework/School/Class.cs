@@ -37,10 +37,6 @@ public class Class:IOptionalComment
     }
 
     //Method
-    public void AddTeacher(Teacher teacher)
-    {
-        setOfTeachers.Add(teacher);
-    }
 
     public string Teachers()
     {
@@ -52,10 +48,6 @@ public class Class:IOptionalComment
         return sb.ToString();
     }
 
-    public void AddStudent(Student student)
-    {
-        setOfStudents.Add(student);
-    }
     public string Students()
     {
         StringBuilder sb = new StringBuilder();

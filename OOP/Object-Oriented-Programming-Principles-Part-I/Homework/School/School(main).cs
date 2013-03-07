@@ -34,16 +34,16 @@ class School
             // ... teacher
             Teacher ivanov = new Teacher("Ivanov");
             //Adding some disciplines that he teaching
-            ivanov.AddDiscipline(math);
-            ivanov.AddDiscipline(bio);
+            ivanov.SetOfDisciplines.Add(math);
+            ivanov.SetOfDisciplines.Add(bio);
             
 
             //Make a class with students and teacher
             Class theBestClass = new Class("The best of the best");
-            theBestClass.AddStudent(joro);
-            theBestClass.AddStudent(petur);
-            theBestClass.AddStudent(ivo);
-            theBestClass.AddTeacher(ivanov);
+            theBestClass.SetOfStudents.Add(joro);
+            theBestClass.SetOfStudents.Add(petur);
+            theBestClass.SetOfStudents.Add(ivo);
+            theBestClass.SetOfTeachers.Add(ivanov);
             Console.WriteLine("Our clas - \"{0}\" have {1} studets :\n{2}and {3} teacher(s) :\n{4}"
                 , theBestClass.UniqueTextIdentifier, theBestClass.SetOfStudents.Count, theBestClass.Students()
                 , theBestClass.SetOfTeachers.Count, theBestClass.Teachers());
