@@ -2,8 +2,15 @@
 
 class Program
 {
+    //Define a class InvalidRangeException<T> that holds information about an error
+    //condition related to invalid range. It should hold error message and a range definition [start … end].
+    //Write a sample application that demonstrates the InvalidRangeException<int> and InvalidRangeException<DateTime>
+    //by entering numbers in the range [1..100] and dates in the range [1.1.1980 … 31.12.2013].
+
+
     static void PrintNumber()
     {
+        //If I enter number bigger or smaller than this range the method throw exeption
         int min = 0;
         int max = 100;
         Console.WriteLine("Enter number in range {0}:{1}", min, max);
@@ -19,6 +26,7 @@ class Program
     }
     static void PrintDate()
     {
+        //If i enter date before or after tha dates in the given range the method throws exeption
         DateTime min = new DateTime(1980, 1, 1);
         DateTime max = new DateTime(2013, 12, 31);
         Console.WriteLine("Enter date in range {0} - {1}", min, max);

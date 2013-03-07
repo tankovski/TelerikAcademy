@@ -3,3 +3,9 @@ D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Hom
 D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\DefineException\bin\Debug\DefineException.pdb
 D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\DefineException\obj\Debug\DefineException.exe
 D:\Uroci\OOP\Lesson6-Object-Oriented-Programming-Principles-Part-II\Homework\Homework\DefineException\obj\Debug\DefineException.pdb
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\Object-Oriented-Programming-Principles-Part-II\Homework\DefineException\bin\Debug\DefineException.exe.config
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\Object-Oriented-Programming-Principles-Part-II\Homework\DefineException\obj\Debug\DefineException.exe
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\Object-Oriented-Programming-Principles-Part-II\Homework\DefineException\obj\Debug\DefineException.pdb
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\Object-Oriented-Programming-Principles-Part-II\Homework\DefineException\bin\Debug\DefineException.exe
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\Object-Oriented-Programming-Principles-Part-II\Homework\DefineException\bin\Debug\DefineException.pdb
+D:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\OOP\Object-Oriented-Programming-Principles-Part-II\Homework\DefineException\obj\Debug\3.DefineException.csprojResolveAssemblyReference.cache
