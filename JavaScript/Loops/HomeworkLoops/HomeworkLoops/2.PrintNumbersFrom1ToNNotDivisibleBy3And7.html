@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>PrintNumbersFrom1ToNNotDivisibleBy3And7</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a script that prints all the numbers from 1 to N, that are not divisible by 3 and 7 at the same time-->
+
+    <input type="text" id="num" />
+    <button onclick="Print()">Print</button>
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function Print() {
+            var N = jsConsole.readInteger("#num");
+            for (var i = 1; i <= N; i++) {
+                if (i%3==0 && i%7==0) {
+                    continue;
+                }
+                else {
+                    jsConsole.write(i + " ");
+                }
+            }
+            jsConsole.writeLine();
+        }
+    </script>
+</body>
+</html>

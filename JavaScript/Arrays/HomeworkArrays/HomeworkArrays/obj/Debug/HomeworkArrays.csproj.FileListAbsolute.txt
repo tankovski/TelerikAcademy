@@ -1,0 +1,5 @@
+D:\Uroci\JavaScript\Lesson7-Arrays\Homework\HomeworkArrays\HomeworkArrays\bin\HomeworkArrays.dll
+D:\Uroci\JavaScript\Lesson7-Arrays\Homework\HomeworkArrays\HomeworkArrays\bin\HomeworkArrays.pdb
+D:\Uroci\JavaScript\Lesson7-Arrays\Homework\HomeworkArrays\HomeworkArrays\obj\Debug\HomeworkArrays.dll
+D:\Uroci\JavaScript\Lesson7-Arrays\Homework\HomeworkArrays\HomeworkArrays\obj\Debug\HomeworkArrays.pdb
+D:\Uroci\JavaScript\Lesson7-Arrays\Homework\HomeworkArrays\HomeworkArrays\obj\Debug\HomeworkArrays.csprojResolveAssemblyReference.cache

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TheMaximalIncreasingSequence</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a script that finds the maximal increasing sequence in an array. 
+    Example: {3, 2, 3, 4, 2, 2, 4}  {2, 3, 4}.-->
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        var array = [3,1, 2, 3,4, 2, 2, 4,5,6,7,8,9]
+        var count = 0;
+        var count1 = 1;
+        var number = new Array();
+        var number2 = new Array();
+        for (var index = 0; index < array.length - 1; index++) {
+            if (array[index] + 1 == array[index + 1]) {
+                count1++;
+                
+                number2.push(array[index]);
+                if (count1 > count) {
+                    count = count1;
+                    number = number2;
+                }
+            }
+            else {
+                count1 = 1;
+                number2 = new Array();
+            }
+        }
+        
+
+        jsConsole.write("The maximal sequence of equal numbers is : {");
+        for (var i = 0; i < count-1; i++)
+        {
+            jsConsole.write(number[i] + ",");
+        }
+        jsConsole.write(number[count-2]+1);  
+        jsConsole.write("}");                          
+        jsConsole.writeLine();
+    </script>
+</body>
+</html>

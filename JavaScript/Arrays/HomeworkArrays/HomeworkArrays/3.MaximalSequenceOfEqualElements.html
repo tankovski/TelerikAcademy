@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>MaximalSequenceOfEqualElements</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a script that finds the maximal sequence of equal elements in an array.
+		Example: {2, 1, 1, 2, 3, 3, 2, 2, 2, 1}  {2, 2, 2}.-->
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js">	  
+    </script>
+    <script>
+        var array = [2, 1, 1, 2, 3, 3, 2, 2, 2, 1];
+        var count = 0;
+        var number = 0;
+        var count1 = 1;
+        for (var i = 0; i < array.length-1; i++) {
+
+            if (array[i] == array[i + 1]) {
+                count1++;
+                if (count1>count) {
+                    count = count1;
+                    number = array[i];
+                }
+
+            }
+            else {
+                count1 = 1;
+            }
+        }
+        
+        jsConsole.write("The maximal sequence of equal numbers is : {");
+        for (var i = 0; i < count; i++) {
+            jsConsole.write(number);
+            if (i < count - 1) {
+                jsConsole.write(",");
+            }
+        }
+        jsConsole.write("}");
+        jsConsole.writeLine();
+
+    </script>
+</body>
+</html>

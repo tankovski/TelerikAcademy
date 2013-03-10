@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FindMinAndMaxFromSequenceOfNumbers</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Write a script that finds the max and min number from a sequence of numbers-->
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var numberSequence = [1, 4, 5,0, 7, 13];
+        var max = numberSequence[0];
+        var min = numberSequence[0];
+        for (var i = 1; i < numberSequence.length; i++) {
+            if (max<numberSequence[i]) {
+                max = numberSequence[i];
+            }
+            if (min>numberSequence[i]) {
+                min=numberSequence[i]
+            }
+        }
+        jsConsole.writeLine("Max number is : "+ max);
+        jsConsole.writeLine("Min number is : "+ min);
+    </script>
+</body>
+</html>

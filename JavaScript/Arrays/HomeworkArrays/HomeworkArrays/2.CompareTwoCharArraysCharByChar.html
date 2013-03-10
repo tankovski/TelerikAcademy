@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CompareTwoCharArraysCharByChar</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a script that compares two char arrays lexicographically (letter by letter).-->
+
+    <div id="js-console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+	    var charArray1 = "array";   //The string is array from chars
+	    var charArray2 = "array";
+        var equal=true
+	    if (charArray1.length > charArray2.length) {
+	        jsConsole.writeLine("CharArray2 is lexicographically first.");
+	    }
+	    else if (charArray1.length < charArray2.length) {
+	        jsConsole.writeLine("CharArray1 is lexicographically first.");
+	    }
+	    else {
+	        for (var i = 0; i < charArray1.length; i++) {    //In this case the arrays are with equal lenght
+                
+	            if (charArray1[i] > charArray2[i]) {
+	                jsConsole.writeLine("CharArray2 is lexicographically first.");
+	                equal = false;
+	                break;
+	            }
+	            else if (charArray1[i] < charArray2[i]) {
+	                jsConsole.writeLine("CharArray1 is lexicographically first.");
+	                equal = false;
+	                break;
+	            }
+	        }
+	        if (equal==true) {
+	            jsConsole.writeLine("The two arrays are lexicographically equal");
+	        }
+	    }
+	</script>
+</body>
+</html>

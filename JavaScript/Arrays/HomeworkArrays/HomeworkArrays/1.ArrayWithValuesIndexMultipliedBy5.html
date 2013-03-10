@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ArrayWithValuesIndexMultipliedBy5</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a script that allocates array of 20 integers and initializes each element by 
+    its index multiplied by 5. Print the obtained array on the console.-->
+
+    <div id="js-console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+    <script>
+        var array = new Array(20);
+        array[0] = "0";  //Making the first number string because if it is 0 look like empty space
+        jsConsole.writeLine(array[0]);
+        for (var i = 1; i < array.length; i++) {
+            array[i] = i * 5;
+            jsConsole.writeLine(array[i]);
+        }
+    </script>
+</body>
+</html>
