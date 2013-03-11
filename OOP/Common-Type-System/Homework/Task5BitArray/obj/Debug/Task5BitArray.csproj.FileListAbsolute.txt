@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task5BitArray\bin\Debug\Task5BitArray.exe.config
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task5BitArray\bin\Debug\Task5BitArray.exe
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task5BitArray\bin\Debug\Task5BitArray.pdb
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task5BitArray\obj\Debug\Task5BitArray.csprojResolveAssemblyReference.cache
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task5BitArray\obj\Debug\Task5BitArray.exe
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task5BitArray\obj\Debug\Task5BitArray.pdb

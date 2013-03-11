@@ -1,0 +1,6 @@
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Tasks1to3Student\bin\Debug\Tasks1to3Student.exe.config
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Tasks1to3Student\bin\Debug\Tasks1to3Student.exe
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Tasks1to3Student\bin\Debug\Tasks1to3Student.pdb
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Tasks1to3Student\obj\Debug\Tasks1to3Student.csprojResolveAssemblyReference.cache
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Tasks1to3Student\obj\Debug\Tasks1to3Student.exe
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Tasks1to3Student\obj\Debug\Tasks1to3Student.pdb

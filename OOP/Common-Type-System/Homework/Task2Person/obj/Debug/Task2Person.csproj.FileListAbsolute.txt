@@ -1,0 +1,5 @@
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task2Person\bin\Debug\Task2Person.exe.config
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task2Person\bin\Debug\Task2Person.exe
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task2Person\bin\Debug\Task2Person.pdb
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task2Person\obj\Debug\Task2Person.exe
+D:\Uroci\OOP\Lesson7-Common-Type-System\Homework\Homework\Task2Person\obj\Debug\Task2Person.pdb
