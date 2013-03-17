@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>NumberCounting</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a function that counts how many times given number appears in given array.
+    Write a test function to check if the function is working correctly.-->
+
+    <label for ="array">Enter numbers, separated by comma ",":</label>
+    <input type="text" id="array" />
+    <label for="number">Enter number:</label>
+    <input type="text" id="number" />
+    <br />
+    <button onclick="test()">CountNumber</button>
+    <div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+    <script>
+
+        function test() {
+            var numbers = jsConsole.readNumbersArray("#array",",");
+            var numm = jsConsole.readInteger("#number");
+            countNumber(numbers,numm)
+        }
+        function countNumber(number, num)
+        {
+            var count = 0;
+            for (var i in number) {
+                
+                if (number[i]==num) {
+                    count++;
+                }
+            }
+            jsConsole.writeLine(count);
+        }
+
+    </script>
+</body>
+</html>

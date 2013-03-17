@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ReverseDigits</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Write a function that reverses the digits of given decimal number. Example: 256  652-->
+
+    <input id="tb-numbers" type="text" class="js-console-input" />
+    <button onclick="print()">Print</button>
+    <div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>		   
+	<script>
+
+	    	    
+	    function print()
+	    {
+	        var num = jsConsole.readFloat("#tb-numbers");
+	        var str = num.toString();
+	        reverseDigits(str,str.length);
+	    }
+
+	    
+	    
+	    function reverseDigits(string,number)
+	    {
+	        var reverseStr;
+	        for (var i = number - 1; i >= 0; i--) {
+	            if (i==number-1) {
+	                reverseStr = string[i];
+	            }
+	            else {
+	                reverseStr += string[i];
+	            }
+	            
+	        }
+	        jsConsole.writeLine(parseInt(reverseStr));
+	    }
+        </script>
+</body>
+</html>

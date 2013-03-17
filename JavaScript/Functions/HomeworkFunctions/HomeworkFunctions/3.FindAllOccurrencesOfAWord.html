@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FindAllOccurrencesOfAWord</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+        <!--Write a function that finds all the occurrences of word in a text
+        The search can case sensitive or case insensitive
+        Use function overloading-->
+
+    <div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>		   
+	<script>
+	    function findOccurrencesOfAWord(text, substrig,isCaseSensetive) {
+
+	        function findOccurrencesOfAWordCaseInsensitive(text, substrig) {
+	            var index = 0;
+	            var count = 0;
+
+	            while (index != -1) {
+
+	                if (index == 0) {
+	                    index = text.indexOf(substrig, index);
+
+	                }
+	                else {
+	                    index = text.indexOf(substrig, index + 1);
+	                }
+	                if (index != -1) {
+	                    count++;
+	                }
+	            }
+	            jsConsole.writeLine(count);
+	        }
+
+	        function findOccurrencesOfAWordCaseSensitive(text, substrig) {
+	            var index = 0;
+	            var count = 0;
+                
+	            while (index != -1) {
+
+	                if (index == 0) {
+	                    index = text.toLowerCase().indexOf(substrig.toLowerCase(), index);
+
+	                }
+	                else {
+	                    index = text.toLowerCase().indexOf(substrig.toLowerCase(), index + 1);
+	                }
+	                if (index != -1) {
+	                    count++;
+	                }
+	            }
+	            jsConsole.writeLine(count);
+	        }
+
+	        switch (arguments.length) {
+	            case 2: findOccurrencesOfAWordCaseInsensitive(text, substrig); break;
+	            case 3: isCaseSensetive ? findOccurrencesOfAWordCaseSensitive(text, substrig) : findOccurrencesOfAWordCaseInsensitive(text, substrig); break;
+	            default:
+
+	        }
+	    }
+
+
+	    var text1 = "This is some random text, ohh yeah, text!Text";
+	    var word = "text";
+
+	    findOccurrencesOfAWord(text1, word, true);
+	    findOccurrencesOfAWord(text1, word,false);
+	    findOccurrencesOfAWord(text1, word);
+	    
+	    
+	    
+	</script>
+</body>
+</html>

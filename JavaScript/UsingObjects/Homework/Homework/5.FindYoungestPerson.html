@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FindYoungestPerson</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a function that finds the youngest person in a given array of persons and prints his/hers full name
+    Each person have properties firstname, lastname and age-->
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var persons = [
+            {firstName: "Joro", lastName: "Petrow", age: 18},
+            {firstName: "Ivan", lastName: "Ivanov", age: 16},
+            {firstName: "Stefan", lastName: "Borisov", age: 23}
+        ]
+
+        findYoungest(persons);
+
+        function findYoungest(array) {
+            var index = 0;
+            var age = array[0].age;
+            for (var i = 1; i < array.length; i++) {
+                if (array[i].age<age) {
+                    age = array[i].age;
+                    index = i;
+                }
+            }
+            jsConsole.writeLine("The youngest person is "
+                + array[index].firstName + " " + array[index].lastName );
+        }
+    </script>
+</body>
+</html>

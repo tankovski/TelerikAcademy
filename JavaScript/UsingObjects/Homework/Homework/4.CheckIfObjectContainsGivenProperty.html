@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CheckIfObjectContainsGivenProperty</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a function that checks if a given object contains a given property-->
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var Student = {
+            age: 19,
+            name:"Joro"
+        }
+        var point = {
+            x: 1,
+            y: 2
+        }
+
+        var studentProperty = hasProperty(Student, "name");
+        var pointProperty = hasProperty(point, "name");
+
+        jsConsole.writeLine(studentProperty);
+        jsConsole.writeLine(pointProperty);
+
+        function hasProperty(object, property) {
+            
+            for (var i in object) {
+                
+                if (i==property) {
+                    return true;
+                    break;
+                }
+            }
+            return false;
+        }
+    </script>
+</body>
+</html>

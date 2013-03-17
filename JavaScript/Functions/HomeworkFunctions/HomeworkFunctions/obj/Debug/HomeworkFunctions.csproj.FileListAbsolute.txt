@@ -1,0 +1,5 @@
+D:\Uroci\JavaScript\Lesson8-Functions\Homework\HomeworkFunctions\HomeworkFunctions\bin\HomeworkFunctions.dll
+D:\Uroci\JavaScript\Lesson8-Functions\Homework\HomeworkFunctions\HomeworkFunctions\bin\HomeworkFunctions.pdb
+D:\Uroci\JavaScript\Lesson8-Functions\Homework\HomeworkFunctions\HomeworkFunctions\obj\Debug\HomeworkFunctions.csprojResolveAssemblyReference.cache
+D:\Uroci\JavaScript\Lesson8-Functions\Homework\HomeworkFunctions\HomeworkFunctions\obj\Debug\HomeworkFunctions.dll
+D:\Uroci\JavaScript\Lesson8-Functions\Homework\HomeworkFunctions\HomeworkFunctions\obj\Debug\HomeworkFunctions.pdb

@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a Function that returns the index of the first element in array that is bigger
+    than its neighbors, or -1, if there’s no such element.-->
+
+    <label for="array">Enter numbers, separated by comma ",":</label>
+    <input type="text" id="array" />
+    <button onclick="test()">Index</button>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        
+        function test() {
+            var numbers = jsConsole.readNumbersArray("#array", ",");
+            jsConsole.writeLine(firstElementBiggerThanHisNeighbors(numbers) );
+        }
+        function firstElementBiggerThanHisNeighbors(array) {
+            for (var i = 0; i < array.length; i++) {
+                
+                if (i == 0) {
+
+                    if (array[i] > array[i + 1]) {
+                        return i;
+                    }
+                }
+                else if (i == array.length - 1) {
+
+                    if (array[i] > array[i - 1]) {
+                        return i;
+                    }
+                    else {
+                        return -1;
+                    }
+                }
+                else {
+                    if (array[i] > array[i - 1] && array[i] > array[i + 1]) {
+                        return i;
+                    }
+                }
+            }
+        }
+
+    </script>
+</body>
+</html>

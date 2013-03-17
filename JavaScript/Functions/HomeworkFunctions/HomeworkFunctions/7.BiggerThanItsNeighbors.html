@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>BiggerThanItsNeighbors</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a function that checks if the element at given position in given array of 
+    integers is bigger than its two neighbors (when such exist).-->
+
+    <label for ="array">Enter numbers, separated by comma ",":</label>
+    <input type="text" id="array" />
+    <label for="number">Enter index:</label>
+    <input type="text" id="number" />
+    <br />
+    <button onclick="test()">IsBigger</button>
+    <div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+    <script>
+
+        function test() {
+            var array = jsConsole.readNumbersArray("#array", ",");
+            var index = jsConsole.readInteger("#number");
+            isNumberBigger(array, index);
+        }
+        function isNumberBigger(numbers, index) {
+            var isBigger = false;
+            
+            if (index==0) {
+                
+                jsConsole.writeLine("The number at index 0 have only 1 neighbor!");
+            }
+            else if (index==numbers.length-1) {
+                jsConsole.writeLine("The number at index "+index+ " have only 1 neighbor!");
+            }
+            
+            else if (index>numbers.length-1) {
+                jsConsole.writeLine("The index is bigger than the array lenght.");
+            }
+            else {
+                if (numbers[index] > numbers[index - 1] && numbers[index] > numbers[index + 1]) {
+                    isBigger = true;
+                }
+                jsConsole.writeLine("The number is bigger than his two neigbors => "+isBigger);
+            }
+        }
+
+    </script>
+</body>
+</html>
