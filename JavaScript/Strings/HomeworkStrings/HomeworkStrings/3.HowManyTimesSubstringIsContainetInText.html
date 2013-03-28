@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HowManyTimesSubstringIsContainetInText</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a JavaScript function that finds how many times a substring is contained
+    in a given text (perform case insensitive search).-->
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var text = "We are living in an yellow submarine. We don't have anything else." +
+        "Inside the submarine is very tight. So we are drinking all the day. We will move out of it in 5 days.";
+        var substring = "in";
+        jsConsole.writeLine("The text contain this substring "+substringCount(text, substring)+" times.");
+
+        function substringCount(text, substring) {
+            var index = 0;
+            var count = 0;
+
+            while (index!=-1) {
+                if (index==0) {
+                    index = text.toLocaleLowerCase().indexOf(substring.toLocaleLowerCase(), index);
+                }
+                else  {
+                    index = text.toLocaleLowerCase().indexOf(substring.toLocaleLowerCase(), index+1);
+                }
+                
+                if (index!=-1) {
+                    count++
+                }
+            }
+            return count;
+        }
+
+    </script>
+</body>
+</html>

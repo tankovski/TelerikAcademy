@@ -1,0 +1,214 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    class Engine
+    {
+        public const int RotationSleepTime = 100;
+
+        private IRenderer renderer;
+        private IUserInterface userInterface;
+        private List<Figure> staticObjects;
+        private Figure currentFigure;
+        private int speed = 5;
+        private bool gameOver = false;
+
+        public int Speed
+        {
+            get
+            {
+                return this.speed;
+            }
+            set
+            {
+                if (value > 0)
+                {
+                    this.speed = value;
+                }
+                else
+                {
+                    throw new ArgumentOutOfRangeException("The speed should be larger than 0.");
+                }
+            }
+        }
+
+        public Engine(IRenderer renderer, IUserInterface userInterface)
+        {
+            if (renderer == null)
+            {
+                throw new ArgumentNullException("The renderer can not be null.");
+            }
+
+            if (userInterface == null)
+            {
+                throw new ArgumentNullException("The user interface can not be null.");
+            }
+
+            this.renderer = renderer;
+            this.userInterface = userInterface;
+            this.currentFigure = new RandomFigure(renderer.Width).GenerateFigure();
+            this.staticObjects = new List<Figure>();
+        }
+
+        public void Run()
+        {
+            this.AttachUserInterfaceEvents();
+
+            // Starting the game loop
+            int counter = 0;
+            while (!this.gameOver)
+            {
+                this.renderer.RenderAll();
+
+                System.Threading.Thread.Sleep(Engine.RotationSleepTime);
+
+                this.userInterface.ProcessInput();
+
+                this.renderer.ClearQueue();
+
+                this.renderer.EnqueueForRendering(this.currentFigure);
+                foreach (Figure obj in this.staticObjects)
+                {
+                    this.renderer.EnqueueForRendering(obj);
+                }
+
+                if (counter % this.speed == 0)
+                {
+                    this.currentFigure.MoveDown();
+                    this.currentFigure.Update();
+                    if (!this.isOnValidPosition(this.currentFigure))
+                    {
+                        this.currentFigure.MoveUp();
+                        this.staticObjects.Add(currentFigure);
+                        this.currentFigure = new RandomFigure(renderer.Width).GenerateFigure();
+                        this.RemoveFullLines();
+                    }
+                }
+                counter = (counter + 1) % this.Speed;
+            }
+        }
+
+        private void AttachUserInterfaceEvents()
+        {
+            // Attaching user interface events
+            this.userInterface.OnLeftPressed += (sender, eventInfo) =>
+            {
+                this.currentFigure.MoveLeft();
+
+                if (!this.isOnValidPosition(this.currentFigure))
+                {
+                    this.currentFigure.MoveRight();
+                }
+            };
+
+            this.userInterface.OnRightPressed += (sender, eventInfo) =>
+            {
+                if (this.currentFigure.X + this.currentFigure.Width < this.renderer.Width)
+                {
+                    this.currentFigure.MoveRight();
+
+                    if (!this.isOnValidPosition(this.currentFigure))
+                    {
+                        this.currentFigure.MoveLeft();
+                    }
+                }
+            };
+
+            this.userInterface.OnActionPressed += (sender, eventInfo) =>
+            {
+                this.currentFigure.Rotate();
+                if (!this.isOnValidPosition(this.currentFigure))
+                {
+                    this.currentFigure.RotateBack();
+                }
+            };
+
+            this.userInterface.OnDownPressed += (sender, eventInfo) =>
+            {
+                // TODO: Not implemented yet
+                //throw new NotImplementedException();
+            };
+        }
+
+        private bool isOnValidPosition(GameObject obj)
+        {
+            // if is outside the game field
+            if (obj.X < 0 || obj.X + obj.Width > this.renderer.Width ||
+                obj.Y < 0 || obj.Y + obj.Height > this.renderer.Height)
+            {
+                return false;
+            }
+            
+            // if is over other object
+            for (int i = 0; i < this.staticObjects.Count; i++)
+            {
+                if (this.AreInCollision(this.currentFigure, this.staticObjects[i]))
+                {
+                    return false;
+                }
+            }
+            
+            return true;
+        }
+
+        private bool AreInCollision(GameObject first, GameObject second)
+        {
+            char[,] firstImage = first.GetImage();
+            char[,] secondImage = second.GetImage();
+            for (int firstRow = 0; firstRow < firstImage.GetLength(0); firstRow++)
+            {
+                for (int firstCol = 0; firstCol < firstImage.GetLength(1); firstCol++)
+                {
+                    if (firstImage[firstRow, firstCol] != ' ')
+                    {
+                        for (int secondRow = 0; secondRow < secondImage.GetLength(0); secondRow++)
+                        {
+                            for (int secondCol = 0; secondCol < secondImage.GetLength(1); secondCol++)
+                            {
+                                if (secondImage[secondRow, secondCol] != ' ' && first.X + firstCol == second.X + secondCol && first.Y + firstRow == second.Y + secondRow)
+                                {
+                                    return true;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        private void RemoveFullLines()
+        {
+            List<int> fullLines = renderer.GetFullLines();
+            if (fullLines.Count > 0)
+            {
+                for (int i = 0; i < this.staticObjects.Count; i++)
+                {
+                    for (int j = 0; j < fullLines.Count; j++)
+                    {
+                        if (this.staticObjects[i].Y <= fullLines[j])
+                        {
+                            if (this.staticObjects[i].Y + this.staticObjects[i].Height > fullLines[j])
+                            {
+                                this.staticObjects[i].RemoveLine(fullLines[j] - this.staticObjects[i].Y);
+                            }
+
+                            this.staticObjects[i].MoveDown();
+                        }
+                    }
+
+                    if (this.staticObjects[i].Height <= 0)
+                    {
+                        this.staticObjects.RemoveAt(i);
+                        i--;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HtmlTags</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--Write a function that extracts the content of a html page given as text. 
+    The function should return anything that is in a tag, without the tags:
+    <html><head><title>Sample site</title></head><body><div>text<div>more text</div>
+        and more...</div>in body</body></html>
+    result:
+    Sample sitetextmore textand more...in body-->
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var htmlDoc = "<html><head><title>Sample site</title></head><body><div>text<div>more text</div>" +
+            "and more...</div>in body</body></html>";
+        jsConsole.writeLine(returnTextInTags(htmlDoc))
+        console.log(returnTextInTags(htmlDoc));
+        function returnTextInTags(text)
+        {
+            var tags = String();
+            while (text.search(/>(.*?)</)!=-1) {
+                text = text.replace(/>(.*?)</, "!")
+                text.match(/>(.*?)</);
+                tags += RegExp.lastParen;
+            }
+            return tags.trim('<');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ChangeTextInAllRegions</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!--You are given a text. Write a function that changes the text in all regions:
+    <upcase>text</upcase> to uppercase.
+    <lowcase>text</lowcase> to lowercase
+    <mixcase>text</mixcase> to mix casing-->
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+
+        var text = "We are <mixcase>living</mixcase> in a <upcase>yellow submarine</upcase>." +
+        " We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.";
+        var changedText = changeText(text);
+        var upper = text.match(/<mixcase>(\w*)<\/mixcase>/);
+
+        jsConsole.writeLine(changedText);
+
+        function changeText(text)
+        {
+            while (text.search(/<mixcase>(.*?)<\/mixcase>/) != -1) {
+                text.match(/<mixcase>(.*?)<\/mixcase>/)
+                var str = new String();
+                for (var i = 0; i < RegExp.lastMatch.length; i++) {
+                    if (i%2==1) {
+                        str += RegExp.lastMatch[i].toUpperCase();
+                    }
+                    else {
+                        str += RegExp.lastMatch[i];
+                    }
+                }
+                text = text.replace(/<mixcase>(.*?)<\/mixcase>/,str);
+            }
+
+            while (text.search(/<upcase>(.*?)<\/upcase>/)!=-1) {
+                text = text.replace(/<upcase>(.*?)<\/upcase>/,RegExp.lastMatch.toUpperCase())
+            }
+
+            while (text.search(/<lowcase>(.*?)<\/lowcase>/)!=-1) {
+                text = text.replace(/<lowcase>(.*?)<\/lowcase>/,RegExp.lastParen.toLowerCase())
+            }
+            
+            return text;
+        }
+    </script>
+</body>
+</html>

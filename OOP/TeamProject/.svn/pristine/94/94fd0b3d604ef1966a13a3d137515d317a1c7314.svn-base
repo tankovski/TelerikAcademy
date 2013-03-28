@@ -1,0 +1,300 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    class Engine
+    {
+        public const int RotationSleepTime = 100;
+
+        private IRenderer renderer;
+        private IUserInterface userInterface;
+        private List<Figure> staticObjects;
+        private Figure currentFigure;
+        private int speed = 5;
+        private int fastSpeed = 1;
+        private int normalSpeed = 5;
+        private bool gameOver = false;
+        private int score = 0;
+
+
+        public int Speed
+        {
+            get
+            {
+                return this.speed;
+            }
+            set
+            {
+                if (value > 0)
+                {
+                    this.speed = value;
+                }
+                else
+                {
+                    throw new IncorrecktParametersException("The speed should be larger than 0.");
+                }
+            }
+        }
+
+        public int FastSpeed
+        {
+            get
+            {
+                return this.fastSpeed;
+            }
+            set
+            {
+                if (value > 0)
+                {
+                    this.fastSpeed = value;
+                }
+                else
+                {
+                    throw new IncorrecktParametersException("The speed should be larger than 0.");
+                }
+            }
+        }
+
+        public int NormalSpeed
+        {
+            get
+            {
+                return this.normalSpeed;
+            }
+            set
+            {
+                if (value > 0)
+                {
+                    this.normalSpeed = value;
+                }
+                else
+                {
+                    throw new IncorrecktParametersException("The speed should be larger than 0.");
+                }
+            }
+        }
+
+        public Engine(IRenderer renderer, IUserInterface userInterface)
+        {
+            if (renderer == null)
+            {
+                throw new IncorrecktParametersException("The renderer can not be null.");
+            }
+
+            if (userInterface == null)
+            {
+                throw new IncorrecktParametersException("The user interface can not be null.");
+            }
+
+            this.renderer = renderer;
+            this.userInterface = userInterface;
+            this.currentFigure = new RandomFigure(renderer.Width).GenerateFigure();
+            this.staticObjects = new List<Figure>();
+        }
+
+        public void Run()
+        {
+            this.AttachUserInterfaceEvents();
+
+            // Starting the game loop
+            int counter = 0;
+            while (!this.gameOver)
+            {
+                this.renderer.RenderAll();
+
+                System.Threading.Thread.Sleep(Engine.RotationSleepTime);
+
+                this.userInterface.ProcessInput();
+
+                this.renderer.ClearQueue();
+
+                this.Score();
+              
+                this.renderer.EnqueueForRendering(this.currentFigure);
+                foreach (Figure obj in this.staticObjects)
+                {
+                    this.renderer.EnqueueForRendering(obj);
+                }
+
+                if (counter % this.speed == 0)
+                {
+                    this.MakeStep();
+                }
+                counter = (counter + 1) % this.Speed;
+            }
+        }
+
+        private void AttachUserInterfaceEvents()
+        {
+            // Attaching user interface events
+            this.userInterface.OnLeftPressed += (sender, eventInfo) =>
+            {
+                this.currentFigure.MoveLeft();
+
+                if (!this.isOnValidPosition(this.currentFigure))
+                {
+                    this.currentFigure.MoveRight();
+                }
+            };
+
+            this.userInterface.OnRightPressed += (sender, eventInfo) =>
+            {
+                if (this.currentFigure.X + this.currentFigure.Width < this.renderer.Width)
+                {
+                    this.currentFigure.MoveRight();
+
+                    if (!this.isOnValidPosition(this.currentFigure))
+                    {
+                        this.currentFigure.MoveLeft();
+                    }
+                }
+            };
+
+            this.userInterface.OnActionPressed += (sender, eventInfo) =>
+            {
+                this.currentFigure.Rotate();
+                if (!this.isOnValidPosition(this.currentFigure))
+                {
+                    this.currentFigure.RotateBack();
+                }
+            };
+
+            this.userInterface.OnDownPressed += (sender, eventInfo) =>
+            {
+                this.speed = this.FastSpeed;
+            };
+        }
+
+        private bool isOnValidPosition(GameObject obj)
+        {
+            // if is outside the game field
+            if (obj.X < 0 || obj.X + obj.Width > this.renderer.Width ||
+                obj.Y < 0 || obj.Y + obj.Height > this.renderer.Height)
+            {
+                return false;
+            }
+            
+            // if is over other object
+            for (int i = 0; i < this.staticObjects.Count; i++)
+            {
+                if (this.AreInCollision(this.currentFigure, this.staticObjects[i]))
+                {
+                    return false;
+                }
+            }
+            
+            return true;
+        }
+
+        private bool AreInCollision(GameObject first, GameObject second)
+        {
+            char[,] firstImage = first.GetImage();
+            char[,] secondImage = second.GetImage();
+            for (int firstRow = 0; firstRow < firstImage.GetLength(0); firstRow++)
+            {
+                for (int firstCol = 0; firstCol < firstImage.GetLength(1); firstCol++)
+                {
+                    if (firstImage[firstRow, firstCol] != ' ')
+                    {
+                        for (int secondRow = 0; secondRow < secondImage.GetLength(0); secondRow++)
+                        {
+                            for (int secondCol = 0; secondCol < secondImage.GetLength(1); secondCol++)
+                            {
+                                if (secondImage[secondRow, secondCol] != ' ' && first.X + firstCol == second.X + secondCol && first.Y + firstRow == second.Y + secondRow)
+                                {
+                                    return true;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            return false;
+        }
+
+        private void GameOver()
+        {
+            string message = "Game Over";
+            int left = (renderer.Width - message.Length) / 2 + 1;
+            int top = (renderer.Height - 3) / 2;
+            Console.SetCursorPosition(left, top);
+            Console.Write(new String(' ', message.Length + 2));
+            Console.SetCursorPosition(left, top + 1);
+            Console.Write(String.Format(" {0} ", message));
+            Console.SetCursorPosition(left, top + 2);
+            Console.Write(new String(' ', message.Length + 2));
+            Console.SetCursorPosition(0, renderer.Height + 2);
+            System.Threading.Thread.Sleep(2000);
+        }
+
+        //This is the score method
+        private void Score()
+        {
+            int left = renderer.Width+3;
+            int top = 0;
+            Console.SetCursorPosition(left,top);
+            Console.Write("Score:"+ this.score);
+        }
+
+        private void RemoveFullLines()
+        {
+
+            List<int> fullLines = renderer.GetFullLines();
+            if (fullLines.Count > 0)
+            {
+                //Increasing the score.If you get more lines at once the bonus is bigger!
+                for (int i = 0; i < fullLines.Count; i++)
+                {
+                    score += fullLines.Count;
+                }
+
+                for (int i = 0; i < this.staticObjects.Count; i++)
+                {
+                    for (int j = 0; j < fullLines.Count; j++)
+                    {
+                        if (this.staticObjects[i].Y <= fullLines[j])
+                        {
+                            if (this.staticObjects[i].Y + this.staticObjects[i].Height > fullLines[j])
+                            {
+                                
+                                this.staticObjects[i].RemoveLine(fullLines[j] - this.staticObjects[i].Y);
+                            }
+                            this.staticObjects[i].MoveDown();
+                        }
+                    }
+
+                    if (this.staticObjects[i].Height <= 0)
+                    {
+                        this.staticObjects.RemoveAt(i);
+                        i--;
+                        
+                    }
+                }
+            }
+        }
+
+        private void MakeStep()
+        {
+            this.currentFigure.MoveDown();
+            this.currentFigure.Update();
+            if (!this.isOnValidPosition(this.currentFigure))
+            {
+                this.currentFigure.MoveUp();
+                this.staticObjects.Add(currentFigure);
+                this.currentFigure = new RandomFigure(renderer.Width).GenerateFigure();
+                this.RemoveFullLines();
+                this.Speed = this.NormalSpeed;
+                if (this.staticObjects[this.staticObjects.Count - 1].Y <= 0)
+                {
+                    this.gameOver = true;
+                    this.GameOver();
+                }
+            }
+        }
+    }
+}

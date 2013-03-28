@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    public class T : Figure
+    {
+        public T(Position position)
+            : base(position, new char[,] { { '#', '#', '#' }, { ' ', '#', ' ' }, { ' ', '#', ' ' } })
+        { }
+    }
+}

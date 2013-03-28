@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    abstract class Figure : GameObject, IMovable
+    {
+
+        public Figure(List<Cell> cells, char symbol)
+            : base(cells, symbol)
+        {
+
+        }
+
+        public void MoveLeft()
+        {
+            for (int i = 0; i < this.cells.Count; i++)
+            {
+                this.cells[i].X--;
+            }
+        }
+
+        public void MoveRight()
+        {
+            for (int i = 0; i < this.cells.Count; i++)
+            {
+                this.cells[i].X++;
+            }
+        }
+
+        public void MoveDown()
+        {
+            for (int i = 0; i < this.cells.Count; i++)
+            {
+                this.cells[i].Y++;
+            }
+        }
+
+        abstract public void Rotate();
+    }
+}

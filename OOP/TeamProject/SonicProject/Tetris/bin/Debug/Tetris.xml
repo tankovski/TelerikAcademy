@@ -1,0 +1,656 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tetris</name>
+    </assembly>
+    <members>
+        <member name="T:Tetris.ConsoleRenderer">
+            <summary>
+            A console renderer class responsible for rendering the visual content on the console
+            </summary>
+        </member>
+        <member name="T:Tetris.IRenderer">
+            <summary>
+            An intereface should be implemented by every renderer. It is used by the engine.
+            </summary>
+        </member>
+        <member name="M:Tetris.IRenderer.EnqueueForRendering(Tetris.IRenderable)">
+            <summary>
+            Enqueues an object to be rendered on the next scene of the game
+            </summary>
+            <param name="obj">The object to be rendered on the next scene</param>
+        </member>
+        <member name="M:Tetris.IRenderer.RenderAll">
+            <summary>
+            Renderes the next scene on the console
+            </summary>
+        </member>
+        <member name="M:Tetris.IRenderer.ClearQueue">
+            <summary>
+            Clears the queue of the objects to be rendered
+            </summary>
+        </member>
+        <member name="M:Tetris.IRenderer.GetFullLines">
+            <summary>
+            Itereates all the lines of the game fields and returns the full lines
+            </summary>
+            <returns>A list of zero-based numbers of lines(from top to bottom)</returns>
+        </member>
+        <member name="M:Tetris.IRenderer.PrintGameOver">
+            <summary>
+            Prints the "Game Over" message on the console
+            </summary>
+        </member>
+        <member name="M:Tetris.IRenderer.PrintNextFigure(Tetris.Figure)">
+            <summary>
+            Prints the next figure on the console
+            </summary>
+            <param name="nextFigure">The next figure object</param>
+        </member>
+        <member name="M:Tetris.IRenderer.PrintScore(System.Int32)">
+            <summary>
+            Prints the score on the console
+            </summary>
+            <param name="score">The score to be printeed</param>
+        </member>
+        <member name="P:Tetris.IRenderer.Width">
+            <summary>
+            The width of the game field
+            </summary>
+        </member>
+        <member name="P:Tetris.IRenderer.Height">
+            <summary>
+            The height of the game field
+            </summary>
+        </member>
+        <member name="F:Tetris.ConsoleRenderer.image">
+            <summary>
+            The visible representation of the current scene of the game
+            </summary>
+        </member>
+        <member name="M:Tetris.ConsoleRenderer.#ctor(System.Int32,System.Int32)">
+            <summary>
+            The constructor of the renderer which is responsible for initializing the fields dimensions
+            </summary>
+            <param name="width">The width of the field(in chars)</param>
+            <param name="height">The height of the field(in chars)</param>
+        </member>
+        <member name="M:Tetris.ConsoleRenderer.EnqueueForRendering(Tetris.IRenderable)">
+            <summary>
+            Enqueues an object to be rendered on the next scene of the game
+            </summary>
+            <param name="obj">The object to be rendered on the next scene</param>
+        </member>
+        <member name="M:Tetris.ConsoleRenderer.RenderAll">
+            <summary>
+            Renderes the next scene on the console
+            </summary>
+        </member>
+        <member name="M:Tetris.ConsoleRenderer.ClearQueue">
+            <summary>
+            Clears the queue of the objects to be rendered
+            </summary>
+        </member>
+        <member name="M:Tetris.ConsoleRenderer.GetFullLines">
+            <summary>
+            Itereates all the lines of the game fields and returns the full lines
+            </summary>
+            <returns>A list of zero-based numbers of lines(from top to bottom)</returns>
+        </member>
+        <member name="M:Tetris.ConsoleRenderer.PrintGameOver">
+            <summary>
+            Prints the "Game Over" message on the console
+            </summary>
+        </member>
+        <member name="M:Tetris.ConsoleRenderer.PrintNextFigure(Tetris.Figure)">
+            <summary>
+            Prints the next figure on the console
+            </summary>
+            <param name="nextFigure">The next figure object</param>
+        </member>
+        <member name="M:Tetris.ConsoleRenderer.PrintScore(System.Int32)">
+            <summary>
+            Prints the score on the console
+            </summary>
+            <param name="score">The score to be printeed</param>
+        </member>
+        <member name="P:Tetris.ConsoleRenderer.Width">
+            <summary>
+            The width of the game field(in chars)
+            </summary>
+        </member>
+        <member name="P:Tetris.ConsoleRenderer.Height">
+            <summary>
+            The height of the game field(in chars)
+            </summary>
+        </member>
+        <member name="T:Tetris.Engine">
+            <summary>
+            The engine of the game. Responsible for following the logic and the rules of the game. The entrance point of the game.
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.RotationSleepTime">
+            <summary>
+            The default sleep time for every step in the game
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.FastSpeed">
+            <summary>
+            The speed of the figures when down button is pressed
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.renderer">
+            <summary>
+            The renderer of the engine
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.userInterface">
+            <summary>
+            The user interface object resposible for handling the user input.
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.figureGenerator">
+            <summary>
+            The figure generator which the engine works with. It can be passed in the constructor.
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.staticObjects">
+            <summary>
+            A list, containing the collected figures in the game
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.nextFigure">
+            <summary>
+            The next figure to be positioned on the field
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.currentFigure">
+            <summary>
+            The current falling figure
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.speed">
+            <summary>
+            The current speed of the figures
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.normalSpeed">
+            <summary>
+            The normal speed of the figure (it can be changed in the future if we want to add levels for example)
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.gameOver">
+            <summary>
+            True if the game is over and false if not
+            </summary>
+        </member>
+        <member name="F:Tetris.Engine.score">
+            <summary>
+            The current score of the player
+            </summary>
+        </member>
+        <member name="M:Tetris.Engine.#ctor(Tetris.IRenderer,Tetris.IUserInterface)">
+            <summary>
+            Constructs the engine with default figure generator
+            </summary>
+            <param name="renderer">An IRenderer object</param>
+            <param name="userInterface">An IUserInterface object</param>
+        </member>
+        <member name="M:Tetris.Engine.#ctor(Tetris.IRenderer,Tetris.IUserInterface,Tetris.IFigureGenerator)">
+            <summary>
+            Constructs the engine with custom figure generator
+            </summary>
+            <param name="renderer">An IRenderer object</param>
+            <param name="userInterface">An IUserInterface object</param>
+            <param name="figureGenerator">An IFigureGenerator</param>
+        </member>
+        <member name="M:Tetris.Engine.Run">
+            <summary>
+            A method for running the game and starting the game loop. When called, the game starts.
+            </summary>
+        </member>
+        <member name="M:Tetris.Engine.AttachUserInterfaceEvents">
+            <summary>
+            Attaches the events handlers for the input events
+            </summary>
+        </member>
+        <member name="M:Tetris.Engine.isOnValidPosition(Tetris.GameObject)">
+            <summary>
+            Determines if a given object is on a valid position
+            </summary>
+            <param name="obj">The object whose position to be checked for validity</param>
+            <returns>True - if the object is on valid position, false - otherwise</returns>
+        </member>
+        <member name="M:Tetris.Engine.AreInCollision(Tetris.GameObject,Tetris.GameObject)">
+            <summary>
+            Checkes if two game objects are in collision
+            </summary>
+            <param name="first">The first game object</param>
+            <param name="second">The second game object</param>
+            <returns>True if the objects are in collision, false - otherwise</returns>
+        </member>
+        <member name="M:Tetris.Engine.RemoveFullLines">
+            <summary>
+            Removes the full lines and changes the position and the image of the affected objects
+            </summary>
+        </member>
+        <member name="M:Tetris.Engine.MakeStep">
+            <summary>
+            Makes one step in the game and calls the Update() method of every non-static object in the game
+            </summary>
+        </member>
+        <member name="P:Tetris.Engine.Speed">
+            <summary>
+            The current speed of the figures
+            </summary>
+        </member>
+        <member name="P:Tetris.Engine.NormalSpeed">
+            <summary>
+            The normal speed of the figure (it can be changed in the future if we want to add levels for example)
+            </summary>
+        </member>
+        <member name="T:Tetris.Figure">
+            <summary>
+            The generic figure class which implements the main functionality of a figure. All figures inherits from it.
+            </summary>
+        </member>
+        <member name="T:Tetris.GameObject">
+            <summary>
+            The main object in the game, every visible object on the field inherits from it
+            </summary>
+        </member>
+        <member name="T:Tetris.IRenderable">
+            <summary>
+            Interface which is imlemented from every rendarable object
+            </summary>
+        </member>
+        <member name="M:Tetris.IRenderable.RemoveLine(System.Int32)">
+            <summary>
+            Removes a line from the figure's image (from the visible part)
+            </summary>
+            <param name="lineNumber">A zero based line number of the line to be removed</param>
+        </member>
+        <member name="M:Tetris.IRenderable.GetImage">
+            <summary>
+            Returns a copy of the visible part of the object (represented by char matrix)
+            </summary>
+            <returns>A copy of the visible part of the object</returns>
+        </member>
+        <member name="P:Tetris.IRenderable.X">
+            <summary>
+            The X coordinate of the objects
+            </summary>
+        </member>
+        <member name="P:Tetris.IRenderable.Y">
+            <summary>
+            The Y coordinate of the object
+            </summary>
+        </member>
+        <member name="F:Tetris.GameObject.image">
+            <summary>
+            The visible part of the object, in the form of a char matrix
+            </summary>
+        </member>
+        <member name="F:Tetris.GameObject.position">
+            <summary>
+            The position of the object on the field
+            </summary>
+        </member>
+        <member name="M:Tetris.GameObject.#ctor(Tetris.Position,System.Char[0:,0:])">
+            <summary>
+            The main constructor of a game objects.
+            </summary>
+            <param name="position">The position of the game object on the field</param>
+            <param name="image">The visible part of the object, in the form of a char matrix </param>
+        </member>
+        <member name="M:Tetris.GameObject.RemoveLine(System.Int32)">
+            <summary>
+            Removes a given line of the visible part of the object
+            </summary>
+            <param name="lineNumber">A zero-based number, representing the line to be removed.</param>
+        </member>
+        <member name="M:Tetris.GameObject.Update">
+            <summary>
+            Something special to be done with the object on every step of the game.
+            </summary>
+        </member>
+        <member name="M:Tetris.GameObject.GetImage">
+            <summary>
+            Gets a copy of the visible part of the object.
+            </summary>
+            <returns>A copy of the visible part of the object</returns>
+        </member>
+        <member name="P:Tetris.GameObject.X">
+            <summary>
+            The X coordinate of the object
+            </summary>
+        </member>
+        <member name="P:Tetris.GameObject.Y">
+            <summary>
+            The Y coordinate of the object
+            </summary>
+        </member>
+        <member name="P:Tetris.GameObject.Width">
+            <summary>
+            The width of the game object (in chars)
+            </summary>
+        </member>
+        <member name="P:Tetris.GameObject.Height">
+            <summary>
+            The height of the game object (in chars)
+            </summary>
+        </member>
+        <member name="T:Tetris.IMovable">
+            <summary>
+            Implemented by every movable object in the game
+            </summary>
+        </member>
+        <member name="M:Tetris.IMovable.MoveLeft">
+            <summary>
+            Moves the object on left direction
+            </summary>
+        </member>
+        <member name="M:Tetris.IMovable.MoveRight">
+            <summary>
+            Moves the object on right direction
+            </summary>
+        </member>
+        <member name="M:Tetris.IMovable.MoveDown">
+            <summary>
+            Moves the object on down direction
+            </summary>
+        </member>
+        <member name="M:Tetris.IMovable.MoveUp">
+            <summary>
+            Moves the object on up direction
+            </summary>
+        </member>
+        <member name="M:Tetris.IMovable.Rotate">
+            <summary>
+            Rotates the figure clockwise
+            </summary>
+        </member>
+        <member name="M:Tetris.IMovable.RotateBack">
+            <summary>
+            Rotates the figure anticlockwise
+            </summary>
+        </member>
+        <member name="M:Tetris.Figure.#ctor(Tetris.Position,System.Char[0:,0:])">
+            <summary>
+            The constructor which initializes the figures properties
+            </summary>
+            <param name="position">The position of the figure in the game</param>
+            <param name="image">The visual part(the image) if the figure, represented by char matrix</param>
+        </member>
+        <member name="M:Tetris.Figure.MoveLeft">
+            <summary>
+            Moves the position of the figure one step on left direction
+            </summary>
+        </member>
+        <member name="M:Tetris.Figure.MoveRight">
+            <summary>
+            Moves the position of the figure one step on right direction
+            </summary>
+        </member>
+        <member name="M:Tetris.Figure.MoveDown">
+            <summary>
+            Moves the position of the figure one step on down direction
+            </summary>
+        </member>
+        <member name="M:Tetris.Figure.MoveUp">
+            <summary>
+            Moves the position of the figure one step on up direction
+            </summary>
+        </member>
+        <member name="M:Tetris.Figure.Rotate">
+            <summary>
+            Rotates the figure clockwise
+            </summary>
+        </member>
+        <member name="M:Tetris.Figure.RotateBack">
+            <summary>
+            Rotates the figure anticlockwise
+            </summary>
+        </member>
+        <member name="M:Tetris.Figure.Update">
+            <summary>
+            Something special to be done eith the figure on every step of the game.
+            </summary>
+        </member>
+        <member name="T:Tetris.IFigureGenerator">
+            <summary>
+            Every generator of figures should implement IFigureGenerator interface
+            </summary>
+        </member>
+        <member name="M:Tetris.IFigureGenerator.GenerateFigure(Tetris.Position)">
+            <summary>
+            Generates a figure on a given position on the field
+            </summary>
+            <param name="position">A position object representing the generated figures position on the field</param>
+            <returns>A new generated figure</returns>
+        </member>
+        <member name="T:Tetris.IncorrectParametersException">
+            <summary>
+            A custom exception thrown when an incorrect parameteres are passed
+            </summary>
+        </member>
+        <member name="F:Tetris.IncorrectParametersException.message">
+            <summary>
+            The message of the exception
+            </summary>
+        </member>
+        <member name="M:Tetris.IncorrectParametersException.#ctor(System.String)">
+            <summary>
+            Initializing the exception
+            </summary>
+            <param name="message">The message of the exception</param>
+        </member>
+        <member name="P:Tetris.IncorrectParametersException.Message">
+            <summary>
+            The message of the exception
+            </summary>
+        </member>
+        <member name="T:Tetris.IUserInterface">
+            <summary>
+            The interface used from the engine to work with user input
+            </summary>
+        </member>
+        <member name="M:Tetris.IUserInterface.ProcessInput">
+            <summary>
+            A method for proccessing the input (the pressed keys)
+            </summary>
+        </member>
+        <member name="E:Tetris.IUserInterface.OnLeftPressed">
+            <summary>
+            Triggerd when left button is pressed
+            </summary>
+        </member>
+        <member name="E:Tetris.IUserInterface.OnRightPressed">
+            <summary>
+            Triggerd when right button is pressed
+            </summary>
+        </member>
+        <member name="E:Tetris.IUserInterface.OnActionPressed">
+            <summary>
+            Triggerd when action button is pressed
+            </summary>
+        </member>
+        <member name="E:Tetris.IUserInterface.OnDownPressed">
+            <summary>
+            Triggerd when down button is pressed
+            </summary>
+        </member>
+        <member name="T:Tetris.KeyboardInterface">
+            <summary>
+            A user interface class, responsible for receiving the user interface events for manipulating the game logic
+            </summary>
+        </member>
+        <member name="M:Tetris.KeyboardInterface.ProcessInput">
+            <summary>
+            A method for proccessing the input (the pressed keys)
+            </summary>
+        </member>
+        <member name="E:Tetris.KeyboardInterface.OnDownPressed">
+            <summary>
+            Triggerd when down button is pressed
+            </summary>
+        </member>
+        <member name="E:Tetris.KeyboardInterface.OnLeftPressed">
+            <summary>
+            Triggerd when left button is pressed
+            </summary>
+        </member>
+        <member name="E:Tetris.KeyboardInterface.OnRightPressed">
+            <summary>
+            Triggerd when right button is pressed
+            </summary>
+        </member>
+        <member name="E:Tetris.KeyboardInterface.OnActionPressed">
+            <summary>
+            Triggerd when action(rotate) button is pressed
+            </summary>
+        </member>
+        <member name="T:Tetris.LeftG">
+            <summary>
+            A figure with the form of Г letter turned on left
+            </summary>
+        </member>
+        <member name="M:Tetris.LeftG.#ctor(Tetris.Position)">
+            <summary>
+            The default constructor for the figure initialization
+            </summary>
+            <param name="position">The position of the figure on the game field</param>
+        </member>
+        <member name="T:Tetris.LeftS">
+            <summary>
+            A figure with the form of S letter turned on left
+            </summary>
+        </member>
+        <member name="M:Tetris.LeftS.#ctor(Tetris.Position)">
+            <summary>
+            The default constructor for the figure initialization
+            </summary>
+            <param name="position">The position of the figure on the game field</param>
+        </member>
+        <member name="T:Tetris.Line">
+            <summary>
+            A figure with the form of a line
+            </summary>
+        </member>
+        <member name="M:Tetris.Line.#ctor(Tetris.Position)">
+            <summary>
+            The default constructor for the figure initialization
+            </summary>
+            <param name="position">The position of the figure on the game field</param>
+        </member>
+        <member name="T:Tetris.DefaultFigureGenerator">
+            <summary>
+            Default random generator for figures (includes all the predefined figures in the game)
+            </summary>
+        </member>
+        <member name="F:Tetris.DefaultFigureGenerator.randomGenerator">
+            <summary>
+            The Random instance responsible for generating random number, which later to be matched with concrete figure
+            </summary>
+        </member>
+        <member name="M:Tetris.DefaultFigureGenerator.#ctor">
+            <summary>
+            A parameterless constructor
+            </summary>
+        </member>
+        <member name="M:Tetris.DefaultFigureGenerator.GenerateFigure(Tetris.Position)">
+            <summary>
+            The method responsible for generating a new figure (used by the engine of the game)
+            </summary>
+            <param name="position">The position on which to be put the new generated figure</param>
+            <returns>The generated figure</returns>
+        </member>
+        <member name="T:Tetris.RightS">
+            <summary>
+            A figure with the form of S turned on right
+            </summary>
+        </member>
+        <member name="M:Tetris.RightS.#ctor(Tetris.Position)">
+            <summary>
+            The default constructor for the figure initialization
+            </summary>
+            <param name="position">The position of the figure on the game field</param>
+        </member>
+        <member name="T:Tetris.Square">
+            <summary>
+            A figure with the form of a square
+            </summary>
+        </member>
+        <member name="M:Tetris.Square.#ctor(Tetris.Position)">
+            <summary>
+            The default constructor for the figure initialization
+            </summary>
+            <param name="position">The position of the figure on the game field</param>
+        </member>
+        <member name="T:Tetris.TFigure">
+            <summary>
+            A figure with the form of T letter
+            </summary>
+        </member>
+        <member name="M:Tetris.TFigure.#ctor(Tetris.Position)">
+            <summary>
+            The default constructor for the figure initialization
+            </summary>
+            <param name="position">The position of the figure on the game field</param>
+        </member>
+        <member name="T:Tetris.Position">
+            <summary>
+            The class responsible for the positioning the objects on the game field
+            </summary>
+        </member>
+        <member name="F:Tetris.Position.x">
+            <summary>
+            The X coordinate
+            </summary>
+        </member>
+        <member name="F:Tetris.Position.y">
+            <summary>
+            The Y coordinate
+            </summary>
+        </member>
+        <member name="M:Tetris.Position.#ctor(System.Int32,System.Int32)">
+            <summary>
+            The constructor of the position
+            </summary>
+            <param name="x">The X coordinate of the position</param>
+            <param name="y">THe Y coordinate of the position</param>
+        </member>
+        <member name="P:Tetris.Position.X">
+            <summary>
+            The X coordinate
+            </summary>
+        </member>
+        <member name="P:Tetris.Position.Y">
+            <summary>
+            The Y coordinate
+            </summary>
+        </member>
+        <member name="T:Tetris.UFigure">
+            <summary>
+            A figure with the form of U letter
+            </summary>
+        </member>
+        <member name="M:Tetris.UFigure.#ctor(Tetris.Position)">
+            <summary>
+            The default constructor for the figure initialization
+            </summary>
+            <param name="position">The position of the figure on the game field</param>
+        </member>
+        <member name="T:Tetris.XFigure">
+            <summary>
+            A figure with plus sign form (+)
+            </summary>
+        </member>
+        <member name="M:Tetris.XFigure.#ctor(Tetris.Position)">
+            <summary>
+            The default constructor for the figure initialization
+            </summary>
+            <param name="position">The position of the figure on the game field</param>
+        </member>
+    </members>
+</doc>

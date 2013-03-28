@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>WhiteSpacesReplacer</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Write a function that replaces non breaking white-spaces in a text with &nbsp;-->
+
+    <div>& nbsp look like empty space but in the consol.log you can see its & nbsp </div>
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+
+        var text = "We are living in a yellow submarine. We don't have anything else.";
+        jsConsole.writeLine(replaceWhiteSpaces(text));
+        console.log(text);
+        console.log(replaceWhiteSpaces(text));
+        function replaceWhiteSpaces(text)
+        {
+            while (text.search(/(\s)/)!=-1) {
+              text = text.replace(/(\s)/,"&nbsp");
+            }
+            return text;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    class Tetris
+    {
+
+        static void Main()
+        {
+            ConsoleRenderer renderer = new ConsoleRenderer(20, 30);
+            Line figure = new Line(new Position(5, 0));
+            //IUserInterface keyboard = new KeyboardInterface();
+
+            //keyboard.OnLeftPressed += (sender, eventInfo) =>
+            //{
+            //    figure.MoveLeft();
+            //};
+
+            //keyboard.OnRightPressed += (sender, eventInfo) =>
+            //{
+            //    figure.MoveRight();
+            //};
+            //keyboard.OnActionPressed += (sender, eventInfo) =>
+            //{
+            //    figure.Rotate();
+            //};
+            //keyboard.OnDownPressed += (sender, eventInfo) =>
+            //{
+            //    figure.FasterMoveDown();
+            //};
+
+            while (true)
+            {
+
+                //keyboard.ProcessInput();
+                renderer.EnqueueForRendering(figure);
+                renderer.RenderAll();
+                renderer.ClearQueue();
+                figure.Update();
+                System.Threading.Thread.Sleep(700);
+
+            }
+        }
+    }
+}

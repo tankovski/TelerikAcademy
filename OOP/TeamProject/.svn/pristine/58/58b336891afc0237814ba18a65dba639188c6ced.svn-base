@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    abstract class GameObject : IEnumerable<Cell>
+    {
+        protected List<Cell> cells;
+        protected char symbol;
+
+        public char Symbol
+        {
+            get
+            {
+                return this.symbol;
+            }
+        }
+
+        public GameObject(List<Cell> cells, char symbol)
+        {
+            this.cells = cells;
+            this.symbol = symbol;
+        }
+
+        abstract public void Update();
+
+
+        public List<Cell> GetCells()
+        {
+            return new List<Cell>(this.cells);
+        }
+
+
+        public IEnumerator<Cell> GetEnumerator()
+        {
+            foreach (Cell cell in this.cells)
+            {
+                yield return cell;
+            }
+        }
+
+        IEnumerator System.Collections.IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
+        }
+
+    }
+}

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Brackets</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Write a JavaScript function to check if in a given expression the brackets are put correctly.
+    Example of correct expression: ((a+b)/5-d).
+    Example of incorrect expression: )(a+b)).-->
+
+    <label for="input">Enter expresion with brackets:</label>
+    <input type="text" id="input" />
+    <button id="button" onclick="print()">Check</button>
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+
+        function print() {
+            var expresion = jsConsole.read("#input");
+            checkBrackets(expresion);
+        }
+        function checkBrackets(string)
+        {
+            var count = 0;
+            for (var i = 0; i < string.length; i++) {
+                if (string[i]=='(') {
+                    count++;
+                }
+                else if (string[i]==')') {
+                    count--;
+                }
+                if (count<0) {
+                    break;
+                }
+            }
+            if (count%2==0) {
+                jsConsole.writeLine("The brackets in this expresion are put correctly.");
+            }
+            else {
+                jsConsole.writeLine("The brackets in this expresion are NOT put correctly.");
+            }
+        }
+
+    </script>
+</body>
+</html>

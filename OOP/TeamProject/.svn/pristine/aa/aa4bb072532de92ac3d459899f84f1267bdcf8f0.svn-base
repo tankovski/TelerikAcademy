@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    public abstract class GameObject : IRenderable
+    {
+        protected char[,] image;
+        protected Position position;
+
+        public int X
+        {
+            get
+            {
+                return this.position.X;
+            }
+        }
+
+        public int Y
+        {
+            get
+            {
+                return this.position.Y;
+            }
+        }
+
+        public GameObject(Position position, char[,] image)
+        {
+            this.image = (char[,])image.Clone();
+            this.position = position;
+        }
+
+        abstract public void Update();
+
+        public char[,] GetImage()
+        {
+            return (char[,])this.image.Clone();
+        }
+    }
+}

@@ -1,0 +1,82 @@
+The game Tetris contains:
+
+I. Four interfaces:
+   
+
+   1.IMovable - this interface contains four mehtods of "void" type:
+	- void MoveRight();
+	- void MoveLeft();
+	- void MoveDown();
+	- void Rotate();
+
+   2.IRenderable - this interface contains:
+	- two int fields "X" and "Y", they have only "get" property;
+	- one char matrice "GetImage";
+	- one method of "void" type, who need one argument of type "int", named RemoveLine;
+
+   3.IRenderer - this interface contains:
+	- two "int" fields named "Width" and "Height" with only "get" property;
+	- one list of "int" named "GetFullLines";
+	- three methods of "void" type:
+		a) void EnqueueForRendering(IRenderable obj) - this method needs one object who inherited the IRenderable interface;
+		b) RenderAll();
+		c) ClearQueue();
+   4.IUserInterface - this interface contains:
+	- four events:
+		a)event EventHandler OnLeftPressed;
+
+        	b) event EventHandler OnRightPressed;
+
+        	c) event EventHandler OnActionPressed;
+
+        	d) event EventHandler OnDownPressed;
+	- one method of "void" type named "ProcessInput";
+
+
+
+	
+II. Two abstract classes:
+
+
+   1.GameObjeckt - this class inherited IRenderable interface and contains:
+
+	- two fields:
+		a) one "char" matrice named "image";
+		b) one "Position"(there is public class position who represent point in Cartesian coordinate system) named "position";
+	- four properties
+		a) "public int X" with only get property - this property returns the value of the field "position.X";
+		b) "public int Y" with only get property - this property returns the value of the field "position.Y";
+		c) "public int Width " with only get property - this property returns the number of columns of the field "image";
+		d) "public int Height" with only get property - this property returns the number of rows of the field "image";
+	- one constructor who takes two arguments - one "Position" object and one "char" matrice. And give this arguments values to
+	  the calss fields "position" and "image";
+	- three methods:
+		a) "public void RemoveLine(int lineNumber)" - 
+                      
+ 		!!!!!!!!!!!!!!!!!!!!!Explain this one :) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+		b) "abstract public void Update()" - this method is empty and will be override differently for every class inheritor of GameObject class;
+		c) "public char[,] GetImage()" - this class returns deep copy of the "char" matrice "image";
+      
+   2.Figure - this clas inherited GameObject class and IMovable interface and contains:
+	- one constructor - use the constructor of GameObject class;
+	- seven Methods:
+		a) "public virtual void MoveLeft()" - this is the overriden method of IMovable interface. This method change "position.X" with -1, and this
+			way make the objeckt who inherited class Figure to move left.
+		b) "public virtual void MoveRight()" - this is the overriden method of IMovable interface. This method change "position.X" with +1, and this
+			way make the objeckt who inherited class Figure to move right.
+		c) "public virtual void MoveDown()" - this is the overriden method of IMovable interface. This method change "position.Y" with +1, and this
+			way make the objeckt who inherited class Figure to move down.
+		d) "public virtual void MoveUP()" - this is the overriden method of IMovable interface. This method change "position.Y" with -1, and this
+			way make the objeckt who inherited class Figure to move up.
+		e) "public virtual void Rotate()"
+
+		!!!!!!!!!!!!!!!!!!!!!Explain this one :) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+		f) "public virtual void RotateBack()"
+
+		!!!!!!!!!!!!!!!!!!!!!Explain this one :) !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+		g)"public override void Update()" - this method still do nothing.It must be be override differently for every class inheritor of Figure class
+

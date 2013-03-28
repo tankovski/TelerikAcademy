@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    public class RandomFigure
+    {
+        //Fields
+        Random randomGenerator = new Random();
+        private int width;
+
+        //Constructor
+        public RandomFigure(int width)
+        {
+            this.width=width;
+        }
+        public Figure GenerateFigure()
+        {
+            switch (this.randomGenerator.Next(1, 9))
+            {
+                case 1: return new LeftG(new Position(this.width / 2, 0));
+                case 2: return new LeftS(new Position(this.width / 2, 0));
+                case 3: return new Line(new Position(this.width / 2, 0));
+                case 4: return new RightS(new Position(this.width / 2, 0));
+                case 5: return new Square(new Position(this.width / 2, 0));
+                case 6: return new TFigure(new Position(this.width / 2, 0));
+                case 7: return new UFigure(new Position(this.width / 2, 0));
+                case 8: return new XFigure(new Position(this.width / 2, 0));
+                default: return new Line(new Position(this.width / 2, 0));
+                    
+            }
+        }
+    }
+}

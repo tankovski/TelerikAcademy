@@ -1,0 +1,83 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    public abstract class GameObject : IRenderable
+    {
+        protected char[,] image;
+        protected Position position;
+
+        public int X
+        {
+            get
+            {
+                return this.position.X;
+            }
+        }
+
+        public int Y
+        {
+            get
+            {
+                return this.position.Y;
+            }
+        }
+
+        public int Width
+        {
+            get
+            {
+                return this.image.GetLength(1);
+            }
+        }
+
+        public int Height
+        {
+            get
+            {
+                return this.image.GetLength(0);
+            }
+        }
+
+        public GameObject(Position position, char[,] image)
+        {
+            this.image = (char[,])image.Clone();
+            this.position = position;
+        }
+
+        public void RemoveLine(int lineNumber)
+        {
+            if (lineNumber < 0 || lineNumber >= this.image.GetLength(0))
+            {
+                throw new ArgumentOutOfRangeException(String.Format("There is no row {0} in the figure.", lineNumber));
+            }
+            char[,] newImage = new char[this.image.GetLength(0) - 1, this.image.GetLength(1)];
+            int offset = 0;
+            for (int i = 0; i < newImage.GetLength(0); i++)
+            {
+                if (i == lineNumber)
+                {
+                    offset++;
+                }
+                for (int j = 0; j < newImage.GetLength(1); j++)
+                {
+                    newImage[i, j] = image[i + offset, j];
+                }
+            }
+
+            this.image = newImage;
+        }
+
+        abstract public void Update();
+
+        public char[,] GetImage()
+        {
+            return (char[,])this.image.Clone();
+        }
+    }
+}

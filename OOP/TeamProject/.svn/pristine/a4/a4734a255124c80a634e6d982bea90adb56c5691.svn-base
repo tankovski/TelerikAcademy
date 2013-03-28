@@ -1,0 +1,113 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    class ConsoleRenderer : IRenderer
+    {
+        private char[,] image;
+
+        public int Width 
+        {
+            get
+            {
+                return this.image.GetLength(1);
+            }
+        }
+
+        public int Height
+        {
+            get
+            {
+                return this.image.GetLength(0);
+            }
+        }
+
+        public ConsoleRenderer(int width, int height)
+        {
+            if (width<=0 || height<=0)
+            {
+                throw new IncorrecktParametersException("The width and height of the game field must be positive numbers.");
+            }
+            image = new char[height, width];
+            this.ClearQueue();
+        }
+
+        public void EnqueueForRendering(IRenderable obj)
+        {
+            char[,] image = obj.GetImage();
+
+            for (int i = 0; i < image.GetLength(0); i++)
+            {
+                for (int j = 0; j < image.GetLength(1); j++)
+                {
+                    if (image[i, j] != ' ' &&
+                        obj.X + j >= 0 && obj.X + j < this.image.GetLength(1) &&
+                        obj.Y + i >= 0 && obj.Y + i < this.image.GetLength(0))
+                    {
+                        this.image[obj.Y + i, obj.X + j] = image[i, j];
+                    }
+                }
+            }
+        }
+
+        public void RenderAll()
+        {
+            Console.SetCursorPosition(0, 0);
+            int rows = this.image.GetLength(0);
+            int cols = this.image.GetLength(1);
+            StringBuilder scene = new StringBuilder(rows * cols + 2*(rows + cols) + rows);
+
+            for (int row = 0; row < rows; row++)
+            {
+                scene.Append('|');
+                for (int col = 0; col < cols; col++)
+                {
+                    scene.Append(this.image[row, col]);
+                }
+
+                scene.Append('|');
+                scene.Append(Environment.NewLine);
+            }
+
+            scene.Append(new String('-', cols + 2));
+            scene.Append(Environment.NewLine);
+            Console.WriteLine(scene.ToString());
+        }
+
+        public void ClearQueue()
+        {
+            for (int row = 0; row < this.image.GetLength(0); row++)
+            {
+                for (int col = 0; col < this.image.GetLength(1); col++)
+                {
+                    this.image[row, col] = ' ';
+                }
+            }
+        }
+
+        public List<int> GetFullLines()
+        {
+            List<int> fullLines = new List<int>();
+            for (int i = 0; i < this.image.GetLength(0); i++)
+            {
+                for (int j = 0; j < this.image.GetLength(1); j++)
+                {
+                    if (this.image[i, j] == ' ')
+                    {
+                        break;
+                    }
+                    else if (j == this.image.GetLength(1) - 1)
+                    {
+                        fullLines.Add(i);
+                    }
+                }
+            }
+
+            return fullLines;
+        }
+    }
+}

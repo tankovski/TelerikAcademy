@@ -1,0 +1,5 @@
+D:\Uroci\JavaScript\Lesson 10 - Strings\Homework\HomeworkStrings\HomeworkStrings\bin\HomeworkStrings.dll
+D:\Uroci\JavaScript\Lesson 10 - Strings\Homework\HomeworkStrings\HomeworkStrings\bin\HomeworkStrings.pdb
+D:\Uroci\JavaScript\Lesson 10 - Strings\Homework\HomeworkStrings\HomeworkStrings\obj\Debug\HomeworkStrings.csprojResolveAssemblyReference.cache
+D:\Uroci\JavaScript\Lesson 10 - Strings\Homework\HomeworkStrings\HomeworkStrings\obj\Debug\HomeworkStrings.dll
+D:\Uroci\JavaScript\Lesson 10 - Strings\Homework\HomeworkStrings\HomeworkStrings\obj\Debug\HomeworkStrings.pdb

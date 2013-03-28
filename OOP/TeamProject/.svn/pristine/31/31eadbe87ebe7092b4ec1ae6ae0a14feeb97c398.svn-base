@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tetris
+{
+    public abstract class Figure : GameObject, IMovable
+    {
+        public Figure(Position position, char[,] image)
+            : base(position, image) { }
+
+        public virtual void MoveLeft()
+        {
+            this.position.X--;
+        }
+
+        public virtual void MoveRight()
+        {
+            this.position.X++;
+        }
+
+        public virtual void MoveDown()
+        {
+            this.position.Y++;
+        }
+
+        public virtual void Rotate()
+        {
+            char[,] rotatedImage = new char[this.image.GetLength(1), this.image.GetLength(0)];
+            for (int i = 0; i < this.image.GetLength(0); i++)
+            {
+                for (int j = 0; j < this.image.GetLength(1); j++)
+                {
+                    rotatedImage[j, this.image.GetLength(0) - i - 1] = this.image[i, j];
+                }
+            }
+            this.image = rotatedImage;
+        }
+
+        public override void Update()
+        {
+            this.Rotate();
+            this.MoveDown();
+        }
+    }
+}
