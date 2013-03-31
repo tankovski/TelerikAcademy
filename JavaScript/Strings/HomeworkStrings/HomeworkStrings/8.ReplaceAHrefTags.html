@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ReplaceAHrefTags</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Write a JavaScript function that replaces in a HTML document given as string all the tags
+     <a href="…">…</a> with corresponding tags [URL=…]…/URL].-->
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var htmlDoc = "<p>Please visit <a href=\"http://academy.telerik. com\">our site</a>" +
+        " to choose a training course. Also visit <a href=\"www.devbg.org\">our forum</a>" +
+        "to discuss the courses.</p>";
+        
+        jsConsole.writeLine("jsConsole don't print tags, so you can see the result on console.log or on this alert box.");
+        console.log(changeTags(htmlDoc));
+        alert([changeTags(htmlDoc)])
+        function changeTags(html) {
+
+            while (html.search(/<a href=(.*?)>/) != -1) {
+                html = html.replace(/<a href=(.*?)>/,"[URL=$1]")
+
+            }
+            while (html.search("</a>")!=-1) {
+                html = html.replace("</a>", "[/URL]");
+            }
+            return html;
+        }
+    </script>
+</body>
+</html>

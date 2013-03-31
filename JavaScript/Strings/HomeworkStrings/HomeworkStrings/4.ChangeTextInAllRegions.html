@@ -22,25 +22,26 @@
         var upper = text.match(/<mixcase>(\w*)<\/mixcase>/);
 
         jsConsole.writeLine(changedText);
+        console.log(changedText)
 
         function changeText(text)
         {
             while (text.search(/<mixcase>(.*?)<\/mixcase>/) != -1) {
                 text.match(/<mixcase>(.*?)<\/mixcase>/)
                 var str = new String();
-                for (var i = 0; i < RegExp.lastMatch.length; i++) {
+                for (var i = 0; i < RegExp.lastParen.length; i++) {
                     if (i%2==1) {
-                        str += RegExp.lastMatch[i].toUpperCase();
+                        str += RegExp.lastParen[i].toUpperCase();
                     }
                     else {
-                        str += RegExp.lastMatch[i];
+                        str += RegExp.lastParen[i];
                     }
                 }
                 text = text.replace(/<mixcase>(.*?)<\/mixcase>/,str);
             }
 
             while (text.search(/<upcase>(.*?)<\/upcase>/)!=-1) {
-                text = text.replace(/<upcase>(.*?)<\/upcase>/,RegExp.lastMatch.toUpperCase())
+                text = text.replace(/<upcase>(.*?)<\/upcase>/,RegExp.lastParen.toUpperCase())
             }
 
             while (text.search(/<lowcase>(.*?)<\/lowcase>/)!=-1) {

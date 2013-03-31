@@ -62,6 +62,12 @@
     <Content Include="3.HowManyTimesSubstringIsContainetInText.html" />
     <Content Include="4.ChangeTextInAllRegions.html" />
     <Content Include="6.HtmlTags.html" />
+    <Content Include="7.UrlAdress.html" />
+    <Content Include="8.ReplaceAHrefTags.html" />
+    <Content Include="9.ExtractEMails.html" />
+    <Content Include="10.ExtractPalindromes.html" />
+    <Content Include="11.Placeholders.html" />
+    <Content Include="12.HtmlUl.html" />
     <Content Include="Web.config" />
     <Content Include="5.WhiteSpacesReplacer.html" />
   </ItemGroup>

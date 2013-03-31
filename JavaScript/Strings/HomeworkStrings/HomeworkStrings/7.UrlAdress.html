@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>UrlAdress</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+   <!-- Write a script that parses an URL address given in the format:
+    [protocol]://[server]/[resource]
+    and extracts from it the [protocol], [server] and [resource] elements.
+     Return the elements in a JSON object.For example from the 
+    URL http://www.devbg.org/forum/index.php the following information should be extracted:
+    {protocol: "http", server: "www.devbg.org", 
+    resource: "/forum/index.php"}-->
+
+
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var url = "http://stackoverflow.com/questions/1155678/javascript-string-newline-character";
+        
+        var parsedUrl = parseURL(url);
+
+        jsConsole.writeLine("protocol: "+parsedUrl.protocol);
+        jsConsole.writeLine("server: "+parsedUrl.server);
+        jsConsole.writeLine("resource: " + parsedUrl.resource);
+
+        function parseURL(url) {
+            //Mace new JSON object with protocol,surver and resource empty values
+            var parsedURL = {
+                protocol: "",
+                server: "",
+                resource:""
+            };
+
+            var protocolIndex = url.indexOf("//");
+            //Add protocol value
+            for (var i = 0; i < protocolIndex-1; i++) {
+                parsedURL.protocol += url[i];
+            }
+
+            var serverIndex = url.indexOf("/", protocolIndex + 2);
+            //Add server value
+            for (var i = protocolIndex+2; i < serverIndex; i++) {
+                parsedURL.server += url[i];
+            }
+
+            //Add resource value
+            for (var i = serverIndex; i < url.length; i++) {
+                parsedURL.resource += url[i];
+            }
+
+            return parsedURL;
+        }
+    </script>
+</body>
+</html>

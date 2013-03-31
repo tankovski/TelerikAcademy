@@ -3,3 +3,8 @@ D:\Uroci\JavaScript\Lesson 10 - Strings\Homework\HomeworkStrings\HomeworkStrings
 D:\Uroci\JavaScript\Lesson 10 - Strings\Homework\HomeworkStrings\HomeworkStrings\obj\Debug\HomeworkStrings.csprojResolveAssemblyReference.cache
 D:\Uroci\JavaScript\Lesson 10 - Strings\Homework\HomeworkStrings\HomeworkStrings\obj\Debug\HomeworkStrings.dll
 D:\Uroci\JavaScript\Lesson 10 - Strings\Homework\HomeworkStrings\HomeworkStrings\obj\Debug\HomeworkStrings.pdb
+D:\uroci\GitHub\TelerikAcademy\TelerikAcademy\JavaScript\Strings\HomeworkStrings\HomeworkStrings\bin\HomeworkStrings.dll
+D:\uroci\GitHub\TelerikAcademy\TelerikAcademy\JavaScript\Strings\HomeworkStrings\HomeworkStrings\bin\HomeworkStrings.pdb
+D:\uroci\GitHub\TelerikAcademy\TelerikAcademy\JavaScript\Strings\HomeworkStrings\HomeworkStrings\obj\Debug\HomeworkStrings.csprojResolveAssemblyReference.cache
+D:\uroci\GitHub\TelerikAcademy\TelerikAcademy\JavaScript\Strings\HomeworkStrings\HomeworkStrings\obj\Debug\HomeworkStrings.dll
+D:\uroci\GitHub\TelerikAcademy\TelerikAcademy\JavaScript\Strings\HomeworkStrings\HomeworkStrings\obj\Debug\HomeworkStrings.pdb

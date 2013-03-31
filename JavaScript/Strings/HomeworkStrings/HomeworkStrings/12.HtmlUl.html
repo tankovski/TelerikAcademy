@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HtmlUl</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div data-type="template" id="list-item">
+        <strong>-{name}-</strong> <span>-{age}-</span>
+    </div>
+
+    <div id="js-console">
+    </div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+
+
+        var people = [{ name: ' Stefan Borisov ', age: 50 },
+                  { name: ' Petar Iliev ', age: 60 },
+                  { name: ' Ivo Petrov ', age: 55 },
+                  { name: ' Ivan Jelev', age: 27 }];
+        var template = document.getElementById("list-item").innerHTML;
+        var peopleList = generateList(people, template);
+        jsConsole.writeLine(peopleList);
+
+
+        function generateList(peopleList, temp) {
+            temp = new String(temp);
+            temp = temp.replace(/<strong>/g, '<li><strong>');
+            temp = temp.replace(/<\/span>/g, '</span></li>');
+            var list = new String('<ul>');
+            for (var i in peopleList) {
+                var currentLI = temp.replace('-{name}-', peopleList[i].name);
+                currentLI = currentLI.replace('-{age}-', peopleList[i].age);
+                list += currentLI;
+            }
+            list += '</ul>';
+            return list;
+        }
+    </script>
+</body>
+</html>
