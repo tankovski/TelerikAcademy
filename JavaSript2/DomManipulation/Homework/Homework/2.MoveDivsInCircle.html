@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+
+        var numberOfDivs = 5;
+        for (var i = 0; i < numberOfDivs; i++) {
+            var div = document.createElement("div");
+            div.style.width = "50px";
+            div.style.height = "50px";
+            div.style.borderRadius = "50px";
+            div.style.backgroundColor = "red";
+            document.body.appendChild(div);
+        }
+
+        var ElementRevolver = (function () {
+
+            function getPosition(settings, ellapsedTime) {
+                var angle = getAngle(settings, ellapsedTime);
+                return {
+                    x: Math.round(settings.center.x + settings.radius * Math.cos(angle)),
+                    y: Math.round(settings.center.y + settings.radius * Math.sin(angle))
+                };
+            }
+
+            function getAngle(settings, ellapsedTime) {
+                return ellapsedTime / settings.interval * 2 * Math.PI * settings.direction - settings.startPositionRad;
+            }
+
+            function start(index, settings) {
+                var el = document.getElementsByTagName("div")[index],
+                    startTime = (new Date()).getTime(),
+                    width = el.offsetWidth,
+                    height = el.offsetHeight;
+                if (el['#rev:tm'] !== null) stop(index);
+                el.style.position = settings.cssPosition || 'absolute';
+                if (!settings.startPositionRad) settings.startPositionRad = settings.startPositionDeg / 180 * Math.PI;
+                el['#rev:tm'] = setInterval(function () {
+                    var pos = getPosition(settings, (new Date()).getTime() - startTime);
+                    el.style.left = (pos.x - Math.round(width / 2)) + 'px';
+                    el.style.top = (pos.y - Math.round(height / 2)) + 'px';
+                }, settings.updateInterval);
+                if (settings.iterations > -1) setTimeout(function () {
+                    stop(index);
+                }, settings.iterations * settings.interval);
+            }
+
+            function stop(index) {
+                var el = document.getElementsByTagName("div")[index];
+                if (el['#rev:tm'] === null) return;
+                clearInterval(el['#rev:tm']);
+                el['#rev:tm'] = null;
+            }
+
+            return {
+                start: start,
+                stop: stop
+            };
+
+        })();
+
+        var lenght = document.getElementsByTagName("div").length;
+        for (var i = 0; i < lenght; i++) {
+
+            ElementRevolver.start(i, {
+                radius: 180,
+                center: { x: 250, y: 250 },
+                // time in milliseconds for one revolution
+                interval: 1000,
+                // direction = 1 for clockwise, -1 for counterclockwise
+                direction: 1,
+                // number of times to animate the revolution (-1 for infinite)
+                iterations: -1,
+                // startPosition can be a degree angle
+                // (0 = right, 90 = top, 180 = left, 270 = bottom)
+                startPositionDeg: i*72,
+                // how often (in milliseconds) the position of the
+                // circle should be attempted to be updated
+                updateInterval: 50
+            });
+        }
+       
+    </script>
+</body>
+</html>

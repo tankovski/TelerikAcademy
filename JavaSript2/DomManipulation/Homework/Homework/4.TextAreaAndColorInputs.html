@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <textarea>Hello Javascript</textarea>
+    <input type="color" onchange="takeValue()" />
+    <input type="color" onchange="takeValue()" value="#ffffff" />
+
+    <script>
+        var colors = document.getElementsByTagName("input");
+        var text = document.getElementsByTagName("textarea");
+
+
+        function takeValue() {
+            text[0].style.color = "" + colors[0].value + "";
+            text[0].style.backgroundColor = "" + colors[1].value + "";
+        }
+    </script>
+</body>
+</html>

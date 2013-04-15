@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+      <script>
+          (function () {
+              if (!document.querySelector) {
+                  function findElement(string) {
+                      var elementName = string.substr(1, string.length - 1);
+
+                      return document.getElementById(elementName);
+                  }
+                  document.querySelector = findElement;
+              }
+
+              if (!document.querySelectorAll) {
+                  function findAllElements(string) {
+                      string = "";
+                      var element = document;
+                      var finalElement
+                      var array = string.split(" ");
+                      for (var i = 0; i < array.length; i++) {
+                          var lenght = finalElement.lenght;
+                          for (var j = 0; j < lenght; j++) {
+                              if (array[i][0] == "#") {
+                                  finalElement = element.getElementById(array[i]);
+                              }
+                              else if (array[i][0] == ".") {
+                                  finalElement = element.getElementsByClassName(array[i]);
+                              }
+                              else {
+                                  finalElement = element.getElementsByTagName(array[i]);
+                              }
+                          }
+                          
+                      }
+                  }
+              }
+          }).call(this);
+    </script>
+</head>
+<body>
+    <div id="joro"><p style="width:20px; height:20px;" id="pesho"></p></div>
+    <ul>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+    <div>
+        <ul>
+            <li>text2</li>
+            <li>text2</li>
+            <li>text2</li>
+        </ul>
+    </div>
+    
+    <script>
+        var string = "#joro";
+        console.log(string.substr(1, string.length-1));
+        var div = document.querySelector("#joro");
+        var li = document.querySelectorAll("body div li");
+        for (var i = 0; i < li.length; i++) {
+            li[i].style.color = "red";
+        }
+        div.style.height = "50px";
+        div.style.backgroundColor = "red";
+
+        var p = div.querySelector("#pesho");
+        p.style.backgroundColor = "blue";
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <input type="button" value="CreateDiv" onclick="createDiv()" />
+    <script>
+
+        var maxWidth = screen.width - 100;
+        var maxHeight = screen.height - 200;
+
+        function createDiv() {
+            var strong = document.createElement("strong");
+            strong.innerText = "div";
+            var div = document.createElement("div");
+            div.appendChild(strong);
+           
+            div.style.backgroundColor = generateRandomColor();
+            div.style.width = generateRandomNumber(20, 100) + "px";
+            div.style.height = generateRandomNumber(20, 100) + "px";
+            div.style.color = generateRandomColor();
+            div.style.position = "absolute";
+            div.style.left =  generateRandomNumber(50, maxWidth) + "px";
+            div.style.top = generateRandomNumber(50, maxHeight) + "px";
+            div.style.textAlign = "center";
+            div.style.borderRadius = "" + generateRandomNumber(0, 100) + "px";
+            div.style.border =  generateRandomNumber(1, 20) + "px" + " solid " + generateRandomColor();
+
+   
+            function generateRandomColor() {
+                var red = (Math.random() * 256) | 0;
+                var green = (Math.random() * 256) | 0;
+                var blue = (Math.random() * 256) | 0;
+
+                return "rgb(" + red + "," + green + "," + blue + ")";
+            }
+
+            function generateRandomNumber(min, max) {
+                return min + (Math.random() * (max - min)) | 0;
+            }
+            document.body.appendChild(div);
+        }
+    </script>
+</body>
+</html>
