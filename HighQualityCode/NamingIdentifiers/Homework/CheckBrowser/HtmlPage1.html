@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+        checkForMozilla();
+        function checkForMozilla(event, arguments) {
+            var myWindow = window;
+            var browser = myWindow.navigator.appCodeName;
+            var isMozila = browser == "Mozilla";
+
+            console.log(browser);
+            if (isMozila) {
+                alert("Yes");
+            }
+            else {
+                alert("No");
+            }
+        }
+    </script>
+</body>
+</html>

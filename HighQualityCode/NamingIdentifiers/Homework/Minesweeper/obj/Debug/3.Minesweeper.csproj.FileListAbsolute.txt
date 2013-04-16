@@ -1,0 +1,6 @@
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\Minesweeper\obj\Debug\3.Minesweeper.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\Minesweeper\bin\Debug\Minesweeper.exe.config
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\Minesweeper\bin\Debug\Minesweeper.exe
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\Minesweeper\bin\Debug\Minesweeper.pdb
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\Minesweeper\obj\Debug\Minesweeper.exe
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\Minesweeper\obj\Debug\Minesweeper.pdb

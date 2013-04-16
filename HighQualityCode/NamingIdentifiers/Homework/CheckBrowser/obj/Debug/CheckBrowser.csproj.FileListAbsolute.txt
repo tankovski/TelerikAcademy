@@ -1,0 +1,5 @@
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\CheckBrowser\bin\CheckBrowser.dll
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\CheckBrowser\bin\CheckBrowser.pdb
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\CheckBrowser\obj\Debug\CheckBrowser.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\CheckBrowser\obj\Debug\CheckBrowser.dll
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\CheckBrowser\obj\Debug\CheckBrowser.pdb

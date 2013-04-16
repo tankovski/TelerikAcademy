@@ -1,0 +1,6 @@
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\ProduceHumans\bin\Debug\ProduceHumans.exe.config
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\ProduceHumans\bin\Debug\ProduceHumans.exe
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\ProduceHumans\bin\Debug\ProduceHumans.pdb
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\ProduceHumans\obj\Debug\2.ProduceHumans.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\ProduceHumans\obj\Debug\ProduceHumans.exe
+E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\ProduceHumans\obj\Debug\ProduceHumans.pdb
