@@ -4,3 +4,6 @@ E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\Minesweep
 E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\Minesweeper\bin\Debug\Minesweeper.pdb
 E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\Minesweeper\obj\Debug\Minesweeper.exe
 E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\Minesweeper\obj\Debug\Minesweeper.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\HighQualityCode\NamingIdentifiers\Homework\Minesweeper\bin\Debug\Minesweeper.exe.config
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\HighQualityCode\NamingIdentifiers\Homework\Minesweeper\obj\Debug\Minesweeper.exe
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\HighQualityCode\NamingIdentifiers\Homework\Minesweeper\obj\Debug\Minesweeper.pdb

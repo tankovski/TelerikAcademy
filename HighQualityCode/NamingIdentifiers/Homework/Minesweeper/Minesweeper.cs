@@ -3,30 +3,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-
 public class Minesweeper
 {
     public class Points
     {
         //Fields
-        string name;
-        int numberOfPoints;
+        private string name;
+        private int numberOfPoints;
 
         //Properties
         public string Name
         {
-            get { return name; }
-            set { name = value; }
+            get { return this.name; }
+            set { this.name = value; }
         }
 
         public int NumberOfPoints
         {
-            get { return numberOfPoints; }
-            set { numberOfPoints = value; }
+            get { return this.numberOfPoints; }
+            set { this.numberOfPoints = value; }
         }
 
         //Constructors
-        public Points() { }
+        public Points()
+        {
+        }
 
         public Points(string name, int numberOfPoints)
         {
@@ -35,10 +36,10 @@ public class Minesweeper
         }
     }
 
-    static void Main(string[] аргументи)
+    static void Main()
     {
         string command = string.Empty;
-        char[,] field = createGameField();
+        char[,] field = CreateGameField();
         char[,] bombs = PlaceBombs();
         int counter = 0;
         bool haveExplosion = false;
@@ -46,7 +47,7 @@ public class Minesweeper
         int row = 0;
         int col = 0;
         bool isNewGame = true;
-        const int max = 35;
+        const int MAX = 35;
         bool isWon = false;
 
         do
@@ -74,10 +75,10 @@ public class Minesweeper
             switch (command)
             {
                 case "top":
-                    standing(champions);
+                    ShowStanding(champions);
                     break;
                 case "restart":
-                    field = createGameField();
+                    field = CreateGameField();
                     bombs = PlaceBombs();
                     DrawGameField(field);
                     haveExplosion = false;
@@ -94,7 +95,8 @@ public class Minesweeper
                             MakeAMove(field, bombs, row, col);
                             counter++;
                         }
-                        if (max == counter)
+
+                        if (MAX == counter)
                         {
                             isWon = true;
                         }
@@ -107,6 +109,7 @@ public class Minesweeper
                     {
                         haveExplosion = true;
                     }
+
                     break;
                 default:
                     Console.WriteLine("\n Error! Invalid command \n");
@@ -139,9 +142,9 @@ public class Minesweeper
 
                 champions.Sort((Points point1, Points point2) => point2.Name.CompareTo(point1.Name));
                 champions.Sort((Points point1, Points point2) => point2.NumberOfPoints.CompareTo(point1.NumberOfPoints));
-                standing(champions);
+                ShowStanding(champions);
 
-                field = createGameField();
+                field = CreateGameField();
                 bombs = PlaceBombs();
                 counter = 0;
                 haveExplosion = false;
@@ -157,8 +160,8 @@ public class Minesweeper
                 Points points = new Points(nickname, counter);
 
                 champions.Add(points);
-                standing(champions);
-                field = createGameField();
+                ShowStanding(champions);
+                field = CreateGameField();
                 bombs = PlaceBombs();
                 counter = 0;
                 isWon = false;
@@ -171,7 +174,7 @@ public class Minesweeper
         Console.Read();
     }
 
-    private static void standing(List<Points> points)
+    private static void ShowStanding(List<Points> points)
     {
         Console.WriteLine("\nPoints:");
         if (points.Count > 0)
@@ -181,6 +184,7 @@ public class Minesweeper
                 Console.WriteLine("{0}. {1} --> {2} cells",
                     i + 1, points[i].Name, points[i].NumberOfPoints);
             }
+
             Console.WriteLine();
         }
         else
@@ -199,15 +203,15 @@ public class Minesweeper
 
     private static void DrawGameField(char[,] field)
     {
-        int NumberOfRows = field.GetLength(0);
-        int NumberOfCols = field.GetLength(1);
+        int numberOfRows = field.GetLength(0);
+        int numberOfCols = field.GetLength(1);
 
         Console.WriteLine("\n    0 1 2 3 4 5 6 7 8 9");
         Console.WriteLine("   ---------------------");
-        for (int i = 0; i < NumberOfRows; i++)
+        for (int i = 0; i < numberOfRows; i++)
         {
             Console.Write("{0} | ", i);
-            for (int j = 0; j < NumberOfCols; j++)
+            for (int j = 0; j < numberOfCols; j++)
             {
                 Console.Write(string.Format("{0} ", field[i, j]));
             }
@@ -219,7 +223,7 @@ public class Minesweeper
         Console.WriteLine("   ---------------------\n");
     }
 
-    private static char[,] createGameField()
+    private static char[,] CreateGameField()
     {
         int fieldRows = 5;
         int fieldColumns = 10;
@@ -262,8 +266,8 @@ public class Minesweeper
 
         foreach (int location in bombsLocation)
         {
-            int col = (location / cols);
-            int row = (location % cols);
+            int col = location / cols;
+            int row = location % cols;
             if (row == 0 && location != 0)
             {
                 col--;
@@ -273,6 +277,7 @@ public class Minesweeper
             {
                 row++;
             }
+
             gameField[col, row - 1] = '*';
         }
 
@@ -310,6 +315,7 @@ public class Minesweeper
                 amount++;
             }
         }
+
         if (row + 1 < rows)
         {
             if (bombField[row + 1, col] == '*')
@@ -317,6 +323,7 @@ public class Minesweeper
                 amount++;
             }
         }
+
         if (col - 1 >= 0)
         {
             if (bombField[row, col - 1] == '*')
@@ -324,6 +331,7 @@ public class Minesweeper
                 amount++;
             }
         }
+
         if (col + 1 < cols)
         {
             if (bombField[row, col + 1] == '*')
@@ -331,12 +339,14 @@ public class Minesweeper
                 amount++;
             }
         }
+
         if ((row - 1 >= 0) && (col - 1 >= 0))
         {
             if (bombField[row - 1, col - 1] == '*')
             {
                 amount++;
             }
+
         }
         if ((row - 1 >= 0) && (col + 1 < cols))
         {
@@ -345,6 +355,7 @@ public class Minesweeper
                 amount++;
             }
         }
+
         if ((row + 1 < rows) && (col - 1 >= 0))
         {
             if (bombField[row + 1, col - 1] == '*')
@@ -352,6 +363,7 @@ public class Minesweeper
                 amount++;
             }
         }
+
         if ((row + 1 < rows) && (col + 1 < cols))
         {
             if (bombField[row + 1, col + 1] == '*')
@@ -363,4 +375,3 @@ public class Minesweeper
         return char.Parse(amount.ToString());
     }
 }
-

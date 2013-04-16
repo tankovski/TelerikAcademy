@@ -4,3 +4,6 @@ E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\`BoolToSt
 E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\`BoolToString\obj\Debug\1.BoolToString.csprojResolveAssemblyReference.cache
 E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\`BoolToString\obj\Debug\`BoolToString.exe
 E:\Uroci\High-Quality-Code\Lesson3-NamingIdentifiers\Homework\Homework\`BoolToString\obj\Debug\`BoolToString.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\HighQualityCode\NamingIdentifiers\Homework\`BoolToString\bin\Debug\`BoolToString.exe.config
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\HighQualityCode\NamingIdentifiers\Homework\`BoolToString\obj\Debug\`BoolToString.exe
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\HighQualityCode\NamingIdentifiers\Homework\`BoolToString\obj\Debug\`BoolToString.pdb
