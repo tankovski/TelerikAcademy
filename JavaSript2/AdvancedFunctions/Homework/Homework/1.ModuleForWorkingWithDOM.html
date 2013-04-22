@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ModuleForWorkingWithDOM</title>
+</head>
+<body>
+    <div id="Wrapper" style="height: 30px; background-color: blue;">
+        <p id="paragraph"></p>
+    </div>
+    <div class="divs">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </div>
+    <div class="divs">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </div>
+    <div class="divs"></div>
+    <div class="divs"></div>
+
+    <a href="#" class="button">Button</a>
+
+    <script>
+        var div = document.createElement("div");
+        div.style.height = "10px";
+        div.style.backgroundColor = "red";
+
+
+        var domModule = module();
+        domModule.appendChild(div, "#Wrapper");
+        domModule.removeChild("ul", "li:first-of-type");
+        domModule.addHandler("a.button", 'click', function () { alert("Clicked!") });
+        function module() {
+            function appendChild(child, parentSelector) {
+                var parent = document.querySelectorAll(parentSelector);
+                for (var i = 0; i < parent.length; i++) {
+                    parent[i].appendChild(child);
+                }
+            }
+
+            function removeChild(parentSelector, elementForRemoving) {
+                var parent = document.querySelectorAll(parentSelector);
+
+                for (var i = 0; i < parent.length; i++) {
+                    var child = parent[i].querySelectorAll(elementForRemoving);
+                    for (var j = 0; j < child.length; j++) {
+                        parent[i].removeChild(child[j]);
+                    }
+                }
+            }
+
+            function addHandler(elementSelector, event, eventHandler) {
+                var element = document.querySelector(elementSelector);
+                element.addEventListener(event, eventHandler, true);
+            }
+
+            return {
+                appendChild: appendChild,
+                removeChild: removeChild,
+                addHandler: addHandler
+            }
+        }
+    </script>
+</body>
+</html>
