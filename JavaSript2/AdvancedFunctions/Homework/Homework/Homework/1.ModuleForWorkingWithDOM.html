@@ -27,15 +27,17 @@
     <a href="#" class="button">Button</a>
 
     <script>
+        var fragmentsBuffer = [];
+        var MAX_FRAGMENT_SIZE = 100;
         var div = document.createElement("div");
         div.style.height = "10px";
         div.style.backgroundColor = "red";
-
 
         var domModule = module();
         domModule.appendChild(div, "#Wrapper");
         domModule.removeChild("ul", "li:first-of-type");
         domModule.addHandler("a.button", 'click', function () { alert("Clicked!") });
+
         function module() {
             function appendChild(child, parentSelector) {
                 var parent = document.querySelectorAll(parentSelector);
@@ -60,10 +62,32 @@
                 element.addEventListener(event, eventHandler, true);
             }
 
+            function addElementViaBuffer(parentSelector, tagName, attributes, innerHTML) {
+
+                if (!fragmentsBuffer[parentSelector]) {
+                    // there isn't a fragment for this selector - create one
+                    fragmentsBuffer[parentSelector] = document.createDocumentFragment();
+                }
+
+                var element = createElement(tagName, attributes, innerHTML);
+
+                // append the element in the fragment
+                fragmentsBuffer[parentSelector].appendChild(element);
+
+                if (fragmentsBuffer[parentSelector].childNodes.length === MAX_FRAGMENT_SIZE) {
+                    // the fragment has reached its maximum size, append it 
+                    // to the DOM tree and empty it
+                    var parent = getElement(parentSelector);
+                    parent.appendChild(fragmentsBuffer[parentSelector]);
+                    // empty the document fragment
+                    fragmentsBuffer[parentSelector] = null;
+                }
+            }
             return {
                 appendChild: appendChild,
                 removeChild: removeChild,
-                addHandler: addHandler
+                addHandler: addHandler,
+                addElementViaBuffer: addElementViaBuffer
             }
         }
     </script>

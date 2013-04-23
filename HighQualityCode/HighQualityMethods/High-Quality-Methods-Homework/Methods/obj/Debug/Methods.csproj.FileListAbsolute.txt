@@ -1,0 +1,5 @@
+E:\Uroci\High-Quality-Code\Lesson7-HighQualityMethods\7. High-Quality-Methods-Homework\Methods\bin\Debug\Methods.exe
+E:\Uroci\High-Quality-Code\Lesson7-HighQualityMethods\7. High-Quality-Methods-Homework\Methods\bin\Debug\Methods.pdb
+E:\Uroci\High-Quality-Code\Lesson7-HighQualityMethods\7. High-Quality-Methods-Homework\Methods\obj\Debug\Methods.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson7-HighQualityMethods\7. High-Quality-Methods-Homework\Methods\obj\Debug\Methods.exe
+E:\Uroci\High-Quality-Code\Lesson7-HighQualityMethods\7. High-Quality-Methods-Homework\Methods\obj\Debug\Methods.pdb

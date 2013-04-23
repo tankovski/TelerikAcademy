@@ -1,0 +1,6 @@
+E:\Uroci\High-Quality-Code\Lesson5-UsingVariables,Data,ExpressionsAndConstants\Homework\Homework\RefacktorClassSizeAndMethodRotatedSize\bin\Debug\RefacktorClassSizeAndMethodRotatedSize.exe.config
+E:\Uroci\High-Quality-Code\Lesson5-UsingVariables,Data,ExpressionsAndConstants\Homework\Homework\RefacktorClassSizeAndMethodRotatedSize\bin\Debug\RefacktorClassSizeAndMethodRotatedSize.exe
+E:\Uroci\High-Quality-Code\Lesson5-UsingVariables,Data,ExpressionsAndConstants\Homework\Homework\RefacktorClassSizeAndMethodRotatedSize\bin\Debug\RefacktorClassSizeAndMethodRotatedSize.pdb
+E:\Uroci\High-Quality-Code\Lesson5-UsingVariables,Data,ExpressionsAndConstants\Homework\Homework\RefacktorClassSizeAndMethodRotatedSize\obj\Debug\1.RefacktorClassSizeAndMethodRotatedSize.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson5-UsingVariables,Data,ExpressionsAndConstants\Homework\Homework\RefacktorClassSizeAndMethodRotatedSize\obj\Debug\RefacktorClassSizeAndMethodRotatedSize.exe
+E:\Uroci\High-Quality-Code\Lesson5-UsingVariables,Data,ExpressionsAndConstants\Homework\Homework\RefacktorClassSizeAndMethodRotatedSize\obj\Debug\RefacktorClassSizeAndMethodRotatedSize.pdb

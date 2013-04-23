@@ -1,0 +1,5 @@
+E:\Uroci\High-Quality-Code\Lesson8-HighQualityClasses\8. High-Quality-Classes-Homework\Abstraction\bin\Debug\Abstraction.exe
+E:\Uroci\High-Quality-Code\Lesson8-HighQualityClasses\8. High-Quality-Classes-Homework\Abstraction\bin\Debug\Abstraction.pdb
+E:\Uroci\High-Quality-Code\Lesson8-HighQualityClasses\8. High-Quality-Classes-Homework\Abstraction\obj\Debug\Abstraction.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson8-HighQualityClasses\8. High-Quality-Classes-Homework\Abstraction\obj\Debug\Abstraction.exe
+E:\Uroci\High-Quality-Code\Lesson8-HighQualityClasses\8. High-Quality-Classes-Homework\Abstraction\obj\Debug\Abstraction.pdb

@@ -1,0 +1,5 @@
+E:\Uroci\High-Quality-Code\Lesson8-HighQualityClasses\8. High-Quality-Classes-Homework\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson8-HighQualityClasses\8. High-Quality-Classes-Homework\Inheritance-and-Polymorphism\bin\Debug\Inheritance-and-Polymorphism.exe
+E:\Uroci\High-Quality-Code\Lesson8-HighQualityClasses\8. High-Quality-Classes-Homework\Inheritance-and-Polymorphism\bin\Debug\Inheritance-and-Polymorphism.pdb
+E:\Uroci\High-Quality-Code\Lesson8-HighQualityClasses\8. High-Quality-Classes-Homework\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.exe
+E:\Uroci\High-Quality-Code\Lesson8-HighQualityClasses\8. High-Quality-Classes-Homework\Inheritance-and-Polymorphism\obj\Debug\Inheritance-and-Polymorphism.pdb

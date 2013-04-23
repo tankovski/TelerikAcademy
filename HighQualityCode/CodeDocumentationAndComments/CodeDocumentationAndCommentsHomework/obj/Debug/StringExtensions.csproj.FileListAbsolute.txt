@@ -1,0 +1,6 @@
+E:\Uroci\High-Quality-Code\Lesson4-CodeDocumentationAndComments\4. Code Documentation and Comments Homework\bin\Debug\StringExtensions.dll
+E:\Uroci\High-Quality-Code\Lesson4-CodeDocumentationAndComments\4. Code Documentation and Comments Homework\bin\Debug\StringExtensions.pdb
+E:\Uroci\High-Quality-Code\Lesson4-CodeDocumentationAndComments\4. Code Documentation and Comments Homework\obj\Debug\StringExtensions.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson4-CodeDocumentationAndComments\4. Code Documentation and Comments Homework\obj\Debug\StringExtensions.dll
+E:\Uroci\High-Quality-Code\Lesson4-CodeDocumentationAndComments\4. Code Documentation and Comments Homework\obj\Debug\StringExtensions.pdb
+E:\Uroci\High-Quality-Code\Lesson4-CodeDocumentationAndComments\4. Code Documentation and Comments Homework\bin\Debug\StringExtensions.XML
