@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Trash</title>
+    <link href="TrashStyles.css" rel="stylesheet" />
+
+</head>
+<body ondrop="askForName()">
+    <img src="imgs/closed2.png" id="trash" draggable="false" ondragover="openTrash(event)" ondragleave="dragFinish()" ondrop="drop(event)" />
+    <img src="imgs/junk.png" class="junk" id="first" draggable="true" ondragstart="drag(event)" />
+    <img src="imgs/junk.png" class="junk" id="second" draggable="true" ondragstart="drag(event)" />
+    <img src="imgs/junk.png" class="junk" id="third" draggable="true" ondragstart="drag(event)" />
+    <img src="imgs/junk.png" class="junk" id="fourth" draggable="true" ondragstart="drag(event)" />
+    <img src="imgs/junk.png" class="junk" id="fifth" draggable="true" ondragstart="drag(event)" />
+    <img src="imgs/junk.png" class="junk" id="sixth" draggable="true" ondragstart="drag(event)" />
+    <h2>Champions</h2>
+    <div id="resultContaier">
+    </div>
+    <script src="TrashJS.js"></script>
+</body>
+</html>

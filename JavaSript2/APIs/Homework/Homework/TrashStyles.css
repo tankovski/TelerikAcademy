@@ -1,0 +1,34 @@
+﻿body {
+}
+
+#trash {
+    height: 300px;
+    width: 200px;
+}
+
+.junk {
+    width: 30px;
+    height: 30px;
+}
+
+#resultContaier {
+    width: 300px;
+    min-height: 200px;
+    padding:10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display:inline-block;
+    position:absolute;
+    top:50px;
+    left:800px;
+    text-align:center;
+    color:red;
+    font-size:1.2em;
+}
+h2 {
+    position:absolute;
+    top:0px;
+    left:900px;
+    color:black;
+}
+

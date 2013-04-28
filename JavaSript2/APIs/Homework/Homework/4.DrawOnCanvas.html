@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <canvas width="800" height="500">
+        Canvas not supported
+    </canvas>
+
+    <script>
+        var canvas = document.getElementsByTagName("canvas")[0].getContext("2d");
+        canvas.lineWidth = 1;
+        canvas.fillStyle = "#90CAD7";
+        canvas.strokeStyle = "#234C56";
+
+        //Draw head
+        canvas.arc(115, 185, 50, 0, 2 * Math.PI, false);
+        canvas.fill();
+        canvas.stroke();
+
+        //Draw eyes
+        canvas.lineWidth = 2;
+        canvas.fillStyle = "#234C56";
+        drawEllipse(canvas, 80, 175, 20, 12);
+        drawEllipse(canvas, 83, 177, 4, 8);
+        canvas.fill();
+        drawEllipse(canvas, 115, 175, 20, 12);
+        drawEllipse(canvas, 118, 177, 4, 8);
+        canvas.fill();
+
+        //Draw noze
+        canvas.beginPath();
+        canvas.moveTo(110, 180);
+        canvas.lineTo(100, 200);
+        canvas.lineTo(110, 200);
+        canvas.stroke();
+
+        //Draw mouth
+        drawEllipse(canvas, 90, 210, 40, 15);
+
+        //Draw the hat    
+        canvas.lineWidth = 2;
+        canvas.fillStyle = "#396693";
+        canvas.strokeStyle = "black";
+
+        canvas.fillRect(90, 95, 50, 46);
+        canvas.strokeRect(90, 95, 50, 46);
+        drawEllipse(canvas, 90, 80, 50, 30);    
+        canvas.fill();
+        canvas.stroke();
+        
+        drawEllipse(canvas, 68, 130, 90, 35);
+        canvas.fill();
+        drawEllipse(canvas, 86, 126, 56, 30);
+        canvas.fill();
+        canvas.clearRect(91, 112, 48, 35);
+        canvas.fillRect(91, 112, 48, 35);
+
+
+        //Draw bike tires
+        canvas.lineWidth = 2;
+        canvas.fillStyle = "#90CAD7";
+        canvas.strokeStyle = "#234C56";
+
+        canvas.beginPath();
+        canvas.arc(55, 445, 50, 0, 2 * Math.PI, false);
+        canvas.fill();
+        canvas.stroke();
+        canvas.beginPath();
+        canvas.arc(300, 445, 50, 0, 2 * Math.PI, false);
+        canvas.fill();
+        canvas.stroke();
+
+        //Draw bike
+        canvas.beginPath();
+        canvas.moveTo(55, 445);
+        canvas.lineTo(150, 445);
+        canvas.lineTo(284, 380);
+        canvas.lineTo(130, 380);
+        canvas.lineTo(55, 445);
+        canvas.moveTo(150, 445);
+        canvas.lineTo(115, 340);
+        canvas.moveTo(95, 340);
+        canvas.lineTo(135, 340);
+        canvas.moveTo(300, 445);
+        canvas.lineTo(270, 330);
+        canvas.lineTo(235, 345);
+        canvas.moveTo(270, 330);
+        canvas.lineTo(290, 305);
+        canvas.stroke();
+
+        //Draw house body
+        canvas.lineWidth = 2;
+        canvas.fillStyle = "#975B5B";
+        canvas.strokeStyle = "black";
+
+        canvas.fillRect(500, 200, 250, 250);
+        canvas.strokeRect(500, 200, 250, 250);
+        canvas.beginPath();
+
+        //Draw roof
+        canvas.beginPath();
+        canvas.moveTo(500, 200);
+        canvas.lineTo(625, 75);
+        canvas.lineTo(750, 200);
+        canvas.fill();
+        canvas.stroke();
+        canvas.beginPath();
+        canvas.fillRect(680, 105, 20, 70);
+        canvas.moveTo(680, 175);
+        canvas.lineTo(680, 105);
+        canvas.moveTo(700, 105);
+        canvas.lineTo(700, 175);
+        canvas.stroke();
+
+        drawEllipse(canvas, 680, 101, 20, 10);
+        canvas.fill();
+
+
+        //Draw door
+        drawEllipse(canvas, 530, 320, 70, 30);
+        canvas.clearRect(528, 335, 75, 20);
+        canvas.fillRect(528, 335, 75, 20);
+
+        canvas.beginPath();
+        canvas.moveTo(530, 335);
+        canvas.lineTo(530, 450);
+        canvas.moveTo(600, 335);
+        canvas.lineTo(600, 450);
+        canvas.moveTo(565, 320);
+        canvas.lineTo(565, 450);
+        canvas.stroke();
+        canvas.beginPath();
+        canvas.arc(550, 420, 5, 0, 2 * Math.PI, false);
+        canvas.stroke();
+        canvas.beginPath();
+        canvas.arc(580, 420, 5, 0, 2 * Math.PI, false);
+        canvas.stroke();
+      
+        //Draw windows
+        canvas.fillStyle = "black";
+        canvas.fillRect(520, 270, 40, 25);
+        canvas.fillRect(520, 240, 40, 25);
+        canvas.fillRect(565, 270, 40, 25);
+        canvas.fillRect(565, 240, 40, 25);
+
+        canvas.fillRect(630, 270, 40, 25);
+        canvas.fillRect(630, 240, 40, 25);
+        canvas.fillRect(675, 270, 40, 25);
+        canvas.fillRect(675, 240, 40, 25);
+
+        canvas.fillRect(630, 360, 40, 25);
+        canvas.fillRect(630, 330, 40, 25);
+        canvas.fillRect(675, 360, 40, 25);
+        canvas.fillRect(675, 330, 40, 25);
+
+        
+
+
+        function drawEllipse(ctx, x, y, w, h) {
+            var kappa = .5522848,
+                ox = (w / 2) * kappa, // control point offset horizontal
+                oy = (h / 2) * kappa, // control point offset vertical
+                xe = x + w,           // x-end
+                ye = y + h,           // y-end
+                xm = x + w / 2,       // x-middle
+                ym = y + h / 2;       // y-middle
+
+            ctx.beginPath();
+            ctx.moveTo(x, ym);
+            ctx.bezierCurveTo(x, ym - oy, xm - ox, y, xm, y);
+            ctx.bezierCurveTo(xm + ox, y, xe, ym - oy, xe, ym);
+            ctx.bezierCurveTo(xe, ym + oy, xm + ox, ye, xm, ye);
+            ctx.bezierCurveTo(xm - ox, ye, x, ym + oy, x, ym);
+            ctx.closePath();
+            ctx.stroke();
+        }
+    </script>
+</body>
+</html>
