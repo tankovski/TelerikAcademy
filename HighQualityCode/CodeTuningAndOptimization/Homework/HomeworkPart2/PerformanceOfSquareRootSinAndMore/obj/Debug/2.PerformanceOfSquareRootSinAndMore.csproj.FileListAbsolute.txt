@@ -1,0 +1,3 @@
+E:\Uroci\High-Quality-Code\Homework\HomeworkPart2\PerformanceOfSquareRootSinAndMore\bin\Debug\PerformanceOfSquareRootSinAndNaturalLogarithm.exe.config
+E:\Uroci\High-Quality-Code\Homework\HomeworkPart2\PerformanceOfSquareRootSinAndMore\obj\Debug\PerformanceOfSquareRootSinAndNaturalLogarithm.exe
+E:\Uroci\High-Quality-Code\Homework\HomeworkPart2\PerformanceOfSquareRootSinAndMore\obj\Debug\PerformanceOfSquareRootSinAndNaturalLogarithm.pdb

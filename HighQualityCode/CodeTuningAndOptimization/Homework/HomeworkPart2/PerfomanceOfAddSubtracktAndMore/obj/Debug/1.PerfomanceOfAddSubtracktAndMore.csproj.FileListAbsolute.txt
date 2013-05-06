@@ -1,0 +1,9 @@
+E:\Uroci\High-Quality-Code\Lesson10-CodeTuningAndOptimization\Homework\HomeworkPart2\PerfomanceOfAddSubtracktAndMore\bin\Debug\PerfomanceOfAddSubtracktAndMore.exe.config
+E:\Uroci\High-Quality-Code\Lesson10-CodeTuningAndOptimization\Homework\HomeworkPart2\PerfomanceOfAddSubtracktAndMore\bin\Debug\PerfomanceOfAddSubtracktAndMore.exe
+E:\Uroci\High-Quality-Code\Lesson10-CodeTuningAndOptimization\Homework\HomeworkPart2\PerfomanceOfAddSubtracktAndMore\bin\Debug\PerfomanceOfAddSubtracktAndMore.pdb
+E:\Uroci\High-Quality-Code\Lesson10-CodeTuningAndOptimization\Homework\HomeworkPart2\PerfomanceOfAddSubtracktAndMore\obj\Debug\1.PerfomanceOfAddSubtracktAndMore.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson10-CodeTuningAndOptimization\Homework\HomeworkPart2\PerfomanceOfAddSubtracktAndMore\obj\Debug\PerfomanceOfAddSubtracktAndMore.exe
+E:\Uroci\High-Quality-Code\Lesson10-CodeTuningAndOptimization\Homework\HomeworkPart2\PerfomanceOfAddSubtracktAndMore\obj\Debug\PerfomanceOfAddSubtracktAndMore.pdb
+E:\Uroci\High-Quality-Code\Homework\HomeworkPart2\PerfomanceOfAddSubtracktAndMore\bin\Debug\PerfomanceOfAddSubtracktAndMore.exe.config
+E:\Uroci\High-Quality-Code\Homework\HomeworkPart2\PerfomanceOfAddSubtracktAndMore\obj\Debug\PerfomanceOfAddSubtracktAndMore.exe
+E:\Uroci\High-Quality-Code\Homework\HomeworkPart2\PerfomanceOfAddSubtracktAndMore\obj\Debug\PerfomanceOfAddSubtracktAndMore.pdb

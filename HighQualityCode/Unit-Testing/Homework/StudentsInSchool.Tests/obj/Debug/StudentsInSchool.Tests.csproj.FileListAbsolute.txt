@@ -1,0 +1,7 @@
+E:\Uroci\High-Quality-Code\Leson11-UintTesting\Homework\Homework\StudentsInSchool.Tests\bin\Debug\StudentsInSchool.Tests.dll
+E:\Uroci\High-Quality-Code\Leson11-UintTesting\Homework\Homework\StudentsInSchool.Tests\bin\Debug\StudentsInSchool.Tests.pdb
+E:\Uroci\High-Quality-Code\Leson11-UintTesting\Homework\Homework\StudentsInSchool.Tests\bin\Debug\StudentsInSchool.exe
+E:\Uroci\High-Quality-Code\Leson11-UintTesting\Homework\Homework\StudentsInSchool.Tests\bin\Debug\StudentsInSchool.pdb
+E:\Uroci\High-Quality-Code\Leson11-UintTesting\Homework\Homework\StudentsInSchool.Tests\obj\Debug\StudentsInSchool.Tests.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Leson11-UintTesting\Homework\Homework\StudentsInSchool.Tests\obj\Debug\StudentsInSchool.Tests.dll
+E:\Uroci\High-Quality-Code\Leson11-UintTesting\Homework\Homework\StudentsInSchool.Tests\obj\Debug\StudentsInSchool.Tests.pdb

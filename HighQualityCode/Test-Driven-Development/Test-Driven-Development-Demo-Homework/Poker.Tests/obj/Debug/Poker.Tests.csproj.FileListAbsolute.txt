@@ -1,0 +1,14 @@
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\Poker.Tests\bin\Debug\Poker.Tests.dll
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\Poker.Tests\bin\Debug\Poker.Tests.pdb
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\Poker.Tests\bin\Debug\Poker.exe
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\Poker.Tests\bin\Debug\Poker.pdb
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\Poker.Tests\obj\Debug\Poker.Tests.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\Poker.Tests\obj\Debug\Poker.Tests.dll
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\Poker.Tests\obj\Debug\Poker.Tests.pdb
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\Poker.Tests\bin\Debug\Poker.Tests.dll
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\Poker.Tests\bin\Debug\Poker.Tests.pdb
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\Poker.Tests\bin\Debug\Poker.exe
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\Poker.Tests\bin\Debug\Poker.pdb
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\Poker.Tests\obj\Debug\Poker.Tests.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\Poker.Tests\obj\Debug\Poker.Tests.dll
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\Poker.Tests\obj\Debug\Poker.Tests.pdb

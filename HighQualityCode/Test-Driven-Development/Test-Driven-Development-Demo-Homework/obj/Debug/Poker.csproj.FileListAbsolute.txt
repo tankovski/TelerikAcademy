@@ -1,0 +1,5 @@
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\bin\Debug\Poker.exe
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\bin\Debug\Poker.pdb
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\obj\Debug\Poker.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\obj\Debug\Poker.exe
+E:\Uroci\High-Quality-Code\Lesson12-Test-Driven-Development\11. Test-Driven-Development-Demo-Homework\obj\Debug\Poker.pdb

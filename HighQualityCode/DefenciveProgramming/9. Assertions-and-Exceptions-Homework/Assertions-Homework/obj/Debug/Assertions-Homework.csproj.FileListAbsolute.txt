@@ -1,0 +1,5 @@
+E:\Uroci\High-Quality-Code\Lesson9-DefensivePrograming\9. Assertions-and-Exceptions-Homework\Assertions-Homework\bin\Debug\Assertions-Homework.exe
+E:\Uroci\High-Quality-Code\Lesson9-DefensivePrograming\9. Assertions-and-Exceptions-Homework\Assertions-Homework\bin\Debug\Assertions-Homework.pdb
+E:\Uroci\High-Quality-Code\Lesson9-DefensivePrograming\9. Assertions-and-Exceptions-Homework\Assertions-Homework\obj\Debug\Assertions-Homework.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson9-DefensivePrograming\9. Assertions-and-Exceptions-Homework\Assertions-Homework\obj\Debug\Assertions-Homework.exe
+E:\Uroci\High-Quality-Code\Lesson9-DefensivePrograming\9. Assertions-and-Exceptions-Homework\Assertions-Homework\obj\Debug\Assertions-Homework.pdb
