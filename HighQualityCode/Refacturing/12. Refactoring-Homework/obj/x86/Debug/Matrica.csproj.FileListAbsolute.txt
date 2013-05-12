@@ -1,0 +1,5 @@
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\bin\Debug\GameFifteen.exe
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\bin\Debug\GameFifteen.pdb
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\obj\x86\Debug\Matrica.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\obj\x86\Debug\GameFifteen.exe
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\obj\x86\Debug\GameFifteen.pdb

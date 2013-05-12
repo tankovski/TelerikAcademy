@@ -1,0 +1,7 @@
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\WalkInMatrix.Tests\bin\Debug\WalkInMatrix.Tests.dll
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\WalkInMatrix.Tests\bin\Debug\WalkInMatrix.Tests.pdb
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\WalkInMatrix.Tests\bin\Debug\GameFifteen.exe
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\WalkInMatrix.Tests\bin\Debug\GameFifteen.pdb
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\WalkInMatrix.Tests\obj\Debug\WalkInMatrix.Tests.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\WalkInMatrix.Tests\obj\Debug\WalkInMatrix.Tests.dll
+E:\Uroci\High-Quality-Code\Lesson14-Refacturing\12. Refactoring-Homework\WalkInMatrix.Tests\obj\Debug\WalkInMatrix.Tests.pdb
