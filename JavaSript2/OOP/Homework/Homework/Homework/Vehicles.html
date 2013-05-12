@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="PropulsionUnit.js"></script>
+    <script src="InheritFunction.js"></script>
+    <script src="Vehicle.js"></script>
+    <script src="Wheel.js"></script>
+    <script src="LandVehicle.js"></script>
+    <script src="PropellingNozzle.js"></script>
+    <script src="AirVehicle.js"></script>
+    <script src="Propeller.js"></script>
+    <script src="WaterVehicle.js"></script>
+    <script src="ExtendFunction.js"></script>
+    <script src="Amphibious.js"></script>
+</head>
+<body>
+    <script>
+        var wheels = [
+            new Wheel(10),
+            new Wheel(10),
+            new Wheel(10),
+            new Wheel(10)
+        ];
+
+        var bmw = new LandVehicle(100, wheels);
+        console.log("Land Vehicle speed: "+bmw.speed + "km/h");
+        bmw.accelerate();
+        console.log("Land Vehicle speed after acceleration: "+bmw.speed + "km/h");
+
+        var propellingNozzle = new PropellingNozzle(1000, "off");
+
+        var boing = new AirVehicle(300, [propellingNozzle]);
+        console.log("Air vehicle speed:" + boing.speed + "km/h");
+        boing.accelerate();
+        console.log("Air vehicle speed with afterburn off:" + boing.speed + "km/h");
+        boing.switchAfterburners("on");
+        boing.accelerate();
+        console.log("Air vehicle speed with afterburn on:" + boing.speed + "km/h");
+
+        var propeller = new Propeller(10, "clockwise");
+
+        var motorBoat = new WaterVehicle(100, [propeller]);
+        console.log("Water vehicle speed: " + motorBoat.speed + "km/h");
+        motorBoat.accelerate();
+        console.log("Water vehicle speed after acceleration with spin direction clockwise: " + motorBoat.speed + "km/h");
+        motorBoat.changeSpinDirection("counter-clockwise");
+        motorBoat.accelerate();
+        console.log("Water vehicle speed after acceleration with spin direction counter-clockwise: " + motorBoat.speed + "km/h");
+
+        var Amphibious = new Amphibious(100, [new Wheel(10), new Wheel(10), new Wheel(10),
+            new Wheel(10), new Propeller(10, "clockwise")],"land");
+        console.log("Amphibious speed:" + Amphibious.speed + "km/h");
+        Amphibious.accelerate();
+        console.log("Amphibious speed after acceleration on land mode:" + Amphibious.speed + "km/h");
+        Amphibious.switchMode("water");
+        Amphibious.accelerate();
+        console.log("Amphibious speed after acceleration on water mode with spin direction clockwise:"
+            + Amphibious.speed + "km/h");
+        Amphibious.changeSpinDirection("counter-clockwise");
+        Amphibious.accelerate();
+        console.log("Amphibious speed after acceleration on water mode with spin direction counter-clockwise:"
+            + Amphibious.speed + "km/h");
+      
+
+     
+    </script>
+</body>
+</html>

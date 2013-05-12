@@ -1,0 +1,5 @@
+E:\Uroci\JavaScript2\Lesson3-JavaScriptOOP\Homework\Homework\Homework\bin\Homework.dll
+E:\Uroci\JavaScript2\Lesson3-JavaScriptOOP\Homework\Homework\Homework\bin\Homework.pdb
+E:\Uroci\JavaScript2\Lesson3-JavaScriptOOP\Homework\Homework\Homework\obj\Debug\Homework.csprojResolveAssemblyReference.cache
+E:\Uroci\JavaScript2\Lesson3-JavaScriptOOP\Homework\Homework\Homework\obj\Debug\Homework.dll
+E:\Uroci\JavaScript2\Lesson3-JavaScriptOOP\Homework\Homework\Homework\obj\Debug\Homework.pdb

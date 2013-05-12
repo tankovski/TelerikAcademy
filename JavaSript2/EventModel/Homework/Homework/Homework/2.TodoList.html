@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="TodoListStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="menu">
+        <input type="text" id="textInput" />
+        <a href="#" id="add" onclick="add()">Add</a>
+        <br />
+        <a href="#" id="delete" onclick="deleteElement()">Delete</a>
+        <a href="#" id="hide" onclick="hideElements()">Hide</a>
+        <a href="#" id="showAll" onclick="showAllElements()">ShowAll</a>
+        <div id="container"></div>
+    </div>
+    <script>
+        var count = 0;
+        var countainer = document.getElementById("container");
+        document.body.appendChild(container);
+
+        function add() {
+            count++;
+            var input = document.getElementById("textInput");
+            var title = input.value.toString();
+
+            if (title.length>0) {
+
+
+                var label = document.createElement("label");
+                label.innerText = title;
+                label.htmlFor = count;
+
+                var checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.id = count;
+
+                var newLine = document.createElement("br");
+
+                input.value = "";
+                container.appendChild(checkbox);
+                container.appendChild(label);
+                container.appendChild(newLine);
+            }
+        }
+
+        function deleteElement() {  
+            var checkboxes = container.querySelectorAll("input[type=checkbox]");
+            var labels = container.getElementsByTagName("label");
+            var newLines = container.getElementsByTagName("br");
+            var elementsForDeleting = [];
+            var lenght = checkboxes.length;
+            for (var i = 0; i < lenght; i++) {
+
+                if (checkboxes[i].checked == true && checkboxes[i].style.display != "none") {
+                    elementsForDeleting.push(checkboxes[i]);
+                    elementsForDeleting.push(labels[i]);
+                    elementsForDeleting.push(newLines[i]);
+                }
+            }
+
+            for (var i = 0; i < elementsForDeleting.length; i++) {
+                container.removeChild(elementsForDeleting[i]);
+            }
+        }
+
+
+        function hideElements() {
+            var checkboxes = container.querySelectorAll("input[type=checkbox]");
+            var labels = container.getElementsByTagName("label");
+            var newLines = container.getElementsByTagName("br");
+            var elementsForDeleting = [];
+            var lenght = checkboxes.length;
+            for (var i = 0; i < lenght; i++) {
+
+                if (checkboxes[i].checked == true) {
+                    checkboxes[i].style.display="none";
+                    labels[i].style.display = "none";
+                    newLines[i].style.display = "none";
+                }
+            }                  
+        }
+
+        function showAllElements() {
+            var checkboxes = container.querySelectorAll("input[type=checkbox]");
+            var labels = container.getElementsByTagName("label");
+            var newLines = container.getElementsByTagName("br");
+            var elementsForDeleting = [];
+            var lenght = checkboxes.length;
+            for (var i = 0; i < lenght; i++) {
+
+                if (checkboxes[i].style.display == "none") {
+                    checkboxes[i].style.display = "inline-block";
+                    labels[i].style.display = "inline-block";
+                    newLines[i].style.display = "block";
+                }
+            }
+        }
+    </script>
+</body>
+</html>

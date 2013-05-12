@@ -1,0 +1,7 @@
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\Log4Net\bin\Debug\Log4Net.exe.config
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\Log4Net\bin\Debug\Log4Net.exe
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\Log4Net\bin\Debug\Log4Net.pdb
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\Log4Net\bin\Debug\log4net.dll
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\Log4Net\obj\Debug\Log4Net.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\Log4Net\obj\Debug\Log4Net.exe
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\Log4Net\obj\Debug\Log4Net.pdb

@@ -1,0 +1,28 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+using System;
+
+namespace TemplateDemo
+{
+	class SimpleTemplate
+	{
+		<# for(int i = 0; i < 3; i++) { #>
+		private int item<#=i#>;
+		<# } #>
+
+		<# for(int i = 0; i < 3; i++) { #>
+		public int Item<#=i#> {
+	    get
+		{
+		return this.item<#=i#>;
+		} 
+		private set 
+		{
+		}
+		}
+		<# } #>
+	}
+}

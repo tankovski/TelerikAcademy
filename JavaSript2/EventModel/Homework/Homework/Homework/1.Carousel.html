@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Carousel</title>
+</head>
+<body>
+    <script>
+        var rightTimer;
+        var leftTimer;
+        var moveRight = true;
+        var moveLeft = false;
+        document.body.style.background = "#ABCEF4";
+        document.getElementById
+        //Create div for picture container
+        var div = document.createElement("div");
+        div.style.position = "absolute";
+        div.style.top = "30px";
+        div.style.left = "150px";
+        div.style.width = "400px";
+        div.style.height = "300px";
+
+        //Make some pictures and add them to our div
+        var photo1 = document.createElement("img");
+        photo1.src = "imgs/wolf1.jpg";
+        div.appendChild(photo1);
+        var photo2 = document.createElement("img");
+        photo2.src = "imgs/wolf2.jpg";
+        div.appendChild(photo2);
+        var photo3 = document.createElement("img");
+        photo3.src = "imgs/wolf3.jpg";
+        div.appendChild(photo3);
+        var photo4 = document.createElement("img");
+        photo4.src = "imgs/wolf4.jpg";
+        div.appendChild(photo4);
+
+        document.body.appendChild(div);
+
+        //Hide all of then except first one
+        createCarousel();
+
+        function createCarousel() {
+            var photos = div.getElementsByTagName("img");
+            var length = photos.length;
+            for (var i = 0; i < length; i++) {
+                photos[i].style.width = "400px";
+                photos[i].style.height = "300px";
+                photos[i].style.display = "none";
+            }
+
+            photos[0].style.display = "inline-block";
+            moveRightDirection();
+        };
+
+        //On click start move right and stop move left 
+        function moveRightDirection() {
+            clearInterval(leftTimer);
+
+            var photos = div.getElementsByTagName("img");
+            var length = photos.length;
+            var count;
+            for (var i = 0; i < length; i++) {
+                if (photos[i].style.display != "none") {
+                    count = i;
+                }
+            }
+           
+                rightTimer = setInterval(function () {                 
+                    if (count == length - 1) {
+                        photos[count].style.display = "none";
+                        count = 0;
+                        photos[count].style.display = "inline-block";
+                    }
+                    else {
+                        photos[count].style.display = "none";
+                        photos[count + 1].style.display = "inline-block";
+                        count++;
+                    }
+                }, 1000);
+            }
+
+        //On click start move left and stop right
+        function moveLeftDirection() {
+            clearInterval(rightTimer);
+
+            var photos = div.getElementsByTagName("img");
+            var length = photos.length;
+            var count;
+            for (var i = 0; i < length; i++) {
+                if (photos[i].style.display != "none") {
+                    count = i;
+                }
+            }
+
+                leftTimer = setInterval(function () {
+                    if (count == 0) {
+                        photos[count].style.display = "none";
+                        count = length - 1;
+                        photos[count].style.display = "inline-block";
+                    }
+                    else {
+                        photos[count].style.display = "none";
+                        photos[count - 1].style.display = "inline-block";
+                        count--;
+                    }
+
+                }, 1000);
+            }
+        
+
+        //Making right arrow button with attached event for changing picture with next
+        var rightArrow = document.createElement("a");
+        rightArrow.href = "#";
+        rightArrow.style.display = "inline-block";
+        rightArrow.style.width = "50px";
+        rightArrow.style.height = "50px";
+        rightArrow.style.background = "url('imgs/RightArrow.png') 0 0 no-repeat";
+        rightArrow.style.position = "absolute";
+        rightArrow.style.top = "150px";
+        rightArrow.style.left = "600px";
+        rightArrow.onclick = moveRightDirection;
+        document.body.appendChild(rightArrow);
+
+        //Making left arrow button with attached event for changing picture with previus
+        var leftArrow = document.createElement("a");
+        leftArrow.href = "#";
+        leftArrow.style.display = "inline-block";
+        leftArrow.style.width = "50px";
+        leftArrow.style.height = "50px";
+        leftArrow.style.background = "url('imgs/leftArrow.png') 0 0 no-repeat";
+        leftArrow.style.position = "absolute";
+        leftArrow.style.top = "150px";
+        leftArrow.style.left = "50px";
+        leftArrow.onclick = moveLeftDirection;
+        document.body.appendChild(leftArrow);
+    </script>
+</body>
+</html>

@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{93C92368-B3BE-4A28-877E-DC330BA6E7AB}</ProjectGuid>
+    <ProjectGuid>{C788B6BC-CF54-41BC-B72B-A8F08270DF6F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -57,15 +57,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1-2.Trash.html" />
-    <Content Include="4.DrawOnCanvas.html" />
-    <Content Include="BouncingBall.html" />
-    <Content Include="BouncingBallStyles.css" />
-    <Content Include="LocalAndSessionStoragePolyfills.html" />
-    <Content Include="LocalAndSessionStoragePolyfillsJS.js" />
-    <Content Include="TrashJS.js" />
-    <Content Include="TrashStyles.css" />
+    <Content Include="AirVehicle.js" />
+    <Content Include="Amphibious.js" />
+    <Content Include="ExtendFunction.js" />
+    <Content Include="InheritFunction.js" />
+    <Content Include="LandVehicle.js" />
+    <Content Include="Propeller.js" />
+    <Content Include="PropellingNozzle.js" />
+    <Content Include="PropulsionUnit.js" />
+    <Content Include="Vehicle.js" />
+    <Content Include="Vehicles.html" />
+    <Content Include="WaterVehicle.js" />
     <Content Include="Web.config" />
+    <Content Include="Wheel.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,7 +97,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:64900/</IISUrl>
+          <IISUrl>http://localhost:53700/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

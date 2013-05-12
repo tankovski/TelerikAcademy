@@ -1,0 +1,6 @@
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\T4Template\bin\Debug\T4Template.exe.config
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\T4Template\bin\Debug\T4Template.exe
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\T4Template\bin\Debug\T4Template.pdb
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\T4Template\obj\Debug\T4Template.csprojResolveAssemblyReference.cache
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\T4Template\obj\Debug\T4Template.exe
+E:\Uroci\High-Quality-Code\Lesson16-DevelopmentTools\Homework\T4Template\obj\Debug\T4Template.pdb
