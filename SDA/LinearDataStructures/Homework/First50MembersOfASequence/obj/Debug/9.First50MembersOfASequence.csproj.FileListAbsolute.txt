@@ -1,0 +1,6 @@
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\First50MembersOfASequence\obj\Debug\9.First50MembersOfASequence.csprojResolveAssemblyReference.cache
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\First50MembersOfASequence\bin\Debug\First50MembersOfASequence.exe.config
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\First50MembersOfASequence\bin\Debug\First50MembersOfASequence.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\First50MembersOfASequence\bin\Debug\First50MembersOfASequence.pdb
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\First50MembersOfASequence\obj\Debug\First50MembersOfASequence.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\First50MembersOfASequence\obj\Debug\First50MembersOfASequence.pdb

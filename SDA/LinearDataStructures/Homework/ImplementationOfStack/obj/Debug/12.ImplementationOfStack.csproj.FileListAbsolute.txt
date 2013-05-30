@@ -1,0 +1,5 @@
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfStack\bin\Debug\ImplementationOfStack.exe.config
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfStack\bin\Debug\ImplementationOfStack.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfStack\bin\Debug\ImplementationOfStack.pdb
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfStack\obj\Debug\ImplementationOfStack.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfStack\obj\Debug\ImplementationOfStack.pdb

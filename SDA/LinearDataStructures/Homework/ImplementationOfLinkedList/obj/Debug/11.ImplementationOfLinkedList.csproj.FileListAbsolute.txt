@@ -1,0 +1,6 @@
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfLinkedList\bin\Debug\ImplementationOfLinkedList.exe.config
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfLinkedList\bin\Debug\ImplementationOfLinkedList.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfLinkedList\bin\Debug\ImplementationOfLinkedList.pdb
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfLinkedList\obj\Debug\11.ImplementationOfLinkedList.csprojResolveAssemblyReference.cache
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfLinkedList\obj\Debug\ImplementationOfLinkedList.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfLinkedList\obj\Debug\ImplementationOfLinkedList.pdb
