@@ -1,0 +1,5 @@
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\TraverseDirectorys\bin\Debug\TraverseDirectorys.exe.config
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\TraverseDirectorys\bin\Debug\TraverseDirectorys.exe
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\TraverseDirectorys\bin\Debug\TraverseDirectorys.pdb
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\TraverseDirectorys\obj\Debug\TraverseDirectorys.exe
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\TraverseDirectorys\obj\Debug\TraverseDirectorys.pdb

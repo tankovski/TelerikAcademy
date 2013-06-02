@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="object-create.js"></script>
+</head>
+<body>
+    <script>
+        var School = {
+            init: function (name, town, classes) {
+                this.name = name;
+                this.town = town;
+                this.classes = classes;
+            }
+        };
+
+        var Class = {
+            init: function (name, capacityOfStudents, setOfStudents, formTeacher) {
+                this.name = name;
+                this.capacityOfStudents = capacityOfStudents;
+                this.setOfStudents = setOfStudents;
+                this.formTeacher = formTeacher;
+            }
+        };
+
+        var Person = {
+            init: function (fname, lname, age) {
+                this.fname = fname;
+                this.lname = lname;
+                this.age = age;
+
+            },
+            introduce: function () {
+                var name = this.fname + " " + this.lname;
+                var age = this.age;
+
+                return "Name:" + name + ", age:" + age;
+            }
+        };
+
+        var Student = Person.extend({
+            init: function (fname, lname, age, grade) {
+                Person.init.call(this, fname, lname, age);
+                this.grade = grade;
+            },
+            introduce: function () {
+                return Person.introduce.apply(this) + ", grade:" + this.grade;
+            }
+        });
+
+        var Teacher = Person.extend({
+            init: function (fname, lname, age, speciality) {
+                Person.init.call(this, fname, lname, age);
+                this.speciality = speciality;
+            },
+            introduce: function () {
+                return Person.introduce.apply(this) + ", speciality:" + this.speciality;
+            }
+        });
+
+        var peter = Object.create(Student);
+        peter.init("Peter", "Petrov", 18, 11);
+        var ivo = Object.create(Student);
+        ivo.init("Ivo", "Ivov", 19, 11);
+        var joro = Object.create(Student);
+        joro.init("Georgi", "Georgiev", 18, 11);
+        var mrIvanov = Object.create(Teacher);
+        mrIvanov.init("Ivan", "Ivanov", 42, "math");
+
+        var elevenGrade = Object.create(Class);
+        elevenGrade.init("elevenA", 3, [ivo, joro, peter], mrIvanov);
+
+        var unss = Object.create(School);
+        unss.init("Unss", "Sofia", [elevenGrade]);
+
+        console.log(unss.name);
+        console.log(unss.classes[0].setOfStudents[0].introduce());
+        console.log(unss.classes[0].setOfStudents[1].introduce());
+        console.log(unss.classes[0].setOfStudents[2].introduce());
+
+
+        var repository =function () {
+            function saveInRepository(key, objeckt) {
+                localStorage.setItem(key,JSON.stringify(objeckt));
+            }
+
+            function loadFromRepositori(key) {
+                var objeckt = JSON.parse(localStorage.getItem(key));
+
+                return objeckt;
+            }
+            return{
+                saveInRepository: saveInRepository,
+                loadFromRepository:loadFromRepositori
+            }
+        }();
+
+        repository.saveInRepository("school", unss);
+        var unssCopy = repository.loadFromRepository("school");
+        console.log(unssCopy.name);
+    </script>
+</body>
+</html>

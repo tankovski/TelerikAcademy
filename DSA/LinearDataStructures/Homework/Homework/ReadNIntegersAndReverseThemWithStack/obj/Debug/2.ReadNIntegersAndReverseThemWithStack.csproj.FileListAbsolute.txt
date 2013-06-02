@@ -1,0 +1,6 @@
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ReadNIntegersAndReverseThemWithStack\bin\Debug\ReadNIntegersAndReverseThemWithStack.exe.config
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ReadNIntegersAndReverseThemWithStack\bin\Debug\ReadNIntegersAndReverseThemWithStack.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ReadNIntegersAndReverseThemWithStack\bin\Debug\ReadNIntegersAndReverseThemWithStack.pdb
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ReadNIntegersAndReverseThemWithStack\obj\Debug\2.ReadNIntegersAndReverseThemWithStack.csprojResolveAssemblyReference.cache
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ReadNIntegersAndReverseThemWithStack\obj\Debug\ReadNIntegersAndReverseThemWithStack.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ReadNIntegersAndReverseThemWithStack\obj\Debug\ReadNIntegersAndReverseThemWithStack.pdb

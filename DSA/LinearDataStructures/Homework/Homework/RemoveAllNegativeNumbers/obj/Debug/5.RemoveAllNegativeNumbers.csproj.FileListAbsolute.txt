@@ -1,0 +1,5 @@
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\RemoveAllNegativeNumbers\bin\Debug\RemoveAllNegativeNumbers.exe.config
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\RemoveAllNegativeNumbers\bin\Debug\RemoveAllNegativeNumbers.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\RemoveAllNegativeNumbers\bin\Debug\RemoveAllNegativeNumbers.pdb
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\RemoveAllNegativeNumbers\obj\Debug\RemoveAllNegativeNumbers.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\RemoveAllNegativeNumbers\obj\Debug\RemoveAllNegativeNumbers.pdb

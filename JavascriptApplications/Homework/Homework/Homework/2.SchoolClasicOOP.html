@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="ClasicObjectCeateAndInherit.js"></script>
+</head>
+<body>
+    <script>
+        
+        var Person = Class.create({
+            init: function (fname, lname, age) {
+                this.fname = fname;
+                this.lname = lname;
+                this.age = age;
+            },
+            introduce: function () {
+                return "Name:" + this.fname + " " + this.lname + ", age:" + this.age;
+            }
+        });
+
+        var Student = Class.create({
+            init: function (fname, lname, age, grade) {
+                this._super = new this._super(arguments);
+                this._super.init(fname, lname, age);
+                this.grade = grade;
+            },
+            introduce: function () {
+                return this._super.introduce() + ", grade:" + this.grade;
+            }
+        });
+
+        Student.inherit(Person);
+
+        var Teacher = Class.create({
+            init: function (fname, lname, age, speciality) {
+                this._super = new this._super(arguments);
+                this._super.init(fname, lname, age);
+                this.speciality = speciality;
+            },
+            introduce: function () {
+                return this._super.introduce() + ", speciality:" + this.speciality;
+            }
+        });
+
+        Teacher.inherit(Person);
+
+        var SchoolClass = Class.create({
+            init: function (name, capacity, setOfStudents, formTeacher) {
+                this.name = name;
+                this.capacity = capacity;
+                this.setOfStudents = setOfStudents;
+                this.formTeacher = formTeacher;
+            }
+        });
+
+        var School = Class.create({
+            init: function (name, town, classesOfStudents) {
+                this.name = name;
+                this.town = town;
+                this.classesOfStudents = classesOfStudents;
+            }
+        });
+        var pesho = new Student("Peter", "Petrov", 17, 11);
+        var gosho = new Student("Georgi", "Georgiev", 18, 11);
+        var ivo = new Student("Ivailo", "Ivov", 18, 11);
+        var mrIvanov = new Teacher("Ivan", "Ivanov", 48, "math");
+        var eleventhAGrade = new SchoolClass("ElevenA", 10, [pesho, gosho, ivo], mrIvanov);
+        var unss = new School("UNSS", "Sofia", [eleventhAGrade]);
+        
+        console.log(unss.name);
+        console.log(unss.classesOfStudents[0].setOfStudents[1].introduce());
+        console.log(unss.classesOfStudents[0].formTeacher.introduce());
+
+        var repository = function () {
+            function saveInRepository(key, objeckt) {
+                localStorage.setItem(key, JSON.stringify(objeckt));
+            }
+
+            function loadFromRepositori(key) {
+                var objeckt = JSON.parse(localStorage.getItem(key));
+
+                return objeckt;
+            }
+            return {
+                saveInRepository: saveInRepository,
+                loadFromRepository: loadFromRepositori
+            }
+        }();
+
+        repository.saveInRepository("school", unss);
+        var unssCopy = repository.loadFromRepository("school");
+        console.log(unssCopy.name);
+
+    </script>
+</body>
+</html>

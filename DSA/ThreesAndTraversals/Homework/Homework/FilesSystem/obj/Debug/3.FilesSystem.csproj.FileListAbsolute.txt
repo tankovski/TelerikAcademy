@@ -1,0 +1,6 @@
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\FilesSystem\bin\Debug\FilesSystem.exe.config
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\FilesSystem\bin\Debug\FilesSystem.exe
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\FilesSystem\bin\Debug\FilesSystem.pdb
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\FilesSystem\obj\Debug\3.FilesSystem.csprojResolveAssemblyReference.cache
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\FilesSystem\obj\Debug\FilesSystem.exe
+E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\FilesSystem\obj\Debug\FilesSystem.pdb

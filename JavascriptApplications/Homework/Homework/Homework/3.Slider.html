@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="object-create.js"></script>
+</head>
+<body>
+
+  
+
+    <script>
+        var Image = {
+            init: function (title, tumbnailURL, largeURL) {
+                this.title = title;
+                this.tumbnailURL = tumbnailURL;
+                this.largeURL = largeURL;
+            }
+        };
+
+        var Button = {
+            init: function (id, title) {
+                this.id = id;
+                this.title = title;
+            }
+        };
+
+        var Slider = {
+            init: function (setOfImages, previusButton, nextButton) {
+                this.setOfImages = setOfImages;
+                this.siteImages = this.createImgs();
+                this.previysButton = previusButton;
+                this.nextButton = nextButton;
+                this.currentPosition = 0;
+            },
+            createImgs: function () {
+                var siteImages = [];
+                for (var i = 0; i < this.setOfImages.length; i++) {
+                    var image = document.createElement("img");
+                    image.src = this.setOfImages[i].tumbnailURL;
+                    image.alt = this.setOfImages[i].title;
+                    image.className = "sliderImg";
+                    var list = this.setOfImages;
+                    image.onmouseover = function (ev) {
+                        var imgs = document.getElementsByClassName("sliderImg");
+                        for (var i = 0; i < imgs.length; i++) {
+
+                            if (imgs[i].style.display != "none") {
+                                ev.target.src = list[i].largeURL;
+                            }
+                        }
+                    };
+                    image.onmouseout = function (ev) {
+                        
+                        var imgs = document.getElementsByClassName("sliderImg");
+                        for (var i = 0; i < imgs.length; i++) {
+
+                            if (imgs[i].style.display != "none") {
+                                this.src = list[i].tumbnailURL;
+                            }
+                        }
+                    };
+                    siteImages[i] = image;
+                }
+           
+                return siteImages;
+            },
+            initialiseImgs: function () {
+                for (var i = 0; i < this.siteImages.length; i++) {
+                    if (this.siteImages[i + 1]) {
+                        this.siteImages[i + 1].style.display = "none";
+                    }
+                    document.body.appendChild(this.siteImages[i]);
+                }
+            },
+            next: function () {
+                var list=document.getElementsByClassName("sliderImg");
+      
+                for (var i = 0; i < list.length; i++) {
+                    
+                    if (list[i].style.display!="none") {
+                        list[i].style.display = "none";
+                        if (i + 1 < list.length) {                          
+                            list[i + 1].style.display = "inline-block";
+                            break;
+                        }
+                        else {
+                            list[0].style.display = "inline-block";
+                            break;
+                        }
+                    }
+                }
+            },
+            previus: function () {
+                var list = document.getElementsByClassName("sliderImg");
+                for (var i = 0; i < list.length; i++) {
+                    
+                    if (list[i].style.display!="none") {
+                        list[i].style.display = "none"
+                        if (i-1>=0) {
+                            list[i - 1].style.display = "inline-block";
+                            break;
+                        }
+                        else {
+                            list[list.length - 1].style.display = "inline-block";
+                            break;
+                        }
+                    }
+                }
+            },
+            initialiseButtons: function () {
+                var previusButton = document.createElement("a");
+                previusButton.innerHTML = this.previysButton.title;
+                previusButton.id = this.previysButton.id;
+                previusButton.href = "#";
+                document.body.appendChild(document.createElement("br"));
+                document.body.appendChild(previusButton);
+                previusButton.onclick = this.previus;
+                var siteNextButton = document.createElement("a");
+                siteNextButton.innerHTML = this.nextButton.title;
+                siteNextButton.id = this.nextButton.id;
+                siteNextButton.href = "#";
+                siteNextButton.onclick = this.next;
+                document.body.appendChild(siteNextButton);
+            }
+        };
+
+        var SliderControler = {
+            init: function (slider) {
+                this.slider = slider;
+            },
+            start: function () {
+                this.slider.initialiseImgs();
+                this.slider.initialiseButtons();
+                this.giveStiles();
+            },
+            giveStiles: function () {
+                var next = document.getElementById(this.slider.nextButton.id);
+                next.style.marginLeft = "20px";
+                next.style.border = "1px solid gray";
+                next.style.borderRadius = "5px";
+                next.style.color = "black";
+                next.style.backgroundColor = "#D0D1D7";
+                next.style.textDecoration = "none";
+                next.onmouseover = function () {
+                    next.style.color = "blue";
+                }
+                next.onmouseout = function () {
+                    next.style.color = "black";
+                }
+                var prev = document.getElementById(this.slider.previysButton.id);
+                prev.style.marginLeft = "90px";
+                prev.style.border = "1px solid gray";
+                prev.style.borderRadius = "5px";
+                prev.style.color = "black";
+                prev.style.backgroundColor = "#D0D1D7";
+                prev.style.textDecoration = "none";
+                prev.onmouseover = function () {
+                    prev.style.color = "blue";
+                }
+                prev.onmouseout = function () {
+                    prev.style.color = "black";
+                }
+            }
+        }
+
+        var prevButton = Object.create(Button);
+        prevButton.init("previusButton", "Previus");
+        var nextButton = Object.create(Button);
+        nextButton.init("nextButton", "Next");
+        var firstImg = Object.create(Image);
+        firstImg.init("firstImg", "imgs/image1Small.jpg", "imgs/image1.jpg");
+        var secondImg = Object.create(Image);
+        secondImg.init("secondImg", "imgs/image2Small.jpg", "imgs/image2.jpg");
+        var thirdImage = Object.create(Image);
+        thirdImage.init("thirdImage", "imgs/image3Small.jpg", "imgs/image3.jpg");
+        var fourthImage = Object.create(Image);
+        fourthImage.init("fourthImage", "imgs/image4Small.jpg", "imgs/image4.jpg");
+
+
+        var slider = Object.create(Slider);
+        slider.init([firstImg, secondImg, thirdImage,fourthImage], prevButton, nextButton);
+        var sliderControler = Object.create(SliderControler);
+        sliderControler.init(slider);
+        sliderControler.start();
+
+    </script>
+
+</body>
+</html>
