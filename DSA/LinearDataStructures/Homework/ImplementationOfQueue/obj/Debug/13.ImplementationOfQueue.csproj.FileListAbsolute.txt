@@ -1,0 +1,6 @@
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfQueue\bin\Debug\ImplementationOfQueue.exe.config
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfQueue\bin\Debug\ImplementationOfQueue.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfQueue\bin\Debug\ImplementationOfQueue.pdb
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfQueue\obj\Debug\13.ImplementationOfQueue.csprojResolveAssemblyReference.cache
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfQueue\obj\Debug\ImplementationOfQueue.exe
+E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfQueue\obj\Debug\ImplementationOfQueue.pdb
