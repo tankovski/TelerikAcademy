@@ -1,0 +1,5 @@
+E:\Uroci\SliceAndDice\ExamPreparation\ExamPreparation\ExamPreparation\bin\ExamPreparation.dll
+E:\Uroci\SliceAndDice\ExamPreparation\ExamPreparation\ExamPreparation\bin\ExamPreparation.pdb
+E:\Uroci\SliceAndDice\ExamPreparation\ExamPreparation\ExamPreparation\obj\Debug\ExamPreparation.csprojResolveAssemblyReference.cache
+E:\Uroci\SliceAndDice\ExamPreparation\ExamPreparation\ExamPreparation\obj\Debug\ExamPreparation.dll
+E:\Uroci\SliceAndDice\ExamPreparation\ExamPreparation\ExamPreparation\obj\Debug\ExamPreparation.pdb

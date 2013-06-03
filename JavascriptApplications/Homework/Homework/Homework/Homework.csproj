@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="4.FavoriteSiteBar.html" />
     <Content Include="ClasicObjectCeateAndInherit.js" />
     <Content Include="object-create.js" />
     <Content Include="2.SchoolClasicOOP.html" />

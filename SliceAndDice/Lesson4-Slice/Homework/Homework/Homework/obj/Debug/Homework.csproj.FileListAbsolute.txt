@@ -1,0 +1,5 @@
+E:\Uroci\SliceAndDice\Lesson4-Slice\Homework\Homework\Homework\bin\Homework.dll
+E:\Uroci\SliceAndDice\Lesson4-Slice\Homework\Homework\Homework\bin\Homework.pdb
+E:\Uroci\SliceAndDice\Lesson4-Slice\Homework\Homework\Homework\obj\Debug\Homework.csprojResolveAssemblyReference.cache
+E:\Uroci\SliceAndDice\Lesson4-Slice\Homework\Homework\Homework\obj\Debug\Homework.dll
+E:\Uroci\SliceAndDice\Lesson4-Slice\Homework\Homework\Homework\obj\Debug\Homework.pdb

@@ -4,3 +4,9 @@ E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfQueu
 E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfQueue\obj\Debug\13.ImplementationOfQueue.csprojResolveAssemblyReference.cache
 E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfQueue\obj\Debug\ImplementationOfQueue.exe
 E:\Uroci\SDA\Lesson2-LinearDataStructures\Homework\Homework\ImplementationOfQueue\obj\Debug\ImplementationOfQueue.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\LinearDataStructures\Homework\ImplementationOfQueue\bin\Debug\ImplementationOfQueue.exe.config
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\LinearDataStructures\Homework\ImplementationOfQueue\obj\Debug\ImplementationOfQueue.exe
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\LinearDataStructures\Homework\ImplementationOfQueue\obj\Debug\ImplementationOfQueue.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\LinearDataStructures\Homework\ImplementationOfQueue\bin\Debug\ImplementationOfQueue.exe
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\LinearDataStructures\Homework\ImplementationOfQueue\bin\Debug\ImplementationOfQueue.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\LinearDataStructures\Homework\ImplementationOfQueue\obj\Debug\13.ImplementationOfQueue.csprojResolveAssemblyReference.cache

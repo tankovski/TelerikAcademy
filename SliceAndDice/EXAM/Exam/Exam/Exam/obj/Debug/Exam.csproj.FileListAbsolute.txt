@@ -1,0 +1,5 @@
+E:\Uroci\SliceAndDice\EXAM\Exam\Exam\bin\Exam.dll
+E:\Uroci\SliceAndDice\EXAM\Exam\Exam\bin\Exam.pdb
+E:\Uroci\SliceAndDice\EXAM\Exam\Exam\obj\Debug\Exam.csprojResolveAssemblyReference.cache
+E:\Uroci\SliceAndDice\EXAM\Exam\Exam\obj\Debug\Exam.dll
+E:\Uroci\SliceAndDice\EXAM\Exam\Exam\obj\Debug\Exam.pdb

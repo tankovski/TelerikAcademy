@@ -1,0 +1,265 @@
+﻿body, header, aside, section, footer, div, ul, li, a, p {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    padding: 30px 113px;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+#wrapper {
+    width: 778px;
+    height: 790px;
+    background-color: #9A8A65;
+    background-image: url(imgs/bg-pepole.png),url(imgs/bg-img.png),url(imgs/bg-top.png);
+    background-position: 400px 32px,246px 0,top right;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    border-radius: 10px;
+}
+
+
+/*HEADER*/
+
+body #wrapper header {
+    width: 230px;
+    height: 100px;
+    color: #868686;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 0.7em;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 15px;
+    background: #fffffe; /* Old browsers */
+    background: -moz-linear-gradient(top, #fffffe 0%, #c8c8c8 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fffffe), color-stop(100%,#c8c8c8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fffffe 0%,#c8c8c8 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fffffe 0%,#c8c8c8 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fffffe 0%,#c8c8c8 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #fffffe 0%,#c8c8c8 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffffe', endColorstr='#c8c8c8',GradientType=0 ); /* IE6-9 */
+}
+
+    body #wrapper header h1 {
+        margin-top: 2px;
+        border-bottom: 2px ridge #E0E0E0;
+    }
+
+    body #wrapper header p {
+        border-bottom: 2px ridge #E0E0E0;
+        font-size: 15px;
+        margin-top: -10px;
+    }
+
+
+
+/*ASIDE*/ /*NAV*/
+
+body #wrapper aside {
+    width: 230px;
+    height: 590px;
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 16px;
+    margin-top: 35px;
+    float: left;
+}
+
+    body #wrapper aside nav {
+        background-color: #CDC4AA;
+        border-radius: 10px 10px 0px 0px;
+        padding: 20px 0px;
+    }
+
+    body #wrapper aside ul {
+        width: 230px;
+        height: 195px;
+        background-color: #2A2A2A;
+        list-style-type: none;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-top: 4px;
+    }
+
+        body #wrapper aside ul li {
+            height: 32px;
+            border-bottom: 1px solid #5A5A5A;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding-left: 20px;
+            padding-top: 13px;
+            background: url(imgs/arrow.png) 200px 10px no-repeat;
+        }
+
+            body #wrapper aside ul li:last-of-type {
+                border-bottom: none;
+            }
+
+            body #wrapper aside ul li p {
+                border-left: 1px solid #5A5A5A;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+            body #wrapper aside ul li a {
+                text-decoration: none;
+                bottom: 7px;
+                left: 5px;
+                position: relative;
+                color: white;
+            }
+
+            body #wrapper aside ul li:hover {
+                background: url(imgs/yellow-arrow.png) 200px 10px no-repeat;
+            }
+
+                body #wrapper aside ul li:hover a {
+                    color: #D8B571;
+                }
+
+
+    /*ASIDE REST*/
+
+    body #wrapper aside #news {
+        height: 220px;
+        background-image: url(imgs/break-line.png),url(imgs/side-bg.png);
+        background-position: center center,top right;
+        background-repeat: no-repeat,repeat-y;
+        padding: 14px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        body #wrapper aside #news p {
+            padding: 10px 0px;
+            color: #867955;
+        }
+
+        body #wrapper aside #news time {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+
+        body #wrapper aside #news a {
+            color: #82744F;
+            position: relative;
+            top:13px;
+            left: 20px;
+        }
+
+    body #wrapper aside #support {
+        height: 95px;
+        background-image: url(imgs/support-pic.png),url(imgs/support-bg.png);
+        background-position: 140px center,top right;
+        background-repeat: no-repeat,repeat-y;
+        border-radius: 0px 10px 10px 0px;
+        text-align: center;
+        padding-top: 5px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        body #wrapper aside #support strong {
+            color: #F5EDD4;
+            font-size: 1.9em;
+            margin-left: -70px;
+            position: relative;
+        }
+
+#ref-wrapp {
+    overflow: hidden;
+}
+
+body #wrapper aside #support #reflected:after {
+    content: 'SUPPORT';
+    display: block;
+    position: absolute;
+    bottom: -.7em; /* You should change this value to fit your font */
+    left: 0;
+    right: 0;
+    opacity: .4;
+    /* This is how the text is flipped vertically */
+    -webkit-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+}
+
+
+
+/*SECTION*/
+
+
+body #wrapper section {
+    width: 530px;
+    height: 445px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    margin-top: 180px;
+    margin-left: 240px;
+    padding-left: 30px;
+    padding-top:20px;
+}
+    body #wrapper section h2 {
+        color:#CAA13C;
+        font-size:1.6em;
+    }
+    body #wrapper section article:first-of-type {
+        border-top:1px solid #CAB689;
+        padding-top:10px;
+        margin-top:-10px;
+    }
+    body #wrapper section article:last-of-type {
+        border-top:2px solid #ECE5D6;
+        padding-top:10px;
+        margin-top:-10px;
+    }
+    body #wrapper section h3 {
+        color:#DBC796;
+    }
+    body #wrapper section img {
+        float:left;
+        margin-right:12px;
+    }
+    body #wrapper section div {
+        float:left;
+        width:240px;
+    }
+    body #wrapper section p {
+        padding-bottom:8px;
+    }
+    body #wrapper section a {
+        float:right;
+        color:#6F6037;
+        margin-right:20px;
+       padding-top:5px;
+    }
+
+
+
+    /*FOOTER*/
+
+body #wrapper footer {
+    height: 55px;
+    width: 754px;
+    text-align: center;
+    color: #75633B;
+    background-color: #DFD4B5;
+    margin-left: 16px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top:20px;
+}

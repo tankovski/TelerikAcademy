@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>>HTML5 Everywhere - Modernizr</title>
+	<script src="scripts/modernizr/modernizr.cssgradients.js"></script>		  
+	<style>
+		.box {
+			width: 150px;
+			height: 150px;
+			border: 1px solid black;
+			border-radius:15px;
+		}	   
+			.cssgradients .box {
+				background: #ffffff; /* Old browsers */
+				background: -moz-linear-gradient(top, #ffffff 1%, #000000 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #ffffff 1%,#000000 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #ffffff 1%,#000000 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #ffffff 1%,#000000 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #ffffff 1%,#000000 100%); /* W3C */
+			}
+
+			.no-cssgradients .box {
+				background: url(resources/images/gradient.png) 0 0 repeat-x;
+			}															   
+
+			.no-borderradius .box{	
+				behavior:url(scripts/css3-pie/PIE_uncompressed.htc);
+				
+			}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>

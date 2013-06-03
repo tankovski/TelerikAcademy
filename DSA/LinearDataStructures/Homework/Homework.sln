@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.ImplementationOfLinkedLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.ImplementationOfStack", "ImplementationOfStack\12.ImplementationOfStack.csproj", "{3DECB01A-5AD0-47CE-BF61-D482A7838CF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.ImplementationOfQueue", "ImplementationOfQueue\13.ImplementationOfQueue.csproj", "{64CCC8A4-981F-4C28-8F54-70EC10046E9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{3DECB01A-5AD0-47CE-BF61-D482A7838CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DECB01A-5AD0-47CE-BF61-D482A7838CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DECB01A-5AD0-47CE-BF61-D482A7838CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CCC8A4-981F-4C28-8F54-70EC10046E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CCC8A4-981F-4C28-8F54-70EC10046E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CCC8A4-981F-4C28-8F54-70EC10046E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CCC8A4-981F-4C28-8F54-70EC10046E9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

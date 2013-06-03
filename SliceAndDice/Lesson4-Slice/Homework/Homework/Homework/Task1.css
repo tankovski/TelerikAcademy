@@ -1,0 +1,241 @@
+﻿body, header, aside, nav, section, footer, div, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    zoom: 1;
+}
+
+    img:after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+
+body {
+    font-family: Candara;
+    font-size: 11px;
+}
+
+    body #wrapper {
+        width: 778px;
+        background-color: #E6DEF5;
+    }
+
+
+        /*HEADER*/
+
+        body #wrapper > header {
+            background-color: white;
+            background-image: url(imgs/people-icon.png), url(imgs/Header-background2.png),url(imgs/Header-background.png);
+            background-repeat: no-repeat,no-repeat,repeat-y;
+            background-position: 690px 10px,top right,top right;
+            height: 49px;
+        }
+
+#logo {
+    border: 1px solid #F2F3F7;
+    width: 121px;
+    height: 49px;
+    color: white;
+    background-color: #59518C;
+    float: left;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-align: center;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+
+#headContent {
+    float: right;
+    font-size: 2em;
+    color: #8A91B5;
+    padding: 0px 90px;
+    margin-top: 8px;
+}
+
+
+
+/*NAVIGATION*/
+
+body #wrapper nav {
+    text-align: left;
+    width: 448px;
+    margin-left: 125px;
+    background-image: url(imgs/star-icon.png);
+    background-position: 3px 8px;
+    background-repeat: no-repeat;
+}
+
+    body #wrapper nav ul {
+        list-style: none;
+        display: inline-block;
+        padding-bottom: 5px;
+        margin-left: 30px;
+    }
+
+        body #wrapper nav ul li {
+            margin-top: 7px;
+            margin-bottom:2px;
+            padding: 0px 5px 0px 5px;
+            display: inline-block;
+            border-right: 1px solid #0000CC;
+            color: #6D64A3;
+        }
+
+            body #wrapper nav ul li:first-of-type {
+                padding-right: 0px;
+                font-size:1.1em;
+                border-right: none;
+            }
+
+            body #wrapper nav ul li:last-of-type {
+                border-right: none;
+            }
+
+            body #wrapper nav ul li a {
+                color: #0000CC;
+                text-decoration: none;
+            }
+
+/*LEFT SIDEBAR*/
+
+
+#left {
+    width: 120px;
+    height: 305px;
+    float: left;
+    background-color: #F2F3F7;
+    margin-top: -28px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size:0.9em;
+}
+
+body #wrapper #left strong {
+    color: #424284;
+    font-size: 1.2em;
+    margin-left: -15px;
+}
+
+body #wrapper #left ul {
+    list-style-type: square;
+}
+
+    body #wrapper #left ul li {
+        color: #006699;
+    }
+
+
+
+/*RIGHT SIDEBAR*/
+
+
+#right {
+    float: right;
+    width: 207px;
+    height: 303px;
+    background-color: #F9F4FD;
+    margin-top: -25px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+body #wrapper #right div {
+    height: 70px;
+    color: #4B3E82;
+}
+
+    body #wrapper #right div img {
+        margin-right: 10px;
+        float: left;
+    }
+
+body #wrapper #right ul {
+    display: inline-block;
+    list-style-type: square;
+    margin: 10px;
+    margin-top: 5px;
+    color: #FF6600;
+}
+
+    body #wrapper #right ul li a {
+        text-decoration: none;
+        color: #0000CC;
+    }
+
+
+
+
+/*SECTION*/
+
+
+
+body #wrapper > section {
+    width: 442px;
+    height: 280px;
+    background-color: #F9F4FD;
+    margin-left: 122px;
+    margin-top: -4px;
+    margin-bottom: 3px;
+    padding: 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #4B3E82;
+    font-size: 12px;
+}
+
+    body #wrapper > section img {
+        float: left;
+        margin-top: -15px;
+        margin-right: 10px;
+    }
+
+    body #wrapper > section h2 {
+        color: #C41E89;
+        margin-top: 15px;
+        margin-bottom: 2px;
+    }
+
+    body #wrapper > section strong {
+        font-size: 1.1em;
+    }
+
+    body #wrapper > section ul {
+        list-style-type: square;
+        color: #FF6600;
+        margin: 10px;
+        font-size: 10px;
+    }
+
+        body #wrapper > section ul li a {
+            text-decoration: none;
+            color: #0000CC;
+        }
+
+
+
+/*FOOTER*/
+
+
+body #wrapper > footer {
+    text-align: center;
+    background-color: #59518C;
+    height: 32px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+}

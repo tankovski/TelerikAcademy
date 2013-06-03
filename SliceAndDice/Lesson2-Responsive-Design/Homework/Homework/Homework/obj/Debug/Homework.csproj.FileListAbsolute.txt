@@ -1,0 +1,5 @@
+D:\Uroci\SliceAndDice\Lesson2-Responsive-Design\Homework\Homework\Homework\bin\Homework.dll
+D:\Uroci\SliceAndDice\Lesson2-Responsive-Design\Homework\Homework\Homework\bin\Homework.pdb
+D:\Uroci\SliceAndDice\Lesson2-Responsive-Design\Homework\Homework\Homework\obj\Debug\Homework.csprojResolveAssemblyReference.cache
+D:\Uroci\SliceAndDice\Lesson2-Responsive-Design\Homework\Homework\Homework\obj\Debug\Homework.dll
+D:\Uroci\SliceAndDice\Lesson2-Responsive-Design\Homework\Homework\Homework\obj\Debug\Homework.pdb

@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>>HTML5 Everywhere - JavaScript Shims</title>
+	<script src="scripts/js-shims/index-of.js"></script>
+</head>
+<body>
+	<div id="result" />
+	<script>
+		function writeText(text) {
+			var p = document.createElement("p");
+			p.innerHTML = text;
+			resultDiv.appendChild(p);
+		}
+		function writeHr() {
+			resultDiv.appendChild(document.createElement("hr"));
+		}
+
+		function writeArray(arr) {
+			var indicesRow = "<tr><td>index</td>";
+			var valuesRow = "<tr><td>value</td>";
+			for (var i = 0; i < arr.length; i++) {
+				indicesRow += "<td>" + i + "</td>";
+				valuesRow += "<td>" + arr[i] + "</td>";
+			}
+			writeText("<table border=1 cellspacing=0 cellpadding=5> " + indicesRow + valuesRow + "</table>");
+		}
+
+		function writeIndices(arr, value) {
+			var index = arr.indexOf(value);
+			var foundIndices = [];
+			while (index >= 0) {
+				foundIndices.push(index);
+				index = arr.indexOf(value, index + 1);
+			}
+			if (foundIndices.length) {
+				writeText(value + " found at " + foundIndices.join(", "));
+			}
+			else {
+				writeText(value + " is not found");
+			}
+		}
+
+
+		var resultDiv = document.getElementById("result");
+
+		var numbers = [1, 2, 3, 4, 2, 1, 3, 2, 4, 1];
+		writeArray(numbers);
+		writeHr();
+		writeIndices(numbers, 1);
+		writeHr();
+		writeIndices(numbers, 2);
+		writeHr();
+		writeIndices(numbers, 3);
+		writeHr();
+		writeIndices(numbers, 4);
+		writeHr();
+		writeIndices(numbers, 5);
+		writeHr();				
+
+	</script>
+</body>
+</html>

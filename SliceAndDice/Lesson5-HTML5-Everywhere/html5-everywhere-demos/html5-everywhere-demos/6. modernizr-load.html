@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>>HTML5 Everywhere - Modernizr.load()</title>
+	<script src="scripts/modernizr/modernizr.audio.js"></script>
+	<script>
+		Modernizr.load({
+			test: Modernizr.audio,
+			nope: 'http://api.html5media.info/1.1.5/html5media.min.js'
+		});
+	</script>
+</head>
+<body>
+	<audio src="resources/media/sample.mp3" controls="controls" />
+</body>
+</html>

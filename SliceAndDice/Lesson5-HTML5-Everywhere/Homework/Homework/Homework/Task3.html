@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+   <meta charset="utf-8"/>
+    <link href="spectrum-for-color/spectrum.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="datetime-polyfill/datetime-polyfill.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="spectrum-for-color/spectrum.js" type="text/javascript"></script>
+    <script src="js-webshim/minified/extras/modernizr-custom.js"></script>
+	<script>
+	    // set options for html5shiv
+	    if (!window.html5) {
+	        window.html5 = {};
+	    }
+	    window.html5.shivMethods = false;
+	</script>
+	<script src="js-webshim/minified/polyfiller.js"></script>
+    <script>
+        $.webshims.polyfill();
+    </script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/themes/base/jquery.ui.all.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="datetime-polyfill/datetime-polyfill.js"></script>
+    <script>
+
+        // Set up the yepnope (Modernizr.load) directives... 
+        Modernizr.load([
+        {
+            // Test if Input Range is supported using Modernizr
+            test: Modernizr.inputtypes.range,
+            // If ranges are not supported, load the slider script and CSS file
+            nope: [
+                // The slider CSS file
+                'http://www.frequency-decoder.com/demo/fd-slider/css/fd-slider.mhtml.min.css'
+                // The slider JS file
+                , 'http://www.frequency-decoder.com/demo/fd-slider/js/fd-slider.js'
+            ],
+            callback: function (id, testResult) {
+                // If the slider file has loaded then fire the onDomReady event        
+                if ("fdSlider" in window && typeof (fdSlider.onDomReady) != "undefined") {
+                    try { fdSlider.onDomReady(); } catch (err) { };
+                };
+            }
+        }
+        ]);
+
+    </script>
+</head>
+<body>
+    <form>
+        <input name="html5shim-2" id="html5shim-2" type="range" step="1" title="Range: 0 to 100 in steps of 1" value="75"/>
+        <input type="number" />
+        <input type="email" />
+        <input type="date" />
+        <input type="color" />
+        <input type="datetime" />
+        <input type="month" />
+        <input type="search" />
+        <input type="tel" />
+        <input type="time" />
+        <input type="url" />
+        <input type="week" />
+    </form>
+</body>
+</html>

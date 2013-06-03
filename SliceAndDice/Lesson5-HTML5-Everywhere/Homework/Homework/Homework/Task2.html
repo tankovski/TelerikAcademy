@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="jQuery%201.9%20.1.js"></script>
+    <script src="modernizr-custom.js"></script>
+    <script src="js-webshim/minified/polyfiller.js"></script>
+
+    <script>
+        $.webshims.polyfill();
+    </script>
+</head>
+<body>
+    <p id="demo">Click the button to get your coordinates:</p>
+    <button onclick="getLocation()">Try It</button>
+    <script>
+        var x = document.getElementById("demo");
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            }
+            else { x.innerHTML = "Geolocation is not supported by this browser."; }
+        }
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+        }
+    </script>
+</body>
+</html>

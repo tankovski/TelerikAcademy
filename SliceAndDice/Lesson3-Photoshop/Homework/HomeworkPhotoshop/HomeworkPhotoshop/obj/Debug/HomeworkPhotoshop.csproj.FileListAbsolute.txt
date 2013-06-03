@@ -1,0 +1,5 @@
+D:\Uroci\SliceAndDice\Photoshop\Homework\HomeworkPhotoshop\HomeworkPhotoshop\bin\HomeworkPhotoshop.dll
+D:\Uroci\SliceAndDice\Photoshop\Homework\HomeworkPhotoshop\HomeworkPhotoshop\bin\HomeworkPhotoshop.pdb
+D:\Uroci\SliceAndDice\Photoshop\Homework\HomeworkPhotoshop\HomeworkPhotoshop\obj\Debug\HomeworkPhotoshop.csprojResolveAssemblyReference.cache
+D:\Uroci\SliceAndDice\Photoshop\Homework\HomeworkPhotoshop\HomeworkPhotoshop\obj\Debug\HomeworkPhotoshop.dll
+D:\Uroci\SliceAndDice\Photoshop\Homework\HomeworkPhotoshop\HomeworkPhotoshop\obj\Debug\HomeworkPhotoshop.pdb

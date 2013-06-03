@@ -1,0 +1,78 @@
+﻿body {
+    margin:0px;
+    padding:0px;
+}
+
+    body .first {
+        position:relative;
+        padding:0px;
+        display:inline-block;
+    }
+        body .left {
+            width:9px;
+            height:8px;
+            background:url(leftCorner.png) no-repeat;
+            background-position:bottom left;
+            position:absolute;
+            left:0px;
+            bottom:0px;
+            margin-bottom:-3px;
+            background-color:none;
+        }
+        body .right {
+            width:7px;
+            height:8px;
+            margin-right:-7px;
+            margin-bottom:-3px;
+            background:url(RightCorner.png) no-repeat;
+            background-position:bottom right;
+            position:absolute;
+            right:0px;
+            bottom:0px;
+            background-color:none;
+        }
+        body .top {
+            width:7px;
+            height:10px;
+            margin-right:-7px;
+            background:url(TopCorner.png) no-repeat;
+            background-position:top right;
+            position:absolute;
+            right:0px;
+            top:0px;
+            background-color:none;
+        }
+        body .botomLine {
+            width:100%;
+            height:8px;
+            margin-bottom:-3px;
+            background:url(BottomL.png) repeat-x;
+            background-position:bottom right;
+            position:absolute;
+            left:0px;
+            bottom:0px;
+            background-color:none;
+        }
+         body .rightLine {
+            width:7px;
+            height:100%;
+            margin-right:-7px;
+            background:url(RightLine.png) repeat-y;
+            background-position:top right;
+            position:absolute;
+            right:0px;
+            top:0px;
+            background-color:none;
+        }
+#img1 {
+    width:200px;
+    height:100px;
+}
+#img2 {
+    width:400px;
+    height:300px;
+}
+#img3 {
+    width:600px;
+    height:500px;
+}

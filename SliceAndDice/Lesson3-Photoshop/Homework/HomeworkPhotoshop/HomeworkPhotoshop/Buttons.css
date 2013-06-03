@@ -1,0 +1,51 @@
+﻿body {
+}
+    body #cancel {
+        font-size:20px;
+        height:47px;
+        width:100px;
+        border:none;
+        position:relative;
+        background: url(Btn.png) repeat-x;
+        margin-left:20px;
+        
+    }
+    body #OK {
+        font-size:20px;
+        height:47px;
+        width:50px;
+        border:none;
+        position:relative;
+        background: url(Btn.png) repeat-x;
+        margin-left:20px;
+    }
+    body #link {
+        font-size:20px;       
+        width:200px;
+        padding-top:13px;
+        padding-bottom:14px;
+        border:none;
+        text-align:center;
+        color:black;
+        position:absolute;
+        background: url(Btn.png) repeat-x;
+        margin-left:20px;
+    }
+        body .Left {
+            height:47px;
+            width:25px;
+            position:absolute;
+            left:0px;
+            top:0px;
+            margin-left:-20px;
+            background:url(btnLeft.png) no-repeat;
+        }
+        body .Right {
+            height:47px;
+            width:25px;
+            position:absolute;
+            right:0px;
+            top:0px;
+           margin-right:-20px;
+            background:url(btnRight.png) no-repeat;
+        }

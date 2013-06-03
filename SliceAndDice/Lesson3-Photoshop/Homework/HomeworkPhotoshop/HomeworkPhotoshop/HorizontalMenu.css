@@ -1,0 +1,47 @@
+﻿body {
+    margin:0px;
+    padding:0px;
+}
+
+ul {
+    list-style-type:none;
+}
+ul li {
+    display:inline-block;
+    float:left;
+    position:relative;
+    height:20px;
+    background:url(MenuBackground.png) repeat-x;
+    padding:15px 10px;   
+    border-left:1px solid #CFCFCF;
+    text-transform:uppercase;
+}
+    ul li #left {
+        width:6px;
+        height:51px;
+        position:absolute;
+        background:url(MenuLeft.png) no-repeat;
+        background-position:left top;
+        left:0px;
+        top:0px;
+        border-left:none;
+        margin-top:-1px;
+        margin-left:-6px;
+    } 
+     ul li #right {
+        width:6px;
+        height:51px;
+        position:absolute;
+        background:url(MenuRight.png) no-repeat;
+        background-position:right top;
+        right:0px;
+        top:0px;
+        border-left:none;
+        margin-top:-1px;
+        margin-right:-6px;
+    } 
+    ul li a {
+        color:#A7162E;
+        text-decoration:none;
+        margin-bottom:-10px;
+    }

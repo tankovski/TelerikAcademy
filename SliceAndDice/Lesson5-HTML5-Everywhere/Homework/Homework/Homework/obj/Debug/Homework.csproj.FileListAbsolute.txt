@@ -1,0 +1,5 @@
+E:\Uroci\SliceAndDice\Lesson5-HTML5-Everywhere\Homework\Homework\Homework\bin\Homework.dll
+E:\Uroci\SliceAndDice\Lesson5-HTML5-Everywhere\Homework\Homework\Homework\bin\Homework.pdb
+E:\Uroci\SliceAndDice\Lesson5-HTML5-Everywhere\Homework\Homework\Homework\obj\Debug\Homework.csprojResolveAssemblyReference.cache
+E:\Uroci\SliceAndDice\Lesson5-HTML5-Everywhere\Homework\Homework\Homework\obj\Debug\Homework.dll
+E:\Uroci\SliceAndDice\Lesson5-HTML5-Everywhere\Homework\Homework\Homework\obj\Debug\Homework.pdb

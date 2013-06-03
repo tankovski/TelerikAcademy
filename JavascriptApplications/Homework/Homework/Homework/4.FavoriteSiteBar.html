@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="ClasicObjectCeateAndInherit.js"></script>
+    <style>
+        #favoriteSiteBarContainer {
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            overflow:scroll;
+
+        }
+
+        a {
+            margin-left: 5px;
+        }
+
+        .FavoriteSiteBarParagraph {
+    
+            width:100px;
+            height:90px;
+            vertical-align:bottom;
+            background:url('imgs/folder.png') 0 0 no-repeat;
+            padding-top:70px;
+            padding-left:5px;
+            box-sizing:border-box;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="favoriteSiteBar.display()">ShowFavoriteSiteBar</button>
+    <span> - The folders can open and close with click</span>
+    <script>
+
+        var URL = Class.create({
+            init: function (title, url) {
+                this.title = title;
+                this.url = url;
+            }
+        });
+        var Folder = Class.create({
+            init: function (title, setOfUrls) {
+                this.title = title;
+                this.setOfUrls = setOfUrls;
+            }
+        });
+
+        var FavoriteSiteBar = Class.create({
+            init: function (setOfUrls, setOfFolders) {
+                this.setOfUrls = setOfUrls;
+                this.setOfFolders = setOfFolders;
+                this.container = document.createElement("div");
+                this.count = 0;
+            },
+            display: function () {
+                this.container.id = "favoriteSiteBarContainer";
+                document.body.appendChild(this.container);
+                if (this.count == 0) {
+                    var urlsHeader = document.createElement("h3");
+                    urlsHeader.innerHTML = "Favorite Sites:";
+                    
+                    this.container.appendChild(urlsHeader);
+                    this._displaySetOfUrls();
+
+                    var foldersHeader = document.createElement("h3");
+                    foldersHeader.innerHTML = "Favorite Groups Of Sites:";
+                    this.container.appendChild(foldersHeader);
+                    this._displaySetOfFolders();
+                   
+                    this.count += 1;
+                }
+            },
+            _displaySetOfUrls: function () {
+                var setOfUrls = this.setOfUrls;
+                for (var i = 0; i < setOfUrls.length; i++) {
+                    var url = document.createElement("a");
+                    url.innerHTML = setOfUrls[i].title;
+                    url.href = setOfUrls[i].url;
+                    url.target = "_blank";
+
+                    this.container.appendChild(url);
+                }
+            },
+            _displaySetOfFolders: function () {
+                var folders = this.setOfFolders;
+                for (var i = 0; i < folders.length; i++) {
+                    var paragraph = document.createElement("p");
+                    paragraph.id = folders[i].title;
+                    paragraph.innerHTML = folders[i].title;
+                    paragraph.className = "FavoriteSiteBarParagraph";
+                    paragraph.onclick = function (ev) {
+                        if (ev.target.childElementCount == 0) {
+                            var index;
+                            for (var l = 0; l < folders.length; l++) {                               
+                                if (ev.target.id==folders[l].title) {
+                                    index = l;
+                                    break;
+                                }
+                            }
+                            for (var j = 0; j < folders[index].setOfUrls.length; j++) {
+                                var url = document.createElement("a");
+                                url.href = folders[index].setOfUrls[j].url;
+                                url.innerHTML = folders[index].setOfUrls[j].title;
+                                url.target = "_blank";
+
+                                ev.target.style.height = (100 + j * 30) + "px";
+                                ev.target.appendChild(document.createElement("br"));
+                                ev.target.appendChild(url);                               
+                            }
+                        }
+                        else {
+                            ev.target.innerHTML = ev.target.id;
+                            ev.target.style.height = "90px";
+                        }
+                    }
+                    this.container.appendChild(paragraph);
+                }
+            }
+        });
+
+
+
+        var telerikAcademy = new URL("TelerikAkademy", "http://telerikacademy.com/");
+        var telerik = new URL("Telerik", "http://www.telerik.com/");
+
+        var youtube = new URL("youtube", "http://www.youtube.com/");
+        var vbox = new URL("vbox", "http://vbox7.com/");
+        var videos = new Folder("Video", [youtube, vbox]);
+
+        var vestiBg = new URL("vestiBg", "http://www.vesti.bg/");
+        var newsBg = new URL("newsBg", "http://news.ibox.bg/");
+        var news = new Folder("News", [vestiBg, newsBg]);
+
+        var favoriteSiteBar = new FavoriteSiteBar([telerik, telerikAcademy], [videos, news]);
+
+    </script>
+</body>
+</html>
