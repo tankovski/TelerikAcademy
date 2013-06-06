@@ -10,3 +10,6 @@ E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\ThreeRepresentedLikeSe
 E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\ThreeRepresentedLikeSetOfNodes\bin\Debug\ThreeRepresentedLikeSetOfNodes.exe
 E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\ThreeRepresentedLikeSetOfNodes\bin\Debug\ThreeRepresentedLikeSetOfNodes.pdb
 E:\Uroci\DSA\Lesson3-TreesAndTraversals\Homework\Homework\ThreeRepresentedLikeSetOfNodes\obj\Debug\1.ThreeRepresentedLikeSetOfNodes.csprojResolveAssemblyReference.cache
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\ThreesAndTraversals\Homework\Homework\ThreeRepresentedLikeSetOfNodes\bin\Debug\ThreeRepresentedLikeSetOfNodes.exe.config
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\ThreesAndTraversals\Homework\Homework\ThreeRepresentedLikeSetOfNodes\obj\Debug\ThreeRepresentedLikeSetOfNodes.exe
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\ThreesAndTraversals\Homework\Homework\ThreeRepresentedLikeSetOfNodes\obj\Debug\ThreeRepresentedLikeSetOfNodes.pdb
