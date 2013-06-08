@@ -26,9 +26,22 @@ class ImplementHashTable
 
         foreach (var item in hassTable)
         {
-            Console.WriteLine("{0} -> {1}",item.Key,item.Value);
+            Console.WriteLine("{0} -> {1}", item.Key, item.Value);
         }
+        hassTable.Add(30, 1);
+        hassTable.Add(300, 1);
+        hassTable.Add(3000, 1);
+        hassTable.Add(30000, 1);
 
+        hassTable.Add(40, 1);
+        hassTable.Add(400, 1);
+        hassTable.Add(4000, 1);
+        hassTable.Add(40000, 1);
+
+        Console.WriteLine(hassTable.Count);
+        Console.WriteLine(hassTable.Capacity);
+
+       
     }
 }
 

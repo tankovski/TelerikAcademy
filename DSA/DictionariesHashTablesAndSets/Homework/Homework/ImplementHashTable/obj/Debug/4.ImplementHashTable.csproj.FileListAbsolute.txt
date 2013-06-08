@@ -4,6 +4,3 @@ E:\Uroci\DSA\Lesson4-DictionariesHashTablesAndSets\Homework\Homework\ImplementHa
 E:\Uroci\DSA\Lesson4-DictionariesHashTablesAndSets\Homework\Homework\ImplementHashTable\obj\Debug\ImplementHashTable.exe
 E:\Uroci\DSA\Lesson4-DictionariesHashTablesAndSets\Homework\Homework\ImplementHashTable\obj\Debug\ImplementHashTable.pdb
 E:\Uroci\DSA\Lesson4-DictionariesHashTablesAndSets\Homework\Homework\ImplementHashTable\obj\Debug\4.ImplementHashTable.csprojResolveAssemblyReference.cache
-E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\DictionariesHashTablesAndSets\Homework\Homework\ImplementHashTable\bin\Debug\ImplementHashTable.exe.config
-E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\DictionariesHashTablesAndSets\Homework\Homework\ImplementHashTable\obj\Debug\ImplementHashTable.exe
-E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\DictionariesHashTablesAndSets\Homework\Homework\ImplementHashTable\obj\Debug\ImplementHashTable.pdb

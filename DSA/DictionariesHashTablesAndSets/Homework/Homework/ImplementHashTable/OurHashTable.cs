@@ -9,12 +9,19 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K,T>>
 {
     //Fields
     private LinkedList<KeyValuePair<K, T>>[] container;
+    private int capacity;
     private int count;
 
     //Properties
     public int Count
     {
         get { return this.count; }
+        private set { }
+    }
+
+    public int Capacity
+    {
+        get { return this.capacity; }
         private set { }
     }
 
@@ -82,13 +89,13 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K,T>>
     public OurHashTable()
     {
         this.container = new LinkedList<KeyValuePair<K, T>>[16];
-        this.count = 0;
+        this.capacity = 0;
     }
 
     //Methods
     public void Add(K key, T value)
     {
-        if (this.Count >= this.container.Length*0.75)
+        if (this.Capacity >= this.container.Length*0.75)
         {
             ResizeContainer();
         }
@@ -96,7 +103,7 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K,T>>
         int index = key.GetHashCode() % this.container.Length;
         if (this.container[index]==null)
         {
-            this.count += 1;
+            this.capacity += 1;
             this.container[index] = new LinkedList<KeyValuePair<K, T>>();
         }
 
@@ -110,6 +117,7 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K,T>>
             next = next.Next;
         }
         this.container[index].AddLast(new KeyValuePair<K, T>(key, value));
+        this.count += 1;
     }
 
     public T Find(K key)
@@ -151,13 +159,14 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K,T>>
                 {
                     this.container[index].Remove(next);
                     isFind = true;
+                    this.count -= 1;
                     break;
                 }
                 next = next.Next;
             }
             if (this.container[index].First==null)
             {
-                this.count -= 1;
+                this.capacity -= 1;
             }
             if (isFind==false)
             {
@@ -168,7 +177,6 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K,T>>
 
     IEnumerator IEnumerable.GetEnumerator()
     {
-        // Call the generic version of the method
         return this.GetEnumerator();
     }
 
@@ -187,6 +195,7 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K,T>>
             }
         }
     }
+
 
     private void ResizeContainer()
     {
