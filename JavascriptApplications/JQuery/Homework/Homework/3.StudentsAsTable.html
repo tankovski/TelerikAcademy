@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="JQuery.js"></script>
+    <script src="ClasicObjectCeateAndInherit.js"></script>
+    <style>
+        table {
+            border-spacing:0;
+            border:1px solid black
+        }
+        td {
+            border:1px solid black
+        }
+        th {
+            border:1px solid black
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var Student = Class.create({
+            init: function (fname, lname, grade) {
+                this.fname = fname;
+                this.lname = lname;
+                this.grade = grade;
+            }
+        });
+
+      
+        function createTable(arrayOfStudents) {
+                var table = $('<table/>');
+                table.append("<tr><th>FirstName</th><th>LasteName</th><th>Grade</th></th>");
+                for (var i = 0; i < arrayOfStudents.length; i++) {
+                    var row = $("<tr/>");
+                    row.append("<td>" + arrayOfStudents[i].fname + "</td>");
+                    row.append("<td>" + arrayOfStudents[i].lname + "</td>");
+                    row.append("<td>" + arrayOfStudents[i].grade + "</td>");
+                    
+                    table.append(row);
+                }
+
+                $("body").append(table);
+            }
+
+        var pesho = new Student("Peter", "Petrov", 11);
+        var gosho = new Student("Georgi", "Georgiev", 11);
+        var ivo = new Student("Ivailo", "Ivov", 11);
+
+        createTable([pesho, gosho, ivo]);
+    </script>
+</body>
+</html>

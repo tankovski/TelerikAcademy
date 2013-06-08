@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="JQuery.js"></script>
+    <link href="Slider.css" rel="stylesheet" />
+</head>
+<body>
+    <span>Auto changing of the slides si between 2 seconds becouse 5 is slow</span>
+    <a href="#" id="previus" class="button"><img src="imgs/leftArrow.png" /></a>
+    <div id="container">
+        <img src="imgs/image1.jpg" class="current slider" />
+        <form class="hidden slider">
+            <label for="text">Name</label>
+            <input type="text" id="text" />
+            <br />
+            <label for="age">Age</label>
+            <input type="number" />
+            <br />
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+            <input type="submit" />
+        </form>
+        <div class="hidden slider">
+            <h1>Telerik</h1>
+            <a href="#">Link to Telerik</a>
+        </div>
+        <img src="imgs/image2.jpg" class="hidden slider" />
+    </div>
+    <a href="#" id="next" class="button"><img src="imgs/RightArrow.png" /></a>
+
+    <script>
+        var nextInterval=0;
+        
+        var nextTimeOut=0;
+        var nextButton = $("#next");
+        goNext();
+       function goNext() {
+           clearInterval(nextInterval);
+           clearTimeout(nextTimeOut);
+
+            nextInterval = setInterval(function () {
+            var currentElement = $(".current");
+                var nextElement = currentElement.first().next();
+                if (!nextElement.hasClass("slider")) {
+                    nextElement = $(".slider").first();
+                }
+                currentElement.removeClass("hidden");
+                currentElement.removeClass("current");
+                nextElement.addClass("current");
+                nextElement.removeClass("hidden");
+                nextElement.css("display", "none");
+                currentElement.fadeOut(1000);
+                nextTimeOut=setTimeout(function () {
+                    nextElement.fadeIn(1000);
+                }, 1000);
+            }, 2000);
+
+        };
+
+       nextButton.on("click", function () {
+           clearInterval(nextInterval);
+           clearTimeout(nextTimeOut);
+           $(".slider").hide();
+           var currentElement = $(".current");
+           var nextElement = currentElement.first().next();
+           if (!nextElement.hasClass("slider")) {
+               nextElement = $(".slider").first();
+           }
+           currentElement.removeClass("current");
+           nextElement.removeClass("hidden");
+           nextElement.addClass("current");
+
+           nextElement.show();
+           goNext();
+ 
+       });
+
+        var previusButton = $("#previus");
+        previusButton.on("click", function () {
+            clearInterval(nextInterval);
+            clearTimeout(nextTimeOut);
+
+            var currentElement = $(".current");
+            var previusElement = currentElement.prev();
+            if (!previusElement.hasClass("slider")) {
+                previusElement = $(".slider").last();
+            }
+            if (currentElement.css("display") == "none") {
+                previusElement = previusElement.prev();
+                if (!previusElement.hasClass("slider")) {
+                    previusElement = $(".slider").last();
+                }
+            }
+            currentElement.removeClass("current");
+            previusElement.removeClass("hidden");
+            previusElement.addClass("current");
+            $(".slider").hide();
+            previusElement.show();
+
+            goNext();
+        });
+
+    </script>
+</body>
+</html>

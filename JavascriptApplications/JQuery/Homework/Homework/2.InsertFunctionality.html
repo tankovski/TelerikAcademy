@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="JQuery.js"></script>
+    <style>
+        #span {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <label for="text">Select some of the elements with css selector</label>
+    <input type="text" id="text" />
+    <label for="menu">Choose the type of element to insert</label>
+    <select id="menu">
+        <option value="<div/>">Div</option>
+        <option value="<p/>">Paragraph</option>
+        <option value="<li/>">LiElement</option>
+        <option value="<span/>">Span</option>
+        <option value="<textarea/>">TextArea</option>
+    </select>
+    <button id="before" onclick="before()">Before</button>
+    <button id="after" onclick="after()">After</button>
+    <div id="div" class="border">This is a div with a <span class="border" id="span">SPAN WITH ID="span"</span> inside, and id ="div".</div>
+    <p id="paragraph">This is a paragraph whith <a href="#" id="link">link with id="link"</a> inside, and id= "paragraph" </p>
+    <ul>
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+    </ul>
+    <script>
+      
+        function after() {
+            var optionMenu = $("#menu");
+            var textInput = $("#text");
+            $(textInput.val()).first().after($(optionMenu.val(), {
+                text: "Appended " + $("#menu :selected").text(),
+                'class': 'appendedElement'
+            }));
+        };
+
+        function before() {
+            var optionMenu = $("#menu");
+            var textInput = $("#text");
+            $(textInput.val()).first().before($(optionMenu.val(), {
+                text: "Appended " + $("#menu :selected").text(),
+                'class': 'appendedElement'
+            }));
+        };
+ 
+    </script>
+</body>
+</html>
