@@ -1,0 +1,7 @@
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CompanyArticles\bin\Debug\CompanyArticles.exe.config
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CompanyArticles\bin\Debug\CompanyArticles.exe
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CompanyArticles\bin\Debug\CompanyArticles.pdb
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CompanyArticles\bin\Debug\PowerCollections.dll
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CompanyArticles\bin\Debug\PowerCollections.xml
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CompanyArticles\obj\Debug\CompanyArticles.exe
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CompanyArticles\obj\Debug\CompanyArticles.pdb

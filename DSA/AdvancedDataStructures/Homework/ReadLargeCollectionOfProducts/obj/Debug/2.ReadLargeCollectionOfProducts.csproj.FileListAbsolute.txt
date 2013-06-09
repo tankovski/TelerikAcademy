@@ -1,0 +1,8 @@
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\ReadLargeCollectionOfProducts\bin\Debug\ReadLargeCollectionOfProducts.exe.config
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\ReadLargeCollectionOfProducts\bin\Debug\ReadLargeCollectionOfProducts.exe
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\ReadLargeCollectionOfProducts\bin\Debug\ReadLargeCollectionOfProducts.pdb
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\ReadLargeCollectionOfProducts\bin\Debug\PowerCollections.dll
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\ReadLargeCollectionOfProducts\bin\Debug\PowerCollections.xml
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\ReadLargeCollectionOfProducts\obj\Debug\2.ReadLargeCollectionOfProducts.csprojResolveAssemblyReference.cache
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\ReadLargeCollectionOfProducts\obj\Debug\ReadLargeCollectionOfProducts.exe
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\ReadLargeCollectionOfProducts\obj\Debug\ReadLargeCollectionOfProducts.pdb

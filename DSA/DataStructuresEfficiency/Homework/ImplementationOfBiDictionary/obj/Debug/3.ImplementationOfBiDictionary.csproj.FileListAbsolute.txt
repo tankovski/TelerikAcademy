@@ -1,0 +1,8 @@
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\ImplementationOfBiDictionary\bin\Debug\ImplementationOfBiDictionary.exe.config
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\ImplementationOfBiDictionary\bin\Debug\ImplementationOfBiDictionary.exe
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\ImplementationOfBiDictionary\bin\Debug\ImplementationOfBiDictionary.pdb
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\ImplementationOfBiDictionary\bin\Debug\PowerCollections.dll
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\ImplementationOfBiDictionary\bin\Debug\PowerCollections.xml
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\ImplementationOfBiDictionary\obj\Debug\3.ImplementationOfBiDictionary.csprojResolveAssemblyReference.cache
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\ImplementationOfBiDictionary\obj\Debug\ImplementationOfBiDictionary.exe
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\ImplementationOfBiDictionary\obj\Debug\ImplementationOfBiDictionary.pdb

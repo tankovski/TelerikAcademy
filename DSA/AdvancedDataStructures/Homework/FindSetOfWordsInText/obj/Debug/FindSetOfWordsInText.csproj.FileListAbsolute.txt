@@ -1,0 +1,1 @@
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\FindSetOfWordsInText\bin\Debug\FindSetOfWordsInText.exe.config

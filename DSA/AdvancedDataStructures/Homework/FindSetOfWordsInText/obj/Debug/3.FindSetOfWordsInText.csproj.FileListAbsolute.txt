@@ -1,0 +1,6 @@
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\FindSetOfWordsInText\bin\Debug\FindSetOfWordsInText.exe.config
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\FindSetOfWordsInText\bin\Debug\FindSetOfWordsInText.exe
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\FindSetOfWordsInText\bin\Debug\FindSetOfWordsInText.pdb
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\FindSetOfWordsInText\obj\Debug\3.FindSetOfWordsInText.csprojResolveAssemblyReference.cache
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\FindSetOfWordsInText\obj\Debug\FindSetOfWordsInText.exe
+E:\Uroci\DSA\Lesson5-AdvancedDataStructures\Homework\Homework\FindSetOfWordsInText\obj\Debug\FindSetOfWordsInText.pdb

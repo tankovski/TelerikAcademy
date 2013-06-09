@@ -1,0 +1,8 @@
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\bin\Debug\CoursesWithStudents.exe.config
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\obj\Debug\CoursesWithStudents.csprojResolveAssemblyReference.cache
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\bin\Debug\CoursesWithStudents.exe
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\bin\Debug\CoursesWithStudents.pdb
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\obj\Debug\CoursesWithStudents.exe
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\obj\Debug\CoursesWithStudents.pdb
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\bin\Debug\PowerCollections.dll
+E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\bin\Debug\PowerCollections.xml

@@ -1,0 +1,6 @@
+E:\Uroci\DSA\Lesson7-SortingAndSerachingAlgorithms\Homework\Homework\Sorting-and-Searching-Algorithms-Homework\bin\Debug\SortingHomework.exe.config
+E:\Uroci\DSA\Lesson7-SortingAndSerachingAlgorithms\Homework\Homework\Sorting-and-Searching-Algorithms-Homework\bin\Debug\SortingHomework.exe
+E:\Uroci\DSA\Lesson7-SortingAndSerachingAlgorithms\Homework\Homework\Sorting-and-Searching-Algorithms-Homework\bin\Debug\SortingHomework.pdb
+E:\Uroci\DSA\Lesson7-SortingAndSerachingAlgorithms\Homework\Homework\Sorting-and-Searching-Algorithms-Homework\obj\Debug\SortingHomework.exe
+E:\Uroci\DSA\Lesson7-SortingAndSerachingAlgorithms\Homework\Homework\Sorting-and-Searching-Algorithms-Homework\obj\Debug\SortingHomework.pdb
+E:\Uroci\DSA\Lesson7-SortingAndSerachingAlgorithms\Homework\Homework\Sorting-and-Searching-Algorithms-Homework\obj\Debug\SortingHomework.csprojResolveAssemblyReference.cache
