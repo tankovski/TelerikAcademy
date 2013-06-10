@@ -9,6 +9,7 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
 {
     //Fields
     private LinkedList<KeyValuePair<K, T>>[] container;
+    private List<K> filledPositionsKeys;
     private int capacity;
     private int count;
 
@@ -33,11 +34,8 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
         }
         set
         {
-            int index = key.GetHashCode() % this.container.Length;
-            if (index < 0)
-            {
-                index = index * -1;
-            }
+            int index = Math.Abs(key.GetHashCode() % this.container.Length);
+
             if (this.container[index] == null)
             {
                 throw new ArgumentException("There is no element with this key");
@@ -94,6 +92,7 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
     {
         this.container = new LinkedList<KeyValuePair<K, T>>[16];
         this.capacity = 0;
+        this.filledPositionsKeys = new List<K>();
     }
 
     //Methods
@@ -104,14 +103,12 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
             ResizeContainer();
         }
 
-        int index = key.GetHashCode() % this.container.Length;
-        if (index < 0)
-        {
-            index = index * -1;
-        }
+        int index = Math.Abs(key.GetHashCode() % this.container.Length);
+
         if (this.container[index] == null)
         {
             this.capacity += 1;
+            this.filledPositionsKeys.Add(key);
             this.container[index] = new LinkedList<KeyValuePair<K, T>>();
         }
 
@@ -130,11 +127,8 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
 
     public T Find(K key)
     {
-        int index = key.GetHashCode() % this.container.Length;
-        if (index < 0)
-        {
-            index = index * -1;
-        }
+        int index = Math.Abs(key.GetHashCode() % this.container.Length);
+
         if (this.container[index] == null)
         {
             throw new ArgumentException("There is no element with this key");
@@ -156,11 +150,8 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
 
     public bool Contain(K key)
     {
-        int index = key.GetHashCode() % this.container.Length;
-        if (index<0)
-        {
-            index = index * -1;   
-        }
+        int index = Math.Abs(key.GetHashCode() % this.container.Length);
+
         bool isFinded = false;
         if (this.container[index] != null)
         {
@@ -181,11 +172,8 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
 
     public void Remove(K key)
     {
-        int index = key.GetHashCode() % this.container.Length;
-        if (index < 0)
-        {
-            index = index * -1;
-        }
+        int index = Math.Abs(key.GetHashCode() % this.container.Length);
+
         if (this.container[index] == null)
         {
             throw new ArgumentException("There is no element with this key");
@@ -196,18 +184,19 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
             var next = this.container[index].First;
             while (next != null)
             {
+
                 if (next.Value.Key.Equals(key))
                 {
                     this.container[index].Remove(next);
                     isFind = true;
                     this.count -= 1;
-                    break;
                 }
                 next = next.Next;
             }
             if (this.container[index].First == null)
             {
                 this.capacity -= 1;
+                this.filledPositionsKeys.Remove(key);
             }
             if (isFind == false)
             {
@@ -242,9 +231,11 @@ public class OurHashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
     {
         int length = this.container.Length * 2;
         LinkedList<KeyValuePair<K, T>>[] newContainer = new LinkedList<KeyValuePair<K, T>>[length];
-        for (int i = 0; i < this.container.Length; i++)
+        foreach (var key in filledPositionsKeys)
         {
-            newContainer[i] = this.container[i];
+            int oldIndex = Math.Abs(key.GetHashCode() % this.container.Length);
+            int newIndex = Math.Abs(key.GetHashCode() % newContainer.Length);
+            newContainer[newIndex] = this.container[oldIndex];
         }
 
         this.container = newContainer;

@@ -6,3 +6,6 @@ E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStude
 E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\obj\Debug\1.CoursesWithStudents.csprojResolveAssemblyReference.cache
 E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\obj\Debug\CoursesWithStudents.exe
 E:\Uroci\DSA\Lesson6-DataStructuresEfficiency\Homework\Homework\CoursesWithStudents\obj\Debug\CoursesWithStudents.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\DataStructuresEfficiency\Homework\CoursesWithStudents\bin\Debug\CoursesWithStudents.exe.config
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\DataStructuresEfficiency\Homework\CoursesWithStudents\obj\Debug\CoursesWithStudents.exe
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\DSA\DataStructuresEfficiency\Homework\CoursesWithStudents\obj\Debug\CoursesWithStudents.pdb
