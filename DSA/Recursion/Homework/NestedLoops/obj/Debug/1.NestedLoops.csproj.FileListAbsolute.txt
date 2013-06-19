@@ -1,0 +1,6 @@
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\NestedLoops\bin\Debug\NestedLoops.exe.config
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\NestedLoops\bin\Debug\NestedLoops.exe
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\NestedLoops\bin\Debug\NestedLoops.pdb
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\NestedLoops\obj\Debug\NestedLoops.exe
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\NestedLoops\obj\Debug\NestedLoops.pdb
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\NestedLoops\obj\Debug\1.NestedLoops.csprojResolveAssemblyReference.cache

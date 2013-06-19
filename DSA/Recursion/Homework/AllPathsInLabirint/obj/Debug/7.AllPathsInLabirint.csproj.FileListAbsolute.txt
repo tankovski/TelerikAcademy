@@ -1,0 +1,6 @@
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\AllPathsInLabirint\bin\Debug\AllPathsInLabirint.exe.config
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\AllPathsInLabirint\bin\Debug\AllPathsInLabirint.exe
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\AllPathsInLabirint\bin\Debug\AllPathsInLabirint.pdb
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\AllPathsInLabirint\obj\Debug\7.AllPathsInLabirint.csprojResolveAssemblyReference.cache
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\AllPathsInLabirint\obj\Debug\AllPathsInLabirint.exe
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\AllPathsInLabirint\obj\Debug\AllPathsInLabirint.pdb

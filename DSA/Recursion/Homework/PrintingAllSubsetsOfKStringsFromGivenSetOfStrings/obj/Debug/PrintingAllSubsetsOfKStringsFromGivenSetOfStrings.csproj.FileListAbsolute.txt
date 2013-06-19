@@ -1,0 +1,1 @@
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\PrintingAllSubsetsOfKStringsFromGivenSetOfStrings\bin\Debug\PrintingAllSubsetsOfKStringsFromGivenSetOfStrings.exe.config

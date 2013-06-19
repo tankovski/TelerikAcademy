@@ -1,0 +1,5 @@
+E:\Uroci\DSA\Lesson9-Combinatorics\Homework\Homework\ColorfulRebits\bin\Debug\ColorfulRebits.exe.config
+E:\Uroci\DSA\Lesson9-Combinatorics\Homework\Homework\ColorfulRebits\bin\Debug\ColorfulRebits.exe
+E:\Uroci\DSA\Lesson9-Combinatorics\Homework\Homework\ColorfulRebits\bin\Debug\ColorfulRebits.pdb
+E:\Uroci\DSA\Lesson9-Combinatorics\Homework\Homework\ColorfulRebits\obj\Debug\ColorfulRebits.exe
+E:\Uroci\DSA\Lesson9-Combinatorics\Homework\Homework\ColorfulRebits\obj\Debug\ColorfulRebits.pdb

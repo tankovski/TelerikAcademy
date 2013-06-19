@@ -1,0 +1,6 @@
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\GenerateAndPrintPermotations\bin\Debug\GenerateAndPrintPermotations.exe.config
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\GenerateAndPrintPermotations\bin\Debug\GenerateAndPrintPermotations.exe
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\GenerateAndPrintPermotations\bin\Debug\GenerateAndPrintPermotations.pdb
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\GenerateAndPrintPermotations\obj\Debug\GenerateAndPrintPermotations.exe
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\GenerateAndPrintPermotations\obj\Debug\GenerateAndPrintPermotations.pdb
+E:\Uroci\DSA\Lesson8-Recursion\Homework\Homework\GenerateAndPrintPermotations\obj\Debug\4.GenerateAndPrintPermotations.csprojResolveAssemblyReference.cache
