@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="jquery-1.10.1.js"></script>
+    <style>
+        .TreeView {
+            list-style-type: none;
+        }
+
+            .TreeView li {
+                background: url("Play-icon.png") 0 1px no-repeat;
+                padding-left: 20px;
+            }
+
+            .TreeView a {
+                text-decoration: none;
+                color: black;
+            }
+
+                .TreeView a:hover {
+                    color: blue;
+                }
+    </style>
+</head>
+<body>
+    <ul class="tree">
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a>
+            <ul>
+                <li><a href="#">SubItem</a></li>
+                <li><a href="#">SubItem</a></li>
+                <li><a href="#">SubItem</a></li>
+                <li><a href="#">SubItem</a>
+                    <ul>
+                        <li><a href="#">SubItem2</a></li>
+                        <li><a href="#">SubItem2</a></li>
+                        <li><a href="#">SubItem2</a></li>
+                        <li><a href="#">SubItem2</a></li>
+                        <li><a href="#">SubItem2</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">SubItem</a></li>
+                <li><a href="#">SubItem</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Item</a></li>
+        <li><a href="#">Item</a></li>
+    </ul>
+    <script>
+        (function ($) {
+            $.fn.treeView = function () {
+                var nestedUls = $(this.selector + " ul");
+                nestedUls.css("display", "none");
+                nestedUls.addClass("TreeView");
+
+                var ul = $(this.selector);
+                ul.addClass("TreeView");
+                ul.on("click", function (event) {
+                    if (event.target.tagName == "A") {
+
+                        var element = $(event.target);
+                        var child = element.parent().children().first().next();
+                        if (child) {
+                            if (child.css("display") == "none") {
+                                child.css("display", "block");
+                            }
+                            else {
+                                child.css("display", "none");
+                            }
+                        }
+                    }
+
+                });
+                return this;
+            }
+        }(jQuery))
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".tree").treeView();
+        });
+    </script>
+
+</body>
+</html>
