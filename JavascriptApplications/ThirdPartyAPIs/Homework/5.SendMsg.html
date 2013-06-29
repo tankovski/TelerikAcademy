@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="http://connect.facebook.net/en_US/all.js"></script>
+    <div id="fb-root"></div>
+      
+      <label for="user">Enter User ID</label>
+      <input type="text" id="user"/>
+      <button onclick="sendMsg()">Send</button>
+
+
+
+    <script>
+        // assume we are already logged in
+        FB.init({ appId: '144171392446133', xfbml: true, cookie: true });
+        function sendMsg() {
+            var inputText = document.getElementById("user");
+            var id = inputText.value;
+            FB.ui({
+                method: 'send',
+                to: id,
+                link: "http://example.com" //Link is required
+            });
+        }
+     </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+     <script src="http://connect.facebook.net/en_US/all.js"></script>
+    <div id="fb-root"></div>
+      
+      <button onclick="logout()">LogOut</button>
+
+
+
+    <script>
+        // assume we are already logged in
+        FB.init({ appId: '144171392446133', xfbml: true, cookie: true });
+
+        
+        //After logout if you log in again the function need some time, it is best if you reload the page
+        function logout() {
+            window.location.href = window.location.href;
+            FB.logout(function (response) {
+                // user is now logged out
+            });
+        }
+     </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+E:\Uroci\Javascript Applications\Lesson10-Third-party-APIs\Homework\Homework\bin\Homework.dll
+E:\Uroci\Javascript Applications\Lesson10-Third-party-APIs\Homework\Homework\bin\Homework.pdb
+E:\Uroci\Javascript Applications\Lesson10-Third-party-APIs\Homework\Homework\obj\Debug\Homework.dll
+E:\Uroci\Javascript Applications\Lesson10-Third-party-APIs\Homework\Homework\obj\Debug\Homework.pdb

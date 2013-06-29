@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>MapTourismo</title>
+    <script src="scripts/ClassCreate.js"></script>
+    <style>
+        html, body, #map-canvas {
+            margin: 0;
+            padding: 0;
+            height: 500px;
+            width: 1000px;
+        }
+
+        ul {
+            position: absolute;
+            left: 1100px;
+            top: 150px;
+            list-style-type:none;
+        }
+
+        #prev {
+            position: absolute;
+            left: 1100px;
+            top: 100px;
+        }
+
+        #next {
+            position: absolute;
+            left: 1200px;
+            top: 100px;
+        }
+
+        .current {
+            color:red;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+</head>
+<body>
+    <div id="map-canvas"></div>
+    <button id="prev" onclick="prevCity()">Previous</button>
+    <button id="next" onclick="nextCity()">Next</button>
+    <ul id="citiesContainer">
+        
+    </ul>
+    <script src="scripts/mapTourism.js"></script>
+</body>
+</html>
