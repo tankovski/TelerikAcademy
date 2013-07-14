@@ -1,0 +1,6 @@
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\AddNewProducts\bin\Debug\AddNewProducts.exe.config
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\AddNewProducts\bin\Debug\AddNewProducts.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\AddNewProducts\bin\Debug\AddNewProducts.pdb
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\AddNewProducts\obj\Debug\4.AddNewProducts.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\AddNewProducts\obj\Debug\AddNewProducts.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\AddNewProducts\obj\Debug\AddNewProducts.pdb

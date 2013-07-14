@@ -1,0 +1,1 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\FindCustomersWhoMadeOrdersIn1997FromCanada\bin\Debug\FindCustomersWhoMadeOrdersIn1997FromCanada.exe.config

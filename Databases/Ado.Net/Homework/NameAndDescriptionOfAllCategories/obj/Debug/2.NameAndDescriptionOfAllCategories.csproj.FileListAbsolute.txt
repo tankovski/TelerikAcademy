@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\NameAndDescriptionOfAllCategories\bin\Debug\NameAndDescriptionOfAllCategories.exe.config
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\NameAndDescriptionOfAllCategories\bin\Debug\NameAndDescriptionOfAllCategories.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\NameAndDescriptionOfAllCategories\bin\Debug\NameAndDescriptionOfAllCategories.pdb
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\NameAndDescriptionOfAllCategories\obj\Debug\NameAndDescriptionOfAllCategories.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\NameAndDescriptionOfAllCategories\obj\Debug\NameAndDescriptionOfAllCategories.pdb

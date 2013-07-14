@@ -1,0 +1,1 @@
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\MySQQLBooks\bin\Debug\MySQQLBooks.exe.config

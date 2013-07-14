@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetAllCategoriesAndTheirProducts\bin\Debug\GetAllCategoriesAndTheirProducts.exe.config
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetAllCategoriesAndTheirProducts\bin\Debug\GetAllCategoriesAndTheirProducts.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetAllCategoriesAndTheirProducts\bin\Debug\GetAllCategoriesAndTheirProducts.pdb
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetAllCategoriesAndTheirProducts\obj\Debug\GetAllCategoriesAndTheirProducts.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetAllCategoriesAndTheirProducts\obj\Debug\GetAllCategoriesAndTheirProducts.pdb

@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SecondContextModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SecondContextEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="SecondContextModel.Category" />
+    <EntitySet Name="CustomerDemographics" EntityType="SecondContextModel.CustomerDemographic" />
+    <EntitySet Name="Customers" EntityType="SecondContextModel.Customer" />
+    <EntitySet Name="Employees" EntityType="SecondContextModel.Employee" />
+    <EntitySet Name="Groups" EntityType="SecondContextModel.Group" />
+    <EntitySet Name="Order_Details" EntityType="SecondContextModel.Order_Detail" />
+    <EntitySet Name="Orders" EntityType="SecondContextModel.Order" />
+    <EntitySet Name="Products" EntityType="SecondContextModel.Product" />
+    <EntitySet Name="Regions" EntityType="SecondContextModel.Region" />
+    <EntitySet Name="Shippers" EntityType="SecondContextModel.Shipper" />
+    <EntitySet Name="Suppliers" EntityType="SecondContextModel.Supplier" />
+    <EntitySet Name="sysdiagrams" EntityType="SecondContextModel.sysdiagram" />
+    <EntitySet Name="Territories" EntityType="SecondContextModel.Territory" />
+    <EntitySet Name="Users" EntityType="SecondContextModel.User" />
+    <EntitySet Name="Alphabetical_list_of_products" EntityType="SecondContextModel.Alphabetical_list_of_product" />
+    <EntitySet Name="Category_Sales_for_1997" EntityType="SecondContextModel.Category_Sales_for_1997" />
+    <EntitySet Name="Current_Product_Lists" EntityType="SecondContextModel.Current_Product_List" />
+    <EntitySet Name="Customer_and_Suppliers_by_Cities" EntityType="SecondContextModel.Customer_and_Suppliers_by_City" />
+    <EntitySet Name="Invoices" EntityType="SecondContextModel.Invoice" />
+    <EntitySet Name="Order_Details_Extendeds" EntityType="SecondContextModel.Order_Details_Extended" />
+    <EntitySet Name="Order_Subtotals" EntityType="SecondContextModel.Order_Subtotal" />
+    <EntitySet Name="Orders_Qries" EntityType="SecondContextModel.Orders_Qry" />
+    <EntitySet Name="Product_Sales_for_1997" EntityType="SecondContextModel.Product_Sales_for_1997" />
+    <EntitySet Name="Products_Above_Average_Prices" EntityType="SecondContextModel.Products_Above_Average_Price" />
+    <EntitySet Name="Products_by_Categories" EntityType="SecondContextModel.Products_by_Category" />
+    <EntitySet Name="Sales_by_Categories" EntityType="SecondContextModel.Sales_by_Category" />
+    <EntitySet Name="Sales_Totals_by_Amounts" EntityType="SecondContextModel.Sales_Totals_by_Amount" />
+    <EntitySet Name="Summary_of_Sales_by_Quarters" EntityType="SecondContextModel.Summary_of_Sales_by_Quarter" />
+    <EntitySet Name="Summary_of_Sales_by_Years" EntityType="SecondContextModel.Summary_of_Sales_by_Year" />
+    <AssociationSet Name="FK_Products_Categories" Association="SecondContextModel.FK_Products_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Customers" Association="SecondContextModel.FK_Orders_Customers">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employees_Employees" Association="SecondContextModel.FK_Employees_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Employees1" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Employees" Association="SecondContextModel.FK_Orders_Employees">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Groups" Association="SecondContextModel.FK_Users_Groups">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_Details_Orders" Association="SecondContextModel.FK_Order_Details_Orders">
+      <End Role="Orders" EntitySet="Orders" />
+      <End Role="Order_Details" EntitySet="Order_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_Details_Products" Association="SecondContextModel.FK_Order_Details_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Order_Details" EntitySet="Order_Details" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Orders_Shippers" Association="SecondContextModel.FK_Orders_Shippers">
+      <End Role="Shippers" EntitySet="Shippers" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_Suppliers" Association="SecondContextModel.FK_Products_Suppliers">
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Territories_Region" Association="SecondContextModel.FK_Territories_Region">
+      <End Role="Region" EntitySet="Regions" />
+      <End Role="Territories" EntitySet="Territories" />
+    </AssociationSet>
+    <AssociationSet Name="CustomerCustomerDemo" Association="SecondContextModel.CustomerCustomerDemo">
+      <End Role="CustomerDemographics" EntitySet="CustomerDemographics" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="EmployeeTerritories" Association="SecondContextModel.EmployeeTerritories">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Territories" EntitySet="Territories" />
+    </AssociationSet>
+    <FunctionImport Name="CustOrderHist" ReturnType="Collection(SecondContextModel.CustOrderHist_Result)">
+      <Parameter Name="CustomerID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="CustOrdersDetail" ReturnType="Collection(SecondContextModel.CustOrdersDetail_Result)">
+      <Parameter Name="OrderID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="CustOrdersOrders" ReturnType="Collection(SecondContextModel.CustOrdersOrders_Result)">
+      <Parameter Name="CustomerID" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Employee_Sales_by_Country" ReturnType="Collection(SecondContextModel.Employee_Sales_by_Country_Result)">
+      <Parameter Name="Beginning_Date" Mode="In" Type="DateTime" />
+      <Parameter Name="Ending_Date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Sales_by_Year" ReturnType="Collection(SecondContextModel.Sales_by_Year_Result)">
+      <Parameter Name="Beginning_Date" Mode="In" Type="DateTime" />
+      <Parameter Name="Ending_Date" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="SalesByCategory" ReturnType="Collection(SecondContextModel.SalesByCategory_Result)">
+      <Parameter Name="CategoryName" Mode="In" Type="String" />
+      <Parameter Name="OrdYear" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(SecondContextModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(SecondContextModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="Ten_Most_Expensive_Products" ReturnType="Collection(SecondContextModel.Ten_Most_Expensive_Products_Result)" />
+  </EntityContainer>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Picture" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Products" Relationship="SecondContextModel.FK_Products_Categories" FromRole="Categories" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="CustomerDemographic">
+    <Key>
+      <PropertyRef Name="CustomerTypeID" />
+    </Key>
+    <Property Name="CustomerTypeID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="CustomerDesc" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Customers" Relationship="SecondContextModel.CustomerCustomerDemo" FromRole="CustomerDemographics" ToRole="Customers" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="String" Nullable="false" MaxLength="5" Unicode="true" FixedLength="true" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ContactName" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="ContactTitle" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Orders" Relationship="SecondContextModel.FK_Orders_Customers" FromRole="Customers" ToRole="Orders" />
+    <NavigationProperty Name="CustomerDemographics" Relationship="SecondContextModel.CustomerCustomerDemo" FromRole="Customers" ToRole="CustomerDemographics" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Title" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="TitleOfCourtesy" Type="String" MaxLength="25" Unicode="true" FixedLength="false" />
+    <Property Name="BirthDate" Type="DateTime" Precision="3" />
+    <Property Name="HireDate" Type="DateTime" Precision="3" />
+    <Property Name="Address" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="HomePhone" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+    <Property Name="Extension" Type="String" MaxLength="4" Unicode="true" FixedLength="false" />
+    <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Notes" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ReportsTo" Type="Int32" />
+    <Property Name="PhotoPath" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Employees1" Relationship="SecondContextModel.FK_Employees_Employees" FromRole="Employees" ToRole="Employees1" />
+    <NavigationProperty Name="Employee1" Relationship="SecondContextModel.FK_Employees_Employees" FromRole="Employees1" ToRole="Employees" />
+    <NavigationProperty Name="Orders" Relationship="SecondContextModel.FK_Orders_Employees" FromRole="Employees" ToRole="Orders" />
+    <NavigationProperty Name="Territories" Relationship="SecondContextModel.EmployeeTerritories" FromRole="Employees" ToRole="Territories" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="GroupID" />
+    </Key>
+    <Property Name="GroupID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Users" Relationship="SecondContextModel.FK_Users_Groups" FromRole="Groups" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Order_Detail">
+    <Key>
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Quantity" Type="Int16" Nullable="false" />
+    <Property Name="Discount" Type="Single" Nullable="false" />
+    <NavigationProperty Name="Order" Relationship="SecondContextModel.FK_Order_Details_Orders" FromRole="Order_Details" ToRole="Orders" />
+    <NavigationProperty Name="Product" Relationship="SecondContextModel.FK_Order_Details_Products" FromRole="Order_Details" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="String" MaxLength="5" Unicode="true" FixedLength="true" />
+    <Property Name="EmployeeID" Type="Int32" />
+    <Property Name="OrderDate" Type="DateTime" Precision="3" />
+    <Property Name="RequiredDate" Type="DateTime" Precision="3" />
+    <Property Name="ShippedDate" Type="DateTime" Precision="3" />
+    <Property Name="ShipVia" Type="Int32" />
+    <Property Name="Freight" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ShipName" Type="String" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ShipAddress" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="ShipCity" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ShipRegion" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ShipPostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="ShipCountry" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Customer" Relationship="SecondContextModel.FK_Orders_Customers" FromRole="Orders" ToRole="Customers" />
+    <NavigationProperty Name="Employee" Relationship="SecondContextModel.FK_Orders_Employees" FromRole="Orders" ToRole="Employees" />
+    <NavigationProperty Name="Order_Details" Relationship="SecondContextModel.FK_Order_Details_Orders" FromRole="Orders" ToRole="Order_Details" />
+    <NavigationProperty Name="Shipper" Relationship="SecondContextModel.FK_Orders_Shippers" FromRole="Orders" ToRole="Shippers" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="SupplierID" Type="Int32" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="QuantityPerUnit" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="UnitsInStock" Type="Int16" />
+    <Property Name="UnitsOnOrder" Type="Int16" />
+    <Property Name="ReorderLevel" Type="Int16" />
+    <Property Name="Discontinued" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Category" Relationship="SecondContextModel.FK_Products_Categories" FromRole="Products" ToRole="Categories" />
+    <NavigationProperty Name="Order_Details" Relationship="SecondContextModel.FK_Order_Details_Products" FromRole="Products" ToRole="Order_Details" />
+    <NavigationProperty Name="Supplier" Relationship="SecondContextModel.FK_Products_Suppliers" FromRole="Products" ToRole="Suppliers" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="RegionID" />
+    </Key>
+    <Property Name="RegionID" Type="Int32" Nullable="false" />
+    <Property Name="RegionDescription" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="Territories" Relationship="SecondContextModel.FK_Territories_Region" FromRole="Region" ToRole="Territories" />
+  </EntityType>
+  <EntityType Name="Shipper">
+    <Key>
+      <PropertyRef Name="ShipperID" />
+    </Key>
+    <Property Name="ShipperID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Orders" Relationship="SecondContextModel.FK_Orders_Shippers" FromRole="Shippers" ToRole="Orders" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+    </Key>
+    <Property Name="SupplierID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ContactName" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="ContactTitle" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+    <Property Name="Fax" Type="String" MaxLength="24" Unicode="true" FixedLength="false" />
+    <Property Name="HomePage" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Products" Relationship="SecondContextModel.FK_Products_Suppliers" FromRole="Suppliers" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Territory">
+    <Key>
+      <PropertyRef Name="TerritoryID" />
+    </Key>
+    <Property Name="TerritoryID" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TerritoryDescription" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="RegionID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Region" Relationship="SecondContextModel.FK_Territories_Region" FromRole="Territories" ToRole="Region" />
+    <NavigationProperty Name="Employees" Relationship="SecondContextModel.EmployeeTerritories" FromRole="Territories" ToRole="Employees" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="UserPassword" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="true" />
+    <Property Name="UserFullName" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="LastLoginTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="GroupID" Type="Int32" />
+    <NavigationProperty Name="Group" Relationship="SecondContextModel.FK_Users_Groups" FromRole="Users" ToRole="Groups" />
+  </EntityType>
+  <EntityType Name="Alphabetical_list_of_product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="Discontinued" />
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="SupplierID" Type="Int32" />
+    <Property Name="CategoryID" Type="Int32" />
+    <Property Name="QuantityPerUnit" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="UnitsInStock" Type="Int16" />
+    <Property Name="UnitsOnOrder" Type="Int16" />
+    <Property Name="ReorderLevel" Type="Int16" />
+    <Property Name="Discontinued" Type="Boolean" Nullable="false" />
+    <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Category_Sales_for_1997">
+    <Key>
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="CategorySales" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Current_Product_List">
+    <Key>
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="ProductName" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Customer_and_Suppliers_by_City">
+    <Key>
+      <PropertyRef Name="CompanyName" />
+      <PropertyRef Name="Relationship" />
+    </Key>
+    <Property Name="City" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ContactName" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="Relationship" Type="String" Nullable="false" MaxLength="9" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Invoice">
+    <Key>
+      <PropertyRef Name="CustomerName" />
+      <PropertyRef Name="Salesperson" />
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="ShipperName" />
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="UnitPrice" />
+      <PropertyRef Name="Quantity" />
+      <PropertyRef Name="Discount" />
+    </Key>
+    <Property Name="ShipName" Type="String" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ShipAddress" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="ShipCity" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ShipRegion" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ShipPostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="ShipCountry" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="CustomerID" Type="String" MaxLength="5" Unicode="true" FixedLength="true" />
+    <Property Name="CustomerName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Salesperson" Type="String" Nullable="false" MaxLength="31" Unicode="true" FixedLength="false" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="OrderDate" Type="DateTime" Precision="3" />
+    <Property Name="RequiredDate" Type="DateTime" Precision="3" />
+    <Property Name="ShippedDate" Type="DateTime" Precision="3" />
+    <Property Name="ShipperName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="UnitPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Quantity" Type="Int16" Nullable="false" />
+    <Property Name="Discount" Type="Single" Nullable="false" />
+    <Property Name="ExtendedPrice" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Freight" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Order_Details_Extended">
+    <Key>
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="ProductID" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="UnitPrice" />
+      <PropertyRef Name="Quantity" />
+      <PropertyRef Name="Discount" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="Int32" Nullable="false" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="UnitPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Quantity" Type="Int16" Nullable="false" />
+    <Property Name="Discount" Type="Single" Nullable="false" />
+    <Property Name="ExtendedPrice" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Order_Subtotal">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="Subtotal" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Orders_Qry">
+    <Key>
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="CustomerID" Type="String" MaxLength="5" Unicode="true" FixedLength="true" />
+    <Property Name="EmployeeID" Type="Int32" />
+    <Property Name="OrderDate" Type="DateTime" Precision="3" />
+    <Property Name="RequiredDate" Type="DateTime" Precision="3" />
+    <Property Name="ShippedDate" Type="DateTime" Precision="3" />
+    <Property Name="ShipVia" Type="Int32" />
+    <Property Name="Freight" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ShipName" Type="String" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ShipAddress" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="ShipCity" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ShipRegion" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ShipPostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="ShipCountry" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="60" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Region" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="PostalCode" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Country" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Product_Sales_for_1997">
+    <Key>
+      <PropertyRef Name="CategoryName" />
+      <PropertyRef Name="ProductName" />
+    </Key>
+    <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ProductSales" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Products_Above_Average_Price">
+    <Key>
+      <PropertyRef Name="ProductName" />
+    </Key>
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Products_by_Category">
+    <Key>
+      <PropertyRef Name="CategoryName" />
+      <PropertyRef Name="ProductName" />
+      <PropertyRef Name="Discontinued" />
+    </Key>
+    <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="QuantityPerUnit" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="UnitsInStock" Type="Int16" />
+    <Property Name="Discontinued" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sales_by_Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+      <PropertyRef Name="CategoryName" />
+      <PropertyRef Name="ProductName" />
+    </Key>
+    <Property Name="CategoryID" Type="Int32" Nullable="false" />
+    <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="ProductName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ProductSales" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Sales_Totals_by_Amount">
+    <Key>
+      <PropertyRef Name="OrderID" />
+      <PropertyRef Name="CompanyName" />
+    </Key>
+    <Property Name="SaleAmount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="CompanyName" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="ShippedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="Summary_of_Sales_by_Quarter">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="ShippedDate" Type="DateTime" Precision="3" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="Subtotal" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityType Name="Summary_of_Sales_by_Year">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="ShippedDate" Type="DateTime" Precision="3" />
+    <Property Name="OrderID" Type="Int32" Nullable="false" />
+    <Property Name="Subtotal" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <Association Name="FK_Products_Categories">
+    <End Role="Categories" Type="SecondContextModel.Category" Multiplicity="0..1" />
+    <End Role="Products" Type="SecondContextModel.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Customers">
+    <End Role="Customers" Type="SecondContextModel.Customer" Multiplicity="0..1" />
+    <End Role="Orders" Type="SecondContextModel.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employees_Employees">
+    <End Role="Employees" Type="SecondContextModel.Employee" Multiplicity="0..1" />
+    <End Role="Employees1" Type="SecondContextModel.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="Employees1">
+        <PropertyRef Name="ReportsTo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Employees">
+    <End Role="Employees" Type="SecondContextModel.Employee" Multiplicity="0..1" />
+    <End Role="Orders" Type="SecondContextModel.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="EmployeeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Groups">
+    <End Role="Groups" Type="SecondContextModel.Group" Multiplicity="0..1" />
+    <End Role="Users" Type="SecondContextModel.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="GroupID" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="GroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_Details_Orders">
+    <End Role="Orders" Type="SecondContextModel.Order" Multiplicity="1" />
+    <End Role="Order_Details" Type="SecondContextModel.Order_Detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Orders">
+        <PropertyRef Name="OrderID" />
+      </Principal>
+      <Dependent Role="Order_Details">
+        <PropertyRef Name="OrderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_Details_Products">
+    <End Role="Products" Type="SecondContextModel.Product" Multiplicity="1" />
+    <End Role="Order_Details" Type="SecondContextModel.Order_Detail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="Order_Details">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Orders_Shippers">
+    <End Role="Shippers" Type="SecondContextModel.Shipper" Multiplicity="0..1" />
+    <End Role="Orders" Type="SecondContextModel.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shippers">
+        <PropertyRef Name="ShipperID" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="ShipVia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_Suppliers">
+    <End Role="Suppliers" Type="SecondContextModel.Supplier" Multiplicity="0..1" />
+    <End Role="Products" Type="SecondContextModel.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suppliers">
+        <PropertyRef Name="SupplierID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="SupplierID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Territories_Region">
+    <End Role="Region" Type="SecondContextModel.Region" Multiplicity="1" />
+    <End Role="Territories" Type="SecondContextModel.Territory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="RegionID" />
+      </Principal>
+      <Dependent Role="Territories">
+        <PropertyRef Name="RegionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="CustomerCustomerDemo">
+    <End Role="CustomerDemographics" Type="SecondContextModel.CustomerDemographic" Multiplicity="*" />
+    <End Role="Customers" Type="SecondContextModel.Customer" Multiplicity="*" />
+  </Association>
+  <Association Name="EmployeeTerritories">
+    <End Role="Employees" Type="SecondContextModel.Employee" Multiplicity="*" />
+    <End Role="Territories" Type="SecondContextModel.Territory" Multiplicity="*" />
+  </Association>
+  <ComplexType Name="CustOrderHist_Result">
+    <Property Type="String" Name="ProductName" Nullable="false" MaxLength="40" />
+    <Property Type="Int32" Name="Total" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="CustOrdersDetail_Result">
+    <Property Type="String" Name="ProductName" Nullable="false" MaxLength="40" />
+    <Property Type="Decimal" Name="UnitPrice" Nullable="false" Precision="19" />
+    <Property Type="Int16" Name="Quantity" Nullable="false" />
+    <Property Type="Int32" Name="Discount" Nullable="true" />
+    <Property Type="Decimal" Name="ExtendedPrice" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="CustOrdersOrders_Result">
+    <Property Type="Int32" Name="OrderID" Nullable="false" />
+    <Property Type="DateTime" Name="OrderDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="RequiredDate" Nullable="true" Precision="23" />
+    <Property Type="DateTime" Name="ShippedDate" Nullable="true" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="Employee_Sales_by_Country_Result">
+    <Property Type="String" Name="Country" Nullable="true" MaxLength="15" />
+    <Property Type="String" Name="LastName" Nullable="false" MaxLength="20" />
+    <Property Type="String" Name="FirstName" Nullable="false" MaxLength="10" />
+    <Property Type="DateTime" Name="ShippedDate" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="OrderID" Nullable="false" />
+    <Property Type="Decimal" Name="SaleAmount" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="Sales_by_Year_Result">
+    <Property Type="DateTime" Name="ShippedDate" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="OrderID" Nullable="false" />
+    <Property Type="Decimal" Name="Subtotal" Nullable="true" Precision="19" />
+    <Property Type="String" Name="Year" Nullable="true" MaxLength="30" />
+  </ComplexType>
+  <ComplexType Name="SalesByCategory_Result">
+    <Property Type="String" Name="ProductName" Nullable="false" MaxLength="40" />
+    <Property Type="Decimal" Name="TotalPurchase" Nullable="true" Precision="38" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Ten_Most_Expensive_Products_Result">
+    <Property Type="String" Name="TenMostExpensiveProducts" Nullable="false" MaxLength="40" />
+    <Property Type="Decimal" Name="UnitPrice" Nullable="true" Precision="19" />
+  </ComplexType>
+</Schema>

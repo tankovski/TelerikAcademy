@@ -1,0 +1,1 @@
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetAllCategoriesAndTheirProducts\bin\Debug\GetAllCategoriesAndTheirProducts.exe.config

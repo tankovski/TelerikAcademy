@@ -1,0 +1,6 @@
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\InsertRowlsToExcel\bin\Debug\InsertRowlsToExcel.exe.config
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\InsertRowlsToExcel\obj\Debug\7.InsertRowlsToExcel.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\InsertRowlsToExcel\bin\Debug\InsertRowlsToExcel.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\InsertRowlsToExcel\bin\Debug\InsertRowlsToExcel.pdb
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\InsertRowlsToExcel\obj\Debug\InsertRowlsToExcel.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\InsertRowlsToExcel\obj\Debug\InsertRowlsToExcel.pdb

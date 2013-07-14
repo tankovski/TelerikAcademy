@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\RetrivesNumberOfRows\bin\Debug\RetrivesNumberOfRows.exe.config
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\RetrivesNumberOfRows\bin\Debug\RetrivesNumberOfRows.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\RetrivesNumberOfRows\bin\Debug\RetrivesNumberOfRows.pdb
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\RetrivesNumberOfRows\obj\Debug\RetrivesNumberOfRows.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\RetrivesNumberOfRows\obj\Debug\RetrivesNumberOfRows.pdb

@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetImages\bin\Debug\GetImages.exe.config
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetImages\obj\Debug\GetImages.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetImages\obj\Debug\GetImages.pdb
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetImages\bin\Debug\GetImages.exe
+E:\Uroci\Databases\Lesson7-ADO.NET\Homework\Homework\GetImages\bin\Debug\GetImages.pdb

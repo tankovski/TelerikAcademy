@@ -1,0 +1,10 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\InsertModifyAndDeleteCustomers\bin\Debug\InsertModifyAndDeleteCustomers.exe.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\InsertModifyAndDeleteCustomers\obj\Debug\1.InsertModifyAndDeleteCustomers.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\InsertModifyAndDeleteCustomers\bin\Debug\InsertModifyAndDeleteCustomers.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\InsertModifyAndDeleteCustomers\bin\Debug\InsertModifyAndDeleteCustomers.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\InsertModifyAndDeleteCustomers\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\InsertModifyAndDeleteCustomers\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\InsertModifyAndDeleteCustomers\obj\Debug\InsertModifyAndDeleteCustomers.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\InsertModifyAndDeleteCustomers\obj\Debug\InsertModifyAndDeleteCustomers.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\InsertModifyAndDeleteCustomers\bin\Debug\NorthwindEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\InsertModifyAndDeleteCustomers\bin\Debug\NorthwindEntetiesData.pdb
