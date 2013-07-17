@@ -1,0 +1,12 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\bin\Debug\OpenDifferentDataContexts.exe.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\obj\Debug\OpenDifferentDataContexts.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\obj\Debug\OpenDifferentDataContexts.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\bin\Debug\OpenDifferentDataContexts.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\bin\Debug\OpenDifferentDataContexts.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\bin\Debug\NorthwindEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\bin\Debug\SecondContext.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\bin\Debug\NorthwindEntetiesData.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\bin\Debug\SecondContext.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\OpenDifferentDataContexts\obj\Debug\7.OpenDifferentDataContexts.csprojResolveAssemblyReference.cache

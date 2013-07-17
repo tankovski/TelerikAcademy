@@ -1,0 +1,8 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NorthwindEntetiesData\bin\Debug\NorthwindEntetiesData.dll.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NorthwindEntetiesData\bin\Debug\NorthwindEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NorthwindEntetiesData\bin\Debug\NorthwindEntetiesData.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NorthwindEntetiesData\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NorthwindEntetiesData\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NorthwindEntetiesData\obj\Debug\1.NorthwindEntetiesData.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NorthwindEntetiesData\obj\Debug\NorthwindEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NorthwindEntetiesData\obj\Debug\NorthwindEntetiesData.pdb

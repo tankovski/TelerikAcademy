@@ -1,0 +1,1 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\bin\Debug\CreateNewDatabase.exe.config

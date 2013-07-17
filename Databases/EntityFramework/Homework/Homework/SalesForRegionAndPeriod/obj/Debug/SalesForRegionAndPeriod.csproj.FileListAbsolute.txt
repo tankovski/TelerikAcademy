@@ -1,0 +1,10 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SalesForRegionAndPeriod\bin\Debug\SalesForRegionAndPeriod.exe.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SalesForRegionAndPeriod\bin\Debug\SalesForRegionAndPeriod.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SalesForRegionAndPeriod\bin\Debug\SalesForRegionAndPeriod.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SalesForRegionAndPeriod\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SalesForRegionAndPeriod\bin\Debug\NorthwindEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SalesForRegionAndPeriod\bin\Debug\NorthwindEntetiesData.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SalesForRegionAndPeriod\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SalesForRegionAndPeriod\obj\Debug\SalesForRegionAndPeriod.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SalesForRegionAndPeriod\obj\Debug\SalesForRegionAndPeriod.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SalesForRegionAndPeriod\obj\Debug\SalesForRegionAndPeriod.pdb

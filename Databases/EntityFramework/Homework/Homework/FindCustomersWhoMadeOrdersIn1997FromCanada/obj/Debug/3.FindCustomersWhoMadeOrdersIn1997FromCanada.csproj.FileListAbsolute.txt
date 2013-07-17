@@ -1,0 +1,3 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\FindCustomersWhoMadeOrdersIn1997FromCanada\bin\Debug\FindCustomersWhoMadeOrdersIn1997FromCanada.exe.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\FindCustomersWhoMadeOrdersIn1997FromCanada\obj\Debug\FindCustomersWhoMadeOrdersIn1997FromCanada.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\FindCustomersWhoMadeOrdersIn1997FromCanada\obj\Debug\FindCustomersWhoMadeOrdersIn1997FromCanada.pdb

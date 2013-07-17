@@ -1,0 +1,8 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SecondContext\bin\Debug\SecondContext.dll.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SecondContext\bin\Debug\SecondContext.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SecondContext\bin\Debug\SecondContext.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SecondContext\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SecondContext\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SecondContext\obj\Debug\SecondContext.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SecondContext\obj\Debug\SecondContext.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\SecondContext\obj\Debug\SecondContext.pdb

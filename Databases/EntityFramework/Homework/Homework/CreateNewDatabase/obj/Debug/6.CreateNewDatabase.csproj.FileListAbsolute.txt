@@ -1,0 +1,10 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\bin\Debug\CreateNewDatabase.exe.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\bin\Debug\CreateNewDatabase.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\bin\Debug\CreateNewDatabase.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\obj\Debug\CreateNewDatabase.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\obj\Debug\CreateNewDatabase.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\obj\Debug\6.CreateNewDatabase.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\bin\Debug\NorthwindEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\CreateNewDatabase\bin\Debug\NorthwindEntetiesData.pdb

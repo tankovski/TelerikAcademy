@@ -1,0 +1,10 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NewOrder\bin\Debug\NewOrder.exe.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NewOrder\bin\Debug\NewOrder.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NewOrder\bin\Debug\NewOrder.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NewOrder\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NewOrder\bin\Debug\NorthwindEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NewOrder\bin\Debug\NorthwindEntetiesData.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NewOrder\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NewOrder\obj\Debug\NewOrder.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NewOrder\obj\Debug\NewOrder.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NewOrder\obj\Debug\NewOrder.pdb

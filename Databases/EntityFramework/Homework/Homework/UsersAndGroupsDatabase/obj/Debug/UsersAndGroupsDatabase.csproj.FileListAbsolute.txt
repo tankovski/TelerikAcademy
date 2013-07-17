@@ -1,0 +1,10 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersAndGroupsDatabase\bin\Debug\UsersAndGroupsDatabase.exe.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersAndGroupsDatabase\obj\Debug\UsersAndGroupsDatabase.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersAndGroupsDatabase\bin\Debug\UsersAndGroupsDatabase.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersAndGroupsDatabase\bin\Debug\UsersAndGroupsDatabase.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersAndGroupsDatabase\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersAndGroupsDatabase\bin\Debug\UsersEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersAndGroupsDatabase\bin\Debug\UsersEntetiesData.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersAndGroupsDatabase\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersAndGroupsDatabase\obj\Debug\UsersAndGroupsDatabase.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersAndGroupsDatabase\obj\Debug\UsersAndGroupsDatabase.pdb

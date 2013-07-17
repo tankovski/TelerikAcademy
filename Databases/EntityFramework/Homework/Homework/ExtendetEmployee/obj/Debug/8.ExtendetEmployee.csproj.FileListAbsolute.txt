@@ -1,0 +1,10 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\ExtendetEmployee\bin\Debug\ExtendetEmployee.exe.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\ExtendetEmployee\bin\Debug\ExtendetEmployee.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\ExtendetEmployee\bin\Debug\ExtendetEmployee.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\ExtendetEmployee\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\ExtendetEmployee\bin\Debug\NorthwindEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\ExtendetEmployee\bin\Debug\NorthwindEntetiesData.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\ExtendetEmployee\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\ExtendetEmployee\obj\Debug\8.ExtendetEmployee.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\ExtendetEmployee\obj\Debug\ExtendetEmployee.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\ExtendetEmployee\obj\Debug\ExtendetEmployee.pdb

@@ -1,0 +1,10 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NativeSQL\bin\Debug\NativeSQL.exe.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NativeSQL\bin\Debug\NativeSQL.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NativeSQL\bin\Debug\NativeSQL.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NativeSQL\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NativeSQL\bin\Debug\NorthwindEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NativeSQL\bin\Debug\NorthwindEntetiesData.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NativeSQL\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NativeSQL\obj\Debug\NativeSQL.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NativeSQL\obj\Debug\NativeSQL.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\NativeSQL\obj\Debug\NativeSQL.pdb

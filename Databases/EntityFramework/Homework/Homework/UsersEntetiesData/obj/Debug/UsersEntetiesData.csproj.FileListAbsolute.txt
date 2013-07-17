@@ -1,0 +1,8 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersEntetiesData\bin\Debug\UsersEntetiesData.dll.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersEntetiesData\bin\Debug\UsersEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersEntetiesData\bin\Debug\UsersEntetiesData.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersEntetiesData\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersEntetiesData\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersEntetiesData\obj\Debug\UsersEntetiesData.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersEntetiesData\obj\Debug\UsersEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\UsersEntetiesData\obj\Debug\UsersEntetiesData.pdb

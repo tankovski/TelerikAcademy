@@ -1,0 +1,10 @@
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\StoredProcedure\bin\Debug\StoredProcedure.exe.config
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\StoredProcedure\bin\Debug\StoredProcedure.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\StoredProcedure\bin\Debug\StoredProcedure.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\StoredProcedure\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\StoredProcedure\bin\Debug\NorthwindEntetiesData.dll
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\StoredProcedure\bin\Debug\NorthwindEntetiesData.pdb
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\StoredProcedure\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\StoredProcedure\obj\Debug\StoredProcedure.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\StoredProcedure\obj\Debug\StoredProcedure.exe
+E:\Uroci\Databases\Lesson8-EntityFramework\Homework\Homework\StoredProcedure\obj\Debug\StoredProcedure.pdb

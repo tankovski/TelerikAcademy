@@ -1,0 +1,8 @@
+E:\Uroci\Databases\Lesson9-CodeFirst\CodeFirstHomework\StudentsSystemModel\bin\Debug\StudentsSystemModel.exe.config
+E:\Uroci\Databases\Lesson9-CodeFirst\CodeFirstHomework\StudentsSystemModel\bin\Debug\StudentsSystemModel.exe
+E:\Uroci\Databases\Lesson9-CodeFirst\CodeFirstHomework\StudentsSystemModel\bin\Debug\StudentsSystemModel.pdb
+E:\Uroci\Databases\Lesson9-CodeFirst\CodeFirstHomework\StudentsSystemModel\obj\Debug\StudentsSystemModel.exe
+E:\Uroci\Databases\Lesson9-CodeFirst\CodeFirstHomework\StudentsSystemModel\obj\Debug\StudentsSystemModel.pdb
+E:\Uroci\Databases\Lesson9-CodeFirst\CodeFirstHomework\StudentsSystemModel\bin\Debug\EntityFramework.dll
+E:\Uroci\Databases\Lesson9-CodeFirst\CodeFirstHomework\StudentsSystemModel\bin\Debug\EntityFramework.xml
+E:\Uroci\Databases\Lesson9-CodeFirst\CodeFirstHomework\StudentsSystemModel\obj\Debug\StudentsSystemModel.csprojResolveAssemblyReference.cache
