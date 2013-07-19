@@ -1,0 +1,10 @@
+E:\Uroci\Databases\Lesson14-NoSQLDatabases\Homework\CloudantAndCouchDB\bin\Debug\CloudantAndCouchDB.exe.config
+E:\Uroci\Databases\Lesson14-NoSQLDatabases\Homework\CloudantAndCouchDB\bin\Debug\CloudantAndCouchDB.exe
+E:\Uroci\Databases\Lesson14-NoSQLDatabases\Homework\CloudantAndCouchDB\bin\Debug\CloudantAndCouchDB.pdb
+E:\Uroci\Databases\Lesson14-NoSQLDatabases\Homework\CloudantAndCouchDB\bin\Debug\Divan.dll
+E:\Uroci\Databases\Lesson14-NoSQLDatabases\Homework\CloudantAndCouchDB\bin\Debug\Newtonsoft.Json.dll
+E:\Uroci\Databases\Lesson14-NoSQLDatabases\Homework\CloudantAndCouchDB\bin\Debug\Divan.pdb
+E:\Uroci\Databases\Lesson14-NoSQLDatabases\Homework\CloudantAndCouchDB\bin\Debug\Newtonsoft.Json.xml
+E:\Uroci\Databases\Lesson14-NoSQLDatabases\Homework\CloudantAndCouchDB\obj\Debug\CloudantAndCouchDB.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson14-NoSQLDatabases\Homework\CloudantAndCouchDB\obj\Debug\CloudantAndCouchDB.exe
+E:\Uroci\Databases\Lesson14-NoSQLDatabases\Homework\CloudantAndCouchDB\obj\Debug\CloudantAndCouchDB.pdb

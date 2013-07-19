@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{37AC0B66-5340-4B81-BC62-3EE80233A011}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Divan</RootNamespace>
+    <AssemblyName>Divan</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>3</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.5.0.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\lib\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CouchBulkDeleteDocuments.cs" />
+    <Compile Include="CouchBulkDocuments.cs" />
+    <Compile Include="CouchBulkKeys.cs" />
+    <Compile Include="CouchConflictException.cs" />
+    <Compile Include="CouchDatabase.cs" />
+    <Compile Include="CouchDocument.cs" />
+    <Compile Include="CouchException.cs" />
+    <Compile Include="CouchGenericViewResult.cs" />
+    <Compile Include="CouchJsonDocument.cs" />
+    <Compile Include="CouchNotFoundException.cs" />
+    <Compile Include="CouchPermanentViewResult.cs" />
+    <Compile Include="CouchQuery.cs" />
+    <Compile Include="CouchQueryDocument.cs" />
+    <Compile Include="CouchRequest.cs" />
+    <Compile Include="CouchServer.cs" />
+    <Compile Include="CouchViewDefinitionBase.cs" />
+    <Compile Include="CouchViewResult.cs" />
+    <Compile Include="CouchViewDefinition.cs" />
+    <Compile Include="CouchDesignDocument.cs" />
+    <Compile Include="ICanJson.cs" />
+    <Compile Include="ICouchDatabase.cs" />
+    <Compile Include="ICouchDocument.cs" />
+    <Compile Include="ICouchRequest.cs" />
+    <Compile Include="ICouchServer.cs" />
+    <Compile Include="ICouchViewDefinition.cs" />
+    <Compile Include="ICouchViewDefinitionBase.cs" />
+    <Compile Include="Lucene\CouchLuceneHit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Linq\CouchLinqQuery.cs" />
+    <Compile Include="Linq\CouchQueryProvider.cs" />
+    <Compile Include="Linq\ExpressionVisitor.cs" />
+    <Compile Include="Linq\TypeSystem.cs" />
+    <Compile Include="Lucene\CouchLuceneQuery.cs" />
+    <Compile Include="Lucene\CouchLuceneViewDefinition.cs" />
+    <Compile Include="Lucene\CouchLuceneViewResult.cs" />
+    <Compile Include="CouchDocumentWrapper.cs" />
+    <Compile Include="ISelfContained.cs" />
+    <Compile Include="IReconcilingDocument.cs" />
+    <Compile Include="CouchRecord.cs" />
+    <Compile Include="CouchViewResultStream.cs" />
+    <Compile Include="ReconcileStrategy.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <MonoDevelop.Autotools.MakefileInfo RelativeMakefileName="Makefile" SyncReferences="True">
+          <BuildFilesVar Sync="True" Name="FILES" />
+          <DeployFilesVar />
+          <ResourcesVar Sync="True" Name="RESOURCES" />
+          <OthersVar />
+          <GacRefVar Sync="True" Name="REFERENCES" />
+          <AsmRefVar Sync="True" Name="REFERENCES" />
+          <ProjectRefVar Sync="True" Name="REFERENCES" />
+        </MonoDevelop.Autotools.MakefileInfo>
+      </Properties>
+    </MonoDevelop>
+    <VisualStudio />
+  </ProjectExtensions>
+  <ItemGroup>
+    <None Include="CustomDictionary.xml" />
+    <None Include="Divan.csproj" />
+    <None Include="Divan.FxCop" />
+    <None Include="divan.pc" />
+    <None Include="divan.pc.in" />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

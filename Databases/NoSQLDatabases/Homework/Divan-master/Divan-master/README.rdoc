@@ -1,0 +1,69 @@
+= Divan, a C# library for CouchDB
+Divan is a C# library under the MIT license for using CouchDB[http://www.couchdb.org].
+It should be more or less API complete including bulk operations, attachments, views
+and design documents etc. It is quite fast and designed to be flexible but not bloated. 
+
+Divan has mainly been developed in-house at Foretagsplatsen[http://www.foretagsplatsen.se] and is
+being used in the new core system at Foretagsplatsen. It has unit tests (although could
+benefit from more) and at least one sample console project included.
+
+== License
+Divan is under the MIT-license, see file LICENSE.txt.
+
+== Features
+* More or less complete CouchDB API implemented including bulk and attachments.
+* Has classes for design documents and view definition so you can create and manipulate your views from C#.
+* Has LINQ support (limited) thanks to Alex Pedenko! This means you can write a subset of queries in LINQ syntax.
+* Has basic automatic JSON serialization support again thanks to Alex Pedenko!
+* Has basic CouchDB-Lucene integration for making free text indexes and query them.
+* Offers several "hooks" for your own subclasses in order to add specializations.
+
+== Does it work under Mono?
+You bet. Foretagsplatsen uses mainly windows (VS2008/.Net 3.5) but Divan is also developed using Monodevelop 2.0/Mono 2.4.2.3. We are currently using the Makefile integration in Monodevelop so Divan should also easily build from command line.
+
+Currently Mono has a bug in System.dll regarding HEAD HTTP requests so <b>we detect if we are running in Mono and then we fall back on using a regular GET</b>.
+
+Note that this bug has been <b>reported and fixed</b> in Mono trunk and should be available
+in any mono release after 2.4.2.3 (I guess). Then we will remove that check.
+
+== Getting started
+1. Install git of course... and clone Divan. The "official" repository is the one from Foretagsplatsen and we only have one branch there so far, and no tags yet:
+	git clone git://github.com/foretagsplatsen/Divan.git
+3. If you are on VS2008 or Monodevelop then I suggest double clicking the Divan.sln. Hopefully the rest works out fine.
+4. If you are on Mono "CLI style" then the configure/Makefile should work as expected, it is "vanilla generated" from Monodevelop. Then you can also run the basic unit tests, but note that these rely on a couchdb running locally:
+	nunit-console2 --labels -run=Divan.Test.CouchTest Tests/bin/Debug/Divan.Test.dll
+5. Run the "Trivial" sample console app. You can point it at a running CouchDB server:
+
+	C:\Divan\samples\Trivial>bin\Debug\Trivial.exe 192.168.9.205 5984
+
+6. Happy coding! And ask any questions on the mailinglist.
+
+== What about documentation?
+At the moment documentation is... this file! :) But there are also unit tests in the separate Tests project:
+* CouchTest.cs that runs against a CouchDB server, see the class comment for some instructions.
+* Lucene/CouchLuceneTest.cs that tests the CouchDB-Lucene integration if you have it, see article below.
+
+There is also one sample project "Trivial" showing basic usage. More samples with more advanced usage is coming soon.
+
+* One blog article[http://goran.krampe.se/blog/Divan/divan-plus-couchdb-lucene.rdoc] on how to install Couchdb-Lucene and test it with Divan.
+
+== Dependencies
+The only dependencies and their tested versions are:
+
+* Newtonsoft.JSON (3.5 Beta 4), MIT-licensed fast library for JSON, see: http://json.codeplex.com
+* NUnit (2.4.8). Unit testing framework, see: http://www.nunit.org
+* CouchDB (0.9.1, 0.9). Running on a server somewhere, see: http://www.couchdb.org
+* If you want to use the Lucene parts of Divan, you also need CouchDB-Lucene (0.4) installed on the server, see: http://github.com/rnewson/couchdb-lucene/tree/v0.4
+
+The two needed dlls are included in the lib directory.
+
+== Mailinglist
+We have set up a regular Mailman mailinglist[http://krampe.se/mailman/listinfo/divan] for users and developers alike, please subscribe!
+
+== Roadmap
+Apart from polishing and fixing bugs the following pieces are on the todolist:
+* Optional mirroring of design documents from external files instead of defining them as literal strings in C#.
+* Writing a tutorial and a sample project showing the advanced mechanisms.
+
+== Contributing
+...is simple. <b>All contributions should be under the MIT license</b>. Just fork and make pull requests and we will try to integrate. Feel free to bring up anything on the mailinglist. We haven't started using any issue tracker yet, but we will if it gets more popular and we when we do a proper release.
