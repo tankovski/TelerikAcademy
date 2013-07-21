@@ -1,0 +1,1 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithXmlReader\bin\Debug\ExtractAllSongTittlesWithXmlReader.exe.config

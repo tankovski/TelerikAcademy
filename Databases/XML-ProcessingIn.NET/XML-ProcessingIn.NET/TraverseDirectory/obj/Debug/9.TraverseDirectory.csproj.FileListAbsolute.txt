@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectory\bin\Debug\TraverseDirectory.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectory\bin\Debug\TraverseDirectory.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectory\bin\Debug\TraverseDirectory.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectory\obj\Debug\TraverseDirectory.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectory\obj\Debug\TraverseDirectory.pdb

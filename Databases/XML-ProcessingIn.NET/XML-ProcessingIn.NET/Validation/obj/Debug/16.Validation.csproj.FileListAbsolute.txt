@@ -1,0 +1,11 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\Validation\bin\Debug\Validation.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\Validation\bin\Debug\Validation.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\Validation\bin\Debug\Validation.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\Validation\obj\Debug\Validation.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\Validation\obj\Debug\Validation.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Databases\XML-ProcessingIn.NET\XML-ProcessingIn.NET\Validation\bin\Debug\Validation.exe.config
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Databases\XML-ProcessingIn.NET\XML-ProcessingIn.NET\Validation\obj\Debug\Validation.exe
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Databases\XML-ProcessingIn.NET\XML-ProcessingIn.NET\Validation\obj\Debug\Validation.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Databases\XML-ProcessingIn.NET\XML-ProcessingIn.NET\Validation\bin\Debug\Validation.exe
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Databases\XML-ProcessingIn.NET\XML-ProcessingIn.NET\Validation\bin\Debug\Validation.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Databases\XML-ProcessingIn.NET\XML-ProcessingIn.NET\Validation\obj\Debug\16.Validation.csprojResolveAssemblyReference.cache

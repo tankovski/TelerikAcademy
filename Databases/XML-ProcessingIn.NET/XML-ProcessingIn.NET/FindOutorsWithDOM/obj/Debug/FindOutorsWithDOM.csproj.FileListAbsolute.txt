@@ -1,0 +1,6 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\bin\Debug\FindOutorsWithDOM.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\bin\Debug\FindOutorsWithDOM.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\bin\Debug\FindOutorsWithDOM.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\obj\Debug\FindOutorsWithDOM.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\obj\Debug\FindOutorsWithDOM.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\obj\Debug\FindOutorsWithDOM.pdb

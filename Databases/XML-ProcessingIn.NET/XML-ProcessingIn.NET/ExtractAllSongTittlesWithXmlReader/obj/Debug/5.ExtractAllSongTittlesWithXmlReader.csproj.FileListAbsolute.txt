@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithXmlReader\bin\Debug\ExtractAllSongTittlesWithXmlReader.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithXmlReader\bin\Debug\ExtractAllSongTittlesWithXmlReader.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithXmlReader\bin\Debug\ExtractAllSongTittlesWithXmlReader.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithXmlReader\obj\Debug\ExtractAllSongTittlesWithXmlReader.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithXmlReader\obj\Debug\ExtractAllSongTittlesWithXmlReader.pdb

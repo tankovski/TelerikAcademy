@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithLINQ\bin\Debug\ExtractAllSongTittlesWithLINQ.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithLINQ\bin\Debug\ExtractAllSongTittlesWithLINQ.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithLINQ\bin\Debug\ExtractAllSongTittlesWithLINQ.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithLINQ\obj\Debug\ExtractAllSongTittlesWithLINQ.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\ExtractAllSongTittlesWithLINQ\obj\Debug\ExtractAllSongTittlesWithLINQ.pdb

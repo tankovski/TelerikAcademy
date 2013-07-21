@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindAutorsWithXPath\bin\Debug\FindAutorsWithXPath.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindAutorsWithXPath\bin\Debug\FindAutorsWithXPath.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindAutorsWithXPath\bin\Debug\FindAutorsWithXPath.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindAutorsWithXPath\obj\Debug\FindAutorsWithXPath.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindAutorsWithXPath\obj\Debug\FindAutorsWithXPath.pdb

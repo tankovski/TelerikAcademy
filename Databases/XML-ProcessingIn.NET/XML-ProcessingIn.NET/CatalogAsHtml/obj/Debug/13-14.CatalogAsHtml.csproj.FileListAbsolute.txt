@@ -1,0 +1,6 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CatalogAsHtml\bin\Debug\CatalogAsHtml.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CatalogAsHtml\bin\Debug\CatalogAsHtml.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CatalogAsHtml\bin\Debug\CatalogAsHtml.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CatalogAsHtml\obj\Debug\13-14.CatalogAsHtml.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CatalogAsHtml\obj\Debug\CatalogAsHtml.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CatalogAsHtml\obj\Debug\CatalogAsHtml.pdb

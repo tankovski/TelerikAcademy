@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog name="Albums catalog">
+  <album>
+    <name>Kill 'Em All</name>
+    <artist>Metallica</artist>
+    <year>1983</year>
+    <producer>Paul Curcio</producer>
+    <price>17</price>
+    <songs>
+      <song>
+        <title>Hit the Lights</title>
+        <duration>4:16</duration>
+      </song>
+      <song>
+        <title>The Four Horsemen</title>
+        <duration>7:13</duration>
+      </song>
+      <song>
+        <title>Motorbreath</title>
+        <duration>3:08</duration>
+      </song>
+      <song>
+        <title>Jump in the Fire</title>
+        <duration>4:41</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>

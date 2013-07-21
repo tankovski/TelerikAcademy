@@ -1,0 +1,6 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectoryWithLINQ\bin\Debug\TraverseDirectoryWithLINQ.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectoryWithLINQ\bin\Debug\TraverseDirectoryWithLINQ.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectoryWithLINQ\bin\Debug\TraverseDirectoryWithLINQ.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectoryWithLINQ\obj\Debug\TraverseDirectoryWithLINQ.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectoryWithLINQ\obj\Debug\TraverseDirectoryWithLINQ.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\TraverseDirectoryWithLINQ\obj\Debug\TraverseDirectoryWithLINQ.pdb

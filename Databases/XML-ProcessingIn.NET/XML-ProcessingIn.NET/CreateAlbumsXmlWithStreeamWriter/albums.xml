@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<albums>
+	<album>
+		<name>Kill 'Em All</name>
+		<author>Metallica</author>
+	</album>
+	<album>
+		<name>Master of Puppets</name>
+		<author>Metallica</author>
+	</album>
+	<album>
+		<name>System of a Down</name>
+		<author>System Of A Down</author>
+	</album>
+	<album>
+		<name>Toxicity </name>
+		<author>System Of A Down</author>
+	</album>
+	<album>
+		<name>Iowa  </name>
+		<author>Slipknot</author>
+	</album>
+</albums>

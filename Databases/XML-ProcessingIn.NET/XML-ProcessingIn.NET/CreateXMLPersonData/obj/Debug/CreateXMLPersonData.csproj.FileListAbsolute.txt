@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateXMLPersonData\bin\Debug\CreateXMLPersonData.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateXMLPersonData\bin\Debug\CreateXMLPersonData.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateXMLPersonData\bin\Debug\CreateXMLPersonData.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateXMLPersonData\obj\Debug\CreateXMLPersonData.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateXMLPersonData\obj\Debug\CreateXMLPersonData.pdb

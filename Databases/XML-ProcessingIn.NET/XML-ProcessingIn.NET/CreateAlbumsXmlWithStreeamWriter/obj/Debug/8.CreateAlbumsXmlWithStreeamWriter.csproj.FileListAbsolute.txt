@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateAlbumsXmlWithStreeamWriter\bin\Debug\CreateAlbumsXmlWithStreeamWriter.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateAlbumsXmlWithStreeamWriter\bin\Debug\CreateAlbumsXmlWithStreeamWriter.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateAlbumsXmlWithStreeamWriter\bin\Debug\CreateAlbumsXmlWithStreeamWriter.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateAlbumsXmlWithStreeamWriter\obj\Debug\CreateAlbumsXmlWithStreeamWriter.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateAlbumsXmlWithStreeamWriter\obj\Debug\CreateAlbumsXmlWithStreeamWriter.pdb

@@ -1,0 +1,8 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\bin\Debug\FindOutorsWithDOM.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\obj\Debug\FindOutorsWithDOM.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\obj\Debug\FindOutorsWithDOM.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\bin\Debug\FindOutorsWithDOM.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\FindOutorsWithDOM\bin\Debug\FindOutorsWithDOM.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Databases\XML-ProcessingIn.NET\XML-ProcessingIn.NET\FindOutorsWithDOM\bin\Debug\FindOutorsWithDOM.exe.config
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Databases\XML-ProcessingIn.NET\XML-ProcessingIn.NET\FindOutorsWithDOM\obj\Debug\FindOutorsWithDOM.exe
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Databases\XML-ProcessingIn.NET\XML-ProcessingIn.NET\FindOutorsWithDOM\obj\Debug\FindOutorsWithDOM.pdb

@@ -1,0 +1,1 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\CreateAlbumsXmlWithStreeamWriter\bin\Debug\CreateAlbumsXmlWithStreeamWriter.exe.config

@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\DeleteAlbums\bin\Debug\DeleteAlbums.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\DeleteAlbums\obj\Debug\DeleteAlbums.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\DeleteAlbums\obj\Debug\DeleteAlbums.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\DeleteAlbums\bin\Debug\DeleteAlbums.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\DeleteAlbums\bin\Debug\DeleteAlbums.pdb

@@ -1,0 +1,5 @@
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\PricesOfAlbumsOlderThan5YearsWithLINQ\bin\Debug\PricesOfAlbumsOlderThan5YearsWithLINQ.exe.config
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\PricesOfAlbumsOlderThan5YearsWithLINQ\bin\Debug\PricesOfAlbumsOlderThan5YearsWithLINQ.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\PricesOfAlbumsOlderThan5YearsWithLINQ\bin\Debug\PricesOfAlbumsOlderThan5YearsWithLINQ.pdb
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\PricesOfAlbumsOlderThan5YearsWithLINQ\obj\Debug\PricesOfAlbumsOlderThan5YearsWithLINQ.exe
+E:\Uroci\Databases\Lesson16\HomeworkXMLParsers\PricesOfAlbumsOlderThan5YearsWithLINQ\obj\Debug\PricesOfAlbumsOlderThan5YearsWithLINQ.pdb
