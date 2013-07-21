@@ -1,0 +1,1 @@
+XML namespaces are used for providing uniquely named elements and attributes in an XML document.

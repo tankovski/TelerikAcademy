@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students name="List Of Students">
+  <student>
+    <name>IvanIvanov</name>
+    <sex>M</sex>
+    <birthDate>12,05,1991</birthDate>
+    <phone>0888888888</phone>
+    <email>randomMail@abv.bg</email>
+    <course>css</course>
+    <specialty>math</specialty>
+    <facultyNumber>123456</facultyNumber>
+    <takenExams>
+      <exam>
+        <name>css</name>
+        <tutor>DonchoMinkoc</tutor>
+        <score>81</score>
+      </exam>
+      <exam>
+        <name>html</name>
+        <tutor>DonchoMinkoc</tutor>
+        <score>66</score>
+      </exam>
+    </takenExams>
+  </student>
+  <student>
+    <name>PeterPetrov</name>
+    <sex>M</sex>
+    <birthDate>07,07,1989</birthDate>
+    <phone>0888999999</phone>
+    <email>randomMail2@abv.bg</email>
+    <course>html</course>
+    <specialty>math</specialty>
+    <facultyNumber>123457</facultyNumber>
+    <takenExams>
+      <exam>
+        <name>css</name>
+        <tutor>DonchoMinkoc</tutor>
+        <score>67</score>
+      </exam>
+      <exam>
+        <name>html</name>
+        <tutor>DonchoMinkoc</tutor>
+        <score>96</score>
+      </exam>
+    </takenExams>
+  </student>
+</students>

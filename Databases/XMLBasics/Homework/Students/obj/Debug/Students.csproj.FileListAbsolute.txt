@@ -1,0 +1,6 @@
+E:\Uroci\Databases\Lesson16\Homework\Students\bin\Debug\Students.exe.config
+E:\Uroci\Databases\Lesson16\Homework\Students\bin\Debug\Students.exe
+E:\Uroci\Databases\Lesson16\Homework\Students\bin\Debug\Students.pdb
+E:\Uroci\Databases\Lesson16\Homework\Students\obj\Debug\Students.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson16\Homework\Students\obj\Debug\Students.exe
+E:\Uroci\Databases\Lesson16\Homework\Students\obj\Debug\Students.pdb
