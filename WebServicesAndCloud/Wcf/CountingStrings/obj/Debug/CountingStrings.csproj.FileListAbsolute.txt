@@ -1,0 +1,6 @@
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStrings\obj\Debug\CountingStrings.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStrings\bin\Debug\CountingStrings.dll.config
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStrings\bin\Debug\CountingStrings.dll
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStrings\bin\Debug\CountingStrings.pdb
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStrings\obj\Debug\CountingStrings.dll
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStrings\obj\Debug\CountingStrings.pdb

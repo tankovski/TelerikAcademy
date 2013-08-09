@@ -1,0 +1,5 @@
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStringsProxyClient\bin\Debug\CountingStringsProxyClient.exe.config
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStringsProxyClient\bin\Debug\CountingStringsProxyClient.exe
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStringsProxyClient\bin\Debug\CountingStringsProxyClient.pdb
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStringsProxyClient\obj\Debug\CountingStringsProxyClient.exe
+E:\Uroci\WebServices\Lesson4-WCF\Homework\CountingStringsProxyClient\obj\Debug\CountingStringsProxyClient.pdb

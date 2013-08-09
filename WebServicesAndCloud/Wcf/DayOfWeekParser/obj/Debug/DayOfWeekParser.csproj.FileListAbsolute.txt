@@ -1,0 +1,5 @@
+E:\Uroci\WebServices\Lesson4-WCF\Homework\DayOfWeekParser\bin\DayOfWeekParser.dll
+E:\Uroci\WebServices\Lesson4-WCF\Homework\DayOfWeekParser\bin\DayOfWeekParser.pdb
+E:\Uroci\WebServices\Lesson4-WCF\Homework\DayOfWeekParser\obj\Debug\DayOfWeekParser.dll
+E:\Uroci\WebServices\Lesson4-WCF\Homework\DayOfWeekParser\obj\Debug\DayOfWeekParser.pdb
+E:\Uroci\WebServices\Lesson4-WCF\Homework\DayOfWeekParser\obj\Debug\DayOfWeekParser.csprojResolveAssemblyReference.cache
