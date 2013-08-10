@@ -1,0 +1,10 @@
+E:\Uroci\WebServices\Lesson6-ConsumingWebServices\Homework\NewsSearch\bin\Debug\NewsSearch.exe.config
+E:\Uroci\WebServices\Lesson6-ConsumingWebServices\Homework\NewsSearch\obj\Debug\NewsSearch.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\Lesson6-ConsumingWebServices\Homework\NewsSearch\bin\Debug\NewsSearch.exe
+E:\Uroci\WebServices\Lesson6-ConsumingWebServices\Homework\NewsSearch\bin\Debug\NewsSearch.pdb
+E:\Uroci\WebServices\Lesson6-ConsumingWebServices\Homework\NewsSearch\bin\Debug\Newtonsoft.Json.dll
+E:\Uroci\WebServices\Lesson6-ConsumingWebServices\Homework\NewsSearch\bin\Debug\System.Net.Http.Formatting.dll
+E:\Uroci\WebServices\Lesson6-ConsumingWebServices\Homework\NewsSearch\bin\Debug\Newtonsoft.Json.xml
+E:\Uroci\WebServices\Lesson6-ConsumingWebServices\Homework\NewsSearch\bin\Debug\System.Net.Http.Formatting.xml
+E:\Uroci\WebServices\Lesson6-ConsumingWebServices\Homework\NewsSearch\obj\Debug\NewsSearch.exe
+E:\Uroci\WebServices\Lesson6-ConsumingWebServices\Homework\NewsSearch\obj\Debug\NewsSearch.pdb
