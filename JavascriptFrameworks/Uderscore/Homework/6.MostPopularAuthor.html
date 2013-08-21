@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>MostPopularAuthor</title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+</head>
+<body>
+    <script>
+
+        var Book = Class.create({
+            init: function (title, genre, author) {
+                this.title = title;
+                this.genre = genre;
+                this.author = author;
+            }
+        });
+
+        var books = [
+            new Book("The Godfather", "Criminal", "Mario Puzo"),
+            new Book("Lord Of The Rings", "Fantasy", "J. R. R. Tolkien"),           
+            new Book("Unfinished Tales and The History of Middle-earth", "Fantasy", "J. R. R. Tolkien"),
+            new Book("Hobbit", "Fantasy", "J. R. R. Tolkien"),
+            new Book("The Last Don", "Criminal", "Mario Puzo"),
+            new Book("All Quiet on the Western Front", "Novel", "Erich Maria Remarque"),
+        ];
+
+        var authors = _.countBy(books, function (book) {
+            return book.author
+        });
+
+        var authorIndex = _.max(authors);
+
+        var author = _.invert(authors)[authorIndex];
+        console.log(author +" - "+authorIndex);
+
+    </script>
+</body>
+</html>

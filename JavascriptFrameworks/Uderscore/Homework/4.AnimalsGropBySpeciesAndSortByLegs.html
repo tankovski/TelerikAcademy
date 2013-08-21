@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>AnimalsGropBySpeciesAndSortByLegs</title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+</head>
+<body>
+    <script>
+
+        var Animal = Class.create({
+            init: function (species,numberOfLegs,name) {
+                this.species = species;           
+                this.numberOfLegs = numberOfLegs;
+                this.name = name;
+            }
+        });
+
+        var animals = [
+            new Animal("Mammal", 4, "Dog"),
+            new Animal("Mammal", 4, "Cat"),
+            new Animal("Mammal", 4, "OtherDog"),
+            new Animal("Bird", 2, "Sparow"),
+            new Animal("Bird", 2, "Eagle"),
+            new Animal("Mammal", 2, "Human"),
+            new Animal("Insect", 6, "Spider"),
+            new Animal("Insect",100,"Centipede")
+
+        ];
+
+        var groupedAnimals = _.groupBy(animals,'species');
+
+        for (var group in groupedAnimals) {
+            
+            groupedAnimals[group] = _.sortBy(groupedAnimals[group], 'numberOfLegs');
+        }
+
+        for (var group in groupedAnimals) {
+            console.log(group+" - "+groupedAnimals[group].length);
+            _.each(groupedAnimals[group], function (animal) {
+                console.log(animal);
+            });
+        }
+
+    </script>
+</body>
+</html>

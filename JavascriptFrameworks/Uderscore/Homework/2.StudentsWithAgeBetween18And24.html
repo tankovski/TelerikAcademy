@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StudentsWithAgeBetween18And24</title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+</head>
+<body>
+    <script>
+        var Student = Class.create({
+            init: function (fname, lname,age) {
+                this.fname = fname;
+                this.lname = lname;
+                this.age = age;
+            },
+
+        });
+
+        var students = [
+			new Student("Doncho", "Minkov",22),
+			new Student("Joro", "Georgiev",33),
+			new Student("Niki", "Kostov",29),
+			new Student("Svetlin", "Nakov",19),
+			new Student("Ivaylo", "Kenov",24)];
+
+        var studentsWithFirstNameBeforeLast = _.filter(students, function (st) {
+            return st.age>=18 && st.age<=24;
+        });
+
+        _.each(studentsWithFirstNameBeforeLast, function (st) {
+            console.log(st.fname + " " + st.lname);
+        })
+    </script>
+</body>
+</html>

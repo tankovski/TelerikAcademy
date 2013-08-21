@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>TheMostCommenName</title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+</head>
+<body>
+    <script>
+        var Human = Class.create({
+            init: function (fname, lname) {
+                this.fname = fname;
+                this.lname = lname;
+                this.fullname = fname + " " + lname
+            },
+
+        });
+
+        var people = [
+			new Human("Doncho", "Minkov"),
+			new Human("Joro", "Georgiev"),
+			new Human("Niki", "Kostov"),
+			new Human("Svetlin", "Nakov"),
+			new Human("Ivaylo", "Kenov"),
+			new Human("Svetlin", "Ivanov"),
+			new Human("Ivaylo", "Petrov"),
+			new Human("Peter", "Georgiev"),
+			new Human("Ivaylo", "Georgiev"),
+        ];
+
+        var firstNames = _.countBy(people, function (person) {
+            return person.fname;
+        });
+
+        var firstNames = _.countBy(people, function (person) {
+            return person.fname;
+        });
+        var firstNameIndex = _.max(firstNames);         
+        var mostCommentFirstName = _.invert(firstNames)[firstNameIndex];
+         
+
+        var lastNames = _.countBy(people, function (person) {
+            return person.lname;
+        });
+        var lastNameIndex = _.max(lastNames); 
+        var mostCommentLastName = _.invert(lastNames)[lastNameIndex];
+
+        console.log("The most common first name is " + mostCommentFirstName + " - " + firstNameIndex + " times met");
+        console.log("The most common last name is " + mostCommentLastName + " - " + lastNameIndex + " times met");
+       
+    </script>
+</body>
+</html>

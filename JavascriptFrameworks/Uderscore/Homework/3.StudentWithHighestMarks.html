@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StudentWithHighestMarks</title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+</head>
+<body>
+    <script>
+        var Student = Class.create({
+            init: function (fname, lname, marks) {
+                this.fname = fname;
+                this.lname = lname;
+                this.marks = marks
+            },
+
+        });
+
+        var students = [
+			new Student("Doncho", "Minkov", [5, 6, 3, 4]),
+			new Student("Joro", "Georgiev", [3, 6, 2, 4]),
+			new Student("Niki", "Kostov", [5, 4, 3, 5]),
+			new Student("Svetlin", "Nakov", [2, 6, 5, 4]),
+			new Student("Ivaylo", "Kenov", [5, 6, 6, 6])];
+
+        var studentWithHighestMarsks = _.max(students, function (st) {
+            return eval(st.marks.join('+')) / st.marks.length;
+        });
+
+        console.log(studentWithHighestMarsks.fname + " " + studentWithHighestMarsks.lname);
+
+      
+    </script>
+</body>
+</html>

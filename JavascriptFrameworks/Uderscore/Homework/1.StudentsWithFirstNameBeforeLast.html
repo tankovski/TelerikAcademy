@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StudentsWithFirstNameBeforeLast</title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/underscore.js"></script>
+</head>
+<body>
+    <script>
+        var Student = Class.create({
+            init: function (fname, lname) {
+                this.fname = fname;
+                this.lname = lname;
+                this.fullname = fname+" "+lname
+            },
+
+        });
+
+        var students = [
+			new Student("Doncho", "Minkov"),
+			new Student("Joro", "Georgiev"),
+			new Student("Niki", "Kostov"),
+			new Student("Svetlin", "Nakov"),
+			new Student("Ivaylo", "Kenov")];
+
+        var studentsWithFirstNameBeforeLast = _.filter(students, function (st) {
+            return st.fname<st.lname;
+        });
+
+        studentsWithFirstNameBeforeLast = _.sortBy(studentsWithFirstNameBeforeLast, 'fullname');
+        _.each(studentsWithFirstNameBeforeLast.reverse(), function (st) {
+            console.log(st.fullname);
+        })
+    </script>
+</body>
+</html>
