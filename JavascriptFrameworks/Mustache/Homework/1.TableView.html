@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+    <script src="Scripts/jquery-2.0.3.js"></script>
+	<script src="Scripts/class.js"></script>
+	<script src="Scripts/mustache.js"></script>
+    <script src="Scripts/table-view.js"></script>
+    <script src="Scripts/underscore.js"></script>
+    <script src="Scripts/httpRequester.js"></script>
+    <style>
+     
+
+         td:nth-of-type(2n+1) {
+            background-color:lightblue;        
+        }
+           td:nth-of-type(2n){
+            background-color:lightgreen;        
+        }
+        
+    </style>
+</head>
+<body>
+	<script type="x-mustache-template" id="person-template">	
+        {{#fullname}}
+			<td>{{fullname}}
+			
+				{{#marks}} 				
+						{{subject}}: <strong>{{score}}</strong>; 					
+				{{/marks}}
+				{{^marks}}	   
+
+						This student has no marks, yet	  						
+				{{/marks}}
+				</td>	
+        {{/fullname}}
+	</script>
+
+	<div id="content"></div>
+	<script>
+	    
+	   
+	    var url = "http://localhost:1546/api/students/get";
+	    httpRequester.getJSON(url, function (data) {
+	        makeTable(data)
+	    }, function (data) {
+	        alert(JSON.parse(data));
+	    });
+	    
+	    
+	    function makeTable(people) {
+	        var numberOfRows = 2;
+	        var personTemplate = Mustache.compile(document.getElementById("person-template").innerHTML);
+	        var tableView = controls.getTableView(people);
+
+	        var tableViewHtml = tableView.render(personTemplate, numberOfRows);
+
+	        document.getElementById("content").innerHTML = tableViewHtml;
+	    };
+	</script>
+</body>
+</html>

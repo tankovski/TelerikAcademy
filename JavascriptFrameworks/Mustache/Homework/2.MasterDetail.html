@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/class.js"></script>
+    <script src="Scripts/mustache.js"></script>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        #content {
+            display: inline-block;
+            width: 500px;
+        }
+
+        #marks {
+          width:500px;
+         position:absolute;
+         top:10px;
+         left:700px;        
+        }
+        a {
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <script type="x-mustache-template" id="person-template">					
+					<a href="#">{{fullname}}</a>							
+    </script>
+
+    <script type="x-mustache-template" id="marks-template">					
+					{{#subject}}		
+                        <li>
+                            {{subject}}: <strong>{{score}}</strong>	
+                        </li>
+                    {{/subject}}	
+                    {{^subject}}		
+                        <li>
+                            This student has no marks, yet
+                        </li>
+                    {{/subject}}		
+    </script>
+
+    <div id="content"></div>
+    <ul id="marks">
+        <li><strong>Marks</strong></li>
+    </ul>
+    <script>
+        (function () {
+
+
+            var Student = Class.create({
+                init: function (fname, lname, marks) {
+                    this.fname = fname;
+                    this.lname = lname
+                    this.marks = marks;
+                },
+                fullname: function () {
+                    return this.fname + " " + this.lname;
+                }
+            });
+
+            var Mark = Class.create({
+                init: function (subject, score) {
+                    this.subject = subject;
+                    this.score = score;
+                }
+            });
+
+            var people = [
+                new Student("Doncho", "Minkov", [new Mark("Math", 4), new Mark("JavaScript", 6)]),
+                new Student("Nikolay", "Kostov", [new Mark("MVC", 6), new Mark("JavaScript", 5)]),
+                new Student("Ivaylo", "Kendov", [new Mark("OOP", 4), new Mark("C#", 6)]),
+                new Student("Svetlin", "Nakov", [new Mark("Unit Testing", 5), new Mark("WPF", 6)]),
+                new Student("Asya", "Georgieva", [new Mark("Automation Testing", 6), new Mark("Manual Testing", 4)]),
+                new Student("Georgi", "Georgiev")
+            ];
+
+            var personTemplate = Mustache.compile(document.getElementById("person-template").innerHTML);
+            var personsHtml = makePersonHtml(personTemplate, people);
+            document.getElementById("content").innerHTML = personsHtml;
+
+            document.getElementById("content").onclick = function (ev) {
+                if (ev.target instanceof HTMLAnchorElement) {
+                    var marksIndex = ev.target.parentElement.id;
+                    addMarks(marksIndex);
+                }
+            };
+
+            function addMarks(num) {
+                var marksTemplate = Mustache.compile(document.getElementById("marks-template").innerHTML);
+                var marks = people[num].marks;
+                var list = document.getElementById("marks");
+                var html = "<li><strong>Marks</strong></li>";
+                if (marks) {
+                    for (var i = 0; i < marks.length; i++) {
+                        var item = marks[i];
+                        html += marksTemplate(item);
+                    }
+                    list.innerHTML = html;
+                }
+                else {
+                    html += marksTemplate(marks);
+                    list.innerHTML = html;
+                }
+            }
+
+            function makePersonHtml(template, source) {
+                var list = document.createElement("ul");
+                var firstListItem = document.createElement("li");
+                firstListItem.innerHTML = "<strong>Students</strong>";
+                list.appendChild(firstListItem);
+                for (var i = 0; i < source.length; i++) {
+                    var listElement = document.createElement("li");
+                    listElement.id = i;
+                    var item = source[i];
+                    listElement.innerHTML += template(item);
+                    list.appendChild(listElement);
+                }
+
+                return list.outerHTML;
+            }
+        }());
+    </script>
+</body>
+</html>
