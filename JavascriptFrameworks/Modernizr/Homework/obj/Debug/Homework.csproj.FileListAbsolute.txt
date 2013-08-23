@@ -1,0 +1,5 @@
+E:\Uroci\WEB\Js-Frameworks\Lesson3-Modernizr\Homework\Homework\bin\Homework.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson3-Modernizr\Homework\Homework\bin\Homework.pdb
+E:\Uroci\WEB\Js-Frameworks\Lesson3-Modernizr\Homework\Homework\obj\Debug\Homework.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\Js-Frameworks\Lesson3-Modernizr\Homework\Homework\obj\Debug\Homework.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson3-Modernizr\Homework\Homework\obj\Debug\Homework.pdb

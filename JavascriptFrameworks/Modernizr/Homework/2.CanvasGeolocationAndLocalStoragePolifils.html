@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jQuery%201.9%20.1.js"></script>
+    <script src="Scripts/modernizr.custom.75031.js"></script>
+    <script src="Scripts/excanvas.js"></script>
+
+    <script>
+        
+       
+    </script>
+
+</head>
+<body>
+    
+    <canvas width="200" height="200" id="canvas"></canvas>
+    <p id="demo"></p>
+    <script>
+      
+
+        Modernizr.load({
+            test: Modernizr.canvas,
+            yep: 'Scripts/CanvasWithouthPolifil.js',
+            nope: ['Scripts/excanvas.js', 'Scripts/canvas-polyfill.js']
+            
+        });
+
+        Modernizr.load({
+            test: Modernizr.geolocation,
+            yep: 'Scripts/GeolocationWithouthPolifil.js',
+            nope: ['js-webshim/minified/polyfiller.js', 'Scripts/GeolocationWithPolifil.js']
+
+        });
+
+        Modernizr.load({
+            test: Modernizr.localstorage,
+            yep: (function () {
+                localStorage.setItem("test", "Test Text");
+            }()),
+            nope: ["Scripts/StoragePolifill.js"],
+            Complete: (function () {
+                localStorage.setItem("test3", "Test Text3");
+            }())
+
+        });
+       
+    </script>
+
+</body>
+</html>

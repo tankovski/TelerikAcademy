@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/modernizr.js"></script>
+    <script src="Scripts/ua-parser-js.js"></script>
+    <script src="Scripts/jquery-2.0.3.js"></script>
+    <script type="text/javascript">//<![CDATA[ 
+
+        // Populate the #features table when the document is ready
+        jQuery(function ($) {
+            var thead = $('#features > thead');
+            var target = $('#features > tbody');
+           
+            function addTableHeadText(element) {
+                var parser = new UAParser();
+                var browser = parser.getBrowser();
+                var os = parser.getOS();
+                var device = parser.getDevice();
+                var engine = parser.getEngine();
+                console.log(device);
+                var html =
+                    '<tr>' +
+                    '<th colspan="2">' +
+                     "Browser is: <span>" + browser.name + " " + browser.version + '</span>' +
+                     '</br>' +
+                     "Engine is: <span>" + engine.name + '</span>' +
+                     '</br>'+
+                     "Os is: <span>" + os.name + " "+os.version+'</span>' +
+                     '</br>' ;
+                if (device.model) {
+                    html+=  "Device is: <span>" + device.model+ '</span>'
+                }
+                else {
+                  html+=  'Device is: <span>No data</span>'
+                }
+                  html+=  '</th>'+
+                       '</tr>'
+                    
+                  element.html(html);
+            }
+
+            var traverse = function (object, prefix) {
+                prefix = prefix ? prefix + '.' : '';
+
+                for (property in object) {
+                    if (typeof object[property] == 'object') {
+                        traverse(object[property], prefix + property);
+                    } else if (typeof object[property] == 'boolean') {
+                        
+                        if (object[property]) {
+                            var
+                            tr = $('<tr class="Yes" />'),
+                            name = $('<td />', {
+                                text: prefix + property
+                            }),
+                            value = $('<td />', {
+                                text: object[property] ? 'Yes' : 'Nope'
+                            });
+                            target.append(tr.append(name).append(value));
+                        }
+                        else {
+                            var
+                           tr = $('<tr class="No" />'),
+                           name = $('<td />', {
+                               text: prefix + property
+                           }),
+                           value = $('<td />', {
+                               text: object[property] ? 'Yes' : 'Nope'
+                           });
+                            target.append(tr.append(name).append(value))
+                        }
+                        
+                       
+                    }
+                }
+            };
+            addTableHeadText(thead);
+            traverse(Modernizr, 'Modernizr');
+        });
+
+        //]]>  
+
+</script>
+    <script></script>
+    <style>
+        .No td {
+            background-color:rgba(255,0,0,0.7);
+            
+        }
+        .Yes td {
+            background-color:rgba(0, 255, 33,0.7)
+        }
+        thead {
+            background-color:rgba(0, 148, 255,0.7)            
+        }
+    </style>
+</head>
+<body>
+    <table id="features">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+  
+</body>
+</html>

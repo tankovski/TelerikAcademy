@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/modernizr.custom.17560.js"></script>
+    <link rel="stylesheet" href="jquery-ui\css\ui-lightness\jquery-ui-1.10.3.custom.css" />
+    <script src="jquery-ui\js\jquery-1.9.1.js"></script>
+    <script src="jquery-ui\js\jquery-ui-1.10.3.custom.js"></script>
+
+</head>
+<body>
+    <input type="date" id="datePicker" />
+    <script>
+        Modernizr.load({
+            test: Modernizr.inputtypes.date,          
+            nope: ["Scripts/AddDitePicker.js"]
+        });
+
+    </script>
+
+</body>
+</html>
