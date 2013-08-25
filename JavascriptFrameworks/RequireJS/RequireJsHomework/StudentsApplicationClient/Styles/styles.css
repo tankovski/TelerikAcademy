@@ -1,0 +1,19 @@
+﻿body {
+}
+
+ul {
+    list-style-type:none;
+}
+li {
+    height:70px;
+    width:250px;
+    background-image:url('../imgs/torn piece of paper2.png');
+    background-repeat:no-repeat;
+    background-position:-10px -10px;
+    padding-left:30px;
+    padding-top:25px;
+}
+a {
+    text-decoration:none;
+    color:black;
+}

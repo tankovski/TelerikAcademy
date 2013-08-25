@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Styles/style.css" rel="stylesheet" />
+    <script src="Scripts/libs/require.js" data-main="Scripts/app-config"></script>
+</head>
+<body id="body">
+
+        <div id="selectWindow"></div>
+        <div id="content"></div>
+
+
+    <script type="x-mustache-template" id="items-template">	
+               <div class="person-item" id="person-item-{{id}}">
+                    <img src="{{avatarUrl}}" width="24px" height="24px" />
+                    <strong class="person-name">{{name}}</strong><strong class="person-age">, Age: {{age}}</strong>
+                    </div>
+
+
+    </script>
+</body>
+</html>

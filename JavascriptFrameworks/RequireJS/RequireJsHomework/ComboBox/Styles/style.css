@@ -1,0 +1,38 @@
+﻿body {
+    height:100vh;
+}
+
+#selectWindow {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-image: url('../imgs/arrow_down.png');
+    background-position: 99% 50%;
+    background-repeat: no-repeat;
+}
+#selectWindow:hover {
+    cursor:pointer;
+}
+#content {
+    width: 250px;
+    min-height:30px;
+    max-height:300px;
+    border: 1px solid black;
+    border-top:none;
+    margin-left: 200px;
+    overflow-y:scroll;
+    display:none;
+}
+
+.person-item {
+    margin-top:2px;
+}
+
+.person-item:hover {
+    margin-top:2px;
+    background-color:rgba(0, 148, 255,0.8);
+     cursor:pointer;
+}
+
