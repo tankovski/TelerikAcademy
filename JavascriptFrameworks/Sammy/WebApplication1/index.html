@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="Scripts/libs/require.js" data-main="Scripts/app"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {
+            width: 70%;
+            margin: 0 auto;
+            text-align: center;
+            border: 1px solid black;
+            margin-top: 50px;
+            font: normal 14px Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+        }
+
+            #wrapper > header {
+            }
+
+        #user-nickname {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 5px 15px;
+            border: 1px solid #444;
+            border-radius: 3px;
+            text-decoration: none;
+            color: black;
+            background-color: #ccc;
+        }
+
+        .button2 {
+            display: inline-block;
+            padding: 1px 3px;
+            border: 1px solid #ACACAC;
+            text-decoration: none;
+            color: black;
+            background-color: #EEEEEE;
+        }
+
+        #open-games-container {
+            float: left;
+        }
+
+        #active-games-container {
+            float: right;
+        }
+
+        #content {
+            zoom: 1;
+        }
+
+            #content:after {
+                clear: both;
+                display: block;
+                height: 0;
+                content: "";
+            }
+
+        #create-game-holder {
+            display: inline-block;
+            text-align: right;
+        }
+
+        .button.selected {
+            font-weight: bold;
+        }
+
+        .game-list {
+            list-style-type: none;
+            display: inline-block;
+            text-align: left;
+        }
+
+        #active-games-container a, #open-games-container a {
+            color: #222;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+            #active-games-container a:hover, #open-games-container a:hover {
+                text-decoration: underline;
+            }
+
+        #active-games-container .full {
+            color: #bbb;
+        }
+
+        #game-state {
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+            #game-state .guess-holder {
+                text-align: center;
+                margin: 0 auto;
+            }
+
+        .cell {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            display: inline-block;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .red {
+            background-color: red;
+            color: white;
+        }
+
+        .blue {
+            background-color: blue;
+            color: white;
+        }
+
+        #msg-container {
+            text-align: center;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .in-progress {
+            color: green !important;
+        }
+        #MyOpenGames {
+            float:left;
+            list-style-type:none;
+        }
+        #MyActiveGames {
+            float:right;
+            list-style-type:none;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+
+        <script type="x-mustache-template" id="games-template">	
+               <li data-game-id=" +{{id}} +" data-creator="{{creator}}+">
+                        <a href="#" > 
+                           {{title}}
+                        </a> 
+                        <span> by 
+                            {{creator}} 
+                        </span>
+                    </li>
+        </script>
+        <header>
+            <h1>Telerik Battle Game</h1>
+        </header>
+        <div id="content">
+        </div>
+    </div>
+</body>
+</html>

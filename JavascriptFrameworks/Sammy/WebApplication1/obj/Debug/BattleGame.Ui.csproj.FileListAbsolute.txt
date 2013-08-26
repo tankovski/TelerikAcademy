@@ -1,0 +1,10 @@
+E:\Uroci\Javascript Applications\EXAM\Exam\BattleGame\WebApplication1\bin\WebApplication1.dll
+E:\Uroci\Javascript Applications\EXAM\Exam\BattleGame\WebApplication1\bin\WebApplication1.pdb
+E:\Uroci\Javascript Applications\EXAM\Exam\BattleGame\WebApplication1\obj\Debug\BattleGame.Ui.csprojResolveAssemblyReference.cache
+E:\Uroci\Javascript Applications\EXAM\Exam\BattleGame\WebApplication1\obj\Debug\WebApplication1.dll
+E:\Uroci\Javascript Applications\EXAM\Exam\BattleGame\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\Uroci\WEB\Js-Frameworks\Lesson5-Sammy\BattleGame\WebApplication1\bin\WebApplication1.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson5-Sammy\BattleGame\WebApplication1\bin\WebApplication1.pdb
+E:\Uroci\WEB\Js-Frameworks\Lesson5-Sammy\BattleGame\WebApplication1\obj\Debug\BattleGame.Ui.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\Js-Frameworks\Lesson5-Sammy\BattleGame\WebApplication1\obj\Debug\WebApplication1.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson5-Sammy\BattleGame\WebApplication1\obj\Debug\WebApplication1.pdb
