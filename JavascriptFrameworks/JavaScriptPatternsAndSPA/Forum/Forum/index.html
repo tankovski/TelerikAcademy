@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Styles/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+    <link href="Styles/Styles.css" rel="stylesheet" />
+    <script src="Scripts/libs/jquery-2.0.3.js"></script>
+    <script src="Scripts/libs/class.js"></script>
+    <script src="Scripts/libs/everlive.all.js"></script>
+    <script src="Scripts/libs/mustache.js"></script>
+    <script src="Scripts/libs/sammy-0.7.4.js"></script>
+    <script src="Scripts/app/controller.js"></script>
+    <script src="Scripts/app/dataPersister.js"></script>
+    <script src="Scripts/app/contorls.js"></script>
+    <script src="Scripts/libs/jquery-1.9.1.js"></script>
+    <script src="Scripts/libs/jquery-ui-1.10.3.custom.js"></script>
+</head>
+<body>
+    <script type="x-mustache-template" id="log/reg-template">	
+			<div id="tabs">
+        <ul>
+            <li><a href="#LoginForm">Login</a></li>
+            <li><a href="#RegisterForm">Register</a></li>
+        </ul>
+        <div id="LoginForm">
+            <label for="usernameLogin">Username</label>
+            <input type="text" id="usernameLogin" />
+            <br />
+            <label for="passwordLogin">Password</label>
+            <input type="password" id="passwordLogin" />
+            <br />
+            <a/ id="loginBtn" class="button">Login</a>
+        </div>
+        <div id="RegisterForm">
+            <label for="usernameRegister">Username</label>
+            <input type="text" id="usernameRegister" />
+            <br />
+            <label for="displayNameRegister">DisplayName</label>
+            <input type="text" id="displayNameRegister" />
+            <br />
+            <label for="passwordRegister">Password</label>
+            <input type="password" id="passwordRegister" />
+            <br />
+            <a/  id="RegBtn" class="button">Register</a>
+        </div>
+
+    </div>
+    </script>
+
+     <script type="x-mustache-template" id="wellcome-template">
+    <div id="greetingsUser">
+        <h3>Hello, <span id="displayName">{{username}}</span></h3> 
+        <br />
+        <a href="#/Home" id="logoutBtn" class="button">Logout</a>
+        <a href="#/posts/create" id="postFormBtn" class="button">MakePost</a>
+         <br />
+         <label for"TagsSearchInput">SearchByTags(separate by ',')</label>
+         <input type="text" id="TagsSearchInput"/>
+        <a  id="tagsSearchBtn" class="button">Search</a>       
+    </div>
+    </script>   
+
+    <script type="x-mustache-template" id="posts-template">
+        <div class="postsContainer" id="{{Id}}">
+            <h3><a href="#/post/{{Id}}" class="titleLink">{{Title}}</a></h3>          
+        </div>
+    </script>
+
+    
+    <script type="x-mustache-template" id="make-post-template">
+        <div id="mistDiv">
+            <div id="postsContainer">
+                <label for="titleInput">Title</label>
+                <input type="text" id="titleInput" />
+                <br />
+                <label for="ContentInput" id="contentLabel">Content</label>
+                <textarea id="ContentInput"></textarea>
+                <br />
+                <label for="tagsInput">Tags(separate with ',')</label>
+                <input type="text" id="tagsInput" />
+                <br/>
+                <a id="postBtn" class="button">Post</a>
+                <a href="#/posts" id="cancelBtn" class="button">Cancel</a>
+            </div>
+        </div>
+    </script>
+
+
+    <script type="x-mustache-template" id="single-post-content">
+        <div id="singlePostContainer">
+            <h3>{{Title}}</h3>
+            <div>
+                {{Content}}
+                
+            </div>
+            <div id="tagsCont"></div>
+            <div id="commentsCont"></div>
+        <br/>
+                <a class="button" id="CommentFormBtn" data-post-id="{{Id}}">AddComment</a>
+        </div>
+    </script>
+
+     <script type="x-mustache-template" id="leave-comment-template">
+        <div id="mistDiv">
+            <div id="postsContainer">                
+                <label for="ContentCommentInput" id="contentLabel">Content</label>
+                <textarea id="ContentCommentInput"></textarea>
+                <br />
+                <a id="commentBtn" class="button">Post</a>
+                <a href="#/posts" id="cancelCommentBtn" class="button">Cancel</a>
+            </div>
+        </div>
+    </script>
+
+     <script type="x-mustache-template" id="tags-template">
+       <a href="#/posts/{{.}}">{{.}}</a>
+    </script>
+
+    <script type="x-mustache-template" id="comment-template">
+       <div>{{Content}}
+            <p>Author: {{Author}}</p>
+        </div>
+    </script>
+
+    <div id="wrapper">
+        <h1>Forum for everything</h1>
+        <div id="content"></div>
+    </div>
+</body>
+</html>

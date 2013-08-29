@@ -1,0 +1,5 @@
+E:\Uroci\WEB\Js-Frameworks\Lesson7-JavaScriptPatternsAndSPA\Forum\Forum\bin\Forum.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson7-JavaScriptPatternsAndSPA\Forum\Forum\bin\Forum.pdb
+E:\Uroci\WEB\Js-Frameworks\Lesson7-JavaScriptPatternsAndSPA\Forum\Forum\obj\Debug\Forum.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\Js-Frameworks\Lesson7-JavaScriptPatternsAndSPA\Forum\Forum\obj\Debug\Forum.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson7-JavaScriptPatternsAndSPA\Forum\Forum\obj\Debug\Forum.pdb
