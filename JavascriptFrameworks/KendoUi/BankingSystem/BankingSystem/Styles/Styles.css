@@ -1,0 +1,44 @@
+﻿body {
+}
+
+#monitor {
+    width:500px;
+    height:500px;
+    background-color:darkblue;
+    color:white;
+    border-radius:10px;
+    margin-left:50px;
+    font-family:Castellar;
+    text-align:center;
+}
+
+    #monitor label {
+        display:inline-block;
+        margin-top:100px;
+    }
+
+.button {
+    display:inline-block;
+    padding:5px 10px;
+    border:1px solid rgba(128, 128, 128,0.5);
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.button:hover {
+    background-color:rgba(255, 255, 255,0.3)
+
+}
+
+#widthdraw {
+    position:absolute;
+    left:75px;
+    top:350px;
+}
+
+#deposit {
+    position:absolute;
+    left:440px;
+    top:350px;
+    
+}

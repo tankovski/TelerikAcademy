@@ -1,0 +1,12 @@
+﻿<span>Choose Operation</span>
+<select data-bind="value: url" id="options" placeholder="Select operation...">
+				<option>VeiwLog</option>
+				<option>TransferMoney</option>
+			</select>
+
+<button data-bind="click: getOperation">Choose</button>
+<button id="logout">Logout</button>
+
+<script>
+    $("#options").kendoComboBox();
+</script>

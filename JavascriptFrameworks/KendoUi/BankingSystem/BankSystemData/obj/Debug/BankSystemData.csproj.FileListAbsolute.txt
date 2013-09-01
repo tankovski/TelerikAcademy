@@ -1,0 +1,8 @@
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankSystemData\bin\Debug\BankSystemData.dll.config
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankSystemData\bin\Debug\BankSystemData.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankSystemData\bin\Debug\BankSystemData.pdb
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankSystemData\bin\Debug\EntityFramework.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankSystemData\bin\Debug\EntityFramework.xml
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankSystemData\obj\Debug\BankSystemData.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankSystemData\obj\Debug\BankSystemData.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankSystemData\obj\Debug\BankSystemData.pdb

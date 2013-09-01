@@ -1,0 +1,5 @@
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankingSystem\bin\BankingSystem.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankingSystem\bin\BankingSystem.pdb
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankingSystem\obj\Debug\BankingSystem.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankingSystem\obj\Debug\BankingSystem.dll
+E:\Uroci\WEB\Js-Frameworks\Lesson8-KendoUI\BankingSystem\BankingSystem\obj\Debug\BankingSystem.pdb

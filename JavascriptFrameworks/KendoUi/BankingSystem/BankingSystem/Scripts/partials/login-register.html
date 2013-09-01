@@ -1,0 +1,49 @@
+﻿<div id="forecast">
+                <div id="tabstrip">
+                    <ul>
+                        <li class="k-state-active">
+                            Login
+                        </li>
+                        <li>
+                            Register
+                        </li>
+                    </ul>
+                    <div>
+                        <label for="usernameInput">Username</label>
+                        <input data-bind="value: username" type="text" id="usernameInput"name="username" placeholder="Username" required validationmessage="Please enter {0}"/>
+                        <br />
+                        <label for="passInput">Password</label>
+                        <input data-bind="value: password" type="password" id="passInput" name="password" placeholder="Password" required validationmessage="Please enter {0}"/>
+                        <br />
+                        <button data-bind="click: login">Login</button>
+                    </div>
+                    <div  id="regFormdiv">
+                        <label for="firstNameInput">FirstName</label>
+                        <input data-bind="value: firstName" type="text" id="firstNameInput" name="firstName" placeholder="FirstName" required validationmessage="Please enter {0}"/>
+                        <br />
+                        <label for="lastNameInput">LastName</label>
+                        <input data-bind="value: lastName" type="text" id="lastNameInput" name="lastName" placeholder="LasrName" required validationmessage="Please enter {0}"/>
+                        <br />
+                        <label for="usernameRegInput">Username</label>
+                        <input data-bind="value: username" type="text" id="usernameRegInput" name="username" placeholder="Username" required validationmessage="Please enter {0}"/>
+                        <br />
+                        <label for="passRegInput">Password</label>
+                        <input data-bind="value: password" type="password" id="passRegInput" name="password" placeholder="Password" required validationmessage="Please enter {0}"/>
+                        <br />
+                        <button data-bind="click: register">Register</button>
+                    </div>
+                    
+                </div>
+            </div>
+
+<script>
+                $(document).ready(function() {
+                    $("#tabstrip").kendoTabStrip({
+                        animation:  {
+                            open: {
+                                effects: "fadeIn"
+                            }
+                        }
+                    });
+                });
+            </script>   

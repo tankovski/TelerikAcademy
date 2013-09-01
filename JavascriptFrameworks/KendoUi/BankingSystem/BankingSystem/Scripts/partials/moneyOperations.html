@@ -1,0 +1,13 @@
+﻿<button id="logout">Logout</button>
+<div id="monitor">
+        <h3>Money Avelable:</h3>
+        <strong data-bind="text: money" id="moneyAvelable"></strong>
+        <br/>
+        <label for="moneyInput">Enter Amount Of Money</label>
+        <br/>
+        <input data-bind="value: moneyToOperate" type="text" id="moneyInput" name="money" pattern="\d+" placeholder="EnterMoney" required
+                    validationmessage="Enter money" />
+        <br/>
+        <a class="button" id="widthdraw" data-bind="click: withdraw">Withdral</a>
+        <a class="button" id="deposit" data-bind="click: deposit">Deposit</a>
+</div>
