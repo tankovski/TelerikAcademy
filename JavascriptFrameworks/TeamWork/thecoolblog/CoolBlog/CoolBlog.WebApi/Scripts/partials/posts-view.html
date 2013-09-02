@@ -1,0 +1,30 @@
+﻿<div data-template="post-template" data-bind="source: posts">
+</div>
+
+<script type="text/x-kendo-template" id="post-template">
+     <div class="post_box">
+                        <div class="date_box">
+                            <p >#var ddd = (new Date(postDate))
+                                var date = ddd.toDateString();
+                            # #=date#</p>
+                        </div>
+                        <!-- end of date box -->
+
+                        <div class="post_body">
+
+                            <h2><a href="\#/posts/#:id#">#:title#</a></h2>
+                            <div class="post_info">
+                                by <a href="\#/user/#=postedById#" >#:postedBy#</a>
+                            </div>
+
+                            <div class="post_content">
+                                <p>#=text#</p>
+                                <div class="link_button"><a href="\#/posts/#=id#">Comments</a></div>
+                            </div>
+
+                        </div>
+                        <!-- end of post body -->
+
+                    </div>
+                    <!-- end of a post -->
+</script>

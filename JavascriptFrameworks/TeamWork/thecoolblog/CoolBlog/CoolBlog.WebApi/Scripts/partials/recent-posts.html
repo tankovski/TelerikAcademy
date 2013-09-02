@@ -1,0 +1,11 @@
+﻿<div data-template="recent-post-template" data-bind="source: posts">
+</div>
+
+<script type="text/x-kendo-template" id="recent-post-template">
+    <div class="recent_post">
+        <h4><a href="\#/posts/#:id#">#:title#</a></h4>
+        <div class="post_info">
+            by <a href="\#/user/#=postedById#">#:postedBy#</a>
+        </div>
+    </div>
+</script>

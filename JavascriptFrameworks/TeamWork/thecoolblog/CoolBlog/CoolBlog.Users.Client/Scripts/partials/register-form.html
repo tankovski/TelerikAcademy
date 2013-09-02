@@ -1,0 +1,10 @@
+﻿<fieldset id="register-form">
+    <legend>Register</legend>
+    <input data-bind="value: username" type="text" id="tb-username" placeholder="Username" required validationmessage="Please enter {0}" name="username" /><br />
+    <input data-bind="value: password" type="text" id="tb-password" placeholder="Password" required validationmessage="Please enter {0}" name="password" /><br />
+    <input data-bind="value: nickname" type="text" id="tb-nickname" placeholder="Nickname" required validationmessage="Please enter {0}" name="nickname" /><br />
+    <input data-bind="value: gender" type="text" id="tb-gender" placeholder="Gender" required validationmessage="Please enter {0}" name="gender" /><br />
+    <input data-bind="value: email" type="email" id="tb-email" placeholder="Email" required validationmessage="Please enter {0}" name="email" /><br />
+    <button id="submit" data-bind="click: register">Register</button>
+    <div id="status"></div>
+</fieldset>

@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Cool Blog</title>
+    <link href="Styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="Styles/kendo.silver.min.css" rel="stylesheet" />
+    <link href="Styles/Styles.css" rel="stylesheet" />
+    <link href="Styles/templatemo_style.css" rel="stylesheet" />
+    <link href="Styles/jquerycssmenu.css" rel="stylesheet" />
+
+    <script src="Scripts/lib/jquery-2.0.3.js"></script>
+    <script src="Scripts/lib/underscore.js"></script>
+    <script src="Scripts/lib/class.js"></script>
+    <script src="Scripts/lib/http-requester.js"></script>
+    <script src="Scripts/lib/kendo.web.min.js"></script>
+    <script src="Scripts/lib/rsvp.js"></script>
+    <script src="Scripts/lib/sha1.js"></script>
+    <script src="Scripts/app/view-models/vm-factory.js"></script>
+    <script src="Scripts/data/data-persister.js"></script>
+    <script src="Scripts/app.js"></script>
+    <script src="Scripts/app/views/view-factory.js"></script>
+    <script src="Scripts/app/user-navigation.js"></script>
+</head>
+<body>
+    <div id="templatemo_top_panel_wrapper_outter">
+        <div id="templatemo_top_panel_wrapper_inner">
+            <div id="templatemo_top_panel">
+                <div id="templatemo_menu">
+
+                    <div id="myjquerymenu" class="jquerycssmenu">
+                        <ul>
+                            <li><a href="#/">Home</a></li>
+                            <li><a href="#/posts">Posts</a></li>
+                            <li><a href="#/posts/create">New Post</a></li>
+                            <li><a href="#/users">Users</a></li>
+                            <li><a href="adminPanel.html#/users">Admin Panel</a></li>
+                            <li id="register-link"><a href="#/register">Register</a></li>
+                            <li id="login-link"><a href="#/login">Login</a></li>
+                            <li id="logout-link"><a href="#/logout">Logout</a></li>
+                            <li id="logged-user"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="templatemo_content_wrapper">
+
+        <div id="templatemo_content">
+
+
+            <div id="templatemo_main_content_top"></div>
+            <div id="templatemo_main_coontent">
+
+                <div id="main_column">
+                    <div id="app">
+                    </div>
+                </div>
+                <!-- end of main column -->
+
+                <div id="side_column">
+
+                    <div class="side_column_section">
+
+                        <a href="http://www.templatemo.com" target="_parent">
+                            <img src="../imgs/blog2.png" alt="ads" width="250" height="150" /></a>
+                    </div>
+
+                    <div class="side_column_section">
+
+                        <h3>Recent Posts</h3>
+                        <div id="app-side">
+                            
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end of side column -->
+
+                <div class="cleaner"></div>
+            </div>
+            <!-- end of main content -->
+            <div id="templatemo_main_content_bottom"></div>
+
+        </div>
+        <!-- templatemo_content -->
+
+    </div>
+    <!-- end of templatemo_content_wrapper -->
+
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer">
+            <div class="section_w200">
+                <h4>About this blog</h4>
+                <p>This is the coolest blog ever!!! </p>
+            </div>
+
+            <div class="section_w200">
+                <div class="section_rss_twitter twitter">
+                    <a href="#">FOLLOW ME <span>on Twitter</span></a>
+                </div>
+                <div class="margin_bottom_20"></div>
+                <div class="section_rss_twitter rss">
+                    <a href="#">SUBSCRIBE <span>RSS feed</span></a>
+                </div>
+            </div>
+            <div class="cleaner_h20"></div>
+
+        </div>
+        <!-- end of templatemo_footer -->
+
+        <div class="cleaner"></div>
+    </div>
+    <!-- end of templatemo_footer_wrapper -->
+</body>
+</html>

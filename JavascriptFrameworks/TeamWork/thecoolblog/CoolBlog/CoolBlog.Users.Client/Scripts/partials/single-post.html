@@ -1,0 +1,44 @@
+﻿<div id="single_post" class="post_body" data-id=#:id#>
+    <div class="date_box">
+        <p>#:postDate#</p>
+    </div>
+
+    <div id="post-items">
+        <h2>#:title#</h2>
+        <div class="post_info">
+            <span>by: <a href="\#/users/#:postedById#">#:postedBy#</a></span>
+        </div>
+        <div class="post_content">
+            <p id="p-content">#=text#</p>
+        </div>
+        <div class="tags">
+            # if(data.tags.length) { #
+            <span>Tags: </span>
+            <ul>
+                # for (var i = 0; i < data.tags.length; i++) { #
+                <li><a href="\#/posts/bytag/#=data.tags[i]#">#= data.tags[i] #</a></li>
+                # } #
+            </ul>
+            # } #
+        </div>
+        <hr />
+        <div class="comments">
+            # if(data.comments.length) { #
+            <ul>
+                <li>Comments: </li>
+                # for (var i = 0; i < data.comments.length; i++) { #
+                    <li data-bind="value: comments">
+                        <span>#= data.comments[i].text #</span><br /><hr />
+                        <span>by: #= data.comments[i].commentedBy #</span><br />
+                        <span>date: #= data.comments[i].postDate #</span><br />
+                    </li>
+                # } #
+            </ul>
+            # } #
+        </div>
+        <div class="comment-box">
+            <textarea id="t-area" data-bind="value: commentContent"></textarea><br />
+            <a href="\#" data-bind="click: publish">Publish me</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,82 @@
+﻿body {
+   
+    color:blue;
+    background-image:url('../../imgs/security2.jpg');
+    background-repeat:no-repeat;
+    background-position:100px -100px;
+    background-color:black;
+   
+    
+}
+input[type=text] {
+    background-color:rgba(0,0,0,0.4);
+    border-color:blue;
+    color:white;
+}
+
+input[type=password] {
+    background-color:rgba(0,0,0,0.4);
+    border-color:blue;
+    color:white;
+}
+    #wrapper > header {
+        color:blue;
+        text-align:center;
+    }
+
+#adminsContainer {  
+    height:500px;
+    overflow: auto;
+}
+
+ul {
+    list-style-image:url(../../imgs/Keys-icon.png)
+}
+
+#userContainer {
+    color:blue;
+    padding-top:30px;
+    padding-left:30px;
+    background-image:url('../../imgs/User-Files-icon.png');
+    background-repeat:no-repeat;
+    height:300px;
+}
+
+a {
+    color:blue;
+    text-decoration:none;
+}
+
+.button {
+    padding:5px 10px;
+    border:1px solid blue;
+    border-radius:10px;
+}
+
+#button {
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+    .button:hover {
+        background-color:darkblue;
+        color:white;
+    }
+
+button {
+    background-color:black;
+    color:blue;
+    border-color:blue;
+    border-radius:10px;
+}
+    button:hover {
+        background-color:darkblue;
+        color:white;
+    }
+
+#postBtn {
+    position:absolute;
+    top: 10px;
+    right: 175px;
+
+}

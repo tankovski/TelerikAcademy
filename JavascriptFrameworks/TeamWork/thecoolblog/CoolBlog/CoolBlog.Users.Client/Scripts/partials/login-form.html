@@ -1,0 +1,7 @@
+﻿<fieldset id="login-form">
+    <legend>Login</legend>
+    <input data-bind="value: username"  type="text" id="tb-username" placeholder="Username" required validationmessage="Please enter {0}" name="username" /><br />
+    <input data-bind="value: password" type="password" id="tb-password" placeholder="Password" required validationmessage="Please enter {0}" name="password" /><br />
+    <button id="submit" data-bind="click: login">Login</button>
+    <div id="status"></div>
+</fieldset>

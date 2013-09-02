@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolBlog.Model", "CoolBlog.Model\CoolBlog.Model.csproj", "{7974B322-F2EF-41EC-BBAE-740D4C38BC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolBlog.WebApi", "CoolBlog.WebApi\CoolBlog.WebApi.csproj", "{3490CCB4-06E1-43D9-80EA-54008DEE910B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolBlog.WebApi.Tests", "CoolBlog.WebApi.Tests\CoolBlog.WebApi.Tests.csproj", "{1CF066DE-FE48-4550-AD52-9BA6107CBACC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs22
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CoolBlog.Model\\CoolBlog.Model.csproj
+		SccProjectName1 = CoolBlog.Model
+		SccLocalPath1 = CoolBlog.Model
+		SccProjectUniqueName2 = CoolBlog.WebApi.Tests\\CoolBlog.WebApi.Tests.csproj
+		SccProjectName2 = CoolBlog.WebApi.Tests
+		SccLocalPath2 = CoolBlog.WebApi.Tests
+		SccProjectUniqueName3 = CoolBlog.WebApi\\CoolBlog.WebApi.csproj
+		SccProjectName3 = CoolBlog.WebApi
+		SccLocalPath3 = CoolBlog.WebApi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7974B322-F2EF-41EC-BBAE-740D4C38BC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7974B322-F2EF-41EC-BBAE-740D4C38BC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7974B322-F2EF-41EC-BBAE-740D4C38BC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7974B322-F2EF-41EC-BBAE-740D4C38BC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3490CCB4-06E1-43D9-80EA-54008DEE910B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3490CCB4-06E1-43D9-80EA-54008DEE910B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3490CCB4-06E1-43D9-80EA-54008DEE910B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3490CCB4-06E1-43D9-80EA-54008DEE910B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF066DE-FE48-4550-AD52-9BA6107CBACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF066DE-FE48-4550-AD52-9BA6107CBACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF066DE-FE48-4550-AD52-9BA6107CBACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF066DE-FE48-4550-AD52-9BA6107CBACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

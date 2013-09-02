@@ -1,0 +1,8 @@
+﻿<h3>Posts</h3>
+<ul id="ul-posts" class="posts-list">
+	<li class="post-item" data-approved="{{post.approved}}" ng-repeat="post in posts">
+        <a href="#/posts">{{post.title}}</a> 
+		by <a href="#/user/{{post.postedById}}">{{post.postedBy}}</a>
+        <a href="" id="{{post.id}}" ng-click="disapprove(post.id)">Delete</a>
+	</li>
+</ul>	

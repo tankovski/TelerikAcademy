@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C7423347-2416-48F3-B1CB-D4502A31E694}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoolBlog.Users.Client</RootNamespace>
+    <AssemblyName>CoolBlog.Users.Client</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adminPanel.html" />
+    <Content Include="adminScripts\appAdmin.js" />
+    <Content Include="adminScripts\app\controllers.js" />
+    <Content Include="adminScripts\libs\angular.js" />
+    <Content Include="adminScripts\libs\class.js" />
+    <None Include="adminScripts\libs\jquery-2.0.3.intellisense.js" />
+    <Content Include="adminScripts\libs\jquery-2.0.3.js" />
+    <Content Include="adminScripts\libs\sha1.js" />
+    <Content Include="adminScripts\libs\underscore.js" />
+    <Content Include="adminScripts\partials\allPosts.html" />
+    <Content Include="adminScripts\partials\allUsers.html" />
+    <Content Include="adminScripts\partials\login.html" />
+    <Content Include="adminScripts\partials\singleUser.html" />
+    <Content Include="imgs\adminBackgroun.jpg" />
+    <Content Include="imgs\arrow-down.gif" />
+    <Content Include="imgs\arrow-right.gif" />
+    <Content Include="imgs\Keys-icon.png" />
+    <Content Include="imgs\menu_divider.jpg" />
+    <Content Include="imgs\rss_icon.png" />
+    <Content Include="imgs\Secure_File.jpg" />
+    <Content Include="imgs\security.jpg" />
+    <Content Include="imgs\security2.jpg" />
+    <Content Include="imgs\slider_left_control.png" />
+    <Content Include="imgs\slider_right_control.png" />
+    <Content Include="imgs\templatemo_200_200_ads.jpg" />
+    <Content Include="imgs\templatemo_content_bg.jpg" />
+    <Content Include="imgs\templatemo_content_bg_wrapper.jpg" />
+    <Content Include="imgs\templatemo_content_box_bottom.png" />
+    <Content Include="imgs\templatemo_content_box_middle.png" />
+    <Content Include="imgs\templatemo_content_box_top.png" />
+    <Content Include="imgs\templatemo_date_bg.png" />
+    <Content Include="imgs\templatemo_footer_top.jpg" />
+    <Content Include="imgs\templatemo_image_01.jpg" />
+    <Content Include="imgs\templatemo_image_02.jpg" />
+    <Content Include="imgs\templatemo_image_03.jpg" />
+    <Content Include="imgs\templatemo_image_04.jpg" />
+    <Content Include="imgs\templatemo_image_05.jpg" />
+    <Content Include="imgs\templatemo_image_06.jpg" />
+    <Content Include="imgs\templatemo_logo.png" />
+    <Content Include="imgs\templatemo_top_panel_bg.jpg" />
+    <Content Include="imgs\templatemo_top_panel_bg_wrapper_inner.jpg" />
+    <Content Include="imgs\templatemo_top_panel_bg_wrapper_outer.jpg" />
+    <Content Include="imgs\twitter_icon.png" />
+    <Content Include="imgs\anonymous.png" />
+    <Content Include="imgs\back.ico" />
+    <Content Include="imgs\background.jpg" />
+    <Content Include="imgs\blog1.jpg" />
+    <Content Include="imgs\blog2.png" />
+    <Content Include="imgs\blog3.jpg" />
+    <Content Include="imgs\email.ico" />
+    <Content Include="imgs\female.ico" />
+    <Content Include="imgs\Folder-User-Folder-icon.png" />
+    <Content Include="imgs\male.ico" />
+    <Content Include="imgs\User-Files-icon.png" />
+    <Content Include="imgs\user.ico" />
+    <Content Include="imgs\user.png" />
+    <Content Include="imgs\user2.png" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\app\user-navigation.js" />
+    <Content Include="Scripts\app\view-models\login-vm.js" />
+    <Content Include="Scripts\app\view-models\vm-factory.js" />
+    <Content Include="Scripts\app\views\login-view.js" />
+    <Content Include="Scripts\app\views\view-factory.js" />
+    <Content Include="Scripts\data\data-persister.js" />
+    <Content Include="packages.config" />
+    <None Include="Scripts\lib\jquery-2.0.3.intellisense.js" />
+    <Content Include="Scripts\lib\class.js" />
+    <Content Include="Scripts\lib\http-requester.js" />
+    <Content Include="Scripts\lib\jquery-2.0.3.js" />
+    <Content Include="Scripts\lib\jquery-2.0.3.min.js" />
+    <None Include="Scripts\lib\kendo.web.min.intellisense.js" />
+    <Content Include="Scripts\lib\jquery.min.js" />
+    <Content Include="Scripts\lib\kendo.web.min.js" />
+    <Content Include="Scripts\lib\rsvp.js" />
+    <Content Include="Scripts\lib\sha1.js" />
+    <Content Include="Scripts\lib\underscore.js" />
+    <Content Include="Scripts\lib\_references.js" />
+    <Content Include="Scripts\partials\allUsers.html" />
+    <Content Include="Scripts\partials\createPost.html" />
+    <Content Include="Scripts\partials\layout.html" />
+    <Content Include="Scripts\partials\login-form.html" />
+    <Content Include="Scripts\partials\posts-view.html" />
+    <Content Include="Scripts\partials\recent-posts.html" />
+    <Content Include="Scripts\partials\register-form.html" />
+    <Content Include="Scripts\partials\single-post.html" />
+    <Content Include="Scripts\partials\singleUser.html" />
+    <Content Include="Styles\adminStyles.css" />
+    <Content Include="Styles\editor-styles.css" />
+    <Content Include="Styles\jquerycssmenu.css" />
+    <Content Include="Styles\kendo.common.min.css" />
+    <Content Include="Styles\kendo.silver.min.css" />
+    <Content Include="Styles\Silver\editor.png" />
+    <Content Include="Styles\Silver\imagebrowser.png" />
+    <Content Include="Styles\Silver\loading-image.gif" />
+    <Content Include="Styles\Silver\loading.gif" />
+    <Content Include="Styles\Silver\loading_2x.gif" />
+    <Content Include="Styles\Silver\slider-h.gif" />
+    <Content Include="Styles\Silver\slider-v.gif" />
+    <Content Include="Styles\Silver\sprite.png" />
+    <Content Include="Styles\Silver\sprite_2x.png" />
+    <Content Include="Styles\Styles.css" />
+    <Content Include="Styles\templatemo_style.css" />
+    <Content Include="Web.config" />
+    <Content Include="Scripts\lib\jquery-2.0.3.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="adminScripts\data\" />
+    <Folder Include="Scripts\app\models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>36156</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:30527/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

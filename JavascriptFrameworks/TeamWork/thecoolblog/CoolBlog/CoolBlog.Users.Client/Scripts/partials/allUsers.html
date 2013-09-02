@@ -1,0 +1,10 @@
+﻿<div id="all-users-div">
+    <h2 id="allUsersH2">Users List</h2>
+    <ul data-template="car-template" data-bind="source: users" id="usersList">
+    </ul>
+</div>
+<script type="text/x-kendo-template" id="car-template">
+    <li>
+        <a href="\#/user/#= Id #" data-bind="text: Nickname"></a>
+    </li>
+</script>

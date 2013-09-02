@@ -1,0 +1,10 @@
+﻿<a href="#/posts" id="postBtn" class="button">Posts</a>
+<a href="#/" id="button" class="button">Logout</a>
+<div id="userContainer">
+    <p>Nickname: <strong>{{user.Nickname}}</strong><p/>
+    <p>Gender: <strong>{{user.Gender}}</strong><p/>
+    <p>Email: <strong>{{user.Email}}</strong><p/>
+    <p>Rank: <strong>{{user.Rank}}</strong><p/>
+    <button ng-click="ban()">BanUser</button>
+    <button ng-click="promote()">MakeAdmin</button>
+</div>
