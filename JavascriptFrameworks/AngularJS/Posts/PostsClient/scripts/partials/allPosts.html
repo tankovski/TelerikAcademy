@@ -1,0 +1,9 @@
+﻿<a href="#/posts/create" class="button">CreatePost</a>
+<ul class="postsContainer">
+    <li class="post-item" ng-repeat="post in posts">
+        <a href="#/post/{{post.Id}}">{{post.Title}}</a>
+        Posted at: <time>{{post.PostDate}}</time>
+    </li>
+</ul>
+
+

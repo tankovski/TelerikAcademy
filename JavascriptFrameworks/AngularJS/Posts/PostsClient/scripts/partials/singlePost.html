@@ -1,0 +1,8 @@
+﻿
+    <a href="#/posts/create" class="button">CreatePost</a>
+    <div id="singePostContainer">
+        <h2>{{post.Title}}</h2>
+        <p id="content">{{post.PostContent}}</p>
+        <p><span ng-repeat="category in post.Categories"> <a href="#/category/{{category.Id}}/posts">{{category.Name}}</a></span></p>
+    </div>
+

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PostsDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PostsDBModelStoreContainer">
+    <EntitySet Name="Categories" EntityType="PostsDBModel.Store.Categories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Posts" EntityType="PostsDBModel.Store.Posts" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PostsCategories" EntityType="PostsDBModel.Store.PostsCategories" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="PostsDBModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_PostsCategories_Categories" Association="PostsDBModel.Store.FK_PostsCategories_Categories">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="PostsCategories" EntitySet="PostsCategories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PostsCategories_Posts" Association="PostsDBModel.Store.FK_PostsCategories_Posts">
+      <End Role="Posts" EntitySet="Posts" />
+      <End Role="PostsCategories" EntitySet="PostsCategories" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Posts">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PostContent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Title" Type="nchar" Nullable="false" MaxLength="100" />
+    <Property Name="PostDate" Type="date" />
+  </EntityType>
+  <EntityType Name="PostsCategories">
+    <Key>
+      <PropertyRef Name="PostId" />
+      <PropertyRef Name="CategoryId" />
+    </Key>
+    <Property Name="PostId" Type="int" Nullable="false" />
+    <Property Name="CategoryId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_PostsCategories_Categories">
+    <End Role="Categories" Type="PostsDBModel.Store.Categories" Multiplicity="1" />
+    <End Role="PostsCategories" Type="PostsDBModel.Store.PostsCategories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PostsCategories">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PostsCategories_Posts">
+    <End Role="Posts" Type="PostsDBModel.Store.Posts" Multiplicity="1" />
+    <End Role="PostsCategories" Type="PostsDBModel.Store.PostsCategories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Posts">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PostsCategories">
+        <PropertyRef Name="PostId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
