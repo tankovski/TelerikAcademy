@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\Homework\PrintHelloAspAndLocation\bin\PrintHelloAspAndLocation.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\Homework\PrintHelloAspAndLocation\bin\PrintHelloAspAndLocation.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\Homework\PrintHelloAspAndLocation\bin\PrintHelloAspAndLocation.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\Homework\PrintHelloAspAndLocation\obj\Debug\PrintHelloAspAndLocation.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\Homework\PrintHelloAspAndLocation\obj\Debug\PrintHelloAspAndLocation.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\Homework\PrintHelloAspAndLocation\obj\Debug\PrintHelloAspAndLocation.pdb

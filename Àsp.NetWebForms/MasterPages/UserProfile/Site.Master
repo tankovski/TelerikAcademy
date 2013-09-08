@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UserProfile.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <h1>User Profile</h1>
+    </header>
+        <aside>
+            <div class="sidebar-title">Menu</div>
+            <ul>
+                <li><a href="~/" runat="server">Profile</a></li>
+                <li><a href="~/Friends.aspx" runat="server">Friends</a></li>
+                <li><a href="~/AditionalInfo.aspx" runat="server">AditionalInfo</a></li>              
+            </ul>
+        </aside>
+        <section id="main">
+             <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </section>
+        <footer id="footer">
+            (c) The coolest site ever
+        </footer>
+    
+    </form>
+</body>
+</html>

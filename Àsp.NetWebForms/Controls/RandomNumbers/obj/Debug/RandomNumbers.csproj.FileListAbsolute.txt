@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\RandomNumbers\bin\RandomNumbers.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\RandomNumbers\bin\RandomNumbers.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\RandomNumbers\bin\RandomNumbers.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\RandomNumbers\obj\Debug\RandomNumbers.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\RandomNumbers\obj\Debug\RandomNumbers.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\RandomNumbers\obj\Debug\RandomNumbers.pdb

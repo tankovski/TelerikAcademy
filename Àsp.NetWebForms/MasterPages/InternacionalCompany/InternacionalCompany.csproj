@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF4279B7-B300-44C5-B6F3-588079E155F2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InternacionalCompany</RootNamespace>
+    <AssemblyName>InternacionalCompany</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bulgarian\BulgarianAbout.aspx" />
+    <Content Include="Bulgarian\BulgarianContacts.aspx" />
+    <Content Include="Bulgarian\BulgarianHome.aspx" />
+    <Content Include="Deutsch\GermanAbout.aspx" />
+    <Content Include="Deutsch\GermanContacts.aspx" />
+    <Content Include="Deutsch\GermanHome.aspx" />
+    <Content Include="English\EnglishAbout.aspx" />
+    <Content Include="English\EnglishContacts.aspx" />
+    <Content Include="English\EnglishHome.aspx" />
+    <Content Include="MainPage.aspx" />
+    <Content Include="Styles.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bulgarian\BulgarianAbout.aspx.cs">
+      <DependentUpon>BulgarianAbout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bulgarian\BulgarianAbout.aspx.designer.cs">
+      <DependentUpon>BulgarianAbout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bulgarian\BulgarianContacts.aspx.cs">
+      <DependentUpon>BulgarianContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bulgarian\BulgarianContacts.aspx.designer.cs">
+      <DependentUpon>BulgarianContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bulgarian\BulgarianHome.aspx.cs">
+      <DependentUpon>BulgarianHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bulgarian\BulgarianHome.aspx.designer.cs">
+      <DependentUpon>BulgarianHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Bulgarian\NestedMasterBulgarian.master.cs">
+      <DependentUpon>NestedMasterBulgarian.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Bulgarian\NestedMasterBulgarian.master.designer.cs">
+      <DependentUpon>NestedMasterBulgarian.master</DependentUpon>
+    </Compile>
+    <Compile Include="Deutsch\GermanAbout.aspx.cs">
+      <DependentUpon>GermanAbout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deutsch\GermanAbout.aspx.designer.cs">
+      <DependentUpon>GermanAbout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deutsch\GermanContacts.aspx.cs">
+      <DependentUpon>GermanContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deutsch\GermanContacts.aspx.designer.cs">
+      <DependentUpon>GermanContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deutsch\GermanHome.aspx.cs">
+      <DependentUpon>GermanHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deutsch\GermanHome.aspx.designer.cs">
+      <DependentUpon>GermanHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Deutsch\NestedMasterDeutsch.master.cs">
+      <DependentUpon>NestedMasterDeutsch.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deutsch\NestedMasterDeutsch.master.designer.cs">
+      <DependentUpon>NestedMasterDeutsch.master</DependentUpon>
+    </Compile>
+    <Compile Include="English\EnglishAbout.aspx.cs">
+      <DependentUpon>EnglishAbout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="English\EnglishAbout.aspx.designer.cs">
+      <DependentUpon>EnglishAbout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="English\EnglishContacts.aspx.cs">
+      <DependentUpon>EnglishContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="English\EnglishContacts.aspx.designer.cs">
+      <DependentUpon>EnglishContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="English\EnglishHome.aspx.cs">
+      <DependentUpon>EnglishHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="English\EnglishHome.aspx.designer.cs">
+      <DependentUpon>EnglishHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="English\NestedMasterEnglish.master.cs">
+      <DependentUpon>NestedMasterEnglish.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="English\NestedMasterEnglish.master.designer.cs">
+      <DependentUpon>NestedMasterEnglish.master</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+    <Content Include="English\NestedMasterEnglish.master" />
+    <Content Include="Deutsch\NestedMasterDeutsch.master" />
+    <Content Include="Bulgarian\NestedMasterBulgarian.master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="imgs\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14319</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:14319/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NestedMasterBulgarian.master.cs" Inherits="InternacionalCompany.Bulgarian.NestedMasterBulgarian" %>
+<asp:Content ID="ContentHeaderBul" ContentPlaceHolderID="ContentPlaceHolderHeader" runat="server">
+    <div class="home-link"><a href="/"><img runat="server" src="~/imgs/home.png" /></a></div>
+</asp:Content>
+<asp:Content ID="ContantMain" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
+    <aside class="english-sidebar">
+        <ul>
+            <li><a href="BulgarianHome.aspx">Начало</a></li>
+            <li><a href="BulgarianAbout.aspx">За Компанията</a></li>
+            <li><a href="BulgarianContacts.aspx">Контакти</a></li>
+        </ul>
+    </aside>
+     <div class="content"> 
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderBulgarianContent" runat="server" />
+    </div>
+</asp:Content>

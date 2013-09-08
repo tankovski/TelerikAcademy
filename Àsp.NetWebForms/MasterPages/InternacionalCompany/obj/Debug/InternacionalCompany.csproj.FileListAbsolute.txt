@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\InternacionalCompany\bin\InternacionalCompany.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\InternacionalCompany\bin\InternacionalCompany.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\InternacionalCompany\bin\InternacionalCompany.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\InternacionalCompany\obj\Debug\InternacionalCompany.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\InternacionalCompany\obj\Debug\InternacionalCompany.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\InternacionalCompany\obj\Debug\InternacionalCompany.pdb

@@ -1,0 +1,5 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\PrintHello\PrintHello\bin\PrintHello.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\PrintHello\PrintHello\bin\PrintHello.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\PrintHello\PrintHello\bin\PrintHello.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\PrintHello\PrintHello\obj\Debug\PrintHello.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson2-ASP.NETWebFormsIntro\PrintHello\PrintHello\obj\Debug\PrintHello.pdb

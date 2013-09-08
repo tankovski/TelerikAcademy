@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\UserProfile\bin\UserProfile.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\UserProfile\bin\UserProfile.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\UserProfile\bin\UserProfile.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\UserProfile\obj\Debug\UserProfile.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\UserProfile\obj\Debug\UserProfile.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson4-MasterPages\Homework\UserProfile\obj\Debug\UserProfile.pdb

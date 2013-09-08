@@ -1,0 +1,3 @@
+The code behind model is approach for division the application logic in different files, 
+not like php for example.The html code is in one file, the c# logic in another. This 
+way the code is easier for reading and refacturing.

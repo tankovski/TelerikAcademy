@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NestedMasterDeutsch.master.cs" Inherits="InternacionalCompany.Deutsch.NestedMasterDeutsch" %>
+<asp:Content ID="ContentHeaderGerman" ContentPlaceHolderID="ContentPlaceHolderHeader" runat="server">
+    <div class="home-link"><a href="/"><img runat="server" src="~/imgs/home.png" /></a></div>
+</asp:Content>
+<asp:Content ID="ContantMainGerman" ContentPlaceHolderID="ContentPlaceHolderMain" runat="server">
+    <aside class="german-sidebar">
+        <ul>
+            <li><a href="GermanHome.aspx">Zuhause</a></li>
+            <li><a href="GermanAbout.aspx">über</a></li>
+            <li><a href="GermanContacts.aspx">Kontakte</a></li>
+        </ul>
+    </aside>
+     <div class="content"> 
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderGermanContent" runat="server" />
+    </div>
+</asp:Content>

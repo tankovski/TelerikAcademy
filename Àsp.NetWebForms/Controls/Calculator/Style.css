@@ -1,0 +1,26 @@
+﻿body {
+}
+
+#resultTb {
+    display:inline-block;
+    height:20px;
+    width:200px;
+    border:1px solid gray;
+}
+
+.equalButtons {
+    height:30px;
+    width:30px;
+    margin-right:20px;
+}
+
+#clear {
+    height:30px;
+   
+
+}
+
+#equal {
+    width:193px;
+    height:30px;
+}

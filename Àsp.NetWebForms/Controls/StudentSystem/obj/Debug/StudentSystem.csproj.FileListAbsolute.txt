@@ -1,0 +1,11 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\StudentSystem\bin\StudentSystem.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\StudentSystem\bin\StudentSystem.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\StudentSystem\bin\StudentSystem.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\StudentSystem\obj\Debug\StudentSystem.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3\Homework\StudentSystem\obj\Debug\StudentSystem.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\StudentSystem\bin\StudentSystem.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\StudentSystem\bin\StudentSystem.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\StudentSystem\bin\StudentSystem.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\StudentSystem\obj\Debug\StudentSystem.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\StudentSystem\obj\Debug\StudentSystem.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\StudentSystem\obj\Debug\StudentSystem.pdb

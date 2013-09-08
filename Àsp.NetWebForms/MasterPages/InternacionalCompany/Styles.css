@@ -1,0 +1,76 @@
+﻿body {
+}
+
+.English {
+    display:inline-block;
+    width:260px;
+    height:255px;
+    background-image:url('imgs/british.ico');
+    background-repeat:no-repeat;
+    background-position:0 -0px;
+}
+
+    .English:hover {
+        background-color: rgba(0, 38, 255,0.5);
+        border-radius:250px;
+    }
+
+    .Deutsch {
+    display:inline-block;
+    width:260px;
+    height:255px;
+    background-image:url('imgs/german.ico');
+    background-repeat:no-repeat;
+    background-position:0 -0px;
+}
+
+    .Deutsch:hover {
+        background-color: rgba(213,175,41,0.8);
+        border-radius:250px;
+    }
+
+    .Bulgarian {
+    display:inline-block;
+    width:260px;
+    height:255px;
+    background-image:url('imgs/bulgaria.ico');
+    background-repeat:no-repeat;
+    background-position:0 -0px;
+}
+
+    .Bulgarian:hover {
+        background-color: rgba(7,115,34,0.5);
+        border-radius:250px;
+    }
+
+body > header {
+    background-color:#279CFF;
+    padding:20px 0px;
+    text-align:center;
+}
+    body > header > div:last-of-type {
+        display:inline-block;
+    }
+    body > header > div:first-of-type {
+        float:left;
+    }
+
+aside {
+    float:left;
+
+}
+.content {
+    display:inline-block;
+    width:800px;
+    height:190px;
+  
+    padding-left:50px;
+    padding-top:50px;
+
+}
+
+body > footer {
+    background-color:#279CFF;
+    padding:20px 0px;
+    text-align:center;
+}

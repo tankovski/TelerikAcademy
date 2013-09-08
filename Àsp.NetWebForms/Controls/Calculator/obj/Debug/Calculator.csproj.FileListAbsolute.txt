@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\Calculator\bin\Calculator.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\Calculator\bin\Calculator.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\Calculator\bin\Calculator.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\Calculator\obj\Debug\Calculator.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\Calculator\obj\Debug\Calculator.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson3-Controls\Homework\Calculator\obj\Debug\Calculator.pdb
