@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson1-IntroToASP.NET\Homework\SumatorAspWebForm\bin\SumatorAspWebForm.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson1-IntroToASP.NET\Homework\SumatorAspWebForm\bin\SumatorAspWebForm.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson1-IntroToASP.NET\Homework\SumatorAspWebForm\obj\Debug\SumatorAspWebForm.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson1-IntroToASP.NET\Homework\SumatorAspWebForm\obj\Debug\SumatorAspWebForm.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson1-IntroToASP.NET\Homework\SumatorAspWebForm\obj\Debug\SumatorAspWebForm.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson1-IntroToASP.NET\Homework\SumatorAspWebForm\bin\SumatorAspWebForm.dll.config
