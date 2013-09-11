@@ -1,0 +1,10 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesData\bin\Debug\CountriesData.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesData\bin\Debug\CountriesData.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesData\bin\Debug\CountriesData.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesData\bin\Debug\EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesData\bin\Debug\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesData\bin\Debug\EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesData\bin\Debug\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesData\obj\Debug\CountriesData.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesData\obj\Debug\CountriesData.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesData\obj\Debug\CountriesData.pdb

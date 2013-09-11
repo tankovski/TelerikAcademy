@@ -1,0 +1,12 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\bin\CountriesMasterDetailNavigation.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\bin\CountriesMasterDetailNavigation.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\bin\CountriesData.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\bin\EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\bin\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\bin\CountriesData.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\bin\EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\bin\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\obj\Debug\CountriesMasterDetailNavigation.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\obj\Debug\CountriesMasterDetailNavigation.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\obj\Debug\CountriesMasterDetailNavigation.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesMasterDetailNavigation\bin\CountriesMasterDetailNavigation.dll.config

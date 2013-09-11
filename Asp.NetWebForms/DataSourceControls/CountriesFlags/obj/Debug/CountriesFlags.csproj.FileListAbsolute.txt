@@ -1,0 +1,12 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\bin\CountriesFlags.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\bin\CountriesFlags.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\bin\CountriesFlags.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\bin\CountriesData.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\bin\EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\bin\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\bin\CountriesData.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\bin\EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\bin\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\obj\Debug\CountriesFlags.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\obj\Debug\CountriesFlags.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\CountriesFlags\obj\Debug\CountriesFlags.csprojResolveAssemblyReference.cache

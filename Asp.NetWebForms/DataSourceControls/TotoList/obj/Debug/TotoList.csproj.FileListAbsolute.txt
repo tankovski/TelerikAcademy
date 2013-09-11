@@ -1,0 +1,10 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\TotoList\bin\TotoList.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\TotoList\bin\TotoList.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\TotoList\bin\TotoList.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\TotoList\bin\EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\TotoList\bin\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\TotoList\bin\EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\TotoList\bin\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\TotoList\obj\Debug\TotoList.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\TotoList\obj\Debug\TotoList.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson6-DataSourceControls\Homework\TotoList\obj\Debug\TotoList.pdb
