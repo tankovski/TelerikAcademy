@@ -1,0 +1,10 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\JpegCounterWithDataBase\bin\JpegCounterWithDataBase.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\JpegCounterWithDataBase\bin\JpegCounterWithDataBase.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\JpegCounterWithDataBase\bin\JpegCounterWithDataBase.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\JpegCounterWithDataBase\bin\EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\JpegCounterWithDataBase\bin\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\JpegCounterWithDataBase\bin\EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\JpegCounterWithDataBase\bin\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\JpegCounterWithDataBase\obj\Debug\JpegCounterWithDataBase.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\JpegCounterWithDataBase\obj\Debug\JpegCounterWithDataBase.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\JpegCounterWithDataBase\obj\Debug\JpegCounterWithDataBase.pdb

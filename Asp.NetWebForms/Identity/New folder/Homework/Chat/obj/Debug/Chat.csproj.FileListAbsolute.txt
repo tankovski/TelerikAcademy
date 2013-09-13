@@ -1,0 +1,102 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\obj\Debug\Chat.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\ASP.NET WebForms Extended User.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\ASP.NET WebForms Extended User.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\ASP.NET WebForms Extended User.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Antlr3.Runtime.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\AspNet.ScriptManager.jQuery.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Data.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Google.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Web.Infrastructure.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Newtonsoft.Json.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Owin.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\System.Web.Optimization.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\System.Web.Providers.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\WebGrease.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Data.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Google.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Newtonsoft.Json.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\obj\Debug\ASP.NET WebForms Extended User.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Chat\obj\Debug\ASP.NET WebForms Extended User.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\ASP.NET WebForms Extended User.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\ASP.NET WebForms Extended User.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\ASP.NET WebForms Extended User.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Antlr3.Runtime.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\AspNet.ScriptManager.jQuery.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Data.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Google.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Web.Infrastructure.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Newtonsoft.Json.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Owin.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\System.Web.Optimization.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\System.Web.Providers.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\WebGrease.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Data.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Google.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Newtonsoft.Json.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\obj\Debug\Chat.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\obj\Debug\ASP.NET WebForms Extended User.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Homework\Chat\obj\Debug\ASP.NET WebForms Extended User.pdb

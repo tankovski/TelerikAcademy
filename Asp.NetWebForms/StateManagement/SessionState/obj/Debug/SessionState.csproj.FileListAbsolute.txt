@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\SessionState\bin\SessionState.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\SessionState\bin\SessionState.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\SessionState\bin\SessionState.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\SessionState\obj\Debug\SessionState.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\SessionState\obj\Debug\SessionState.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\SessionState\obj\Debug\SessionState.pdb

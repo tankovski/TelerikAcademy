@@ -1,0 +1,10 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Data\bin\Debug\Data.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Data\bin\Debug\Data.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Data\bin\Debug\Data.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Data\bin\Debug\EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Data\bin\Debug\EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Data\obj\Debug\Data.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\Homework\Homework\Data\obj\Debug\Data.pdb

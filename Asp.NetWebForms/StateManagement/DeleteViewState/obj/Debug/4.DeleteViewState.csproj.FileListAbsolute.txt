@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\DeleteViewState\bin\DeleteViewState.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\DeleteViewState\bin\DeleteViewState.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\DeleteViewState\bin\DeleteViewState.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\DeleteViewState\obj\Debug\4.DeleteViewState.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\DeleteViewState\obj\Debug\DeleteViewState.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\DeleteViewState\obj\Debug\DeleteViewState.pdb

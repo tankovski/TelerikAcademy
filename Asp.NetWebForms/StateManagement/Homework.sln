@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20623.1 VSUPREVIEW
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.BrowserTypeAndClientIp", "BrowserTypeAndClientIp\1.BrowserTypeAndClientIp.csproj", "{5DAA0BF6-7C27-4752-B2F7-E676D85881B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.SessionState", "SessionState\2.SessionState.csproj", "{203F44BF-E866-4245-A526-E14E6F0F31D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.LogAndRedirect", "LogAndRedirect\3.LogAndRedirect.csproj", "{720FB21D-E766-46C3-ADDC-62FB19A7AA56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.DeleteViewState", "DeleteViewState\4.DeleteViewState.csproj", "{9BCBD617-7C58-42BA-9346-51530B7529CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.JPEGCounter", "JPEGCounter\5.JPEGCounter.csproj", "{AB2C580F-69FB-4754-84CB-EDA6C9A08538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.JpegCounterWithDataBase", "JpegCounterWithDataBase\6.JpegCounterWithDataBase.csproj", "{DF853AC4-485F-4A92-B922-2C288FA2B14A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DAA0BF6-7C27-4752-B2F7-E676D85881B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DAA0BF6-7C27-4752-B2F7-E676D85881B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DAA0BF6-7C27-4752-B2F7-E676D85881B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DAA0BF6-7C27-4752-B2F7-E676D85881B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{203F44BF-E866-4245-A526-E14E6F0F31D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203F44BF-E866-4245-A526-E14E6F0F31D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203F44BF-E866-4245-A526-E14E6F0F31D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203F44BF-E866-4245-A526-E14E6F0F31D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720FB21D-E766-46C3-ADDC-62FB19A7AA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720FB21D-E766-46C3-ADDC-62FB19A7AA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720FB21D-E766-46C3-ADDC-62FB19A7AA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720FB21D-E766-46C3-ADDC-62FB19A7AA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCBD617-7C58-42BA-9346-51530B7529CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCBD617-7C58-42BA-9346-51530B7529CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCBD617-7C58-42BA-9346-51530B7529CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCBD617-7C58-42BA-9346-51530B7529CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2C580F-69FB-4754-84CB-EDA6C9A08538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2C580F-69FB-4754-84CB-EDA6C9A08538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2C580F-69FB-4754-84CB-EDA6C9A08538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2C580F-69FB-4754-84CB-EDA6C9A08538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF853AC4-485F-4A92-B922-2C288FA2B14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF853AC4-485F-4A92-B922-2C288FA2B14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF853AC4-485F-4A92-B922-2C288FA2B14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF853AC4-485F-4A92-B922-2C288FA2B14A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

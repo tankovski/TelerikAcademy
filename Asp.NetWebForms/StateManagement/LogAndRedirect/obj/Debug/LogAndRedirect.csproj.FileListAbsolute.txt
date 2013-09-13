@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\LogAndRedirect\obj\Debug\LogAndRedirect.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\LogAndRedirect\bin\LogAndRedirect.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\LogAndRedirect\bin\LogAndRedirect.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\LogAndRedirect\bin\LogAndRedirect.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\LogAndRedirect\obj\Debug\LogAndRedirect.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson9-StateManagement\Homework\LogAndRedirect\obj\Debug\LogAndRedirect.pdb
