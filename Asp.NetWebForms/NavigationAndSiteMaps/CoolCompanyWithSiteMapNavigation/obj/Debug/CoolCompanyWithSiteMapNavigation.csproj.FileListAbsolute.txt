@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-NavigationAndSiteMaps\Homework\CoolCompanyWithSiteMapNavigation\bin\CoolCompanyWithSiteMapNavigation.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-NavigationAndSiteMaps\Homework\CoolCompanyWithSiteMapNavigation\bin\CoolCompanyWithSiteMapNavigation.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-NavigationAndSiteMaps\Homework\CoolCompanyWithSiteMapNavigation\bin\CoolCompanyWithSiteMapNavigation.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-NavigationAndSiteMaps\Homework\CoolCompanyWithSiteMapNavigation\obj\Debug\CoolCompanyWithSiteMapNavigation.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-NavigationAndSiteMaps\Homework\CoolCompanyWithSiteMapNavigation\obj\Debug\CoolCompanyWithSiteMapNavigation.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-NavigationAndSiteMaps\Homework\CoolCompanyWithSiteMapNavigation\obj\Debug\CoolCompanyWithSiteMapNavigation.pdb

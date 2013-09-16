@@ -1,0 +1,5 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationFormGroups\bin\RegistrationFormGroups.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationFormGroups\bin\RegistrationFormGroups.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationFormGroups\bin\RegistrationFormGroups.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationFormGroups\obj\Debug\RegistrationFormGroups.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationFormGroups\obj\Debug\RegistrationFormGroups.pdb

@@ -1,0 +1,12 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\RegistrationForm\bin\RegistrationForm.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\RegistrationForm\bin\RegistrationForm.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\RegistrationForm\bin\RegistrationForm.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\RegistrationForm\obj\Debug\RegistrationForm.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\RegistrationForm\obj\Debug\RegistrationForm.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson8-AuthenticationAndAuthorization\Homework\RegistrationForm\obj\Debug\RegistrationForm.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationForm\bin\RegistrationForm.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationForm\bin\RegistrationForm.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationForm\obj\Debug\RegistrationForm.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationForm\obj\Debug\RegistrationForm.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationForm\obj\Debug\RegistrationForm.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegistrationForm\bin\RegistrationForm.dll.config

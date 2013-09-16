@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CoolCompanyWithSiteMapNavigation.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Site.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    Cool Company
+                </h1>
+            </div>
+            <div class="loginDisplay">
+            </div>
+            <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" SkipLinkText=""
+                    EnableViewState="False" IncludeStyleBlock="False" Orientation="Horizontal" 
+                    DataSourceID="SiteMapDataSource" StaticDisplayLevels="2">
+                </asp:Menu>
+                <asp:SiteMapPath ID="SiteMapPathBreadcrump" runat="server" />
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear" />
+        <div class="footer">(c) CoolCompany, 2011</div>
+    </div>
+    </form>
+    <asp:SiteMapDataSource ID="SiteMapDataSource" runat="server" />
+</body>
+</html>

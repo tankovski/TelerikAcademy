@@ -1,0 +1,6 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegFormGroups\bin\RegFormGroups.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegFormGroups\bin\RegFormGroups.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegFormGroups\bin\RegFormGroups.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegFormGroups\obj\Debug\RegFormGroups.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegFormGroups\obj\Debug\RegFormGroups.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson10-ValidationControls\Homework\RegFormGroups\obj\Debug\RegFormGroups.pdb
