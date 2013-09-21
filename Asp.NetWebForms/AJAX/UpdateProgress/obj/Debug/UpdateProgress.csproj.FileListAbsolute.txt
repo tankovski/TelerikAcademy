@@ -1,0 +1,10 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\UpdateProgress\bin\UpdateProgress.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\UpdateProgress\bin\UpdateProgress.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\UpdateProgress\bin\UpdateProgress.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\UpdateProgress\bin\EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\UpdateProgress\bin\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\UpdateProgress\bin\EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\UpdateProgress\bin\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\UpdateProgress\obj\Debug\UpdateProgress.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\UpdateProgress\obj\Debug\UpdateProgress.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\UpdateProgress\obj\Debug\UpdateProgress.pdb

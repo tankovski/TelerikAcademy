@@ -1,0 +1,10 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\Chat\bin\Chat.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\Chat\bin\Chat.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\Chat\bin\Chat.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\Chat\bin\EntityFramework.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\Chat\bin\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\Chat\bin\EntityFramework.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\Chat\bin\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\Chat\obj\Debug\Chat.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\Chat\obj\Debug\Chat.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson12-AJAX\Homework\Chat\obj\Debug\Chat.pdb

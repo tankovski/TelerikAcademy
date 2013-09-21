@@ -1,0 +1,12 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Menu\Menu\bin\Menu.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Menu\Menu\bin\Menu.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Menu\Menu\bin\Menu.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Menu\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Menu\Menu\obj\Debug\Menu.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Menu\Menu\obj\Debug\Menu.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Asp.NetWebForms\UserControls\Menu\bin\Menu.dll.config
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Asp.NetWebForms\UserControls\Menu\bin\Menu.dll
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Asp.NetWebForms\UserControls\Menu\bin\Menu.pdb
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Asp.NetWebForms\UserControls\Menu\obj\Debug\Menu.csprojResolveAssemblyReference.cache
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Asp.NetWebForms\UserControls\Menu\obj\Debug\Menu.dll
+E:\Uroci\SpodelqneNaZnaniq\GitHub\TelerikAcademy\TelerikAcademy\Asp.NetWebForms\UserControls\Menu\obj\Debug\Menu.pdb
