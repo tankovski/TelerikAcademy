@@ -1,0 +1,17 @@
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\TemplateForCache.dll.config
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\TemplateForCache.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\TemplateForCache.pdb
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\Antlr3.Runtime.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\AspNet.ScriptManager.jQuery.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\Microsoft.Web.Infrastructure.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\System.Web.Optimization.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\WebGrease.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\obj\Debug\TemplateForCache.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\obj\Debug\TemplateForCache.dll
+E:\Uroci\WEB\ASP.NETWebFroms\Lesson14-CachingData\Homework\TemplateForCache\obj\Debug\TemplateForCache.pdb
