@@ -1,0 +1,13 @@
+﻿@model List<InformationalAspPage.Models.Book>
+
+
+@{
+    ViewBag.Title = "GetAll";
+}
+
+<h2>This is the collection of our books</h2>
+
+@{
+    Html.RenderPartial("_AllBooksList", Model);
+}
+

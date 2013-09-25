@@ -1,0 +1,9 @@
+﻿body {
+}
+
+.sidebar {
+    padding:10px;
+    float:right;
+    margin-top:-40px;
+    border:1px dotted gray;
+}

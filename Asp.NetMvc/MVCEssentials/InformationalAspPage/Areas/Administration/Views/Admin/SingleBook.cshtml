@@ -1,0 +1,11 @@
+﻿@model InformationalAspPage.Models.Book
+
+<h2>Here is the information about @Model.Title</h2>
+
+<div>Book title:  <strong>@Model.Title</strong></div>
+<div>Book author:  <strong>@Model.Author</strong></div>
+<div>Book description: <strong>@( Model.Description == null ? "No description avelable" : Model.Description)</strong> </div>
+<br />
+@Html.ActionLink("SeeAllBooksFromThisAuthor", "AllBooksFromAuthor/" + @Model.Author, "Admin");
+
+

@@ -1,0 +1,32 @@
+﻿@model IList<Calculator.Models.Unit>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+    var selectList = Model.Select(x => new SelectListItem()
+    {
+        Selected = false,
+        Text = x.Name,
+    });
+}
+<div>
+    <form action="TakeValue">
+        <input type="number" name="count" value="1" />
+        <br />
+        @Html.DropDownList("types", selectList)
+        <br />
+        <select name="kilo">
+            <option>1000</option>
+            <option>1024</option>
+        </select>
+        <input type="submit" value="Go" />
+        
+    </form>
+    @{
+        foreach (var unit in Model)
+        {
+            <div>@unit.Name <strong>@unit.Value</strong></div>
+        }
+    }
+</div>

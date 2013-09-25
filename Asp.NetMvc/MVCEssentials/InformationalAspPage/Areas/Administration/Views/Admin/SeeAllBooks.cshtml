@@ -1,0 +1,11 @@
+﻿@model List<InformationalAspPage.Models.Book>
+
+@{
+    ViewBag.Title = "View1";
+}
+
+<h2>As admin you have the incredible opportunity to search all books from single author... </h2>
+
+@{
+    Html.RenderPartial("_ViewAllBooksAsAdmin", Model);
+}

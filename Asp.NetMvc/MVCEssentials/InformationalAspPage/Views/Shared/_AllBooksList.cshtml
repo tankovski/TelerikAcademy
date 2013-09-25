@@ -1,0 +1,8 @@
+﻿@model List<InformationalAspPage.Models.Book>
+
+<ul>
+    @foreach (var book in Model)
+    {
+        <li>@Html.ActionLink(book.Title,"SingleBook/"+book.Id,"Books") by @book.Author</li>
+    }
+</ul>

@@ -1,0 +1,7 @@
+﻿@model List<InformationalAspPage.Models.Book>
+
+<h2>This is all books from <strong>@Model.First().Author</strong></h2>
+
+@{
+    Html.RenderPartial("_ViewAllBooksAsAdmin", Model);
+}

@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";  
+}
+
+<h2>This is our cool site for books</h2>
+<div>If you want to see our collection of books click @Html.ActionLink("here", "GetAll", "Books")</div>
+
+@section AdminSideBar {
+
+    <aside class="sidebar">
+        <div>
+            @Html.ActionLink("Log as admin", "SeeAllBooks", "Administration/Admin")
+        </div>
+       
+    </aside>
+}
