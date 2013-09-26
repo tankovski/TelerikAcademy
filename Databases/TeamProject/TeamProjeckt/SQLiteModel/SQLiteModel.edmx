@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SQLiteModel.Store" Alias="Self" Provider="Devart.Data.SQLite" ProviderManifestToken="SQLite, 3.7.15" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="SQLiteModelStoreContainer">
+          <EntitySet Name="ProductsReport" EntityType="SQLiteModel.Store.ProductsReport" store:Type="Tables" Schema="main" />
+          <EntitySet Name="Taxes" EntityType="SQLiteModel.Store.Taxes" store:Type="Tables" Schema="main" />
+        </EntityContainer>
+        <EntityType Name="ProductsReport">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Vendor_Name" Type="nvarchar" Nullable="false" MaxLength="200" />
+          <Property Name="Incomes" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+          <Property Name="Expenses" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+          <Property Name="Taxes" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+          <Property Name="Financial Result" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityType Name="Taxes">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="integer" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Product_Name" Type="nvarchar" Nullable="false" MaxLength="200" />
+          <Property Name="Tax" Type="real" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SQLiteModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SQLiteEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="ProductsReports" EntityType="SQLiteModel.ProductsReport" />
+          <EntitySet Name="Taxes" EntityType="SQLiteModel.Tax" />
+        </EntityContainer>
+        <EntityType Name="ProductsReport">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Vendor_Name" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="Incomes" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+          <Property Name="Expenses" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+          <Property Name="Taxes" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+          <Property Name="Financial_Result" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+        </EntityType>
+        <EntityType Name="Tax">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Product_Name" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+          <Property Name="Tax1" Type="Double" Nullable="false" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SQLiteModelStoreContainer" CdmEntityContainer="SQLiteEntities">
+          <EntitySetMapping Name="ProductsReports">
+            <EntityTypeMapping TypeName="SQLiteModel.ProductsReport">
+              <MappingFragment StoreEntitySet="ProductsReport">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Vendor_Name" ColumnName="Vendor_Name" />
+                <ScalarProperty Name="Incomes" ColumnName="Incomes" />
+                <ScalarProperty Name="Expenses" ColumnName="Expenses" />
+                <ScalarProperty Name="Taxes" ColumnName="Taxes" />
+                <ScalarProperty Name="Financial_Result" ColumnName="Financial Result" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Taxes">
+            <EntityTypeMapping TypeName="SQLiteModel.Tax">
+              <MappingFragment StoreEntitySet="Taxes">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Product_Name" ColumnName="Product_Name" />
+                <ScalarProperty Name="Tax1" ColumnName="Tax" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

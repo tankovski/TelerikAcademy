@@ -1,0 +1,7 @@
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Notifications\bin\Debug\NewsBlog.Notifications.dll.config
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Notifications\bin\Debug\NewsBlog.Notifications.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Notifications\bin\Debug\NewsBlog.Notifications.pdb
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Notifications\bin\Debug\Newtonsoft.Json.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Notifications\obj\Debug\NewsBlog.Notifications.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Notifications\obj\Debug\NewsBlog.Notifications.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Notifications\obj\Debug\NewsBlog.Notifications.pdb

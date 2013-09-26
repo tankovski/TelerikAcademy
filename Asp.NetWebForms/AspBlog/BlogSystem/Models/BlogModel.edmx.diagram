@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="490d0230bf8b432da94dd57838111b11" Name="Diagram1">
+        <EntityTypeShape EntityType="BlogSystemModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.AspNetRole" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.AspNetToken" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.AspNetUserManagement" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.AspNetUser" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.AspNetUserSecret" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.Category" Width="1.5" PointX="6" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.News" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.Post" Width="1.5" PointX="8.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.sysdiagram" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlogSystemModel.Topic" Width="1.5" PointX="8.25" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="BlogSystemModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="BlogSystemModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="BlogSystemModel.FK_dbo_AspNetUserManagement_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="BlogSystemModel.FK_Posts_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="BlogSystemModel.FK_Topics_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="BlogSystemModel.FK_Topics_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="BlogSystemModel.FK_Posts_Topics" ManuallyRouted="false" />
+        <AssociationConnector Association="BlogSystemModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

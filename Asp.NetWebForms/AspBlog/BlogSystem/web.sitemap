@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="Home"  description="Home page">
+
+
+
+    <siteMapNode url="~/News.aspx" title="News" description="Site news"/>
+    <siteMapNode url="~/TopHaters.aspx" title="TopHaters" description="Biggest haters"/>
+    <siteMapNode title="More About Us"  description="More">
+      <siteMapNode url="~/Contact.aspx" title="Contact"  description="Site contacts" />
+      <siteMapNode url="~/About.aspx" title="About"  description="About" />
+      <siteMapNode url="~/Topics.aspx" title="Non Existent"  description="Nema" />
+      <siteMapNode url="~/CurrentTopic.aspx" title="Non Existent"  description="Nema" />
+    </siteMapNode>
+    
+  </siteMapNode>
+
+
+</siteMap>

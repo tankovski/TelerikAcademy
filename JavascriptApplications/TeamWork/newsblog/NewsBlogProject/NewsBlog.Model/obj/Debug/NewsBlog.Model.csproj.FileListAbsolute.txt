@@ -1,0 +1,8 @@
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\NewsBlog.Model.dll.config
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\NewsBlog.Model.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\NewsBlog.Model.pdb
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\EntityFramework.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\EntityFramework.xml
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\obj\Debug\NewsBlog.Model.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\obj\Debug\NewsBlog.Model.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\obj\Debug\NewsBlog.Model.pdb

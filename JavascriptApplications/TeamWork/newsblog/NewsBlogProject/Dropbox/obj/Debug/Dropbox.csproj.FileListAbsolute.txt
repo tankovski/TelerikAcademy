@@ -1,0 +1,17 @@
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Dropbox.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Dropbox.pdb
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Common.Logging.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Spring.Rest.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Spring.Social.Core.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Spring.Social.Dropbox.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Common.Logging.pdb
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Common.Logging.xml
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Spring.Rest.pdb
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Spring.Rest.xml
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Spring.Social.Core.pdb
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Spring.Social.Core.xml
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Spring.Social.Dropbox.pdb
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\bin\Debug\Spring.Social.Dropbox.xml
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\obj\Debug\Dropbox.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\obj\Debug\Dropbox.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\Dropbox\obj\Debug\Dropbox.pdb

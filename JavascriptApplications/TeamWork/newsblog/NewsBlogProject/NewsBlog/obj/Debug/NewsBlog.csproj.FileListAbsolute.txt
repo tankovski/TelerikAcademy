@@ -1,0 +1,5 @@
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog\bin\NewsBlog.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog\bin\NewsBlog.pdb
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog\obj\Debug\NewsBlog.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog\obj\Debug\NewsBlog.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogProject\NewsBlog\obj\Debug\NewsBlog.pdb
