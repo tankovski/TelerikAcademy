@@ -1,0 +1,14 @@
+﻿@model IList<Movies.Models.Movy>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>This is our movies</h2>
+
+<div id="result">
+    @{
+
+        Html.RenderPartial("_MoviesList", Model);
+    }
+</div>

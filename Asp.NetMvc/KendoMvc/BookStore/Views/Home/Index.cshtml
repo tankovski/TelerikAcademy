@@ -1,0 +1,78 @@
+﻿@model IList<BookStore.Models.Category>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+    <div id="autocompleteBooks">
+        @(Html.Kendo()
+            .AutoComplete()
+            .Name("serversideautocomplete")
+            .DataTextField("Title")
+            .MinLength(1)
+            .Placeholder("Search book")
+            .Events(ev =>
+                {
+                    ev.Select("selectAutoComplete");
+                })
+            .DataSource(data =>
+            {
+                data.Read(read =>
+                    {
+                        read.Action("GetAutocompleteData", "Home")
+                            .Data("onAdditionalData");
+                    })
+                    .ServerFiltering(true);
+            }))
+    </div>
+    
+
+
+
+
+@{
+    var treeView = Model.Select(category => new TreeViewItemModel
+                {
+                    Text = category.Name,
+                    Items = category.Books.Select(book => new TreeViewItemModel
+                        {
+                            Text = book.Title + " by " + book.Author,
+                            Id = book.Id.ToString()
+                        })
+                        .ToList()
+
+                });
+}
+
+@(Html.Kendo()
+    .TreeView()
+    .Name("tree-view")
+        .BindTo(treeView)
+        .Events(ev =>
+        {
+            ev.Select("redirecitToBookDetails");
+        }))
+
+
+<script>
+    function redirecitToBookDetails(e) {
+        var id = $(e.node).data("id");
+
+        if (typeof (id) == "number") {
+            window.location.href="Home/BookDetails/" + id;
+        }
+    }
+
+    function onAdditionalData() {
+        return {
+            text: $('#serversideautocomplete').val(),
+        }
+    }
+
+    function selectAutoComplete(e) {
+        id = this.dataItem(e.item.index()).Id;
+
+        window.location.href = "BookDetails/" + id;
+    }
+</script>

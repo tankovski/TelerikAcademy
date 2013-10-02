@@ -1,0 +1,9 @@
+﻿@model KendoForMVCDemos.Areas.Administration.ViewModels.DetailedBookViewModel
+
+
+@(
+ Html.Kendo().DropDownListFor(m => m)
+     .DataValueField("Name")
+        .DataTextField("Name")
+            .BindTo((System.Collections.IEnumerable)ViewData["categories"])
+)

@@ -1,0 +1,73 @@
+﻿@model Movies.Models.Movy
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset class="form-horizontal">
+        <legend>Movy</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.Title, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.Title)
+                @Html.ValidationMessageFor(model => model.Title, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.Director, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.Director)
+                @Html.ValidationMessageFor(model => model.Director, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.Year, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.Year)
+                @Html.ValidationMessageFor(model => model.Year, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.LeadingMaelRole, "LeadingMaelRole", new { @class = "control-label" })
+            <div class="controls">
+                @Html.DropDownList("LeadingMaelRole", String.Empty)
+                @Html.ValidationMessageFor(model => model.LeadingMaelRole, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.LeadeingFemaleRole, "LeadeingFemaleRole", new { @class = "control-label" })
+            <div class="controls">
+                @Html.DropDownList("LeadeingFemaleRole", String.Empty)
+                @Html.ValidationMessageFor(model => model.LeadeingFemaleRole, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.StudioId, "StudioId", new { @class = "control-label" })
+            <div class="controls">
+                @Html.DropDownList("StudioId", String.Empty)
+                @Html.ValidationMessageFor(model => model.StudioId, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Save" class="btn" />
+            @Ajax.ActionLink("Back", "AllBooks"
+                  , null, new AjaxOptions
+        {
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "result",
+            LoadingElementId = "loading"
+        }, new { id = "ajaxBack-button" })
+        </div>
+    </fieldset>
+}

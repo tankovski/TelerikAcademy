@@ -1,0 +1,34 @@
+﻿@model Movies.Models.Movy
+
+
+<div>
+    Title: <strong>@Model.Title</strong>
+</div>
+<div>
+    Director: <strong>@Model.Director</strong>
+</div>
+<div>
+    Year: <strong>@Model.Year</strong>
+</div>
+<div>
+    Leading male role: <strong>@Model.Actior.Name</strong>
+</div>
+<div>
+    Leading female role: <strong>@Model.Actior1.Name</strong>
+</div>
+<div>
+    Studio: <strong>@Model.Studio.Name</strong>
+</div>
+<div>
+    Studio address: <strong>@Model.Studio.Address</strong>
+</div>
+<br />
+
+@Ajax.ActionLink("Back", "AllBooks"
+                  , null, new AjaxOptions
+        {
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "result",
+            LoadingElementId = "loading"
+        }, new { id = "ajaxBack-button" })

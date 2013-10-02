@@ -1,0 +1,61 @@
+﻿@model IList<Movies.Models.Movy>
+
+<ul>
+    @foreach (var movie in Model)
+    {
+        <li>
+            @Ajax.ActionLink(movie.Title, "Details"
+                  , new { id = movie.Id }, new AjaxOptions
+                 {
+                     HttpMethod = "GET",
+                     InsertionMode = InsertionMode.Replace,
+                     UpdateTargetId = "result",
+                     LoadingElementId = "loading",
+                     OnSuccess = "addButton",
+                     OnFailure = "errorMsg"
+                 }, new { id = "ajaxDetails-button" })
+            <div>
+                @Ajax.ActionLink("Delete", "Delete"
+                  , new { id = movie.Id }, new AjaxOptions
+                 {
+                     HttpMethod = "GET",
+                     InsertionMode = InsertionMode.Replace,
+                     UpdateTargetId = "result",
+                     LoadingElementId = "loading",
+                 }, new { id = "ajaxDelete-button" })
+
+                @Ajax.ActionLink("Edit", "Edit"
+               , new { id = movie.Id }, new AjaxOptions
+                 {
+                     HttpMethod = "GET",
+                     InsertionMode = InsertionMode.Replace,
+                     UpdateTargetId = "result",
+                     LoadingElementId = "loading",
+                 }, new { id = "ajaxEditForm-button" })
+        </div>
+    </li>
+    }
+</ul>
+<div>
+    @Ajax.ActionLink("Add", "Create"
+                  , null, new AjaxOptions
+                 {
+                     HttpMethod = "GET",
+                     InsertionMode = InsertionMode.Replace,
+                     UpdateTargetId = "result",
+                     LoadingElementId = "loading",
+                 }, new { id = "ajaxAddForm-button" })
+
+</div>
+<div id="loading" style="display: none">
+    <strong>loading...</strong>
+</div>
+<script>
+    function addButton(data) {
+        
+    }
+
+    function errorMsg(data) {
+        alert(data);
+    }
+</script>

@@ -1,0 +1,52 @@
+﻿@model KendoForMVCDemos.Areas.Administration.ViewModels.DetailedBookViewModel
+
+@Html.HiddenFor(model => model.Id)
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Title)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Title)
+    @Html.ValidationMessageFor(model => model.Title)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Author)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Author)
+    @Html.ValidationMessageFor(model => model.Author)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Isbn)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Isbn)
+    @Html.ValidationMessageFor(model => model.Isbn)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.WebSite)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.WebSite)
+    @Html.ValidationMessageFor(model => model.WebSite)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Description)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Description)
+    @Html.ValidationMessageFor(model => model.Description)
+</div>
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.CategoryName)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.CategoryName,"EditCategories")
+    @Html.ValidationMessageFor(model => model.CategoryName)
+    
+</div>
