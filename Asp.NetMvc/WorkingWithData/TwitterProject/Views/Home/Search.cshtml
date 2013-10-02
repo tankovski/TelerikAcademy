@@ -1,0 +1,18 @@
+﻿<h2>Search by tag</h2>
+
+@model List<TwitterProject.ViewModels.TweetViewModel>
+
+
+@using (Ajax.BeginForm("SearchByTag", new AjaxOptions
+{
+    UpdateTargetId = "results",
+    InsertionMode = InsertionMode.Replace
+}))
+{
+   <strong>#</strong> <input type="text" name="tag" />
+    <input type="submit" />
+}
+
+<div id="results">
+    @Html.Partial("_Tags", Model)
+</div>

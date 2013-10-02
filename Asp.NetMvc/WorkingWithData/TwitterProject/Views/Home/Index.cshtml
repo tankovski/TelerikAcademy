@@ -1,0 +1,12 @@
+﻿@model IList<TwitterProject.ViewModels.UserModel>
+
+@{
+    ViewBag.Title = "Home Page";  
+}
+
+<h2>All users</h2>
+
+@foreach (var user in Model)
+{
+    <div>@user.Name @Html.ActionLink("See user tweets","UserTweets/"+user.Id,"Home")</div>
+}

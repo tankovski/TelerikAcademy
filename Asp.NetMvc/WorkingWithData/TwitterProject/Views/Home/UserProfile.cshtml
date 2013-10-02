@@ -1,0 +1,27 @@
+﻿@model IList<TwitterProject.ViewModels.TweetViewModel>
+
+<h2>@Model.First().UserName Profile</h2>
+
+<h3>My tweets</h3>
+@foreach (var tweet in @Model)
+{
+    <div>
+        
+        <p>@tweet.Text</p>
+        <p>on : <strong>@tweet.DatePosted</strong></p>
+    </div>
+}
+
+<div id="createTweetForm">
+    @Ajax.ActionLink("Create new tweet", "ShowForm"
+                  , null, new AjaxOptions
+        {
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "createTweetForm",
+            LoadingElementId = "loading"
+        }, new { id = "ajaxShowForm-button" })
+</div>
+<div id="loading" style="display: none">
+    <strong>loading...</strong>
+</div>

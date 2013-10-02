@@ -1,0 +1,8 @@
+﻿@Ajax.ActionLink("Create new tweet", "ShowForm"
+                  , null, new AjaxOptions
+        {
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "createTweetForm",
+            LoadingElementId = "loading"
+        }, new { id = "ajaxShowForm-button" })

@@ -1,0 +1,17 @@
+﻿
+<form action="PostTweet">
+    <textarea name="text"></textarea>
+    <input type="submit" />
+</form>
+    
+   
+   
+
+@Ajax.ActionLink("HideForm", "HideForm"
+                  , null, new AjaxOptions
+        {
+            HttpMethod = "GET",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "createTweetForm",
+            LoadingElementId = "loading"
+        }, new { id = "ajaxHideForm-button" })

@@ -1,0 +1,15 @@
+﻿@model IList<TwitterProject.ViewModels.TweetViewModel>
+
+@{
+    if (Model != null)
+    {
+        foreach (var tweet in Model)
+        {
+            <div>
+                <p><strong>@tweet.UserName</strong> sad:</p>
+                <p>@tweet.Text</p>
+                <p>on : <strong>@tweet.DatePosted</strong></p>
+            </div>
+        }
+    }
+}
