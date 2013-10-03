@@ -1,0 +1,112 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <button id="joinGame">JoinGame</button>
+</div>
+<div id="result"></div>
+
+<canvas width="500" height="400" id="pingPongCanvas">
+    Canvas not supported
+</canvas>
+
+<script>
+    var gameStarted = false;
+
+    $.connection.hub.start();
+
+    var game = $.connection.game;
+
+    $(document).ready(function () {
+
+        $(document).keydown(function (e) {
+
+            if (gameStarted) {
+    
+                if (e.keyCode == 38) {
+                    
+                    game.server.movePlayerUp();
+                }
+                if (e.keyCode == 40) {
+                    game.server.movePlayerDown();
+                }
+
+            }
+            
+        })
+
+        $('#joinGame').click(function () {
+
+            game.server.joinGame();
+            game.server.checkIsGameStarted();
+            
+        });
+
+        game.client.joinGameMsg = joinGameMsg;
+        game.client.startGame = startGame;
+        game.client.drawInCanvas = drawInCanvas;
+        game.client.endGame = endGame;
+
+    });
+
+    function joinGameMsg(msg) {
+        $('#result').text(msg);
+    }
+    function startGame() {
+        gameStarted = true;
+        alert("gameStarted");
+        $('#joinGame').css("display", "none");
+        $('#result').css("display", "none");
+
+        
+        var gameInterval = setInterval(function () {
+            if (gameStarted) {
+                game.server.drawningGame();
+            }
+            else {
+                console.log("inteval");
+                clearInterval(gameInterval);
+                endGameMsg();
+            }
+        }, 30);
+
+    }
+
+    function drawInCanvas(firstPlayer,secondPlayer,ball) {
+        var canvas = document.getElementById("pingPongCanvas").getContext("2d");
+        canvas.clearRect(0, 0, 500, 400);
+        
+        canvas.fillStyle = "white";
+
+        canvas.fillStyle = "black";
+
+        //FieldWalls
+        canvas.fillRect(0, 0, 500, 1)
+        canvas.fillRect(0, 399, 500, 1)
+
+        canvas.fillStyle = "#90CAD7";
+        //Player one
+        canvas.fillRect(firstPlayer.Left, firstPlayer.Top, firstPlayer.Width, firstPlayer.Height)
+
+        //Player two
+        canvas.fillRect(secondPlayer.Left, secondPlayer.Top, secondPlayer.Width, secondPlayer.Height)
+
+        //Ball
+        canvas.beginPath();
+        canvas.arc(ball.Left, ball.Top, ball.Radius, 0, 2 * Math.PI, false);
+        canvas.fill();
+        
+    }
+
+
+    function endGame() {
+        gameStarted = false;
+    }
+
+    function endGameMsg() {
+        $('#result').css("display", "block");
+        $('#result').text("Game over! This is a friendly game, no winners, no loosers.");
+        $('#result').css("color", "red");
+    }
+</script>
