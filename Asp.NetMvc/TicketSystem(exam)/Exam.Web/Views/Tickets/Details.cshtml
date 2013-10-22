@@ -1,0 +1,59 @@
+﻿@model Exam.Web.Models.TicketViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+<h1>Ticketing System</h1>
+
+<h2>@Model.Title</h2>
+
+<div class="row-fluid">
+    <div class="span4">
+        <h3>Category: @Model.Category</h3>
+        <p><strong>Author:</strong> @Model.Author</p>
+        <p><strong>Priority:</strong> @Model.Priority</p>
+
+    </div>
+    <div class="span4">
+        <img src="@Model.ScreenShotUrl" />
+    </div>
+    <div class="span4">
+        @if (!string.IsNullOrEmpty(Model.Description))
+        { <div><strong>Description:</strong><br />@Model.Description</div> }
+    </div>
+</div>
+
+<div class="row" id="allComments">
+    @{
+        Html.RenderPartial("_AllComments", Model.Comments);
+    }
+</div>
+
+<div>
+    @if (User.Identity.IsAuthenticated)
+    {
+        using (Ajax.BeginForm("PostComment", new AjaxOptions
+        {
+            HttpMethod = "Post",
+            InsertionMode = InsertionMode.Replace,
+            UpdateTargetId = "allComments",
+            OnFailure = "commentPostFailure",
+            OnSuccess ="clearText"
+        }))
+        {
+            @Html.Hidden("TicketId", Model.Id)
+            @Html.TextArea("Content")
+            @Html.AntiForgeryToken()
+            <br />
+            <input type="submit" value="Submit Comment" class="btn-inverse" />
+        }
+    }
+</div>
+<script>
+    function clearText() {
+        $("#Content").val("");
+    }
+    function commentPostFailure(error) {
+        alert("The comment can't be empty, or have tags inside!");
+    }
+</script>

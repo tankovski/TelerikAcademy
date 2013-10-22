@@ -1,0 +1,8 @@
+﻿@model ICollection<Exam.Web.Models.CommentViewModel>
+
+@foreach (var comment in Model)
+{
+    <div>
+        <p><strong>@comment.Author:</strong> @comment.Content</p>
+    </div>
+}

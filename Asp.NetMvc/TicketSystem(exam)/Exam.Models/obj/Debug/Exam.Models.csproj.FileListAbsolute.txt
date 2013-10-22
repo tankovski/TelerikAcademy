@@ -1,0 +1,27 @@
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\Exam.Models.dll.config
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\Exam.Models.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\Exam.Models.pdb
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\EntityFramework.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\EntityFramework.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\obj\Debug\Exam.Models.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Models\obj\Debug\Exam.Models.pdb
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\Exam.Models.dll.config
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\Exam.Models.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\Exam.Models.pdb
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\EntityFramework.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\EntityFramework.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\obj\Debug\Exam.Models.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\obj\Debug\Exam.Models.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Models\obj\Debug\Exam.Models.pdb

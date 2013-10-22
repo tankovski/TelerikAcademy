@@ -1,0 +1,112 @@
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Exam.Web.dll.config
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Exam.Web.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Exam.Web.pdb
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Antlr3.Runtime.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\EntityFramework.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Exam.Data.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Exam.Models.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Kendo.Mvc.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.Google.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Newtonsoft.Json.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Owin.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.Mvc.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.Optimization.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.Razor.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.WebPages.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.WebPages.Razor.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\WebGrease.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Exam.Data.pdb
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Exam.Models.pdb
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.Mvc.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.Razor.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.WebPages.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\System.Web.WebPages.Razor.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\EntityFramework.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.Google.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\bin\Newtonsoft.Json.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\obj\Debug\Exam.Web.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\obj\Debug\Exam.Web.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\ASP.NET-MVC-Project-Base v1.2\Exam.Web\obj\Debug\Exam.Web.pdb
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Exam.Web.dll.config
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Exam.Web.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Exam.Web.pdb
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Antlr3.Runtime.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\EntityFramework.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\EntityFramework.SqlServer.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Exam.Data.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Exam.Models.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Kendo.Mvc.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.Google.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Newtonsoft.Json.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Owin.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.Mvc.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.Optimization.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.Razor.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.WebPages.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.WebPages.Razor.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\WebGrease.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Exam.Data.pdb
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Exam.Models.pdb
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.Mvc.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.Razor.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.WebPages.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\System.Web.WebPages.Razor.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\EntityFramework.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\EntityFramework.SqlServer.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.Google.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\bin\Newtonsoft.Json.xml
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\obj\Debug\Exam.Web.csprojResolveAssemblyReference.cache
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\obj\Debug\Exam.Web.dll
+E:\Uroci\WEB\ASP.NET MVC\EXAM\TicketSystem\Exam.Web\obj\Debug\Exam.Web.pdb

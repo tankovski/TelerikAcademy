@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Exam.Web.Models.TicketViewModel>
+
+@{
+    ViewBag.Title = "ViewAllTickets";
+}
+
+<h2>ViewAllTickets</h2>
+
+<fieldset>
+    <legend>Search Form</legend>
+    <div>
+        <form action="SearchTickets">
+          
+            @(Html.Kendo()
+        .DropDownList()
+        .Name("CategoryId")
+        .OptionLabel("All")
+        .DataTextField("Name")
+        .DataValueField("Id")
+                    //.Events(ev => ev.Change("selectedValue"))
+        .DataSource(data =>
+        {
+            data.Read(read =>
+                {
+                    read.Action("GetCategories", "Tickets");
+                    //.Data("cascadeCategories");
+                })
+                .ServerFiltering(true);
+        }))
+            <br />
+            <br />
+            <input type="submit" class="btn-info" value="Search" />
+        </form>
+
+    </div>
+</fieldset>
+
+<div class="row-fluid listViewHeader">
+    <div class="span2">
+        Title
+    </div>
+    <div class="span2">
+        Category
+    </div>
+    <div class="span2">
+        Author
+    </div>
+    <div class="span2">
+        Priority
+    </div>
+    <div class="span2">
+        Details
+    </div>
+</div>
+
+<div class="demo-section">
+    @(Html.Kendo().ListView<Exam.Web.Models.TicketViewModel>(Model)
+    .Name("laptopsListView")
+    .TagName("div")
+    .ClientTemplateId("template")
+    .DataSource(dataSource =>
+    {
+        dataSource.Read(read => read.Action("GetTickets", "Tickets"));
+        dataSource.PageSize(5);
+        dataSource.ServerOperation(true);
+    })
+    .Pageable()
+    )
+</div>
+
+
+<script type="text/x-kendo-tmpl" id="template">
+    <div class="row-fluid">
+        <div class="span2">
+            #:Title#
+        </div>
+        <div class="span2">
+            #:Category#
+        </div>
+        <div class="span2">
+            #:Author#
+        </div>
+        <div class="span2">
+           #:PriorityAsString#
+        </div>
+        <div class="span2">
+            <p><a class="btn" href="/Tickets/Details/#:Id#">Details</a></p>
+        </div>
+    </div>
+</script>

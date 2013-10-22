@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "CategoriesAdministration";
+}
+
+<h2>CategoriesAdministration</h2>
+
+@(Html.Kendo()
+        .Grid<Exam.Web.Models.CategoryViewModel>()
+    .Name("grid-Categories")
+    .Columns(columns =>
+    {
+        columns.Bound(model => model.Name);
+        columns.Command(command =>
+            {
+                command.Edit();
+                command.Destroy();
+            });
+    })
+            .ToolBar(tool =>
+                {
+                    tool.Create();
+                })
+    .Pageable(page =>
+        {
+            page.PreviousNext(true);
+            page.Numeric(true);
+        })
+    .Sortable(sort =>
+        {
+            sort.AllowUnsort(false);
+            sort.SortMode(GridSortMode.SingleColumn);
+        })
+    .Groupable()
+    .Filterable()
+    .Resizable(resize => resize.Columns(true))
+    .Navigatable()
+    .Editable(edit =>
+        {
+            edit.Mode(GridEditMode.PopUp).TemplateName("CommentsEdit");
+        })
+    .Selectable(select => select.Mode(GridSelectionMode.Multiple).Type(GridSelectionType.Cell))
+            .Events(ev =>
+                {
+                    ev.Save("reloadPage");
+                })
+    .DataSource(data =>
+    {
+        data.Ajax()
+            .Model(m => m.Id(b => b.Id))
+            .PageSize(10)
+            .ServerOperation(true)
+            //.Events(ev => ev.Error("errorAlert"))
+            .Create("CreateCategory", "CategoriesAdministration")
+            .Read("ReadCategories", "CategoriesAdministration")
+            .Update("UpdateCategory", "CategoriesAdministration")
+            .Destroy("DeleteCategory", "CategoriesAdministration");
+    }))
+
+<script>
+    function reloadPage() {
+        document.location.reload();
+    }
+</script>

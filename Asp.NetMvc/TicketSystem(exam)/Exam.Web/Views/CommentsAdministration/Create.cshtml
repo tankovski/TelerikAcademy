@@ -1,0 +1,50 @@
+﻿@model Exam.Models.Comment
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset class="form-horizontal">
+        <legend>Comment</legend>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.Content, new { @class = "control-label" })
+            <div class="controls">
+                @Html.EditorFor(model => model.Content)
+                @Html.ValidationMessageFor(model => model.Content, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.AuthorId, "AuthorId", new { @class = "control-label" })
+            <div class="controls">
+                @Html.DropDownList("AuthorId", String.Empty)
+                @Html.ValidationMessageFor(model => model.AuthorId, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="control-group">
+            @Html.LabelFor(model => model.TicketId, "TicketId", new { @class = "control-label" })
+            <div class="controls">
+                @Html.DropDownList("TicketId", String.Empty)
+                @Html.ValidationMessageFor(model => model.TicketId, null, new { @class = "help-inline" })
+            </div>
+        </div>
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Create" class="btn" />
+        </div>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

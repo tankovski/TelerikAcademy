@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Exam.Web.Models.TicketViewModel>
+
+@{
+    ViewBag.Title = "ViewSomeTickets";
+}
+
+<h2>The tickets in the category are:</h2>
+
+<div class="row-fluid listViewHeader">
+    <div class="span2">
+        Title
+    </div>
+    <div class="span2">
+        Category
+    </div>
+    <div class="span2">
+        Author
+    </div>
+    <div class="span2">
+        Priority
+    </div>
+    <div class="span2">
+        Details
+    </div>
+</div>
+
+<div class="demo-section">
+    @(Html.Kendo().ListView<Exam.Web.Models.TicketViewModel>(Model)
+    .Name("laptopsListView")
+    .TagName("div")
+    .ClientTemplateId("template")
+    .DataSource(dataSource =>
+    {
+        dataSource.Read(read => read.Action("GetTickets", "Tickets"));
+        dataSource.PageSize(5);
+        dataSource.ServerOperation(true);
+    })
+    .Pageable()
+    )
+</div>
+<br />
+@Html.ActionLink("Back", "ViewAllTickets", null, new { @class = "btn" })
+
+<script type="text/x-kendo-tmpl" id="template">
+    <div class="row-fluid">
+        <div class="span2">
+            #:Title#
+        </div>
+        <div class="span2">
+            #:Category#
+        </div>
+        <div class="span2">
+            #:Author#
+        </div>
+        <div class="span2">
+            #:PriorityAsString#
+        </div>
+        <div class="span2">
+            <p><a class="btn" href="/Tickets/Details/#:Id#">Details</a></p>
+        </div>
+    </div>
+</script>
