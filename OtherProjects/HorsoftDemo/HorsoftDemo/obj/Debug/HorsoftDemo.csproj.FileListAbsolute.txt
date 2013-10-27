@@ -1,0 +1,6 @@
+E:\Uroci\ForWork\HorsoftDemo\HorsoftDemo\HorsoftDemo\bin\HorsoftDemo.dll.config
+E:\Uroci\ForWork\HorsoftDemo\HorsoftDemo\HorsoftDemo\bin\HorsoftDemo.dll
+E:\Uroci\ForWork\HorsoftDemo\HorsoftDemo\HorsoftDemo\bin\HorsoftDemo.pdb
+E:\Uroci\ForWork\HorsoftDemo\HorsoftDemo\HorsoftDemo\obj\Debug\HorsoftDemo.dll
+E:\Uroci\ForWork\HorsoftDemo\HorsoftDemo\HorsoftDemo\obj\Debug\HorsoftDemo.pdb
+E:\Uroci\ForWork\HorsoftDemo\HorsoftDemo\HorsoftDemo\obj\Debug\HorsoftDemo.csprojResolveAssemblyReference.cache

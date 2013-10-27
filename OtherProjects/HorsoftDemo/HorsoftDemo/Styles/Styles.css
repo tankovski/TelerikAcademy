@@ -1,0 +1,75 @@
+body, header, footer, div, nav, p, span, ul, li, a, img, h1, h4 {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background-image: url("../imgs/background2.jpg"); }
+  body #wrapper {
+    margin: 10px auto 0;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); }
+    body #wrapper header {
+      text-align: center;
+      background-image: url("../imgs/horsoftLogo.png");
+      background-repeat: no-repeat;
+      background-position: 0px -30px; }
+      body #wrapper header #headerSpan {
+        background-color: #01ADED;
+        color: white;
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); }
+    body #wrapper #appBody {
+      height: 480px; }
+      body #wrapper #appBody .slider {
+        margin-left: 22px;
+        margin-top: 22px;
+        width: 450px;
+        height: 282px; }
+      body #wrapper #appBody #nextArrow {
+        width: 48px;
+        height: 48px;
+        background-image: url("../imgs/forward.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 350px;
+        left: 850px; }
+        body #wrapper #appBody #nextArrow:hover {
+          background-image: url("../imgs/forwardHover.png"); }
+      body #wrapper #appBody #sliderContainer {
+        width: 500px;
+        height: 450px;
+        background-image: url("../imgs/monitor_frame.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 150px;
+        left: 315px; }
+      body #wrapper #appBody #prevArrow {
+        width: 48px;
+        height: 48px;
+        background-image: url("../imgs/backward.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 350px;
+        left: 220px; }
+        body #wrapper #appBody #prevArrow:hover {
+          background-image: url("../imgs/backwardHover.png"); }
+      body #wrapper #appBody #gameCanvas {
+        margin-left: 20%;
+        width: 450px;
+        height: 450px;
+        background-image: url("../imgs/MortalKombat3.png");
+        background-repeat: no-repeat; }
+      body #wrapper #appBody .k-combobox {
+        float: right; }
+      body #wrapper #appBody #start {
+        margin-left: 20%;
+        border-radius: 10px; }
+        body #wrapper #appBody #start:hover {
+          color: blue; }
+    body #wrapper footer {
+      border-top: 1px solid gray;
+      text-align: center;
+      padding: 5px; }
+

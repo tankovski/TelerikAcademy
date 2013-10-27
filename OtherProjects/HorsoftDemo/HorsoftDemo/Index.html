@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HorsoftDemo</title>
+    <link href="Styles/Styles.css" rel="stylesheet" />
+    <link href="Styles/kendo.common.min.css" rel="stylesheet" />
+    <link href="Styles/kendo.silver.min.css" rel="stylesheet" />
+    <link href="Styles/responsiveDesign.css" rel="stylesheet" />
+    <script src="Scripts/lib/jquery-2.0.3.min.js"></script>
+    <script src="Scripts/lib/kendo.web.min.js"></script>
+    <script src="Scripts/lib/sammy-0.7.4.js"></script>
+    <script src="Scripts/lib/rsvp.js"></script>
+    <link href="Scripts/lib/jquery-ui/css/smoothness/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+    <script src="Scripts/lib/jquery-ui/js/jquery-ui-1.10.3.custom.js"></script>
+    <script src="Scripts/app/views.js"></script>
+    <script src="Scripts/lib/class.js"></script>
+    <script src="Scripts/app/gameObjects.js"></script>
+    <script src="Scripts/app/gameEngine.js"></script>
+    <script src="Scripts/lib/underscore.js"></script>
+    <script src="Scripts/app.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Horsoft</h1>
+            <span id="headerSpan">Simple Demo</span>
+            <nav>
+                <div id="example" class="k-content">
+                    <div id="megaStore">
+                        <ul id="menu">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                Game
+                                <ul>
+                                    <li>
+                                        <a href="#/Description">GameDescription</a>
+                                    </li>
+                                    <li>
+                                        <a href="#/Pictures">PicturesOfTheGame(Or almost...)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#/Game">To Game</a>
+                            </li>
+                            <li>
+                                <a href="#/Responsive">Simple Responsive Menu</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="appBody"></div>
+        <footer>
+            <h4>&copy Horsoft</h4>
+        </footer>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#menu").kendoMenu();
+        });
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+﻿
+#responsiveContainer {
+    margin: 10px auto 0;
+    width: 40%;
+    height: 50px;
+}
+
+#responsiveMenu {
+    list-style-type: none;
+}
+
+    #responsiveMenu li {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: rgba(134, 165, 158,0.5);
+    }
+
+        #responsiveMenu li:hover {
+            color: blue;
+            background-color: rgba(222, 209, 209,0.7);
+            cursor: pointer;
+        }
+
+/*MEDIAQUERIES*/
+@media only screen and (max-width: 930px) {
+    #responsiveContainer {
+        height: 150px;
+    }
+
+    #responsiveMenu li {
+        padding: 10px;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #responsiveContainer {
+        height: 100px;
+        width: 110px;
+        background-image: url("../imgs/HiddenMenu.png");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+
+        #responsiveContainer:hover {
+            cursor: pointer;
+            height:365px;
+        }
+
+            #responsiveContainer:hover > ul {
+                display: inline-block;
+                cursor: pointer;
+                margin-top: 100px;
+                margin-left: 10px;
+            }
+
+                #responsiveContainer:hover > ul li {
+                    background-color: rgba(30,30,30,0.7);
+                    color: white;
+                    margin: 1px;
+                    border-radius: 0px;
+                }
+
+                    #responsiveContainer:hover > ul li:hover {
+                        color: blue;
+                        background-color: rgba(222, 209, 209,0.7);
+                    }
+
+    #responsiveMenu {
+        display: none;
+    }
+}

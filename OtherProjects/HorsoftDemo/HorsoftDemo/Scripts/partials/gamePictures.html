@@ -1,0 +1,50 @@
+﻿<a href="#/Pictures" onclick="goPrev()" id="prevArrow"></a>
+<a href="#/Pictures" onclick="goNext()" id="nextArrow"></a>
+<div id="sliderContainer">
+    <img src="imgs/MK1.jpg" alt="gameImg" class="current slider">
+    <img src="imgs/MK2.jpg" alt="gameImg" class="slider" style="display:none">
+    <img src="imgs/MK3.jpg" alt="gameImg" class="slider" style="display:none">
+    <img src="imgs/MK4.jpg" alt="gameImg" class="slider" style="display:none">
+</div>
+
+
+<script>
+    var inAction = false;
+    function goNext() {
+        if (!inAction) {
+            inAction = true;
+            $(".current").hide("scale", null, 300, function () {
+                var currentElement = $(".current");
+                var nextElement = currentElement.first().next();
+                if (!nextElement.hasClass("slider")) {
+                    nextElement = $(".slider").first();
+                }
+                currentElement.removeClass("current");
+                nextElement.addClass("current");
+
+                nextElement.show("scale", null, 300, function () {
+                    inAction = false;
+                });
+            });
+        }
+    };
+
+    function goPrev() {
+        if (!inAction) {
+            inAction = true;
+            $(".current").hide("scale", null, 300, function () {
+                var currentElement = $(".current");
+                var prevElement = currentElement.first().prev();
+                if (!prevElement.hasClass("slider")) {
+                    prevElement = $(".slider").last();
+                }
+                currentElement.removeClass("current");
+                prevElement.addClass("current");
+
+                prevElement.show("scale", null, 300, function () {
+                    inAction = false;
+                });
+            });
+        }
+    }
+</script>

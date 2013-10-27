@@ -1,0 +1,50 @@
+﻿<div id="gameWrapper">
+    <input id="players" placeholder="Select player..." />
+    <canvas id="gameCanvas"></canvas>  
+    <br />
+    <button id="start" onclick="startGame()">StartGame</button>
+</div>
+
+
+<script>
+  
+    $(document).ready(function () {
+        $(function () {
+            $("#players").kendoComboBox({
+                dataTextField: "text",
+                dataValueField: "value",
+                dataSource: [
+                    { text: "The cool DOG", value: "0" },
+                    { text: "The cool CAT", value: "1" },
+                    { text: "The cool BAT", value: "2" },
+                    { text: "The cool SOLDIER", value: "3" }
+                ],
+                filter: "contains",
+                suggest: true,
+                index: 0
+            });
+        });
+    });
+    
+    
+    function startGame() {
+        var playersImgs = $("#players").data("kendoComboBox");
+        var engine = new GameEngine(playersImgs.value());
+        $("#start").hide();
+        $(".k-combobox").hide();
+        engine.playGame();
+
+        $(document).keydown(function (e) {
+            if (engine.isGameRunning) {
+                if (e.keyCode == 37) {
+                    engine.movePlayerLeft();
+                }
+                else if (e.keyCode == 39) {
+                    engine.movePlayerRight();
+                }
+            }
+        });
+    }
+
+   
+</script>

@@ -1,0 +1,121 @@
+@mixin backgroundImg($url){
+	background-image: url($url);
+	background-repeat:no-repeat;
+}
+
+body,header,footer,div,nav,p,span,ul,li,a,img,h1,h4{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	background-image: url('../imgs/background2.jpg');
+	#wrapper{
+			
+		margin: 10px auto 0;
+		width: 90%;
+		height: auto;
+		border-radius:10px;
+		background-color:rgba(255, 255, 255,0.8);
+
+		//Header
+		header{
+				text-align:center;
+				@include backgroundImg('../imgs/horsoftLogo.png');
+				
+				background-position:0px -30px;
+				
+				h1{
+						
+					
+				}
+
+				#headerSpan{
+					background-color:#01ADED;
+					color:white;
+					border-radius:2px;
+					box-shadow:2px 2px 2px rgba(0,0,0,0.8);
+				}
+		}
+	
+		//appBody
+		
+			#appBody{
+			height:480px;
+
+				//Slider
+			.slider{
+				margin-left:22px;
+				margin-top:22px;
+				width:450px;
+				height:282px;
+			}
+			
+			#nextArrow{
+				width:48px;
+				height:48px;
+				@include backgroundImg('../imgs/forward.png');
+				position:absolute;
+				top:350px;
+				left:850px;
+	
+				&:hover{
+					background-image: url('../imgs/forwardHover.png');
+				}
+			}
+	
+			#sliderContainer{
+				width:500px;
+				height:450px;
+				@include backgroundImg('../imgs/monitor_frame.png');
+				position:absolute;
+				top:150px;
+				left:315px;
+			}
+	
+			#prevArrow{
+				width:48px;
+				height:48px;
+				@include backgroundImg('../imgs/backward.png');
+				position:absolute;
+				top:350px;
+				left:220px;
+	
+				&:hover{
+					background-image: url('../imgs/backwardHover.png');
+				}
+			}
+	
+				//GamePage
+			#gameWrapper{
+				
+			}
+			
+			#gameCanvas{
+				margin-left:20%;
+				width:450px;
+				height:450px;
+				@include backgroundImg('../imgs/MortalKombat3.png');
+			}
+	
+			.k-combobox{
+				float:right;
+			}
+	
+			#start{
+				margin-left:20%;
+				border-radius:10px;
+				&:hover{
+					color:blue;
+				}
+			}
+		}
+
+		footer{
+			border-top:1px solid gray;
+			text-align:center;
+			padding:5px;
+		}
+	}
+}
