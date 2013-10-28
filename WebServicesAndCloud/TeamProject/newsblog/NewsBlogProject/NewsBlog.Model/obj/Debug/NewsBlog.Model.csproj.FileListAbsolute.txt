@@ -1,0 +1,16 @@
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\NewsBlog.Model.dll.config
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\NewsBlog.Model.dll
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\NewsBlog.Model.pdb
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\EntityFramework.dll
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\EntityFramework.xml
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\obj\Debug\NewsBlog.Model.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\obj\Debug\NewsBlog.Model.dll
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog.Model\obj\Debug\NewsBlog.Model.pdb
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\NewsBlog.Model.dll.config
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\NewsBlog.Model.dll
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\NewsBlog.Model.pdb
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\EntityFramework.dll
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog.Model\bin\Debug\EntityFramework.xml
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog.Model\obj\Debug\NewsBlog.Model.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog.Model\obj\Debug\NewsBlog.Model.dll
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog.Model\obj\Debug\NewsBlog.Model.pdb

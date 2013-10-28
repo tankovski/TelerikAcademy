@@ -1,0 +1,14 @@
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\StudentsRepositoryTests.dll.config
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\StudentsRepositoryTests.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\StudentsRepositoryTests.pdb
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\EntityFramework.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\StudentsDataLayer.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\StudentsModels.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\StudentsRepositories.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\StudentsDataLayer.pdb
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\StudentsModels.pdb
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\StudentsRepositories.pdb
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\bin\Debug\EntityFramework.xml
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\obj\Debug\StudentsRepositoryTests.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\obj\Debug\StudentsRepositoryTests.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsRepositoryTests\obj\Debug\StudentsRepositoryTests.pdb

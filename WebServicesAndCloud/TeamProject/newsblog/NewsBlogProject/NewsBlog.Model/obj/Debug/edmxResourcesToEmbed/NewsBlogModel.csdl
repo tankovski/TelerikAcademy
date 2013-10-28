@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NewsBlogModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="NewsBlogEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Articles" EntityType="NewsBlogModel.Article" />
+    <EntitySet Name="Comments" EntityType="NewsBlogModel.Comment" />
+    <EntitySet Name="SubComments" EntityType="NewsBlogModel.SubComment" />
+    <EntitySet Name="sysdiagrams" EntityType="NewsBlogModel.sysdiagram" />
+    <EntitySet Name="Users" EntityType="NewsBlogModel.User" />
+    <EntitySet Name="Votes" EntityType="NewsBlogModel.Vote" />
+    <AssociationSet Name="FK_Articles_Users" Association="NewsBlogModel.FK_Articles_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Articles" EntitySet="Articles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_Articles" Association="NewsBlogModel.FK_Comments_Articles">
+      <End Role="Articles" EntitySet="Articles" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Votes_Articles" Association="NewsBlogModel.FK_Votes_Articles">
+      <End Role="Articles" EntitySet="Articles" />
+      <End Role="Votes" EntitySet="Votes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comments_Users" Association="NewsBlogModel.FK_Comments_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Comments" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubComments_Comments" Association="NewsBlogModel.FK_SubComments_Comments">
+      <End Role="Comments" EntitySet="Comments" />
+      <End Role="SubComments" EntitySet="SubComments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubComments_Users" Association="NewsBlogModel.FK_SubComments_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="SubComments" EntitySet="SubComments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Votes_Users" Association="NewsBlogModel.FK_Votes_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Votes" EntitySet="Votes" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(NewsBlogModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(NewsBlogModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="Images" EntityType="NewsBlogModel.Image" />
+    <AssociationSet Name="FK_Images_Articles" Association="NewsBlogModel.FK_Images_Articles">
+      <End Role="Article" EntitySet="Articles" />
+      <End Role="Image" EntitySet="Images" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Article">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Content" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AuthorId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="NewsBlogModel.FK_Articles_Users" FromRole="Articles" ToRole="Users" />
+    <NavigationProperty Name="Comments" Relationship="NewsBlogModel.FK_Comments_Articles" FromRole="Articles" ToRole="Comments" />
+    <NavigationProperty Name="Votes" Relationship="NewsBlogModel.FK_Votes_Articles" FromRole="Articles" ToRole="Votes" />
+    <NavigationProperty Name="Images" Relationship="NewsBlogModel.FK_Images_Articles" FromRole="Article" ToRole="Image" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Content" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="AuthorId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ArticleId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Article" Relationship="NewsBlogModel.FK_Comments_Articles" FromRole="Comments" ToRole="Articles" />
+    <NavigationProperty Name="User" Relationship="NewsBlogModel.FK_Comments_Users" FromRole="Comments" ToRole="Users" />
+    <NavigationProperty Name="SubComments" Relationship="NewsBlogModel.FK_SubComments_Comments" FromRole="Comments" ToRole="SubComments" />
+  </EntityType>
+  <EntityType Name="SubComment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ParentComment" Type="Int32" Nullable="false" />
+    <Property Name="Content" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="AuthorId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Comment" Relationship="NewsBlogModel.FK_SubComments_Comments" FromRole="SubComments" ToRole="Comments" />
+    <NavigationProperty Name="User" Relationship="NewsBlogModel.FK_SubComments_Users" FromRole="SubComments" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Articles" Relationship="NewsBlogModel.FK_Articles_Users" FromRole="Users" ToRole="Articles" />
+    <NavigationProperty Name="Comments" Relationship="NewsBlogModel.FK_Comments_Users" FromRole="Users" ToRole="Comments" />
+    <NavigationProperty Name="SubComments" Relationship="NewsBlogModel.FK_SubComments_Users" FromRole="Users" ToRole="SubComments" />
+    <NavigationProperty Name="Votes" Relationship="NewsBlogModel.FK_Votes_Users" FromRole="Users" ToRole="Votes" />
+    <Property Type="String" Name="SessionKey" MaxLength="40" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Vote">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="AuthorId" Type="Int32" Nullable="false" />
+    <Property Name="ArticleId" Type="Int32" Nullable="false" />
+    <Property Name="Value" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Article" Relationship="NewsBlogModel.FK_Votes_Articles" FromRole="Votes" ToRole="Articles" />
+    <NavigationProperty Name="User" Relationship="NewsBlogModel.FK_Votes_Users" FromRole="Votes" ToRole="Users" />
+  </EntityType>
+  <Association Name="FK_Articles_Users">
+    <End Role="Users" Type="NewsBlogModel.User" Multiplicity="1" />
+    <End Role="Articles" Type="NewsBlogModel.Article" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Articles">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_Articles">
+    <End Role="Articles" Type="NewsBlogModel.Article" Multiplicity="1" />
+    <End Role="Comments" Type="NewsBlogModel.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Articles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="ArticleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Votes_Articles">
+    <End Role="Articles" Type="NewsBlogModel.Article" Multiplicity="1" />
+    <End Role="Votes" Type="NewsBlogModel.Vote" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Articles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Votes">
+        <PropertyRef Name="ArticleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comments_Users">
+    <End Role="Users" Type="NewsBlogModel.User" Multiplicity="1" />
+    <End Role="Comments" Type="NewsBlogModel.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comments">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubComments_Comments">
+    <End Role="Comments" Type="NewsBlogModel.Comment" Multiplicity="1" />
+    <End Role="SubComments" Type="NewsBlogModel.SubComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comments">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SubComments">
+        <PropertyRef Name="ParentComment" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubComments_Users">
+    <End Role="Users" Type="NewsBlogModel.User" Multiplicity="1" />
+    <End Role="SubComments" Type="NewsBlogModel.SubComment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="SubComments">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Votes_Users">
+    <End Role="Users" Type="NewsBlogModel.User" Multiplicity="1" />
+    <End Role="Votes" Type="NewsBlogModel.Vote" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Votes">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="Image">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ArticleId" Nullable="false" />
+    <Property Type="String" Name="Url" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Article" Relationship="NewsBlogModel.FK_Images_Articles" FromRole="Image" ToRole="Article" />
+  </EntityType>
+  <Association Name="FK_Images_Articles">
+    <End Type="NewsBlogModel.Article" Role="Article" Multiplicity="1" />
+    <End Type="NewsBlogModel.Image" Role="Image" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Article">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Image">
+        <PropertyRef Name="ArticleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

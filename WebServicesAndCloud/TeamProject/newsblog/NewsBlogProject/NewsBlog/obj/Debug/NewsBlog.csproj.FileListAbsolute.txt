@@ -1,0 +1,36 @@
+E:\Uroci\WebServices\TeamWork\NewsBlog\NewsBlog\bin\NewsBlog.dll
+E:\Uroci\WebServices\TeamWork\NewsBlog\NewsBlog\bin\NewsBlog.pdb
+E:\Uroci\WebServices\TeamWork\NewsBlog\NewsBlog\obj\Debug\NewsBlog.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\TeamWork\NewsBlog\NewsBlog\obj\Debug\NewsBlog.dll
+E:\Uroci\WebServices\TeamWork\NewsBlog\NewsBlog\obj\Debug\NewsBlog.pdb
+E:\Uroci\WebServices\TeamWork2\NewsBlogClient\NewsBlog\NewsBlog\bin\NewsBlog.dll
+E:\Uroci\WebServices\TeamWork2\NewsBlogClient\NewsBlog\NewsBlog\bin\NewsBlog.pdb
+E:\Uroci\WebServices\TeamWork2\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\TeamWork2\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.dll
+E:\Uroci\WebServices\TeamWork2\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.pdb
+E:\Uroci\WebServices\NewsBlogClient\NewsBlog\NewsBlog\bin\NewsBlog.dll
+E:\Uroci\WebServices\NewsBlogClient\NewsBlog\NewsBlog\bin\NewsBlog.pdb
+E:\Uroci\WebServices\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.dll
+E:\Uroci\WebServices\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.pdb
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogClient\NewsBlog\NewsBlog\bin\NewsBlog.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogClient\NewsBlog\NewsBlog\bin\NewsBlog.pdb
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.dll
+E:\Uroci\WebServices\TeamWork\newsblog\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.pdb
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogClient\NewsBlog\NewsBlog\bin\NewsBlog.dll
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogClient\NewsBlog\NewsBlog\bin\NewsBlog.pdb
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.dll
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogClient\NewsBlog\NewsBlog\obj\Debug\NewsBlog.pdb
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog\bin\NewsBlog.dll
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog\bin\NewsBlog.pdb
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog\obj\Debug\NewsBlog.csprojResolveAssemblyReference.cache
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog\obj\Debug\NewsBlog.dll
+E:\Dropbox\Telerik\7-ma Chast\TeamWork\newsblog\NewsBlogProject\NewsBlog\obj\Debug\NewsBlog.pdb
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog\bin\NewsBlog.dll.config
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog\bin\NewsBlog.dll
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog\bin\NewsBlog.pdb
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog\obj\Debug\NewsBlog.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog\obj\Debug\NewsBlog.dll
+E:\Uroci\WebServices\New folder\newsblog\NewsBlogProject\NewsBlog\obj\Debug\NewsBlog.pdb

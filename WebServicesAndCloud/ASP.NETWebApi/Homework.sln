@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogData", "CatalogData\CatalogData.csproj", "{892CE45A-B9A4-4E1E-82ED-50638058A41E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogWeb", "CatalogWeb\CatalogWeb.csproj", "{76809E43-044F-48BA-9645-431A1C0D89A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogClient", "CatalogClient\CatalogClient.csproj", "{1F6E1C25-3F4C-4EA9-9CBD-138EF491536F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{892CE45A-B9A4-4E1E-82ED-50638058A41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892CE45A-B9A4-4E1E-82ED-50638058A41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892CE45A-B9A4-4E1E-82ED-50638058A41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892CE45A-B9A4-4E1E-82ED-50638058A41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76809E43-044F-48BA-9645-431A1C0D89A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76809E43-044F-48BA-9645-431A1C0D89A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76809E43-044F-48BA-9645-431A1C0D89A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76809E43-044F-48BA-9645-431A1C0D89A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6E1C25-3F4C-4EA9-9CBD-138EF491536F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6E1C25-3F4C-4EA9-9CBD-138EF491536F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6E1C25-3F4C-4EA9-9CBD-138EF491536F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6E1C25-3F4C-4EA9-9CBD-138EF491536F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

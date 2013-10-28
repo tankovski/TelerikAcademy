@@ -1,0 +1,8 @@
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogData\bin\Debug\CatalogData.dll.config
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogData\bin\Debug\CatalogData.dll
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogData\bin\Debug\CatalogData.pdb
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogData\bin\Debug\EntityFramework.dll
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogData\bin\Debug\EntityFramework.xml
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogData\obj\Debug\CatalogData.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogData\obj\Debug\CatalogData.dll
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogData\obj\Debug\CatalogData.pdb

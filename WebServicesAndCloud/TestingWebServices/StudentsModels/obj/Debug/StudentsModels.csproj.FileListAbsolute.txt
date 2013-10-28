@@ -1,0 +1,5 @@
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsModels\bin\Debug\StudentsModels.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsModels\bin\Debug\StudentsModels.pdb
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsModels\obj\Debug\StudentsModels.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsModels\obj\Debug\StudentsModels.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsModels\obj\Debug\StudentsModels.pdb

@@ -1,0 +1,14 @@
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\CatalogClient.exe.config
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\CatalogClient.exe
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\CatalogClient.pdb
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\CatalogData.dll
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\Newtonsoft.Json.dll
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\System.Net.Http.Formatting.dll
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\EntityFramework.dll
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\CatalogData.pdb
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\Newtonsoft.Json.xml
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\System.Net.Http.Formatting.xml
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\bin\Debug\EntityFramework.xml
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\obj\Debug\CatalogClient.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\obj\Debug\CatalogClient.exe
+E:\Uroci\WebServices\Lesson3-ASP.NETWebAPI\Homework\CatalogClient\obj\Debug\CatalogClient.pdb

@@ -1,0 +1,142 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBlog.Services", "NewsBlog.Services\NewsBlog.Services.csproj", "{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBlog.Repository", "NewsBlog.Repository\NewsBlog.Repository.csproj", "{B3184166-0DBF-4668-9473-21EC1928549B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBlog.Model", "NewsBlog.Model\NewsBlog.Model.csproj", "{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBlog.Notifications", "NewsBlog.Notifications\NewsBlog.Notifications.csproj", "{E2693365-1BE4-4C61-AC19-8B5F482F5709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dropbox", "Dropbox\Dropbox.csproj", "{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2011F185-3314-4B9D-954C-9200135B5FF0}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBlog", "NewsBlog\NewsBlog.csproj", "{B0A7D641-46C0-4319-8365-BC3530787AE8}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs22
+		SccProjectUniqueName0 = NewsBlog.Model\\NewsBlog.Model.csproj
+		SccProjectName0 = NewsBlog.Model
+		SccAuxPath0 = https://tfs.codeplex.com/tfs/tfs22
+		SccLocalPath0 = NewsBlog.Model
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = NewsBlog.Notifications\\NewsBlog.Notifications.csproj
+		SccProjectName1 = NewsBlog.Notifications
+		SccAuxPath1 = https://tfs.codeplex.com/tfs/tfs22
+		SccLocalPath1 = NewsBlog.Notifications
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = NewsBlog.Repository\\NewsBlog.Repository.csproj
+		SccProjectName2 = NewsBlog.Repository
+		SccAuxPath2 = https://tfs.codeplex.com/tfs/tfs22
+		SccLocalPath2 = NewsBlog.Repository
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = NewsBlog.Services\\NewsBlog.Services.csproj
+		SccProjectName3 = NewsBlog.Services
+		SccAuxPath3 = https://tfs.codeplex.com/tfs/tfs22
+		SccLocalPath3 = NewsBlog.Services
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7AF0588E-80F4-41F3-A33B-F7A472D05CAD}.Release|x86.ActiveCfg = Release|Any CPU
+		{B3184166-0DBF-4668-9473-21EC1928549B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3184166-0DBF-4668-9473-21EC1928549B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3184166-0DBF-4668-9473-21EC1928549B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B3184166-0DBF-4668-9473-21EC1928549B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B3184166-0DBF-4668-9473-21EC1928549B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B3184166-0DBF-4668-9473-21EC1928549B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3184166-0DBF-4668-9473-21EC1928549B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3184166-0DBF-4668-9473-21EC1928549B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B3184166-0DBF-4668-9473-21EC1928549B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B3184166-0DBF-4668-9473-21EC1928549B}.Release|x86.ActiveCfg = Release|Any CPU
+		{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F175A322-5E6C-4FDE-A2D9-E98196FA02DA}.Release|x86.ActiveCfg = Release|Any CPU
+		{E2693365-1BE4-4C61-AC19-8B5F482F5709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2693365-1BE4-4C61-AC19-8B5F482F5709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2693365-1BE4-4C61-AC19-8B5F482F5709}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E2693365-1BE4-4C61-AC19-8B5F482F5709}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E2693365-1BE4-4C61-AC19-8B5F482F5709}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E2693365-1BE4-4C61-AC19-8B5F482F5709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2693365-1BE4-4C61-AC19-8B5F482F5709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2693365-1BE4-4C61-AC19-8B5F482F5709}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E2693365-1BE4-4C61-AC19-8B5F482F5709}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E2693365-1BE4-4C61-AC19-8B5F482F5709}.Release|x86.ActiveCfg = Release|Any CPU
+		{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{65D19937-A7CC-472E-9B5B-BB68EFC0B9B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{B0A7D641-46C0-4319-8365-BC3530787AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A7D641-46C0-4319-8365-BC3530787AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A7D641-46C0-4319-8365-BC3530787AE8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B0A7D641-46C0-4319-8365-BC3530787AE8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B0A7D641-46C0-4319-8365-BC3530787AE8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B0A7D641-46C0-4319-8365-BC3530787AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A7D641-46C0-4319-8365-BC3530787AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A7D641-46C0-4319-8365-BC3530787AE8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B0A7D641-46C0-4319-8365-BC3530787AE8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B0A7D641-46C0-4319-8365-BC3530787AE8}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs22
+		SccLocalPath0 = NewsBlog.Model
+		SccProjectUniqueName1 = NewsBlog.Repository\\NewsBlog.Repository.csproj
+		SccProjectName1 = NewsBlog.Repository
+		SccLocalPath1 = NewsBlog.Repository
+		SccProjectUniqueName2 = NewsBlog.Services\\NewsBlog.Services.csproj
+		SccProjectName2 = NewsBlog.Services
+		SccLocalPath2 = NewsBlog.Services
+		SccProjectUniqueName3 = NewsBlog.Services\\NewsBlog.Services.csproj
+		SccProjectName3 = NewsBlog.Services
+		SccLocalPath3 = .
+		SccProjectUniqueName4 = ..\\Cloud\\Dropbox-Example\\WorkingWithDropboxImages.csproj
+		SccProjectName4 = ../Cloud/Dropbox-Example
+		SccLocalPath4 = ..\\Cloud\\Dropbox-Example
+		SccProjectUniqueName0 = NewsBlog.Model\\NewsBlog.Model.csproj
+		SccProjectName0 = NewsBlog.Model
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsDataLayer\bin\Debug\StudentsDataLayer.dll.config
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsDataLayer\bin\Debug\StudentsDataLayer.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsDataLayer\bin\Debug\StudentsDataLayer.pdb
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsDataLayer\bin\Debug\EntityFramework.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsDataLayer\bin\Debug\StudentsModels.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsDataLayer\bin\Debug\StudentsModels.pdb
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsDataLayer\bin\Debug\EntityFramework.xml
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsDataLayer\obj\Debug\StudentsDataLayer.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsDataLayer\obj\Debug\StudentsDataLayer.dll
+E:\Uroci\WebServices\Lesson7-Testing\Homework\StudentsDataLayer\obj\Debug\StudentsDataLayer.pdb
