@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a5da5d8585f44745a0c6da4f9e37942d" Name="Diagram1">
+        <EntityTypeShape EntityType="BloggIngSystemModel.Comment" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BloggIngSystemModel.Post" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BloggIngSystemModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BloggIngSystemModel.Tag" Width="1.5" PointX="5.25" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BloggIngSystemModel.User" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <AssociationConnector Association="BloggIngSystemModel.FK_Comments_Posts" ManuallyRouted="false" />
+        <AssociationConnector Association="BloggIngSystemModel.FK_Comments_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="BloggIngSystemModel.FK_Posts_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="BloggIngSystemModel.Tags_Posts" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

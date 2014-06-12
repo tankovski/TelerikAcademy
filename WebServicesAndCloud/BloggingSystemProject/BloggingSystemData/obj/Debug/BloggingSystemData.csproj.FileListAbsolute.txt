@@ -1,0 +1,8 @@
+E:\Uroci\WebServices\EXAM\BloggingSystemProject\BloggingSystemData\bin\Debug\BloggingSystemData.dll.config
+E:\Uroci\WebServices\EXAM\BloggingSystemProject\BloggingSystemData\bin\Debug\BloggingSystemData.dll
+E:\Uroci\WebServices\EXAM\BloggingSystemProject\BloggingSystemData\bin\Debug\BloggingSystemData.pdb
+E:\Uroci\WebServices\EXAM\BloggingSystemProject\BloggingSystemData\bin\Debug\EntityFramework.dll
+E:\Uroci\WebServices\EXAM\BloggingSystemProject\BloggingSystemData\bin\Debug\EntityFramework.xml
+E:\Uroci\WebServices\EXAM\BloggingSystemProject\BloggingSystemData\obj\Debug\BloggingSystemData.csprojResolveAssemblyReference.cache
+E:\Uroci\WebServices\EXAM\BloggingSystemProject\BloggingSystemData\obj\Debug\BloggingSystemData.dll
+E:\Uroci\WebServices\EXAM\BloggingSystemProject\BloggingSystemData\obj\Debug\BloggingSystemData.pdb
