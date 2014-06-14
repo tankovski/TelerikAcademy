@@ -1,0 +1,7 @@
+E:\Uroci\Databases\Lesson16\XML-Processing-in-.NET-Demos\XSL Transform\bin\Debug\XSL Transform.exe
+E:\Uroci\Databases\Lesson16\XML-Processing-in-.NET-Demos\XSL Transform\bin\Debug\XSL Transform.pdb
+E:\Uroci\Databases\Lesson16\XML-Processing-in-.NET-Demos\XSL Transform\obj\Debug\9. XSL-Transformations.csprojResolveAssemblyReference.cache
+E:\Uroci\Databases\Lesson16\XML-Processing-in-.NET-Demos\XSL Transform\obj\Debug\XSL Transform.exe
+E:\Uroci\Databases\Lesson16\XML-Processing-in-.NET-Demos\XSL Transform\obj\Debug\XSL Transform.pdb
+E:\Uroci\Databases\Lesson16-XML\XML-Processing-in-.NET-Demos\XSL Transform\obj\Debug\XSL Transform.exe
+E:\Uroci\Databases\Lesson16-XML\XML-Processing-in-.NET-Demos\XSL Transform\obj\Debug\XSL Transform.pdb
